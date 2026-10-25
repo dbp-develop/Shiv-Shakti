@@ -1,4 +1,4 @@
-# Shakti Peetha & Jyotirlinga Map Implementation Plan
+# Shiv-Shakti Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
@@ -22,7 +22,7 @@
 - Darshan entries: `official: true`, a `lastVerified` ISO date and a `verifiedVia` URL on the temple's official site. Never invent a stream URL.
 - Photos only from Wikimedia Commons, always shown with the author and licence.
 - No backend, no API keys, no paid services. Exact versions pinned in `package.json` (no `^`).
-- Vite `base` is `/shakti-jyotirlinga-map/` (overridable via env `VITE_BASE`).
+- Vite `base` is `/Shiv-Shakti/` (Pages URL https://dbp-develop.github.io/Shiv-Shakti/) (overridable via env `VITE_BASE`).
 - Commit after each green step group; messages are imperative, one line, plus the Co-Authored-By trailer.
 
 ## Review Focus
@@ -79,8 +79,8 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
 - [ ] **Step 1: Install Node 22 LTS into the user's home, no sudo.** Download the latest v22 linux-x64 tarball from nodejs.org into `~/.local/node`, symlink `node`, `npm` and `npx` into `~/.local/bin` (already on PATH). Verify: `node --version` prints `v22.x`.
 - [ ] **Step 2: Create the Vite + Preact + TS project by hand** (no interactive scaffolder). Install the pinned deps from the Tech Stack line with `npm i -E`. tsconfig is `strict: true`, `jsx: react-jsx`, `jsxImportSource: preact`, `resolveJsonModule: true`. Add `tsx` as a dev dep for scripts.
 - [ ] **Step 3: Write the failing smoke test** `tests/unit/smoke.test.ts`: `expect(typeof App).toBe('function')`, importing `App` from `src/app.tsx`. Run `npm test` → FAIL (module missing).
-- [ ] **Step 4: Implement `App()`**, rendering `<main id="app-root">` with the text "Shakti Peetha & Jyotirlinga". `index.html` holds an inline script that sets `document.documentElement.dataset.theme = localStorage.getItem('theme') ?? 'dark'` (in try/catch) before CSS loads.
-- [ ] **Step 5: Verify:** `npm run check && npm run build` both succeed; `dist/index.html` references assets under `/shakti-jyotirlinga-map/`.
+- [ ] **Step 4: Implement `App()`**, rendering `<main id="app-root">` with the text "Shiv-Shakti". `index.html` holds an inline script that sets `document.documentElement.dataset.theme = localStorage.getItem('theme') ?? 'dark'` (in try/catch) before CSS loads.
+- [ ] **Step 5: Verify:** `npm run check && npm run build` both succeed; `dist/index.html` references assets under `/Shiv-Shakti/`.
 - [ ] **Step 6: CI workflow** `.github/workflows/deploy.yml`: on push to `main` and on PRs → checkout, setup-node 22 with npm cache, `npm ci`, `npm run check`, `npm run build`, `npx playwright install --with-deps chromium`, `npm run test:e2e` (skipped until Task 18 adds tests: guard with `--pass-with-no-tests`), then (main only) `actions/upload-pages-artifact` with `dist` + `actions/deploy-pages`. Permissions: `pages: write`, `id-token: write`.
 - [ ] **Step 7: Commit** `chore: scaffold Vite + Preact + TS project with CI`.
 
@@ -505,6 +505,6 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
 
 ### Task 19: Publish and verify
 
-- [ ] **Step 1: USER STEP.** The user creates an empty public repo `shakti-jyotirlinga-map` on GitHub and sets Settings → Pages → Source = "GitHub Actions". Attach it via `add_repo` (push access); `git remote add origin …`; `git push -u origin main`.
+- [ ] **Step 1:** The repo `dbp-develop/Shiv-Shakti` already exists and is cloned at `~/projects/shiv-shakti`. Confirm that Settings → Pages → Source = "GitHub Actions" (a user step if it isn't set), and that `main` is pushed.
 - [ ] **Step 2:** Watch the Actions run until it's green; open the Pages URL; repeat the Task 18 checks by hand on the live URL on a phone-sized viewport; confirm the tiles, terrain and fonts load from production.
 - [ ] **Step 3: Final report to the user:** the live URL, the boundary source decision, the darshan verification table, the panchang accuracy results, the Lighthouse scores, the list of unreviewed translations, and the known limitations.

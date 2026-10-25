@@ -1,4 +1,4 @@
-# Shakti Peetha & Jyotirlinga Interactive Map — Design Spec
+# Shiv-Shakti: Shakti Peetha & Jyotirlinga Interactive Map — Design Spec
 
 Date: 2026-10-25 · Status: approved in brainstorming, awaiting written-spec review
 
@@ -143,7 +143,7 @@ The build fails if any required field or language is missing, if coordinates fal
 
 ## 10. Delivery
 
-- **Repository:** created by the user on GitHub (no `gh` CLI on the server); the local repo lives at `~/projects/shakti-jyotirlinga-map`.
+- **Repository:** https://github.com/dbp-develop/Shiv-Shakti (Apache-2.0); local clone at `~/projects/shiv-shakti`; site at https://dbp-develop.github.io/Shiv-Shakti/.
 - **CI:** GitHub Actions runs build + tests on each push and deploys to Pages from `main`.
 - **Node.js:** installed in the user's home directory for local testing (no sudo).
 - **Build order (for the plan):** scaffold + CI → panchang engine + tests → map with terrain, boundary, rivers → temple data schema + pins → temple sheet → Panchang menu + widget → i18n + themes → content for all temples × 7 languages → verification pass → launch.
