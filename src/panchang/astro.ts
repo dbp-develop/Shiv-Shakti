@@ -2,31 +2,59 @@
  * Pure astronomy layer for the panchang: sidereal (Lahiri) longitudes, rise/set
  * times and a generic angle-crossing search. No DOM, no UI imports.
  */
-import { Body, EclipticGeoMoon, Observer, SearchRiseSet, SunPosition } from 'astronomy-engine';
+import { Body, C_AUDAY, EclipticGeoMoon, MakeTime, Observer, SearchRiseSet, SunPosition, e_tilt } from 'astronomy-engine';
 import type { GeoLocation } from './types';
 
 const MS_PER_DAY = 86_400_000;
-const J2000_MS = Date.UTC(2000, 0, 1, 12, 0, 0);
 
 function norm360(x: number): number {
   const r = x % 360;
   return r < 0 ? r + 360 : r;
 }
 
-/** Lahiri (Chitrapaksha) ayanamsa in degrees: 23.853056 + 1.396971·T + 0.000308·T², T in Julian centuries from J2000. */
-export function lahiriAyanamsa(date: Date): number {
-  const T = (date.getTime() - J2000_MS) / MS_PER_DAY / 36525;
-  return 23.853056 + 1.396971 * T + 0.000308 * T * T;
+/** IAU 2006 general precession in longitude p_A, arcseconds; T = Julian centuries (TT) from J2000. */
+function generalPrecessionArcsec(T: number): number {
+  return ((((-0.0000000235 * T - 0.00003173) * T + 0.0000001) * T + 1.1054348) * T + 5028.796195) * T;
 }
 
-/** Sidereal (Lahiri) ecliptic longitude of the Sun, degrees in [0, 360). */
+/** Lahiri epoch (Indian Astronomical Ephemeris): mean ayanamsa 23°15′00.658″ at 1956-03-21 00:00 TT (JD 2435553.5). */
+const LAHIRI_EPOCH_T = (2435553.5 - 2451545.0) / 36525;
+const LAHIRI_EPOCH_DEG = 23 + 15 / 60 + 0.658 / 3600;
+const LAHIRI_EPOCH_PA = generalPrecessionArcsec(LAHIRI_EPOCH_T);
+
+/**
+ * True Lahiri (Chitrapaksha) ayanamsa in degrees: the IAE mean value at its 1956 epoch,
+ * advanced by IAU 2006 general precession in longitude, plus nutation in longitude
+ * (IAU 2000B, from astronomy-engine), so it pairs with true-equinox-of-date longitudes.
+ */
+export function lahiriAyanamsa(date: Date): number {
+  const time = MakeTime(date);
+  const T = time.tt / 36525;
+  const meanDeg = LAHIRI_EPOCH_DEG + (generalPrecessionArcsec(T) - LAHIRI_EPOCH_PA) / 3600;
+  return meanDeg + e_tilt(time).dpsi / 3600;
+}
+
+/**
+ * Sidereal (Lahiri) ecliptic longitude of the Sun, degrees in [0, 360).
+ * `SunPosition` is apparent: light-time (≈ aberration) corrected, true ecliptic/equinox of date.
+ */
 export function sunSidereal(date: Date): number {
   return norm360(SunPosition(date).elon - lahiriAyanamsa(date));
 }
 
-/** Sidereal (Lahiri) ecliptic longitude of the Moon, degrees in [0, 360). */
+/**
+ * Apparent geocentric tropical longitude of the Moon, true ecliptic/equinox of date.
+ * `EclipticGeoMoon` is geometric (true equinox of date, nutation included); evaluating it
+ * one light-time earlier (~1.3 s, ~0.7″) makes it apparent, matching `SunPosition`.
+ */
+function moonApparentLon(date: Date): number {
+  const lightDays = EclipticGeoMoon(date).dist / C_AUDAY;
+  return EclipticGeoMoon(new Date(date.getTime() - lightDays * MS_PER_DAY)).lon;
+}
+
+/** Sidereal (Lahiri) ecliptic longitude of the Moon (apparent), degrees in [0, 360). */
 export function moonSidereal(date: Date): number {
-  return norm360(EclipticGeoMoon(date).lon - lahiriAyanamsa(date));
+  return norm360(moonApparentLon(date) - lahiriAyanamsa(date));
 }
 
 // ---------------------------------------------------------------- time zones

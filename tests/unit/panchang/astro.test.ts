@@ -20,12 +20,15 @@ function ist(date: string, hm: string): Date {
   return new Date(`${date}T${hm}:00+05:30`);
 }
 
-describe('lahiriAyanamsa', () => {
-  it('is ~23.8531° at J2000', () => {
+describe('lahiriAyanamsa (true Lahiri)', () => {
+  it('is ~23.8531° at J2000 (±0.01)', () => {
     expect(Math.abs(lahiriAyanamsa(new Date('2000-01-01T12:00:00Z')) - 23.8531)).toBeLessThan(0.01);
   });
-  it('is ~24.216° on 2026-01-01', () => {
-    expect(Math.abs(lahiriAyanamsa(new Date('2026-01-01T00:00:00Z')) - 24.216)).toBeLessThan(0.01);
+  it("matches Drik Panchang's published value on 2026-01-03 (24.227111, ±0.002)", () => {
+    expect(Math.abs(lahiriAyanamsa(new Date('2026-01-03T00:00:00+05:30')) - 24.227111)).toBeLessThan(0.002);
+  });
+  it("matches Drik Panchang's published value on 2026-10-25 (24.238394, ±0.002)", () => {
+    expect(Math.abs(lahiriAyanamsa(new Date('2026-10-25T00:00:00+05:30')) - 24.238394)).toBeLessThan(0.002);
   });
 });
 
