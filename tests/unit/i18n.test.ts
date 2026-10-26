@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { beforeEach, describe, expect, it } from 'vitest';
 import { LANGS } from '../../src/content/langs';
-import { calendarTerms, detectLang, loc, t, tList } from '../../src/i18n';
+import { calendarTerms, detectLang, loc, lookup, t, tList } from '../../src/i18n';
 import { lang, setLang, setTheme, theme } from '../../src/state';
 
 const load = (l: string): unknown => JSON.parse(readFileSync(`content/i18n/${l}.json`, 'utf8'));
@@ -65,13 +65,23 @@ describe('t / tList / loc / calendarTerms', () => {
   });
   it('interpolates vars', () => {
     expect(t('app.title')).toBe('Shiv-Shakti');
-    expect(t('nonexistent {x}', { x: 1 })).toBe('nonexistent {x}');
+    expect(t('calendar.tpl.sankranti', { rashi: 'X' })).toBe('Sun enters X');
+    expect(t('calendar.tpl.sankranti', { other: 'X' })).toBe('Sun enters {rashi}');
+    expect(t('calendar.tpl.tithi', { masa: 'M', paksha: 'P', tithi: 3 })).toBe('M P 3');
   });
-  it('uses the current language and falls back to en', () => {
+  it('uses the current language', () => {
     setLang('hi');
     expect(lang.value).toBe('hi');
     expect(t('app.title')).toBe('शिव-शक्ति');
     expect(tList('calendar.masas')[0]).toBe('चैत्र');
+  });
+  it('lookup falls back to en, then undefined', () => {
+    const empty = { en: {}, hi: {}, bn: {}, mr: {}, ta: {}, te: {}, gu: {} };
+    const dicts = { ...empty, en: { a: { b: 'EN', c: ['x'] }, only: 'en-only' }, hi: { a: { b: 'HI' } } };
+    expect(lookup(dicts, 'hi', 'a.b')).toBe('HI');
+    expect(lookup(dicts, 'hi', 'only')).toBe('en-only');
+    expect(lookup(dicts, 'hi', 'a.c')).toEqual(['x']);
+    expect(lookup(dicts, 'hi', 'nope.x')).toBeUndefined();
   });
   it('tList returns [] for a missing list', () => {
     expect(tList('nope')).toEqual([]);

@@ -15,7 +15,7 @@ export { loadFont } from './fonts';
 type Tree = { [k: string]: string | string[] | Tree };
 const DICTS: Record<Lang, Tree> = { en, hi, bn, mr, ta, te, gu };
 
-function lookup(dict: Tree, key: string): string | string[] | undefined {
+function walk(dict: Tree, key: string): string | string[] | undefined {
   let cur: string | string[] | Tree | undefined = dict;
   for (const part of key.split('.')) {
     if (cur === undefined || typeof cur === 'string' || Array.isArray(cur)) return undefined;
@@ -24,7 +24,16 @@ function lookup(dict: Tree, key: string): string | string[] | undefined {
   return cur as string | string[] | undefined;
 }
 
-const get = (key: string): string | string[] | undefined => lookup(DICTS[lang.value], key) ?? lookup(DICTS.en, key);
+/** Pure lookup: the language's own value, else en's, else undefined. */
+export function lookup(
+  dicts: Record<Lang, Tree>,
+  l: Lang,
+  key: string,
+): string | string[] | undefined {
+  return walk(dicts[l], key) ?? walk(dicts.en, key);
+}
+
+const get = (key: string): string | string[] | undefined => lookup(DICTS, lang.value, key);
 
 /** UI string for the current language; falls back to en, then to the key itself. */
 export function t(key: string, vars?: Record<string, string | number>): string {
