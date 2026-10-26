@@ -2,11 +2,11 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** A static, 7-language, dark/light website with a 3D-terrain MapLibre map of the Shakti Peethas and Jyotirlingas, temple pages, an Ujjain panchang widget and a Panchang menu, deployed to GitHub Pages.
+**Goal:** A static, 7-language, dark/light website with a 3D-terrain MapLibre map of the Shakti Peethas and Jyotirlingas, temple pages and festivals described in Hindu-calendar terms, deployed to GitHub Pages. (Revised 2026-10-26: panchang removed from scope.)
 
-**Architecture:** Vite + TypeScript + Preact SPA. A pure `src/panchang/` engine (no DOM) feeds the widget, the Panchang menu and the festival dates. `src/map/` wraps MapLibre behind a `MapController` interface. All temple, river, festival and UI text lives in `content/` as JSON and GeoJSON, validated by tests. GitHub Actions runs the tests, builds and deploys.
+**Architecture:** Vite + TypeScript + Preact SPA. No panchang and no astronomy: festivals carry a structured `when` that is rendered as text. `src/map/` wraps MapLibre behind a `MapController` interface. All temple, river, festival and UI text lives in `content/` as JSON and GeoJSON, validated by tests. GitHub Actions runs the tests, builds and deploys.
 
-**Tech Stack:** Node 22 LTS, Vite 6, TypeScript 5 (strict), Preact 10 + @preact/signals, maplibre-gl 5, astronomy-engine 2, zod 3, Vitest 3, Playwright, @axe-core/playwright, @lhci/cli.
+**Tech Stack:** Node 22 LTS, Vite 6, TypeScript 5 (strict), Preact 10 + @preact/signals, maplibre-gl 5, zod 3, Vitest 3, Playwright, @axe-core/playwright, @lhci/cli.
 
 **Spec:** `docs/superpowers/specs/2026-10-25-shakti-jyotirlinga-map-design.md`
 
@@ -15,8 +15,8 @@
 - Languages, exactly: `en, hi, bn, mr, ta, te, gu`. Every user-visible string exists in all 7.
 - Dark theme is the default; light theme via `data-theme="light"` on `<html>`. The choice is saved in `localStorage` key `theme`; the language in key `lang`.
 - Text and muted text contrast ≥ 4.5:1 against the background in both themes (WCAG 2.1 AA).
-- Panchang location default: Ujjain `{lat: 23.1765, lng: 75.7885, tz: 'Asia/Kolkata'}`. Ayanamsa is Lahiri. The Hindu day runs from sunrise to the next sunrise.
-- Panchang end-time tolerance vs the reference: ±2 minutes.
+- No panchang of any kind: no panchang menu, no time or Vikram Samvat widget, no muhurats or Choghadiya, no calculated festival dates, no astronomy library.
+- Festival month names follow the Purnimanta convention.
 - Map: default pitch 45°, terrain exaggeration 1.5, terrain DEM `https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png` (Terrarium encoding), basemap from OpenFreeMap (no API key). The basemap's own country boundary layers are never shown.
 - The content extent check: every coordinate within lng 60–98.5, lat 5–37.5.
 - Darshan entries: `official: true`, a `lastVerified` ISO date and a `verifiedVia` URL on the temple's official site. Never invent a stream URL.
@@ -27,11 +27,11 @@
 
 ## Review Focus
 
-1. **Hindu day after midnight:** at 02:00 IST, the widget and panchang must show the day that began at the previous sunrise (its vara, tithi and night Choghadiya), while the clock shows today's calendar date. → test in Task 4.
-2. **Visitor outside India:** with the device time zone `Australia/Sydney`, the Ujjain widget must still show IST time and Ujjain's panchang. → test in Task 4 (engine) and Task 13 (widget).
-3. **Kshaya / vriddhi tithi days:** a day holding two tithis lists both spans, and a tithi spanning two sunrises appears on both days; the UI renders both without errors. → fixtures in Task 3, render test in Task 13.
-4. **Long scripts on small phones:** Tamil and Telugu text at 320px width causes no horizontal scroll in the sheet, header or panchang. → e2e in Task 18.
-5. **Unknown deep link `#/xyz`:** shows the map plus a "temple not found" notice, never a blank page. → unit test in Task 11, e2e in Task 18.
+1. **Unknown deep link `#/xyz`:** shows the map plus a "temple not found" notice, never a blank page. → unit test in Task 11, e2e in Task 18.
+2. **Long scripts on small phones:** Tamil and Telugu text at 320px width causes no horizontal scroll in the sheet or header. → e2e in Task 18.
+3. **Festival season across the year end:** a festival with `months: [12, 1]` renders "(Dec–Jan)", not "(Jan–Dec)" or "(Dec, Jan)". → unit test in Task 5.
+4. **Festival-month filter on a two-month festival:** Maha Shivaratri (`months: [2, 3]`) keeps its temples under both February and March. → unit test in Task 6.
+5. **Geolocation denied:** "locate me" / "nearest temples" show the `notice.geoDenied` text and leave the map usable. → unit test in Task 11.
 
 ---
 
@@ -50,16 +50,15 @@ content/
   boundary/india.geojson       India boundary (polygon)
   boundary/neighbours.geojson  neighbouring countries, Natural Earth India point-of-view
   boundary/SOURCE.md           provenance + licence of the boundary files
-  festivals.json               festival definitions (rules + 7-lang names)
-  i18n/<lang>.json             UI strings + panchang term lists
+  festivals.json               festival definitions (`when` + months + 7-lang names)
+  i18n/<lang>.json             UI strings + calendar terms (months, paksha, rashis, weekdays)
 src/
   main.tsx  app.tsx  state.ts  router.ts
-  panchang/ types.ts astro.ts elements.ts masa.ts day.ts muhurat.ts choghadiya.ts festivals.ts index.ts
-  content/  schema.ts load.ts filters.ts search.ts geo.ts
+  content/  langs.ts festivals.ts schema.ts load.ts filters.ts search.ts geo.ts
   i18n/     index.ts fonts.ts
   map/      controller.ts style.ts terrain.ts boundary.ts rivers.ts pins.ts icons.ts
   ui/       Header.tsx FilterBar.tsx SearchBox.tsx TempleSheet.tsx PhotoGallery.tsx Darshan.tsx
-            PanchangPanel.tsx MonthCalendar.tsx UjjainWidget.tsx ListView.tsx RiverCard.tsx Notice.tsx
+            ListView.tsx RiverCard.tsx Notice.tsx
   styles/   tokens.css base.css
   generated/photo-credits.json
 scripts/fetch-photo-credits.ts
@@ -86,7 +85,9 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
 
 ---
 
-### Task 2: Panchang astronomy core
+### Task 2: Panchang astronomy core — DONE (e0079e1..e4e5eae), REMOVED by Task 4
+
+> Superseded 2026-10-26: the panchang is out of scope. Kept only as the record of what Task 4 removes; do not execute.
 
 **Files:**
 - Create: `src/panchang/types.ts`, `src/panchang/astro.ts`
@@ -127,7 +128,9 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
 
 ---
 
-### Task 3: Panchang day (tithi, nakshatra, yoga, karana, masa, samvat)
+### Task 3: Panchang day (tithi, nakshatra, yoga, karana, masa, samvat) — DONE (e4e5eae..be67f24), REMOVED by Task 4
+
+> Superseded 2026-10-26: the panchang is out of scope. Kept only as the record of what Task 4 removes; do not execute.
 
 **Files:**
 - Create: `src/panchang/elements.ts`, `src/panchang/masa.ts`, `src/panchang/day.ts`, `src/panchang/index.ts`
@@ -169,83 +172,75 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
 
 ---
 
-### Task 4: Muhurats, Choghadiya, "now" helpers
+### Task 4: Remove the panchang
 
 **Files:**
-- Create: `src/panchang/muhurat.ts`, `src/panchang/choghadiya.ts`
-- Modify: `src/panchang/index.ts` (re-export)
-- Test: `tests/unit/panchang/muhurat.test.ts`, `tests/unit/panchang/now.test.ts`
+- Delete: `src/panchang/` (all files), `tests/unit/panchang/` (all files), `tests/fixtures/panchang-ujjain.json`
+- Modify: `package.json`, `package-lock.json` (drop `astronomy-engine`), `README.md` (only if it mentions the panchang)
 
 **Interfaces:**
-- Consumes: `DayPanchang`, `panchangForDay`.
-- Produces:
-  ```ts
-  type DayFrame = Pick<DayPanchang, 'prevSunset' | 'sunrise' | 'sunset' | 'nextSunrise' | 'vara'>
-  interface Muhurats { brahma: Period; abhijit: Period | null; godhuli: Period
-                       rahuKaal: Period; yamaganda: Period; gulika: Period; durmuhurat: Period[] }
-  muhurats(d: DayFrame): Muhurats
-  type ChoghadiyaName = 'udveg' | 'chal' | 'labh' | 'amrit' | 'kaal' | 'shubh' | 'rog'
-  interface Choghadiya extends Period { name: ChoghadiyaName; quality: 'good' | 'neutral' | 'bad'; part: 'day' | 'night' }
-  choghadiya(d: DayFrame): Choghadiya[]                       // 16 entries, 8 day then 8 night
-  panchangAt(now: Date, loc?: GeoLocation): DayPanchang        // the Hindu day containing `now`
-  currentChoghadiya(now: Date, loc?: GeoLocation): Choghadiya
-  ```
+- Consumes: nothing. Produces: nothing — afterwards no code imports anything panchang-related.
 
-- [ ] **Step 1: Write the failing tests** using a synthetic frame: prevSunset `2026-10-31T18:00+05:30`, sunrise `2026-11-01T06:00+05:30`, sunset `18:00`, nextSunrise `2026-11-02T06:00+05:30`, vara 0 (Sunday):
-  - `rahuKaal` 16:30–18:00; `yamaganda` 12:00–13:30; `gulika` 15:00–16:30.
-  - `abhijit` 11:36–12:24; with vara 3 (Wednesday) → `null`.
-  - `brahma` 04:24–05:12 (the 14th of 15 night-muhurtas from prevSunset to sunrise).
-  - `godhuli` 17:48–18:12.
-  - `choghadiya(frame)[0]` = `{name: 'udveg', quality: 'bad'}` 06:00–07:30; `[8]` = shubh 18:00–19:30; with vara 1 (Monday) `[0].name === 'amrit'`.
-  - **Review Focus 1:** `panchangAt(new Date('2026-10-27T02:00:00+05:30'))` has `date === '2026-10-26'` and the vara of 26 Oct; `currentChoghadiya` at that instant has `part === 'night'`.
-  - **Review Focus 2:** run the same assertions with `process.env.TZ = 'Australia/Sydney'` set in a separate test file (`now.tz.test.ts`, configured via vitest `poolOptions` / `env`): results are identical.
-- [ ] **Step 2: Run** → FAIL.
-- [ ] **Step 3: Implement.** Rahu, Yamaganda and Gulika are the 1-based eighth-of-day segments by weekday [Sun…Sat]: Rahu `[8,2,7,5,6,4,3]`, Yamaganda `[5,4,3,2,1,7,6]`, Gulika `[7,6,5,4,3,2,1]`. Abhijit = the 8th of 15 day-muhurtas (null on Wednesday). Godhuli = sunset ± 12 min. Durmuhurat, as day-muhurta numbers out of 15: Sun [14], Mon [9,12], Tue [4] plus night-muhurta 7, Wed [8], Thu [6,12], Fri [4,9], Sat [1,2]. Choghadiya cycle `C = [udveg, chal, labh, amrit, kaal, shubh, rog]`: day i (0–7) → `C[(3w + i) % 7]`; night i → `C[(5 + 3w + 5i) % 7]`, where w = vara. Quality: amrit, shubh and labh are good; chal is neutral; the rest are bad. `panchangAt`: take the local date of `now` in loc.tz; if `now` < that day's sunrise, use the previous date.
-- [ ] **Step 4: Run** → PASS. Also check two real days against the reference's Choghadiya and Rahu Kaal (±2 min) and add them as assertions.
-- [ ] **Step 5: Commit** `feat(panchang): muhurats, choghadiya and current-day helpers`.
+- [ ] **Step 1: Delete** the files above with `git rm -r`, and run `npm uninstall astronomy-engine`.
+- [ ] **Step 2: Verify removal:** `grep -rniE "panchang|astronomy-engine|samvat|choghadiya" src tests package.json README.md vite.config.ts` prints nothing; `test -d node_modules/astronomy-engine` fails.
+- [ ] **Step 3: Verify the build:** `npm run check` passes (the smoke test remains) and `npm run build` succeeds; `grep -l astronomy dist/assets/*.js` prints nothing.
+- [ ] **Step 4: Commit** `chore: remove panchang engine and astronomy-engine`.
 
 ---
 
-### Task 5: Festival resolver + festival data
+### Task 5: Festival data and "when" text
 
 **Files:**
-- Create: `src/panchang/festivals.ts`, `content/festivals.json`, `tests/fixtures/festivals-ujjain.json`
-- Test: `tests/unit/panchang/festivals.test.ts`
+- Create: `src/content/langs.ts`, `src/content/festivals.ts`, `content/festivals.json`
+- Test: `tests/unit/content/festivals.test.ts`
 
 **Interfaces:**
-- Consumes: `panchangForDay`.
-- Produces:
+- Produces (`langs.ts`, per ruling R1; `schema.ts` in Task 6 re-exports these):
   ```ts
-  type FestivalRule =
-    | { kind: 'tithi'; masa: number; tithi: number; observe: 'sunrise' | 'nishita' | 'pradosh'; days?: number }  // masa = Amanta index, nija month only
-    | { kind: 'sankranti'; rashi: number; offsetDays?: number; days?: number }                                 // rashi 0 = Mesha (sidereal)
-    | { kind: 'weekday-in-masa'; masa: number; weekday: number; style: 'purnimanta' | 'amanta' }
-  interface FestivalDef { id: string; name: L10n; rule: FestivalRule }
-  festivalDates(rule: FestivalRule, from: string, to: string, loc?: GeoLocation): { start: string; end: string }[]
+  export const LANGS = ['en','hi','bn','mr','ta','te','gu'] as const; export type Lang = typeof LANGS[number]
+  export type L10n = Record<Lang, string>
   ```
-- `content/festivals.json` holds at least these (masa = Amanta index, tithi 1–30):
+- Produces (`festivals.ts`):
+  ```ts
+  type FestivalWhen =
+    | { kind: 'tithi'; masa: number; paksha: 'shukla' | 'krishna'; tithi: number; days?: number }
+        // masa 0 = Chaitra … 11 = Phalguna (Purnimanta); tithi 1–15 within the paksha (15 = Purnima in shukla, Amavasya in krishna)
+    | { kind: 'sankranti'; rashi: number; offsetDays?: number; days?: number }   // rashi 0 = Mesha … 11 = Meena
+    | { kind: 'weekday-in-masa'; masa: number; weekday: number }                 // weekday 0 = Sunday
+  interface FestivalDef { id: string; name: L10n; when: FestivalWhen; months: number[] }  // months 1–12, in order of occurrence
+  const FestivalSchema: z.ZodType<FestivalDef>
+  loadFestivals(): FestivalDef[]                     // content/festivals.json, parsed with FestivalSchema
+  interface CalendarTerms {
+    masas: string[]; rashis: string[]; weekdaysPlural: string[]   // 12, 12, 7
+    shukla: string; krishna: string; purnima: string; amavasya: string
+    tpl: { tithi: string; tithiRange: string; special: string; sankranti: string; sankrantiFrom: string;
+           weekdayInMasa: string; withMonths: string }
+  }
+  festivalWhenText(f: FestivalDef, terms: CalendarTerms, locale: string): string
+  ```
+- English templates (Task 7 moves them into `content/i18n/en.json` under `calendar.*`; the test holds them inline until then): `tithi` `"{masa} {paksha} {tithi}"`, `tithiRange` `"{masa} {paksha} {from}–{to}"`, `special` `"{masa} {name}"` (Purnima/Amavasya), `sankranti` `"Sun enters {rashi}"`, `sankrantiFrom` `"From day {n} of solar {masa}, {days} days"` (solar masa index = (rashi + 1) % 12), `weekdayInMasa` `"{weekdays} of {masa}"`, `withMonths` `"{when} ({months})"`. Month names come from `Intl.DateTimeFormat(locale, { month: 'short' })`; one month → `Jan`; several → first `–` last.
+- Purnimanta masa names (en): Chaitra, Vaishakha, Jyeshtha, Ashadha, Shravana, Bhadrapada, Ashvina, Kartika, Margashirsha, Pausha, Magha, Phalguna. Rashis (en): Mesha, Vrishabha, Mithuna, Karka, Simha, Kanya, Tula, Vrishchika, Dhanu, Makara, Kumbha, Meena.
+- `content/festivals.json` holds exactly these to start (English names; the other languages arrive in Task 17):
 
-  | id | rule |
-  |---|---|
-  | maha-shivaratri | tithi, masa 10 (Magha), tithi 29, nishita |
-  | chaitra-navratri | tithi, masa 0, tithi 1, sunrise, days 9 |
-  | sharad-navratri | tithi, masa 6 (Ashvina), tithi 1, sunrise, days 9 |
-  | durga-puja | tithi, masa 6, tithi 6, sunrise, days 5 |
-  | diwali | tithi, masa 6, tithi 30, pradosh |
-  | kartik-purnima | tithi, masa 7, tithi 15, sunrise |
-  | guru-purnima | tithi, masa 3 (Ashadha), tithi 15, sunrise |
-  | nag-panchami | tithi, masa 4 (Shravana), tithi 5, sunrise |
-  | shravan-somvar | weekday-in-masa, masa 4, weekday 1, purnimanta |
-  | makar-sankranti | sankranti, rashi 9 |
-  | ambubachi | sankranti, rashi 2, offsetDays 6, days 4 (Kamakhya) |
+  | id | when | months | expected English text |
+  |---|---|---|---|
+  | maha-shivaratri | tithi, masa 11, krishna, 14 | [2, 3] | Phalguna Krishna 14 (Feb–Mar) |
+  | chaitra-navratri | tithi, masa 0, shukla, 1, days 9 | [3, 4] | Chaitra Shukla 1–9 (Mar–Apr) |
+  | sharad-navratri | tithi, masa 6, shukla, 1, days 9 | [9, 10] | Ashvina Shukla 1–9 (Sep–Oct) |
+  | durga-puja | tithi, masa 6, shukla, 6, days 5 | [9, 10] | Ashvina Shukla 6–10 (Sep–Oct) |
+  | diwali | tithi, masa 7, krishna, 15 | [10, 11] | Kartika Amavasya (Oct–Nov) |
+  | kartik-purnima | tithi, masa 7, shukla, 15 | [10, 11] | Kartika Purnima (Oct–Nov) |
+  | guru-purnima | tithi, masa 3, shukla, 15 | [6, 7] | Ashadha Purnima (Jun–Jul) |
+  | nag-panchami | tithi, masa 4, shukla, 5 | [7, 8] | Shravana Shukla 5 (Jul–Aug) |
+  | shravan-somvar | weekday-in-masa, masa 4, weekday 1 | [7, 8] | Mondays of Shravana (Jul–Aug) |
+  | makar-sankranti | sankranti, rashi 9 | [1] | Sun enters Makara (Jan) |
+  | ambubachi | sankranti, rashi 2, offsetDays 6, days 4 | [6] | From day 7 of solar Ashadha, 4 days (Jun) |
 
-  English names now; the other 6 languages arrive in Task 17.
-
-- [ ] **Step 1: Collect expected dates** for 2026–2027 Ujjain from the same reference as Task 3 for: Maha Shivaratri, Chaitra and Sharad Navratri starts, Diwali, Makar Sankranti and Guru Purnima, into `festivals-ujjain.json` with the source URL.
-- [ ] **Step 2: Write the failing table-driven test** against that fixture, plus one kshaya-case test: if the target tithi touches no sunrise, `observe: 'sunrise'` returns the day it begins on.
-- [ ] **Step 3: Run** → FAIL.
-- [ ] **Step 4: Implement.** `sunrise`: the day whose sunrise falls within the tithi. `nishita`: the day whose midnight point (midway between sunset and the next sunrise) falls within the tithi. `pradosh`: the day whose sunset + 72 min falls within the tithi. Skip adhik months.
-- [ ] **Step 5: Run** → PASS. **Commit** `feat(panchang): festival date resolver and core festivals`.
+- [ ] **Step 1: Write the failing tests:** every row of the table renders its expected English text with locale `en`; `content/festivals.json` parses with `FestivalSchema` and ids are unique; the schema rejects `months: []`, `months: [13]`, `tithi: 16`, `masa: 12` and a missing `name.en`; **Review Focus 3:** a synthetic festival with `months: [12, 1]` renders `(Dec–Jan)`.
+- [ ] **Step 2: Run** `npx vitest run tests/unit/content/festivals.test.ts` → FAIL.
+- [ ] **Step 3: Implement.** A day range is `tithi`…`tithi + days − 1`. Non-en names may be `""` while `ALLOW_UNTRANSLATED=1` (ruling R2).
+- [ ] **Step 4: Run** → PASS; `npm run check` → PASS.
+- [ ] **Step 5: Commit** `feat(content): festival data described in Hindu-calendar terms`.
 
 ---
 
@@ -258,8 +253,7 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
 **Interfaces:**
 - Produces:
   ```ts
-  export const LANGS = ['en','hi','bn','mr','ta','te','gu'] as const; export type Lang = typeof LANGS[number]
-  export type L10n = Record<Lang, string>
+  // re-exports LANGS, Lang, L10n from langs.ts (Task 5)
   export type PeethaList = 'peetha-nirnaya-51' | 'ashtadasha-18' | 'adi-4'
   export type PinCategory = 'jyotirlinga' | 'maha-peetha' | 'peetha'
   export const TempleSchema: z.ZodType<Temple>    // fields per spec §5, plus `aliases?: string[]`
@@ -268,13 +262,13 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
   loadTemples(): Temple[]                          // import.meta.glob('/content/temples/*.json', { eager: true }), parsed
   getTemple(id: string): Temple | undefined
   pinCategory(t: Temple): PinCategory              // 'ashtadasha-18' ∈ lists → 'maha-peetha'
-  interface Filters { categories: Set<PinCategory>; list?: PeethaList; region?: string; festivalMasa?: number }
+  interface Filters { categories: Set<PinCategory>; list?: PeethaList; region?: string; festivalMonth?: number }  // 1–12, matches FestivalDef.months
   applyFilters(ts: Temple[], f: Filters, festivals: FestivalDef[]): Temple[]
   searchTemples(ts: Temple[], q: string): Temple[] // any language name, deity or alias; case- and diacritic-insensitive (NFD, strip \p{M} only for Latin)
   nearestTemples(ts: Temple[], p: { lat: number; lng: number }, n?: number): { temple: Temple; km: number }[]  // haversine, n = 5
   ```
 
-- [ ] **Step 1: Write the failing tests:** the 3 fixtures parse; a fixture missing `name.ta` fails with a path mentioning `name.ta`; a darshan without `verifiedVia` fails; `pinCategory(kamakhya)` = 'maha-peetha' (Kamarupa is in the Ashtadasha stotram, so its fixture lists all three); `pinCategory(kedarnath)` = 'jyotirlinga'; `searchTemples(…, 'केदार')` and `'kedar'` both find kedarnath; `nearestTemples` from Ujjain puts mahakaleshwar first with `km < 1`; `applyFilters` with categories {jyotirlinga} drops kamakhya.
+- [ ] **Step 1: Write the failing tests:** the 3 fixtures parse; a fixture missing `name.ta` fails with a path mentioning `name.ta`; a darshan without `verifiedVia` fails; `pinCategory(kamakhya)` = 'maha-peetha' (Kamarupa is in the Ashtadasha stotram, so its fixture lists all three); `pinCategory(kedarnath)` = 'jyotirlinga'; `searchTemples(…, 'केदार')` and `'kedar'` both find kedarnath; `nearestTemples` from Ujjain puts mahakaleshwar first with `km < 1`; `applyFilters` with categories {jyotirlinga} drops kamakhya; **Review Focus 4:** with `festivalMonth` 2 and then 3, a temple whose festivals include maha-shivaratri is kept both times, and with 8 it is dropped.
 - [ ] **Step 2: Write `tests/content/content.test.ts`** over the real `content/temples/*` (passes vacuously while empty): schema-valid, unique ids, coordinates inside the extent, every `festivalId` exists in festivals.json, every photo has an entry in `src/generated/photo-credits.json`, every Shakti Peetha id appears in `content/lists/shakti-peethas.json`.
 - [ ] **Step 3: Run** → FAIL. **Implement** the schema and helpers. **Run** → PASS.
 - [ ] **Step 4: Research the master lists.** `jyotirlingas.json`: 12 entries `{id, nameEn, primary: {lat,lng,place}, alternates: [...], sources}`. `shakti-peethas.json`: the 51 from the Peetha Nirnaya Tantra, the 18 from the Ashtadasha Shakti Peetha Stotram and the 4 Adi Peethas, merged into one list: `{id, nameEn, lists: PeethaList[], bodyPart, devi, bhairava, candidates:[{lat,lng,place,country}], primaryCandidate, sources}`. Every coordinate is checked on a map against the actual temple. Record the total count.
@@ -298,11 +292,12 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
   // i18n
   detectLang(navLangs: readonly string[]): Lang     // first match by primary subtag, else 'en'
   t(key: string, vars?: Record<string, string | number>): string   // falls back to en, then to the key
-  tList(key: string): string[]                      // e.g. 'panchang.tithis' (30), 'panchang.nakshatras' (27)
+  tList(key: string): string[]                      // e.g. 'calendar.masas' (12)
+  calendarTerms(): CalendarTerms                    // Task 5's CalendarTerms, built from the current lang's 'calendar.*' keys
   loc(v: L10n): { text: string; fallback: boolean } // content text for the current lang, en fallback flagged
   loadFont(l: Lang): void                           // injects the Google Fonts <link> for Noto Sans + script once
   ```
-- Panchang term lists in every i18n file: `varas`(7), `tithis`(30), `nakshatras`(27), `yogas`(27), `karanas`(11 distinct names keyed by KaranaId), `masas`(12), `ritus`(6), `choghadiya`(7, keyed by ChoghadiyaName), `muhurats`(keyed by Muhurats field).
+- Calendar terms in every i18n file under `calendar`: `masas`(12), `rashis`(12), `weekdaysPlural`(7), `shukla`, `krishna`, `purnima`, `amavasya`, and the `tpl.*` templates from Task 5 (en values exactly as listed there). Task 5's test switches from its inline terms to `calendarTerms()` for `en`.
 - Colour tokens (exact values):
 
   | token | dark | light |
@@ -393,10 +388,10 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
 - Test: `tests/unit/router.test.ts`, `tests/unit/ui/app.test.tsx` (with @testing-library/preact + jsdom)
 
 **Interfaces:**
-- Produces: `type Route = { kind: 'map' } | { kind: 'temple'; id: string } | { kind: 'panchang' }`; `parseRoute(hash: string): Route`; `routeHash(r: Route): string`; signals `route`, `filters`, `notice: Signal<string | null>`.
+- Produces: `type Route = { kind: 'map' } | { kind: 'temple'; id: string }`; `parseRoute(hash: string): Route`; `routeHash(r: Route): string`; signals `route`, `filters`, `notice: Signal<string | null>`.
 
-- [ ] **Step 1: Write the failing tests:** `parseRoute('#/kedarnath')` → temple; `''` → map; `'#/panchang'` → panchang. **Review Focus 5:** rendering App with hash `#/xyz` (with `createMap` mocked) shows the `t('notice.templeNotFound')` text and the map container. If `createMap` rejects, `ListView` renders with all temples. The language button lists the 7 endonyms `English, हिन्दी, বাংলা, मराठी, தமிழ், తెలుగు, ગુજરાતી`. The theme toggle flips `data-theme`.
-- [ ] **Step 2: Run** → FAIL. **Implement.** Header: title, SearchBox (results as a listbox, Enter selects), language menu, theme toggle, Panchang button, 2D/3D toggle, reset view, locate-me + "nearest temples". Geolocation is requested only on a click; if it's denied → `notice` with `t('notice.geoDenied')`. FilterBar: category chips, list chips (Maha 18 / Adi 4 / 51), region select, festival-month select. Terrain tile errors (`map.on('error')` on the DEM source) → set3D(false) + a notice.
+- [ ] **Step 1: Write the failing tests:** `parseRoute('#/kedarnath')` → temple; `''` → map. **Review Focus 1:** rendering App with hash `#/xyz` (with `createMap` mocked) shows the `t('notice.templeNotFound')` text and the map container. If `createMap` rejects, `ListView` renders with all temples. The language button lists the 7 endonyms `English, हिन्दी, বাংলা, मराठी, தமிழ், తెలుగు, ગુજરાતી`. The theme toggle flips `data-theme`. **Review Focus 5:** with `navigator.geolocation.getCurrentPosition` mocked to call its error callback, clicking "nearest temples" shows `t('notice.geoDenied')` and the map container stays rendered.
+- [ ] **Step 2: Run** → FAIL. **Implement.** Header: title, SearchBox (results as a listbox, Enter selects), language menu, theme toggle, 2D/3D toggle, reset view, locate-me + "nearest temples". Geolocation is requested only on a click; if it's denied → `notice` with `t('notice.geoDenied')`. FilterBar: category chips, list chips (Maha 18 / Adi 4 / 51), region select, festival-month select. Terrain tile errors (`map.on('error')` on the DEM source) → set3D(false) + a notice.
 - [ ] **Step 3: Run** → PASS. **Commit** `feat(ui): app shell with routing, search, filters and fallbacks`.
 
 ---
@@ -408,32 +403,15 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
 - Test: `tests/unit/ui/temple-sheet.test.tsx`
 
 **Interfaces:**
-- Consumes: `Temple`, `loc`, `festivalDates`, `FestivalDef[]`, photo credits JSON `{ [file: string]: { thumb: string; full: string; author: string; licence: string; licenceUrl: string; page: string } }`.
+- Consumes: `Temple`, `loc`, `FestivalDef[]`, `festivalWhenText`, `calendarTerms`, photo credits JSON `{ [file: string]: { thumb: string; full: string; author: string; licence: string; licenceUrl: string; page: string } }`.
 
-- [ ] **Step 1: Write the failing tests** (kedarnath fixture): the section headings render in the spec order; the festivals section shows the next date ≥ today for maha-shivaratri, computed via `festivalDates` (pass a fixed "today" prop); a darshan of kind `youtube-channel` renders an iframe `src` containing `embed/live_stream?channel=<id>` **and** the official-site link; kind `website` renders only the link; each photo's credits show author + licence; the "Other claimed sites" section appears only when `alternateSites` is non-empty; a `fallback: true` text shows the "machine-assisted / English" marker; Shakti Peetha sheets show the body part, the Devi and the Bhairava, plus the scriptures from `lists`.
+- [ ] **Step 1: Write the failing tests** (kedarnath fixture): the section headings render in the spec order; in English the festivals section shows `Maha Shivaratri — Phalguna Krishna 14 (Feb–Mar)` followed by the temple's `localNote`; a darshan of kind `youtube-channel` renders an iframe `src` containing `embed/live_stream?channel=<id>` **and** the official-site link; kind `website` renders only the link; each photo's credits show author + licence; the "Other claimed sites" section appears only when `alternateSites` is non-empty; a `fallback: true` text shows the "machine-assisted / English" marker; Shakti Peetha sheets show the body part, the Devi and the Bhairava, plus the scriptures from `lists`.
 - [ ] **Step 2: Run** → FAIL. **Implement.** Below 768px it's a bottom sheet (drag handle; snap points 35% / 90%), above that a 420px side panel. Photos use `loading="lazy"` with `onError` hiding the image. The iframe uses `loading="lazy"`, `allow="autoplay; encrypted-media"` and a title. Esc and the close button route back to `#/`.
 - [ ] **Step 3: Run** → PASS. **Commit** `feat(ui): temple sheet with photos, darshan and festivals`.
 
 ---
 
-### Task 13: Panchang menu and Ujjain widget
-
-**Files:**
-- Create: `src/ui/PanchangPanel.tsx`, `src/ui/MonthCalendar.tsx`, `src/ui/UjjainWidget.tsx`
-- Test: `tests/unit/ui/panchang-ui.test.tsx`
-
-**Interfaces:**
-- Consumes: `panchangForDay`, `panchangAt`, `muhurats`, `choghadiya`, `currentChoghadiya`, `festivalDates`, `tList`.
-- Produces: signal `panchangLoc: Signal<GeoLocation>` (default UJJAIN), signal `masaStyle: Signal<'purnimanta' | 'amanta'>` (default purnimanta).
-
-- [ ] **Step 1: Write the failing tests** (fake timers at `2026-10-25T10:00:00+05:30`):
-  - The widget shows IST time `10:00`, "Vikram Samvat 2083", a tithi name from `tList('panchang.tithis')`, and the current Choghadiya name. **Review Focus 2:** with `TZ=Australia/Sydney` it still shows `10:00`.
-  - The panel lists the five limbs with end times; the muhurats with good ones marked `data-quality="good"` and Rahu Kaal etc. marked `"bad"`; 16 Choghadiya rows with exactly one `aria-current="true"`.
-  - **Review Focus 3:** rendering the kshaya-tithi fixture date shows 2 tithi rows.
-  - The Amanta toggle changes the month name on a Krishna paksha date; the month calendar for Oct 2026 has 31 day cells, with the festival names from `festivals.json` on their dates; a click on a festival lists the temples whose `festivals` include it.
-  - The disclaimer text `t('panchang.disclaimer')` is present.
-- [ ] **Step 2: Run** → FAIL. **Implement.** The widget updates every 30 s and on visibility change, and is a button that routes to `#/panchang`. "Use my location": geolocation → `panchangLoc` with `tz` from `Intl.DateTimeFormat().resolvedOptions().timeZone`. The date picker is an `<input type="date">`.
-- [ ] **Step 3: Run** → PASS. **Commit** `feat(ui): panchang menu and Ujjain widget`.
+### Task 13: (Removed 2026-10-26 — Panchang menu and Ujjain widget are out of scope)
 
 ---
 
@@ -458,7 +436,7 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
 - Create: `content/temples/<id>.json` for the 12 Jyotirlingas (somnath, mallikarjuna, mahakaleshwar, omkareshwar, kedarnath, bhimashankar, kashi-vishwanath, trimbakeshwar, vaidyanath, nageshwar, rameshwaram, grishneshwar)
 - Modify: `src/generated/photo-credits.json` (via `npm run credits`)
 
-- [ ] **Step 1: For each temple,** write the English content: deity, history, story, 4–8 facts, visiting (timings, nearest airport and railway, best season), festivals (ids from festivals.json; add new festival defs if needed, with fixture-checked rules), alternates, 3–6 Commons photos, sources (at least 2 per temple, preferring the temple trust's site, government tourism and scholarly references). No unsourced claims. The other 6 language fields are left as `""` and `translationReviewed` is all false; the content test allows empty non-en strings only while `translationReviewed.<lang> === false` **and** the env var `ALLOW_UNTRANSLATED=1` is set. That variable is set in CI only until Task 17 ends, and is removed in Task 17's last step.
+- [ ] **Step 1: For each temple,** write the English content: deity, history, story, 4–8 facts, visiting (timings, nearest airport and railway, best season), festivals (ids from festivals.json; add new festival defs if needed: `when` and `months` checked against a published panchang, with the source noted in the task report), alternates, 3–6 Commons photos, sources (at least 2 per temple, preferring the temple trust's site, government tourism and scholarly references). No unsourced claims. The other 6 language fields are left as `""` and `translationReviewed` is all false; the content test allows empty non-en strings only while `translationReviewed.<lang> === false` **and** the env var `ALLOW_UNTRANSLATED=1` is set. That variable is set in CI only until Task 17 ends, and is removed in Task 17's last step.
 - [ ] **Step 2: Darshan verification.** For each temple, find the trust's official website, and on it a link to its live stream channel. Record `kind`, `channelId`/`videoId`, `url`, `verifiedVia` (the official page that links it) and `lastVerified: 2026-10-25` (the actual date of checking). If no such link exists, use `kind: 'website'`. Write a table of the findings into the task report.
 - [ ] **Step 3: Run** `npm run credits && npm test` → PASS. **Commit** `content: Jyotirlingas in English with verified darshan links`.
 
@@ -493,10 +471,9 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
   - The map canvas appears; clicking the Mahakaleshwar pin (via the accessible marker list) opens the sheet with its name.
   - The language switch to हिन्दी changes the header title; reload keeps it.
   - The theme toggle switches to light; reload keeps it.
-  - `#/kedarnath` opens the Kedarnath sheet; **Review Focus 5:** `#/xyz` shows the not-found notice and the map.
-  - `#/panchang` shows 16 Choghadiya rows.
-  - **Review Focus 4:** at viewport 320×640, with lang `ta` and then `te`, `document.documentElement.scrollWidth <= 320` with the sheet open, the panchang open and the header visible.
-  - axe (`@axe-core/playwright`) has no serious or critical violations on the map, the sheet and the panchang, in both themes.
+  - `#/kedarnath` opens the Kedarnath sheet; **Review Focus 1:** `#/xyz` shows the not-found notice and the map.
+  - **Review Focus 2:** at viewport 320×640, with lang `ta` and then `te`, `document.documentElement.scrollWidth <= 320` with the sheet open and the header visible.
+  - axe (`@axe-core/playwright`) has no serious or critical violations on the map and the sheet, in both themes.
 - [ ] **Step 2: Run** `npm run build && npm run test:e2e` → PASS (fix the app, never the assertions).
 - [ ] **Step 3:** `lighthouserc.json`: mobile preset, accessibility ≥ 0.9 → error, performance ≥ 0.8 → warn. Run `npx lhci autorun` locally and record the scores.
 - [ ] **Step 4: Commit** `test: e2e, accessibility and Lighthouse checks`.
@@ -507,4 +484,4 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
 
 - [ ] **Step 1:** The repo `dbp-develop/Shiv-Shakti` already exists and is cloned at `~/projects/shiv-shakti`. Confirm that Settings → Pages → Source = "GitHub Actions" (a user step if it isn't set), and that `main` is pushed.
 - [ ] **Step 2:** Watch the Actions run until it's green; open the Pages URL; repeat the Task 18 checks by hand on the live URL on a phone-sized viewport; confirm the tiles, terrain and fonts load from production.
-- [ ] **Step 3: Final report to the user:** the live URL, the boundary source decision, the darshan verification table, the panchang accuracy results, the Lighthouse scores, the list of unreviewed translations, and the known limitations.
+- [ ] **Step 3: Final report to the user:** the live URL, the boundary source decision, the darshan verification table, the Lighthouse scores, the list of unreviewed translations, and the known limitations.
