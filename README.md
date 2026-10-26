@@ -1,6 +1,6 @@
 # Shiv-Shakti
 
-An interactive 3D map of the Shakti Peethas and Jyotirlingas with a daily panchang. A static site built with Vite, TypeScript and Preact, deployed to GitHub Pages at https://dbp-develop.github.io/Shiv-Shakti/. No backend and no API keys.
+An interactive 3D map of the Shakti Peethas and Jyotirlingas. A static site built with Vite, TypeScript and Preact, deployed to GitHub Pages at https://dbp-develop.github.io/Shiv-Shakti/. No backend and no API keys.
 
 ## Scripts
 
