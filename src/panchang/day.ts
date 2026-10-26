@@ -56,7 +56,7 @@ export function panchangForDay(localDate: string, loc: GeoLocation = UJJAIN): Da
   const amantaMasa = amantaMasaOf(prev, next);
 
   const sunLon = sunSidereal(rise);
-  const vs = vikramSamvat(localDate, loc.tz);
+  const vs = vikramSamvat(localDate, loc);
 
   return {
     date: localDate,

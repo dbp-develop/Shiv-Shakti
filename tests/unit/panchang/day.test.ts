@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import fixture from '../../fixtures/panchang-ujjain.json';
 import { karanaName, panchangForDay } from '../../../src/panchang';
 import type { Span } from '../../../src/panchang';
+import { sunRashi, surroundingNewMoons } from '../../../src/panchang/masa';
 
 const TWO_MIN = 2 * 60 * 1000;
 const MASAS = [
@@ -19,6 +20,7 @@ const MASAS = [
   'Phalguna',
 ];
 
+const prevDate = (date: string) => new Date(Date.parse(`${date}T00:00:00Z`) - 86_400_000).toISOString().slice(0, 10);
 const ist = (s: string) => new Date(`${s}${s.length === 16 ? ':00' : ''}+05:30`);
 const istOn = (date: string, hm: string) => ist(`${date}T${hm}`);
 
@@ -63,12 +65,37 @@ describe('panchangForDay vs Drik Panchang fixture', () => {
     }
   });
 
-  it('shows the same tithi at two consecutive sunrises on vriddhi days', () => {
-    for (const day of fixture.days.filter((d) => d.tags.includes('vriddhi-tithi'))) {
-      const p = panchangForDay(day.date);
-      const prevDay = new Date(Date.parse(`${day.date}T00:00:00Z`) - 86_400_000).toISOString().slice(0, 10);
-      expect(panchangForDay(prevDay).tithi.at(-1)!.index, day.date).toBe(p.tithi[0].index);
-    }
+  it('shows the same tithi at two consecutive sunrises on vriddhi days only', () => {
+    const touchesTwoSunrises = (date: string) => {
+      const prev = panchangForDay(prevDate(date));
+      return prev.tithi[0].index === panchangForDay(date).tithi[0].index;
+    };
+    const days = fixture.days.filter((d) => d.tags.includes('vriddhi-tithi'));
+    expect(days.length).toBeGreaterThan(0);
+    for (const day of days) expect(touchesTwoSunrises(day.date), day.date).toBe(true);
+    // Negative control: an ordinary day advances the tithi between sunrises.
+    expect(touchesTwoSunrises('2026-09-20')).toBe(false);
+  });
+});
+
+describe('Vikram Samvat new year', () => {
+  it.each([
+    ['2024-04-08', 2080], // Amavasya at sunrise
+    ['2024-04-09', 2081], // Gudi Padwa
+    ['2025-03-29', 2081],
+    ['2025-03-30', 2082],
+  ])('%s -> %i', (date, vs) => {
+    expect(panchangForDay(date).vikramSamvat).toBe(vs);
+  });
+});
+
+describe('kshaya and adhik masa', () => {
+  it('flags the Pausha kshaya lunation of 1983 and not a normal month', () => {
+    const { prev, next } = surroundingNewMoons(new Date('1983-01-25T06:00:00Z'));
+    expect(sunRashi(next) - sunRashi(prev)).toBe(2);
+    expect(panchangForDay('1983-01-25').amantaMasa).toEqual({ index: 9, adhik: false, kshaya: true });
+    expect(panchangForDay('1983-01-10').amantaMasa).toEqual({ index: 8, adhik: false, kshaya: false });
+    expect(panchangForDay('2026-10-25').amantaMasa.kshaya).toBe(false);
   });
 });
 
