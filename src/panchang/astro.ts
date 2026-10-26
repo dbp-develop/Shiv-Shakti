@@ -191,3 +191,15 @@ function bisect(g: (t: number) => number, lo: number, hi: number, gLo: number): 
   }
   return new Date(hi);
 }
+
+// ---------------------------------------------------------------- lunation
+
+/** Moon − Sun sidereal elongation, degrees in [0, 360): 0 at new moon, 180 at full moon. */
+export function elongation(date: Date): number {
+  return norm360(moonSidereal(date) - sunSidereal(date));
+}
+
+/** First new moon (elongation crossing 0°) strictly after `from`. */
+export function newMoonAfter(from: Date): Date {
+  return findAngleCrossing(elongation, 0, from, 31);
+}

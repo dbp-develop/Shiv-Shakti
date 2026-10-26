@@ -7,6 +7,7 @@ import {
   moonrise,
   moonset,
   moonSidereal,
+  newMoonAfter,
   sunrise,
   sunset,
   sunSidereal,
@@ -87,5 +88,16 @@ describe('localDateOf', () => {
   it('returns the date in the given time zone', () => {
     expect(localDateOf(new Date('2026-10-25T20:00:00Z'), 'Asia/Kolkata')).toBe('2026-10-26');
     expect(localDateOf(new Date('2026-10-25T18:00:00Z'), 'Asia/Kolkata')).toBe('2026-10-25');
+  });
+});
+
+describe('newMoonAfter', () => {
+  it('finds the 2026-03-19 new moon (~01:23 UTC) and steps one lunation at a time', () => {
+    const nm = newMoonAfter(new Date('2026-03-01T00:00:00Z'));
+    expect(Math.abs(nm.getTime() - Date.parse('2026-03-19T01:23:00Z'))).toBeLessThan(TWO_MIN * 5);
+    const next = newMoonAfter(new Date(nm.getTime() + 86_400_000));
+    const days = (next.getTime() - nm.getTime()) / 86_400_000;
+    expect(days).toBeGreaterThan(29.2);
+    expect(days).toBeLessThan(29.9);
   });
 });
