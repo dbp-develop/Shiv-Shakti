@@ -1,15 +1,14 @@
 # Shiv-Shakti: Shakti Peetha & Jyotirlinga Interactive Map — Design Spec
 
-Date: 2026-10-25 · Status: approved in brainstorming, awaiting written-spec review
+Date: 2026-10-25 · Revised 2026-10-26 (panchang removed from scope) · Status: revision awaiting written-spec review
 
 ## 1. Goal
 
-A public, free website with an interactive 3D-terrain map of the Shakti Peethas (the 51, the 18 Maha and the 4 Adi Peethas) and the 12 Jyotirlingas. Each temple has photos, an official live darshan stream, history, story, festivals with their dates, unique facts and visiting info. The map carries an Ujjain time and Vikram Samvat widget, and a Panchang menu gives the full panchang, muhurats and Choghadiya. The site is dark by default with a light theme, works on any device, and is available in 7 languages. It must be easy to add more deities and the incarnations of Maa Shakti and Lord Shiva later.
+A public, free website with an interactive 3D-terrain map of the Shakti Peethas (the 51, the 18 Maha and the 4 Adi Peethas) and the 12 Jyotirlingas. Each temple has photos, an official live darshan stream, history, story, festivals (with when they fall in the Hindu calendar), unique facts and visiting info. The site is dark by default with a light theme, works on any device, and is available in 7 languages. It must be easy to add more deities and the incarnations of Maa Shakti and Lord Shiva later.
 
 **Success criteria**
 - Every temple in scope (§2) is on the map at correct coordinates, with complete content in all 7 languages.
 - Terrain visibly shows relief: the Himalayas stand clearly above the Rajasthan plains.
-- Panchang end times are within 2 minutes of a published reference panchang for 25 test dates.
 - Lighthouse score ≥ 90 for accessibility and ≥ 80 for performance on a mid-range phone.
 - Text contrast meets WCAG 2.1 AA in both themes.
 
@@ -31,29 +30,30 @@ Languages: English (`en`), Hindi (`hi`), Bengali (`bn`), Marathi (`mr`), Tamil (
 
 **Out of v1 (later):** offline/installable app (after user testing), pilgrimage route planner, festival reminders, additional deities and incarnations.
 
+**Out of scope:** panchang of any kind — no panchang menu, no Ujjain time or Vikram Samvat widget, no muhurats or Choghadiya, and no calculated festival dates. (Removed 2026-10-26: it added load and is off the project's aim. The earlier engine remains in git history.)
+
 ## 3. Architecture
 
-Fully static site, built with Vite + TypeScript, UI in Preact. Deployed to GitHub Pages by GitHub Actions on every push to `main`. No backend: everything, panchang included, is computed in the browser.
+Fully static site, built with Vite + TypeScript, UI in Preact. Deployed to GitHub Pages by GitHub Actions on every push to `main`. No backend and no astronomy library.
 
 ```
 content/                    ← all editable data (no code)
   temples/<id>.json         one file per temple, all 7 languages
   rivers/<id>.geojson       river geometry + label translations
   boundary/india.geojson    official India boundary
-  festivals.json            festival definitions (tithi rules)
-  i18n/<lang>.json          UI strings + panchang term names
+  festivals.json            festival definitions (when they fall, in words + approx. months)
+  i18n/<lang>.json          UI strings + Hindu month/paksha/tithi names
 src/
   content/   loader + schema (zod); validated at build time
   map/       MapLibre setup, terrain, boundary, rivers, pin layers
-  panchang/  pure astronomy + panchang functions (no DOM)
   i18n/      language detection, string lookup, fonts
-  ui/        header, filters, search, temple sheet, panchang menu, Ujjain widget
-  app.tsx    routing (#/<temple-id>, #/panchang) + state
+  ui/        header, filters, search, temple sheet
+  app.tsx    routing (#/<temple-id>) + state
 scripts/     build-time helpers (Wikimedia photo attribution fetch, content checks)
 tests/       vitest unit tests + Playwright smoke tests
 ```
 
-**Boundaries:** `panchang/` is pure functions (date + location in, results out) with no UI dependency. `map/` only receives a list of temples plus the current filters and emits "temple selected". `content/` is the only module that reads data files. New deity types only add data and a pin style entry, with no code changes elsewhere.
+**Boundaries:** `map/` only receives a list of temples plus the current filters and emits "temple selected". `content/` is the only module that reads data files. New deity types only add data and a pin style entry, with no code changes elsewhere.
 
 ## 4. Map
 
@@ -64,7 +64,6 @@ tests/       vitest unit tests + Playwright smoke tests
 - **Extent:** India plus Pakistan, Nepal, Bangladesh, Sri Lanka and Tibet, so every Peetha is reachable.
 - **Pins:** Jyotirlinga = saffron Shivalinga icon; Maha Shakti Peetha = larger golden pin with a glow; other Peethas = kumkum-red pin; other claimed sites = grey pin. Shapes differ as well as colours. Pins are placed on the terrain surface at each temple's real elevation. They cluster at low zoom. Selecting one flies the camera there (instant when "reduce motion" is on) and opens the temple sheet.
 - **Rivers:** sacred rivers are drawn as glowing lines with labels in the current language. **Saraswati:** a dashed golden-white line along the Ghaggar-Hakra palaeochannel (Adi Badri → Haryana → Rajasthan → Rann of Kutch), approximated from published ISRO/CGWB palaeochannel studies, plus a Triveni Sangam marker at Prayagraj. Tapping it opens an info card covering Rig Vedic references, the scientific findings, and a note that the course is a reconstruction still debated by scholars.
-- **Ujjain widget:** a floating card showing Ujjain local time (live), the Vikram Samvat date, the current tithi and the current Choghadiya. Tapping it opens the Panchang menu.
 - **Controls:** search (any language, matching names and aliases), filters (type, tag, state/country, festival month), locate me, reset view, and "nearest temples" (uses geolocation only on request).
 
 ## 5. Temple page
@@ -75,7 +74,7 @@ Sections, in order: header (names, badges, location, elevation) · photos · liv
 
 - **Photos:** from Wikimedia Commons only. Each temple lists the Commons file names it uses. A build script fetches author, licence and thumbnail URLs into a generated attribution file. Credits are shown under each photo. Photos are lazy-loaded.
 - **Live darshan:** only streams verified as the temple trust's own (official YouTube channel or website). Each one stores a `lastVerified` date. If the embed fails, or the temple has no stream, a button opens the official website. Stream links are never guessed.
-- **Festivals:** defined by a Hindu calendar rule (masa + paksha + tithi, or a solar event such as Makar Sankranti). The panchang engine calculates the next regular date.
+- **Festivals:** each festival states when it falls, in words, plus the approximate Gregorian months — e.g. "Maha Shivaratri — Phalguna Krishna 14 (Feb–Mar)", "Shravan Somvar — Mondays of Shravana (Jul–Aug)", "Makar Sankranti — Sun enters Makara (Jan)". Nothing is calculated. `content/festivals.json` stores a structured `when` — `{kind: 'tithi', masa, paksha, tithi, days?}` | `{kind: 'sankranti', rashi, offsetDays?, days?}` | `{kind: 'weekday-in-masa', masa, weekday}` — and `months` (1–12). `days` renders a range ("Ashvina Shukla 1–9" for Sharad Navratri); `offsetDays` covers festivals tied to a solar date (Ambubachi: "from the 7th day of Ashadha (solar), 4 days (Jun)"). The text is built from translated month, paksha, tithi, rashi and weekday names, so every language gets it without free text. Month names follow the Purnimanta convention (as used in Ujjain and North India). The "festival month" filter uses `months`.
 - **Deep links:** `#/<temple-id>` opens the map at that temple with its sheet open.
 
 ### Temple data file (schema sketch)
@@ -104,20 +103,11 @@ Sections, in order: header (names, badges, location, elevation) · photos · liv
 
 The build fails if any required field or language is missing, if coordinates fall outside the map extent, or if a darshan entry lacks `official: true` and `lastVerified`.
 
-## 6. Panchang
-
-- **Location:** Ujjain (23.1765° N, 75.7885° E, IST) by default; an optional "Use my location" recalculates for the user's position and time zone.
-- **Engine:** `astronomy-engine` (MIT) for Sun and Moon positions and rise/set times; **Lahiri (Chitrapaksha)** ayanamsa; the day starts at local sunrise.
-- **Outputs:** vara, tithi, nakshatra, yoga and karana, each with its end time; paksha, masa, ritu, ayana; sunrise, sunset, moonrise, moonset; Vikram Samvat and Shaka Samvat years; Purnimanta month naming by default, with an Amanta toggle. Adhik and kshaya masa and kshaya/vriddhi tithis are handled.
-- **Muhurats:** Brahma muhurat, Abhijit and Godhuli (shown as good), and Rahu Kaal, Yamaganda, Gulika and Durmuhurat (shown as times to avoid).
-- **Choghadiya:** 8 day and 8 night periods from sunrise to sunset and sunset to the next sunrise, using the standard weekday sequence. The current period is highlighted, with a countdown.
-- **Views:** Today; monthly calendar (tithis and festivals, tap a festival → temples celebrating it); date picker for any date.
-- **Festival resolver:** given a festival rule and a date range, returns the matching dates. It's used by the temple pages and the calendar.
-- **Disclaimer:** "For rituals, please confirm timings with your temple or priest."
+## 6. (Removed: Panchang — see §2 Out of scope)
 
 ## 7. Languages & themes
 
-- **i18n:** the language button lists each language in its own script. The browser language is auto-detected on first visit and the choice is saved to `localStorage`. All UI strings, content, panchang terms and map labels are translated. Missing text falls back to English, with a visible marker (and also fails the content check).
+- **i18n:** the language button lists each language in its own script. The browser language is auto-detected on first visit and the choice is saved to `localStorage`. All UI strings, content, calendar terms (month, paksha, tithi, rashi and weekday names) and map labels are translated. Missing text falls back to English, with a visible marker (and also fails the content check).
 - **Fonts:** Noto Sans plus Noto Sans Devanagari, Bengali, Tamil, Telugu and Gujarati, each loaded only when its language is active.
 - **Translation review:** a per-language `translationReviewed` flag. Unreviewed content shows a small "machine-assisted translation" note.
 - **Themes:** dark by default (night indigo background, ivory text, saffron/gold accents; dark map style) and light (warm cream background, maroon-brown text, saffron/deep red accents; light map style). Colours are CSS custom properties, and the choice is saved. Both themes are checked against WCAG AA.
@@ -131,14 +121,14 @@ The build fails if any required field or language is missing, if coordinates fal
 | Terrain tiles fail | Fall back to the flat map with a small notice |
 | Darshan embed blocked or offline | Show the official website button |
 | Photo fails to load | Hide that photo; keep the credits list |
-| Geolocation denied | Keep Ujjain; explain briefly |
+| Geolocation denied | "Locate me" / "nearest temples" stay off; explain briefly |
 | Missing translation | English fallback + marker (blocked in CI) |
 
 ## 9. Testing
 
-- **Unit (Vitest):** panchang functions against reference fixtures for 25 dates (including adhik masa, a kshaya tithi and a vriddhi tithi), Choghadiya sequences for all 7 weekdays, the festival resolver (e.g., Maha Shivaratri and Navratri for 2026–2027), Vikram Samvat year rollover.
-- **Content checks (CI):** schema validation, presence of all 7 languages, coordinates inside the extent, darshan fields, unique ids.
-- **Smoke tests (Playwright):** the map loads, a pin opens the sheet, the language switch changes text, the theme toggle works, a deep link opens the right temple, the Panchang menu renders, phone and desktop viewports.
+- **Unit (Vitest):** content loader, filters (including festival month), search, i18n lookups, and festival "when" text (e.g., English renders "Maha Shivaratri — Phalguna Krishna 14 (Feb–Mar)").
+- **Content checks (CI):** schema validation, presence of all 7 languages, coordinates inside the extent, darshan fields, unique ids, every festival has a valid `when` and at least one month in 1–12, and every temple festival id exists in `festivals.json`.
+- **Smoke tests (Playwright):** the map loads, a pin opens the sheet, the language switch changes text, the theme toggle works, a deep link opens the right temple, phone and desktop viewports.
 - **Accessibility:** axe checks in Playwright; Lighthouse in CI.
 
 ## 10. Delivery
@@ -146,4 +136,4 @@ The build fails if any required field or language is missing, if coordinates fal
 - **Repository:** https://github.com/dbp-develop/Shiv-Shakti (Apache-2.0); local clone at `~/projects/shiv-shakti`; site at https://dbp-develop.github.io/Shiv-Shakti/.
 - **CI:** GitHub Actions runs build + tests on each push and deploys to Pages from `main`.
 - **Node.js:** installed in the user's home directory for local testing (no sudo).
-- **Build order (for the plan):** scaffold + CI → panchang engine + tests → map with terrain, boundary, rivers → temple data schema + pins → temple sheet → Panchang menu + widget → i18n + themes → content for all temples × 7 languages → verification pass → launch.
+- **Build order (for the plan):** scaffold + CI → map with terrain, boundary, rivers → temple data schema + festival data + pins → temple sheet → i18n + themes → content for all temples × 7 languages → verification pass → launch.
