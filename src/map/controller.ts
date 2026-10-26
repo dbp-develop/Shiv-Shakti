@@ -97,10 +97,24 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
   });
 
   await new Promise<void>((resolve, reject) => {
-    map.once('load', () => resolve());
-    map.once('error', (e) => {
-      if (!map.loaded()) reject(e.error);
-    });
+    const cleanup = () => {
+      map.off('load', onLoad);
+      map.off('error', onError);
+    };
+    const onLoad = () => {
+      cleanup();
+      resolve();
+    };
+    // Only style-level failures (no sourceId) abort; tile/source errors (e.g. the DEM) are
+    // absorbed by the terrain fallback above.
+    const onError = (e: { sourceId?: string; error: Error }) => {
+      if (e.sourceId) return;
+      cleanup();
+      map.remove();
+      reject(e.error);
+    };
+    map.on('load', onLoad);
+    map.on('error', onError);
   });
 
   const dur = (ms: number) => (reduced ? 0 : ms);

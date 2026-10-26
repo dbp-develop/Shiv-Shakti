@@ -8,7 +8,7 @@ export function App() {
   useEffect(() => {
     if (!ref.current) return;
     const p = createMap(ref.current, { theme: theme.value, lang: lang.value, reducedMotion: reducedMotion.value });
-    p.catch(() => undefined);
+    p.catch((e) => console.error('Map failed to start', e));
     return () => void p.then((c) => c.destroy()).catch(() => undefined);
   }, []);
   return <main id="app-root" ref={ref} style={{ position: 'fixed', inset: 0 }} />;
