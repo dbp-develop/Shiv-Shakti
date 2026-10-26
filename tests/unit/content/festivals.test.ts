@@ -1,4 +1,5 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
+import { allowUntranslated } from '../../../src/content/langs';
 import {
   FestivalSchema,
   festivalWhenText,
@@ -87,7 +88,18 @@ describe('FestivalSchema', () => {
       process.env.ALLOW_UNTRANSLATED = '0';
       expect(FestivalSchema.safeParse(base).success).toBe(false);
     } finally {
-      process.env.ALLOW_UNTRANSLATED = prev;
+      if (prev === undefined) delete process.env.ALLOW_UNTRANSLATED;
+      else process.env.ALLOW_UNTRANSLATED = prev;
+    }
+  });
+
+  it('does not touch process when it is undefined (browser)', () => {
+    vi.stubGlobal('process', undefined);
+    try {
+      expect(allowUntranslated()).toBe(false);
+      expect(FestivalSchema.safeParse(base).success).toBe(false);
+    } finally {
+      vi.unstubAllGlobals();
     }
   });
 });
