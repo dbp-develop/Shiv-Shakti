@@ -1,20 +1,18 @@
 import type { Theme } from '../state';
+import { PIN_COLORS } from './pinColors';
 
 export const ICON_IDS = ['pin-jyotirlinga', 'pin-maha-peetha', 'pin-peetha', 'pin-alternate'] as const;
 export type IconId = (typeof ICON_IDS)[number];
 
-/** Canvas pixel size; added with pixelRatio 2, so icons are 24 CSS px before `icon-size`. */
+/** Canvas pixel size; added with pixelRatio 1.5, so icons are 32 CSS px before `icon-size`. */
 export const ICON_SIZE = 48;
+export const ICON_PIXEL_RATIO = 1.5;
 
-/** Pin colours, matching --accent / --gold / --kumkum / --muted in tokens.css per theme. */
-const COLORS: Record<Theme, { saffron: string; gold: string; kumkum: string; grey: string; edge: string }> = {
-  dark: { saffron: '#ff9933', gold: '#e8b44c', kumkum: '#e04a5a', grey: '#c9bfae', edge: '#12142b' },
-  light: { saffron: '#b05700', gold: '#9a6a00', kumkum: '#9e1b32', grey: '#6e4a3c', edge: '#fbf5e9' },
-};
 
 /** Every shape is anchored at the bottom centre (the tip of the pin sits on the temple). */
 function draw(ctx: CanvasRenderingContext2D, id: IconId, theme: Theme): void {
-  const c = COLORS[theme];
+  const p = PIN_COLORS[theme];
+  const c = { saffron: p.accent, gold: p.gold, kumkum: p.kumkum, grey: p.muted, edge: p.bg };
   const cx = ICON_SIZE / 2;
   ctx.lineJoin = 'round';
   ctx.lineWidth = 2.5;
@@ -36,12 +34,13 @@ function draw(ctx: CanvasRenderingContext2D, id: IconId, theme: Theme): void {
     ctx.stroke();
   } else if (id === 'pin-maha-peetha') {
     // Golden lotus on a stem, with a soft halo behind it.
-    const halo = ctx.createRadialGradient(cx, 22, 4, cx, 22, 22);
-    halo.addColorStop(0, `${c.gold}cc`);
+    const halo = ctx.createRadialGradient(cx, 24, 6, cx, 24, 24);
+    halo.addColorStop(0, `${c.gold}ff`);
+    halo.addColorStop(0.55, `${c.gold}88`);
     halo.addColorStop(1, `${c.gold}00`);
     ctx.fillStyle = halo;
     ctx.beginPath();
-    ctx.arc(cx, 22, 22, 0, Math.PI * 2);
+    ctx.arc(cx, 24, 24, 0, Math.PI * 2);
     ctx.fill();
     ctx.fillStyle = c.gold;
     for (const a of [-0.9, 0.9, -0.45, 0.45, 0]) {
@@ -81,9 +80,9 @@ function draw(ctx: CanvasRenderingContext2D, id: IconId, theme: Theme): void {
     ctx.fillStyle = c.grey;
     ctx.beginPath();
     ctx.moveTo(cx, 46);
-    ctx.lineTo(cx - 9, 36);
-    ctx.lineTo(cx, 26);
-    ctx.lineTo(cx + 9, 36);
+    ctx.lineTo(cx - 13, 33);
+    ctx.lineTo(cx, 20);
+    ctx.lineTo(cx + 13, 33);
     ctx.closePath();
     ctx.fill();
     ctx.stroke();

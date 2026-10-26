@@ -4,7 +4,8 @@ import type { Lang } from '../content/langs';
 import { pinCategory, type PinCategory, type Temple } from '../content/schema';
 import { t } from '../i18n';
 import type { Theme } from '../state';
-import { ICON_IDS, renderIcon } from './icons';
+import { ICON_IDS, ICON_PIXEL_RATIO, renderIcon } from './icons';
+import { PIN_COLORS } from './pinColors';
 
 export type PinKind = PinCategory | 'alternate';
 export interface PinProps {
@@ -14,8 +15,11 @@ export interface PinProps {
 }
 
 export const CLUSTER_OPTIONS = { cluster: true, clusterMaxZoom: 7, clusterRadius: 40 } as const;
-/** Camera target when a temple is selected (zoom 11 is above clusterMaxZoom, so its pin is single). */
-export const FLY_TO = { zoom: 11, pitch: 60 } as const;
+/** Zoom on selecting a temple (above clusterMaxZoom, so its pin is single) and the pitch in 3D (2D uses 0). */
+export const SELECT_ZOOM = 11;
+export const SELECT_PITCH_3D = 60;
+/** Minimum tap target: pins are hit-tested in a box this many px square around the tap. */
+const HIT_SIZE = 44;
 
 const SOURCE = 'temples';
 
@@ -47,16 +51,16 @@ export function templesToGeoJSON(ts: Temple[], lang: Lang): FeatureCollection<Po
   return { type: 'FeatureCollection', features };
 }
 
-const COLORS: Record<Theme, { cluster: string; clusterText: string; ring: string; text: string; halo: string }> = {
-  dark: { cluster: '#ff9933', clusterText: '#12142b', ring: '#fff1c9', text: '#f4ead7', halo: '#12142b' },
-  light: { cluster: '#b05700', clusterText: '#fbf5e9', ring: '#12142b', text: '#2a1a12', halo: '#fbf5e9' },
-};
+function colors(theme: Theme) {
+  const p = PIN_COLORS[theme];
+  return { cluster: p.accent, clusterText: p.bg, ring: p.text, text: p.text, halo: p.bg };
+}
 const DEFAULT_FONT = ['Noto Sans Regular'];
 const UNCLUSTERED: ExpressionSpecification = ['!', ['has', 'point_count']];
 
 /** Bottom-to-top: clusters, cluster counts, selection ring, pins, then pin names at close zoom. */
 export function pinLayers(theme: Theme, font: string[] = DEFAULT_FONT, selectedId: string | null = null): LayerSpecification[] {
-  const c = COLORS[theme];
+  const c = colors(theme);
   return [
     {
       id: 'pins-cluster',
@@ -65,7 +69,7 @@ export function pinLayers(theme: Theme, font: string[] = DEFAULT_FONT, selectedI
       filter: ['has', 'point_count'],
       paint: {
         'circle-color': c.cluster,
-        'circle-radius': ['step', ['get', 'point_count'], 16, 10, 20, 30, 25],
+        'circle-radius': ['step', ['get', 'point_count'], 20, 10, 24, 30, 28],
         'circle-stroke-color': c.ring,
         'circle-stroke-width': 2,
         'circle-opacity': 0.92,
@@ -90,7 +94,7 @@ export function pinLayers(theme: Theme, font: string[] = DEFAULT_FONT, selectedI
       type: 'circle',
       source: SOURCE,
       filter: ['==', ['get', 'id'], selectedId ?? ''],
-      paint: { 'circle-radius': 20, 'circle-color': 'rgba(0,0,0,0)', 'circle-stroke-color': c.ring, 'circle-stroke-width': 3, 'circle-translate': [0, -10] },
+      paint: { 'circle-radius': 26, 'circle-color': 'rgba(0,0,0,0)', 'circle-stroke-color': c.ring, 'circle-stroke-width': 3, 'circle-translate': [0, -16] },
     },
     {
       // Pins must never be culled or hidden by the terrain draping or by neighbouring labels:
@@ -130,7 +134,7 @@ export function pinLayers(theme: Theme, font: string[] = DEFAULT_FONT, selectedI
 }
 
 function addImages(map: MlMap, theme: Theme): void {
-  for (const id of ICON_IDS) if (!map.hasImage(id)) map.addImage(id, renderIcon(id, theme), { pixelRatio: 2 });
+  for (const id of ICON_IDS) if (!map.hasImage(id)) map.addImage(id, renderIcon(id, theme), { pixelRatio: ICON_PIXEL_RATIO });
 }
 
 /**
@@ -163,7 +167,10 @@ export type PinHit =
 /** The pin or cluster under a screen point, or null. Clusters and single pins are mutually exclusive in the source. */
 export function pinHitAt(map: MlMap, point: PointLike): PinHit | null {
   if (!map.getLayer('pins')) return null;
-  const hit = map.queryRenderedFeatures(point, { layers: ['pins-cluster', 'pins'] })[0];
+  const [x, y] = Array.isArray(point) ? point : [point.x, point.y];
+  const r = HIT_SIZE / 2;
+  const box: [PointLike, PointLike] = [[x - r, y - r], [x + r, y + r]];
+  const hit = map.queryRenderedFeatures(box, { layers: ['pins-cluster', 'pins'] })[0];
   if (!hit) return null;
   const p = hit.properties ?? {};
   if (p.cluster) return { kind: 'cluster', clusterId: Number(p.cluster_id), center: (hit.geometry as Point).coordinates as [number, number] };
@@ -182,8 +189,19 @@ const CATEGORY_KEY: Record<PinKind, string> = {
  * Fills `host` with a visually hidden (class `sr-only`), keyboard-focusable list that mirrors the pins.
  * Each button's ARIA label is "<name>, <category>" and selects the (parent) temple on Enter or click.
  */
-export function buildMarkerList(host: HTMLElement, temples: Temple[], lang: Lang, onPick: (templeId: string) => void): void {
+export function buildMarkerList(
+  host: HTMLElement,
+  temples: Temple[],
+  lang: Lang,
+  onPick: (templeId: string) => void,
+  onSkip?: () => void,
+): void {
   host.replaceChildren();
+  const skip = document.createElement('button');
+  skip.type = 'button';
+  skip.textContent = t('pins.skip');
+  skip.addEventListener('click', () => onSkip?.());
+  host.append(skip);
   const ul = document.createElement('ul');
   ul.setAttribute('aria-label', t('pins.listLabel'));
   for (const f of templesToGeoJSON(temples, lang).features) {

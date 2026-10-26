@@ -6,7 +6,7 @@ import type { Temple } from '../content/schema';
 import type { GeoJSONSource } from 'maplibre-gl';
 import type { Theme } from '../state';
 import { installBoundary } from './boundary';
-import { FLY_TO, buildMarkerList, installPins, pinHitAt, setPinsData, setPinsSelected, templeIdOf } from './pins';
+import { SELECT_PITCH_3D, SELECT_ZOOM, buildMarkerList, installPins, pinHitAt, setPinsData, setPinsSelected, templeIdOf } from './pins';
 import { installRivers, riverIdAt, setRiversLang } from './rivers';
 import { OPENFREEMAP_STYLE_URL, transformBaseStyle } from './style';
 import { DEFAULT_PITCH, installTerrain, setTerrainEnabled } from './terrain';
@@ -101,7 +101,7 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
   const markerHost = document.createElement('div');
   markerHost.className = 'sr-only';
   el.append(markerHost);
-  const rebuildMarkers = () => buildMarkerList(markerHost, temples, lang, (id) => pick(id));
+  const rebuildMarkers = () => buildMarkerList(markerHost, temples, lang, (id) => pick(id), () => map.getCanvas().focus());
 
   // Pins and clusters take precedence over rivers: a tap on one never also opens a river card.
   map.on('click', (e) => {
@@ -157,7 +157,7 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
     setPinsSelected(map, id);
     const tp = id ? temples.find((x) => x.id === id) : undefined;
     if (!tp) return;
-    const cam = { center: [tp.location.lng, tp.location.lat] as [number, number], ...FLY_TO };
+    const cam = { center: [tp.location.lng, tp.location.lat] as [number, number], zoom: SELECT_ZOOM, pitch: is3D ? SELECT_PITCH_3D : 0 };
     if (reduced || opts?.animate === false) map.jumpTo(cam);
     else map.flyTo(cam);
   }

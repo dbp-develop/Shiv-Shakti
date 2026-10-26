@@ -7,7 +7,7 @@ vi.mock('maplibre-gl/dist/maplibre-gl.css', () => ({}));
 
 vi.mock('../../../src/map/terrain', () => ({ DEFAULT_PITCH: 45, installTerrain: vi.fn(), setTerrainEnabled: vi.fn() }));
 vi.mock('../../../src/map/boundary', () => ({ installBoundary: vi.fn() }));
-vi.mock('../../../src/map/icons', () => ({ ICON_IDS: ['pin-jyotirlinga'], renderIcon: () => ({}) }));
+vi.mock('../../../src/map/icons', () => ({ ICON_IDS: ['pin-jyotirlinga'], ICON_PIXEL_RATIO: 1.5, renderIcon: () => ({}) }));
 
 import { createMap } from '../../../src/map/controller';
 
@@ -52,6 +52,8 @@ describe('temple pins in the controller', () => {
       queryRenderedFeatures: vi.fn(() => []),
       getCanvas: () => ({ style: {} }),
       flyTo: vi.fn(),
+      getBearing: () => 0,
+      setLayoutProperty: vi.fn(),
       jumpTo: vi.fn(),
       easeTo: vi.fn(),
       isStyleLoaded: () => true,
@@ -125,6 +127,32 @@ describe('temple pins in the controller', () => {
     b.c.select('kedarnath');
     expect(b.fake.jumpTo).toHaveBeenCalledWith({ center: [79.0669, 30.7352], zoom: 11, pitch: 60 });
     expect(b.fake.flyTo).not.toHaveBeenCalled();
+  });
+
+  it('select uses pitch 0 once 3D is turned off, and 60 when back on', async () => {
+    const { c, fake } = await setup();
+    c.setTemples([temple]);
+    c.set3D(false);
+    c.select('kedarnath');
+    expect(fake.flyTo).toHaveBeenLastCalledWith({ center: [79.0669, 30.7352], zoom: 11, pitch: 0 });
+    c.set3D(true);
+    c.select('kedarnath');
+    expect(fake.flyTo).toHaveBeenLastCalledWith({ center: [79.0669, 30.7352], zoom: 11, pitch: 60 });
+  });
+
+  it('setTemples and setLang rebuild the marker list; a list button reaches onSelect', async () => {
+    const { c, el } = await setup();
+    const onSelect = vi.fn();
+    c.onSelect(onSelect);
+    expect(el.querySelectorAll('li button')).toHaveLength(0);
+    const t2 = { ...temple, name: { ...temple.name, hi: 'केदारनाथ' } };
+    c.setTemples([t2]);
+    const btn = () => el.querySelector('li button') as HTMLButtonElement;
+    expect(btn().getAttribute('aria-label')).toBe('Kedarnath, Jyotirlinga');
+    c.setLang('hi');
+    expect(btn().getAttribute('aria-label')).toContain('केदारनाथ');
+    btn().click();
+    expect(onSelect).toHaveBeenCalledWith('kedarnath');
   });
 
   it('select(id, {animate:false}) jumps, and select(null) does not move the camera', async () => {
