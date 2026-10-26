@@ -306,7 +306,7 @@ tests/      unit/**  content/**  e2e/**  fixtures/**
   | `--surface` | `#1C1F3D` | `#FFFFFF` |
   | `--text` | `#F3EBDD` | `#4A1F14` |
   | `--muted` | `#C9BFAE` | `#6E4A3C` |
-  | `--accent` | `#FF9933` | `#B85C00` |
+  | `--accent` | `#FF9933` | `#B05700` |
   | `--gold` | `#E8B44C` | `#9A6A00` |
   | `--kumkum` | `#E04A5A` | `#9E1B32` |
   | `--good` | `#5FD08A` | `#1E7A44` |
