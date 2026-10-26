@@ -1,0 +1,147 @@
+[
+  {
+    "id": "somnath",
+    "nameEn": "Somnath",
+    "primary": { "lat": 20.888, "lng": 70.4013, "place": "Prabhas Patan, Veraval, Gir Somnath district, Gujarat", "country": "IN" },
+    "alternates": [],
+    "sources": [
+      { "title": "Wikipedia: Somnath temple (coordinates 20.888, 70.4014)", "url": "https://en.wikipedia.org/wiki/Somnath_temple" },
+      { "title": "OpenStreetMap: Somnath Temple (way 387205455)", "url": "https://www.openstreetmap.org/way/387205455" },
+      { "title": "Shree Somnath Trust (official)", "url": "https://somnath.org/" }
+    ]
+  },
+  {
+    "id": "mallikarjuna",
+    "nameEn": "Mallikarjuna (Srisailam)",
+    "primary": { "lat": 16.0742, "lng": 78.8681, "place": "Srisailam, Nandyal district, Andhra Pradesh", "country": "IN" },
+    "alternates": [],
+    "sources": [
+      { "title": "Wikipedia: Mallikarjuna Temple, Srisailam", "url": "https://en.wikipedia.org/wiki/Mallikarjuna_Temple,_Srisailam" },
+      { "title": "OpenStreetMap: Mallikarjuna Swamy temple (way 130512419)", "url": "https://www.openstreetmap.org/way/130512419" },
+      { "title": "Srisaila Devasthanam (official)", "url": "https://www.srisailadevasthanam.org/" }
+    ]
+  },
+  {
+    "id": "mahakaleshwar",
+    "nameEn": "Mahakaleshwar (Ujjain)",
+    "primary": { "lat": 23.183, "lng": 75.7682, "place": "Ujjain, Madhya Pradesh", "country": "IN" },
+    "alternates": [],
+    "sources": [
+      { "title": "Wikipedia: Mahakaleshwar Jyotirlinga (coordinates 23.1828, 75.7683)", "url": "https://en.wikipedia.org/wiki/Mahakaleshwar_Jyotirlinga" },
+      { "title": "OpenStreetMap: Shri Mahakaleshwar Jyotirlinga (way 373720479)", "url": "https://www.openstreetmap.org/way/373720479" },
+      { "title": "Shri Mahakaleshwar Temple Management Committee (official)", "url": "https://www.shrimahakaleshwar.mp.gov.in/" }
+    ]
+  },
+  {
+    "id": "omkareshwar",
+    "nameEn": "Omkareshwar",
+    "primary": { "lat": 22.2457, "lng": 76.1508, "place": "Mandhata island, Omkareshwar, Khandwa district, Madhya Pradesh", "country": "IN" },
+    "alternates": [
+      { "lat": 22.2422, "lng": 76.1505, "place": "Mamleshwar (Amareshwar) temple, south bank of the Narmada, Omkareshwar, Madhya Pradesh", "country": "IN", "note": "Many traditions hold that the Jyotirlinga is Omkareshwar and Mamleshwar together; some regard Mamleshwar (Amaleshwar) as the Jyotirlinga itself." }
+    ],
+    "sources": [
+      { "title": "Wikipedia: Omkareshwar Temple (coordinates 22°14′44.1″N 76°09′03.8″E)", "url": "https://en.wikipedia.org/wiki/Omkareshwar_Temple" },
+      { "title": "OpenStreetMap: Omkareshwar Mahadev Temple (way 373720700)", "url": "https://www.openstreetmap.org/way/373720700" },
+      { "title": "Wikidata: Mamleshwara temple, Omkareshwar (Q97946837) and OpenStreetMap way 1163007413", "url": "https://www.wikidata.org/wiki/Q97946837" }
+    ]
+  },
+  {
+    "id": "kedarnath",
+    "nameEn": "Kedarnath",
+    "primary": { "lat": 30.7352, "lng": 79.0669, "place": "Kedarnath, Rudraprayag district, Uttarakhand", "country": "IN" },
+    "alternates": [],
+    "sources": [
+      { "title": "Wikipedia: Kedarnath Temple (coordinates 30°44′6.7″N 79°4′0.9″E)", "url": "https://en.wikipedia.org/wiki/Kedarnath_Temple" },
+      { "title": "OpenStreetMap: Kedarnath Mandir (way 226843462)", "url": "https://www.openstreetmap.org/way/226843462" },
+      { "title": "Shri Badarinath-Shri Kedarnath Temple Committee (official)", "url": "https://badrinath-kedarnath.gov.in/" }
+    ]
+  },
+  {
+    "id": "bhimashankar",
+    "nameEn": "Bhimashankar",
+    "primary": { "lat": 19.072, "lng": 73.536, "place": "Bhimashankar, Khed/Ambegaon, Pune district, Maharashtra", "country": "IN" },
+    "alternates": [
+      { "lat": 26.0971, "lng": 91.6961, "place": "Bhimeswar Dham, Pamohi (Dakini hills), Guwahati, Kamrup, Assam", "country": "IN", "note": "Claimed from the Shiva Purana's 'Dakinyam ... Kamarupa' reading; promoted by the Assam government in 2023. There is no temple building: a linga in a hill stream. Coordinates from Wikipedia's Bhimeswar Dham article; not cross-checked on a map to within 1 km." },
+      { "lat": 29.2027, "lng": 78.9843, "place": "Moteshwar Mahadev (Bheemashankar) temple, Ujjanak, Kashipur, Udham Singh Nagar, Uttarakhand", "country": "IN", "note": "Local tradition (Kashipur was 'Dakini state'). Wikipedia's infobox coordinates (28.9765, 79.3937) are wrong (they fall near Rudrapur); this point is from a Kashipur listing and lies about 170 m from the OSM-mapped Maa Bala Sundari (Chaiti) temple next to the shrine. Approximate; not verified to within 1 km." }
+    ],
+    "sources": [
+      { "title": "Wikipedia: Bhimashankar Temple (coordinates 19.0719, 73.5358)", "url": "https://en.wikipedia.org/wiki/Bhimashankar_Temple" },
+      { "title": "OpenStreetMap: Bhimashankar Temple (way 373720739)", "url": "https://www.openstreetmap.org/way/373720739" },
+      { "title": "Wikipedia: Bhimeswar Dham (Pamohi, Guwahati)", "url": "https://en.wikipedia.org/wiki/Bhimeswar_Dham" },
+      { "title": "Wikipedia: Moteshwar Mahadev (Kashipur)", "url": "https://en.wikipedia.org/wiki/Moteshwar_Mahadev" },
+      { "title": "EastMojo: Bhimashankar Jyotirlinga located in Assam's Kamrup, says Himanta (2023)", "url": "https://eastmojo.com/assam/2023/02/20/bhimashankar-jyotirlinga-located-in-assams-kamrup-himanta/" },
+      { "title": "Udham Singh Nagar district (official): Chaiti Devi / Moteshwar Mahadev temple", "url": "https://usnagar.nic.in/?p=24037" }
+    ]
+  },
+  {
+    "id": "kashi-vishwanath",
+    "nameEn": "Kashi Vishwanath",
+    "primary": { "lat": 25.3108, "lng": 83.0106, "place": "Varanasi, Uttar Pradesh", "country": "IN" },
+    "alternates": [],
+    "sources": [
+      { "title": "Wikipedia: Kashi Vishwanath Temple (coordinates 25.3108, 83.0106)", "url": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple" },
+      { "title": "OpenStreetMap: Kashi Vishwanath Temple (node 5841246496)", "url": "https://www.openstreetmap.org/node/5841246496" },
+      { "title": "Shri Kashi Vishwanath Temple Trust (official)", "url": "https://shrikashivishwanath.org/" }
+    ]
+  },
+  {
+    "id": "trimbakeshwar",
+    "nameEn": "Trimbakeshwar",
+    "primary": { "lat": 19.9321, "lng": 73.5308, "place": "Trimbak, Nashik district, Maharashtra", "country": "IN" },
+    "alternates": [],
+    "sources": [
+      { "title": "Wikipedia: Trimbakeshwar Shiva Temple (coordinates 19.9322, 73.5308)", "url": "https://en.wikipedia.org/wiki/Trimbakeshwar_Shiva_Temple" },
+      { "title": "OpenStreetMap: Trimbakeshwar Temple (way 431774966)", "url": "https://www.openstreetmap.org/way/431774966" }
+    ]
+  },
+  {
+    "id": "vaidyanath",
+    "nameEn": "Vaidyanath (Baidyanath)",
+    "primary": { "lat": 24.4928, "lng": 86.7, "place": "Baidyanath Dham, Deoghar, Jharkhand", "country": "IN" },
+    "alternates": [
+      { "lat": 18.8422, "lng": 76.5352, "place": "Vaijnath temple, Parli Vaijnath, Beed district, Maharashtra", "country": "IN", "note": "Claimed from the stotram reading 'Paralyam Vaidyanatham'; Maharashtra tradition holds Parli to be the Jyotirlinga." }
+    ],
+    "sources": [
+      { "title": "Wikipedia: Baidyanath Temple / Wikidata Q1089897 (24.4925, 86.7000)", "url": "https://en.wikipedia.org/wiki/Baidyanath_Temple" },
+      { "title": "OpenStreetMap: Baidyanathdham (way 154382123)", "url": "https://www.openstreetmap.org/way/154382123" },
+      { "title": "Wikidata: Shri Vaijnath Temple, Parli (Q60617890) and OpenStreetMap way 1436676180", "url": "https://www.wikidata.org/wiki/Q60617890" },
+      { "title": "Wikipedia: Jyotirlinga (stotram 'paralyam Vaidyanatham')", "url": "https://en.wikipedia.org/wiki/Jyotirlinga" }
+    ]
+  },
+  {
+    "id": "nageshwar",
+    "nameEn": "Nageshwar",
+    "primary": { "lat": 22.3359, "lng": 69.0869, "place": "Nageshwar, near Dwarka, Devbhumi Dwarka district, Gujarat", "country": "IN" },
+    "alternates": [
+      { "lat": 19.5371, "lng": 77.0415, "place": "Aundha Nagnath temple, Aundha, Hingoli district, Maharashtra", "country": "IN", "note": "Claimed as the 'Nagesham Darukavane' Jyotirlinga by Maharashtra tradition." },
+      { "lat": 29.6375, "lng": 79.8543, "place": "Jageshwar temple complex, Almora district, Uttarakhand", "country": "IN", "note": "Claimed as the Nageshwar Jyotirlinga by local Kumaon tradition (Daruka-vana read as the deodar forest)." }
+    ],
+    "sources": [
+      { "title": "Wikidata: Nageshvara Jyotirlinga (Q1089275), 22.3359, 69.0869; OpenStreetMap Nageshwar Temple Road", "url": "https://www.wikidata.org/wiki/Q1089275" },
+      { "title": "Wikipedia: Nageshvara Jyotirlinga", "url": "https://en.wikipedia.org/wiki/Nageshvara_Jyotirlinga" },
+      { "title": "Wikipedia: Aundha Nagnath Temple / Wikidata Q15194007 (19.5371, 77.0415)", "url": "https://en.wikipedia.org/wiki/Aundha_Nagnath_Temple" },
+      { "title": "OpenStreetMap: Jageshwar temple complex (way 484251650); Wikidata Q116311650", "url": "https://www.openstreetmap.org/way/484251650" },
+      { "title": "Wikipedia: Jyotirlinga (other claims to Nagesh)", "url": "https://en.wikipedia.org/wiki/Jyotirlinga" }
+    ]
+  },
+  {
+    "id": "rameshwaram",
+    "nameEn": "Rameshwaram (Ramanathaswamy)",
+    "primary": { "lat": 9.2881, "lng": 79.3174, "place": "Rameswaram, Ramanathapuram district, Tamil Nadu", "country": "IN" },
+    "alternates": [],
+    "sources": [
+      { "title": "Wikipedia: Ramanathaswamy Temple", "url": "https://en.wikipedia.org/wiki/Ramanathaswamy_Temple" },
+      { "title": "OpenStreetMap: Ramanathaswamy Temple (way 1027345878)", "url": "https://www.openstreetmap.org/way/1027345878" }
+    ]
+  },
+  {
+    "id": "grishneshwar",
+    "nameEn": "Grishneshwar",
+    "primary": { "lat": 20.0249, "lng": 75.1698, "place": "Verul (Ellora), Chhatrapati Sambhajinagar district, Maharashtra", "country": "IN" },
+    "alternates": [],
+    "sources": [
+      { "title": "Wikipedia: Grishneshwar Temple (coordinates 20.025, 75.1699)", "url": "https://en.wikipedia.org/wiki/Grishneshwar_Temple" },
+      { "title": "OpenStreetMap: Ghrishneshwar Mandir (way 245251348)", "url": "https://www.openstreetmap.org/way/245251348" }
+    ]
+  }
+]

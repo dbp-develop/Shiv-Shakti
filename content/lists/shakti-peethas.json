@@ -1,0 +1,2730 @@
+[
+  {
+    "id": "hinglaj",
+    "nameEn": "Hingula (Hinglaj)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Brahmarandhra (crown of the head)",
+    "devi": "Kottari (Kottavisha); locally Hinglaj Mata / Bibi Nani",
+    "bhairava": "Bhimalochana",
+    "candidates": [
+      {
+        "lat": 25.5127,
+        "lng": 65.5156,
+        "place": "Hinglaj Mata cave temple, Hingol National Park, Lasbela district, Balochistan",
+        "country": "PK"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "OpenStreetMap: Hinglaj Mata Mandir (node 4081039770)",
+        "url": "https://www.openstreetmap.org/node/4081039770"
+      },
+      {
+        "title": "Wikidata: Hinglaj Mata (Q2722882)",
+        "url": "https://www.wikidata.org/wiki/Q2722882"
+      }
+    ]
+  },
+  {
+    "id": "karavira",
+    "nameEn": "Karavira (Mahalakshmi, Kolhapur)",
+    "lists": [
+      "peetha-nirnaya-51",
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Three eyes (trinetra); the Ashtadasha tradition at Kolhapur also names the eyes",
+    "devi": "Mahishamardini (Pithanirnaya); Mahalakshmi / Ambabai (Ashtadasha: 'Kolhapure Mahalakshmi')",
+    "bhairava": "Krodhisha",
+    "candidates": [
+      {
+        "lat": 16.6949,
+        "lng": 74.2229,
+        "place": "Mahalakshmi (Ambabai) temple, Kolhapur, Maharashtra",
+        "country": "IN"
+      },
+      {
+        "lat": 31.306,
+        "lng": 76.5364,
+        "place": "Naina Devi temple, Bilaspur district, Himachal Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "The Pithanirnaya reads Karavira, with the variant Sharkarara. Sircar notes that Karavira is usually identified with Kolhapur (locally 'Karvir'), but that Sharkarara has been taken for Sukkur in Sindh; Bengali almanacs place it near Karachi ('Shivaharkaray'). Neither Pakistani site has an identified shrine, so neither is pinned. North Indian popular lists (e.g. Wikipedia's combined table) attach this pitha (eyes, Mahishamardini, Krodhisha) to Naina Devi, Himachal Pradesh. Kolhapur is the Ashtadasha seat, so the merged entry carries both lists; the 51-list identification with Kolhapur is held only by some traditions.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      },
+      {
+        "title": "OpenStreetMap: Mahalaxmi Temple, Kolhapur (way 153401923)",
+        "url": "https://www.openstreetmap.org/way/153401923"
+      },
+      {
+        "title": "Wikipedia: Naina Devi (coordinates 31.3060, 76.5364)",
+        "url": "https://en.wikipedia.org/wiki/Naina_Devi"
+      }
+    ]
+  },
+  {
+    "id": "sugandha",
+    "nameEn": "Sugandha",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Nose",
+    "devi": "Sunanda (locally worshipped as Ugratara)",
+    "bhairava": "Tryambaka",
+    "candidates": [
+      {
+        "lat": 22.8434,
+        "lng": 90.2593,
+        "place": "Sugandha Shaktipeeth (Ugratara temple), Shikarpur, Uzirpur, Barishal",
+        "country": "BD"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Wikipedia: Sugandha Shakta pitha (coordinates 22°50′36.3″N 90°15′33.4″E)",
+        "url": "https://en.wikipedia.org/wiki/Sugandha_Shakta_pitha"
+      }
+    ]
+  },
+  {
+    "id": "kashmira-amarnath",
+    "nameEn": "Kashmira (Amarnath)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Throat (kantha)",
+    "devi": "Mahamaya",
+    "bhairava": "Trisandhyeshvara",
+    "candidates": [
+      {
+        "lat": 34.2149,
+        "lng": 75.5008,
+        "place": "Amarnath cave, Anantnag district, Jammu and Kashmir",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "The text says only 'Kashmira'; the modern identification with the Amarnath cave is popular (Green Message, Bengali Wikipedia), not textual. Wikipedia's combined table also mentions a 'Shri Parvat in Ladakh' anklet variant, which belongs to the Shriparvata pitha (see 'shriparvata-srisailam').",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Wikipedia: Amarnath Temple (coordinates 34.2149, 75.5008)",
+        "url": "https://en.wikipedia.org/wiki/Amarnath_Temple"
+      }
+    ]
+  },
+  {
+    "id": "jwalamukhi",
+    "nameEn": "Jwalamukhi",
+    "lists": [
+      "peetha-nirnaya-51",
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Tongue",
+    "devi": "Siddhida (Ambika); Vaishnavi in the Ashtadasha ('Jwalayam Vaishnavi')",
+    "bhairava": "Unmatta",
+    "candidates": [
+      {
+        "lat": 31.8754,
+        "lng": 76.3245,
+        "place": "Jwalamukhi (Jwala Ji) temple, Kangra district, Himachal Pradesh",
+        "country": "IN"
+      },
+      {
+        "lat": 33.0311,
+        "lng": 74.9489,
+        "place": "Vaishno Devi Bhawan, Trikuta hills, Reasi district, Jammu and Kashmir",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "The 51-list site is Jwalamukhi without dispute. The Ashtadasha's 'Jwala - Vaishnavi' is read as Jwalamukhi by Sircar ('possibly Jvalamukhi is intended') and Hindupedia, but some devotees identify it with Vaishno Devi (listed as a separate pitha in Wikipedia's combined table), so Vaishno Devi is recorded as an alternate candidate for the Ashtadasha reading only.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "OpenStreetMap: Jwaladevi Temple (way 174300553)",
+        "url": "https://www.openstreetmap.org/way/174300553"
+      },
+      {
+        "title": "Wikidata: Jwala Ji Kangra (Q124213960)",
+        "url": "https://www.wikidata.org/wiki/Q124213960"
+      },
+      {
+        "title": "OpenStreetMap: Bhawan, Vaishno Devi (node 11517423432)",
+        "url": "https://www.openstreetmap.org/node/11517423432"
+      }
+    ]
+  },
+  {
+    "id": "jalandhara",
+    "nameEn": "Jalandhara (Tripuramalini)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Breast (one breast; left breast in popular lists)",
+    "devi": "Tripuramalini",
+    "bhairava": "Bhishana",
+    "candidates": [
+      {
+        "lat": 31.3436,
+        "lng": 75.5827,
+        "place": "Devi Talab Mandir, Jalandhar, Punjab",
+        "country": "IN"
+      },
+      {
+        "lat": 32.1018,
+        "lng": 76.2699,
+        "place": "Vajreshwari (Bajreshwari) Devi temple, Kangra, Himachal Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Most lists (Green Message, Wikipedia) place Tripuramalini at Devi Talab, Jalandhar. Bengali Wikipedia's table of pithas puts Jalandhara at the Vajreshwari temple in Kangra (old Jalandhara kingdom), which Wikipedia's combined table also lists as a pitha (left breast, Jayadurga).",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "OpenStreetMap: Devi Talab Mandir (way 293080489)",
+        "url": "https://www.openstreetmap.org/way/293080489"
+      },
+      {
+        "title": "Wikidata: Shri Devi Talab Mandir (Q26258391)",
+        "url": "https://www.wikidata.org/wiki/Q26258391"
+      },
+      {
+        "title": "Wikipedia: Bajreshwari Mata Temple, Kangra (coordinates 32.10183, 76.26987)",
+        "url": "https://en.wikipedia.org/wiki/Bajreshwari_Mata_Temple,_Kangra"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      }
+    ]
+  },
+  {
+    "id": "baidyanath-jayadurga",
+    "nameEn": "Vaidyanatha (Jayadurga, Deoghar)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Heart",
+    "devi": "Jayadurga",
+    "bhairava": "Vaidyanatha",
+    "candidates": [
+      {
+        "lat": 24.4928,
+        "lng": 86.7,
+        "place": "Baidyanath Dham temple complex, Deoghar, Jharkhand",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Same temple complex as the Vaidyanath Jyotirlinga (Jayadurga shrine within it). Sircar identifies the pitha with Deoghar; Parli, the alternate Jyotirlinga claimant, is not a Shakti Peetha claimant.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "OpenStreetMap: Baidyanathdham (way 154382123)",
+        "url": "https://www.openstreetmap.org/way/154382123"
+      },
+      {
+        "title": "Wikidata: Vaidyanath Jyotirlinga (Q1089897), 24.4925, 86.7000",
+        "url": "https://www.wikidata.org/wiki/Q1089897"
+      }
+    ]
+  },
+  {
+    "id": "nepala-guhyeshwari",
+    "nameEn": "Nepala (Guhyeshwari)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Both knees (janu)",
+    "devi": "Mahamaya (worshipped as Guhyeshwari / Guhyakali)",
+    "bhairava": "Kapali",
+    "candidates": [
+      {
+        "lat": 27.7116,
+        "lng": 85.3537,
+        "place": "Guhyeshwari temple, east of Pashupatinath, Kathmandu",
+        "country": "NP"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar says only that 'the reference may be to Kathmandu'. Guhyeshwari is the usual modern identification (Green Message, Bengali Wikipedia), but Wikipedia notes that the Nepal Mahatmya places the knees (Mahamaya) at the Bagmati-Vishnumati confluence and Guhyeshwari as a separate seat (anus). No separate Mahamaya shrine at the confluence is identified, so only Guhyeshwari is pinned.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Wikipedia: Guhyeshwari Temple (coordinates 27°42′40″N 85°21′12″E)",
+        "url": "https://en.wikipedia.org/wiki/Guhyeshwari_Temple"
+      },
+      {
+        "title": "Wikimedia Commons: geotagged photos of the Guhyeshwari Shaktipeeth temple",
+        "url": "https://commons.wikimedia.org/wiki/File:Guhyeshwari_Shaktipeeth_Temple.jpg"
+      }
+    ]
+  },
+  {
+    "id": "manasa",
+    "nameEn": "Manasa (Manasarovar)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Right hand",
+    "devi": "Dakshayani",
+    "bhairava": "Amara (Hara)",
+    "candidates": [
+      {
+        "lat": 30.67,
+        "lng": 81.46,
+        "place": "Lake Manasarovar, near Mount Kailash, Ngari, Tibet Autonomous Region",
+        "country": "CN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "There is no temple building: the pitha is the lake itself ('a holy stone shrine' by the lake in Wikipedia's table). The pin is a point in the lake, not a shrine; refine if the owner prefers a lakeshore landmark.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Wikipedia: Lake Manasarovar",
+        "url": "https://en.wikipedia.org/wiki/Lake_Manasarovar"
+      }
+    ]
+  },
+  {
+    "id": "utkala-vimala",
+    "nameEn": "Utkala / Viraja-kshetra (Vimala, Puri)",
+    "lists": [
+      "peetha-nirnaya-51",
+      "adi-4"
+    ],
+    "bodyPart": "Navel (Pithanirnaya); feet (pada-khanda) in the Adi Peetha tradition",
+    "devi": "Vimala",
+    "bhairava": "Jagannatha",
+    "candidates": [
+      {
+        "lat": 19.8047,
+        "lng": 85.8183,
+        "place": "Vimala temple, inside the Jagannath temple complex, Puri, Odisha",
+        "country": "IN"
+      },
+      {
+        "lat": 20.8337,
+        "lng": 86.3382,
+        "place": "Biraja (Viraja) temple, Jajpur, Odisha",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "The Pithanirnaya names 'Viraja-kshetra in Utkala' (which points to Jajpur's Biraja) but gives the Devi as Vimala and the Bhairava as Jagannatha (which point to Puri). Sircar records the reading; Green Message lists both Puri and Jajpur; Bengali Wikipedia gives Puri. Puri's Vimala is the Adi Peetha, so it is primary here; Biraja at Jajpur is kept as the alternate and also has its own Ashtadasha entry ('biraja-jajpur').",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "eSamskriti: Four Adi Shakti Peethas (Kalika Purana)",
+        "url": "https://www.esamskriti.com/e/Spirituality/Tantra/Shakti-Peethas-(Tantra-Peethas)-Of-India-2.aspx"
+      },
+      {
+        "title": "IndiaNetzone: Four Adi Shakti Pithas",
+        "url": "https://www.indianetzone.com/75/four_adi_shakti_pithas.htm"
+      },
+      {
+        "title": "Wikipedia: Vimala Temple (coordinates 19°48′17″N 85°49′6″E)",
+        "url": "https://en.wikipedia.org/wiki/Vimala_Temple"
+      },
+      {
+        "title": "OpenStreetMap: Biraja Temple (way 672943946)",
+        "url": "https://www.openstreetmap.org/way/672943946"
+      }
+    ]
+  },
+  {
+    "id": "gandaki-muktinath",
+    "nameEn": "Gandaki (Muktinath)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Cheek (ganda) - read by some as the temple/forehead",
+    "devi": "Gandaki Chandi",
+    "bhairava": "Chakrapani",
+    "candidates": [
+      {
+        "lat": 28.8167,
+        "lng": 83.8713,
+        "place": "Muktinath temple, Mustang, Gandaki Province",
+        "country": "NP"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "The text names the river Gandaki; the identification with Muktinath, near its source, is the popular modern one (Green Message, Bengali Wikipedia).",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "OpenStreetMap: Muktinath (way 72224120)",
+        "url": "https://www.openstreetmap.org/way/72224120"
+      },
+      {
+        "title": "Wikipedia: Muktinath (coordinates 28.8171, 83.8717)",
+        "url": "https://en.wikipedia.org/wiki/Muktinath"
+      }
+    ]
+  },
+  {
+    "id": "bahula",
+    "nameEn": "Bahula (Ketugram)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Left arm",
+    "devi": "Bahula",
+    "bhairava": "Bhiruka",
+    "candidates": [
+      {
+        "lat": 23.7003,
+        "lng": 88.0417,
+        "place": "Bahula temple, Ketugram, Purba Bardhaman, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Wikipedia: Bahula Temple (coordinates 23°42′01″N 88°02′30″E)",
+        "url": "https://en.wikipedia.org/wiki/Bahula_Temple"
+      }
+    ]
+  },
+  {
+    "id": "ujjayini-harsiddhi",
+    "nameEn": "Ujjayini (Harsiddhi, Ujjain)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Elbow (kurpara)",
+    "devi": "Mangalachandika (worshipped as Harsiddhi in Ujjain)",
+    "bhairava": "Kapilambara",
+    "candidates": [
+      {
+        "lat": 23.184,
+        "lng": 75.7647,
+        "place": "Harsiddhi temple, Ujjain, Madhya Pradesh",
+        "country": "IN"
+      },
+      {
+        "lat": 23.5405,
+        "lng": 87.8972,
+        "place": "Mangalchandi temple, Ujani (Kogram), Mangalkot, Purba Bardhaman, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Disputed between Ujjain and Ujani. Sircar identifies Ujjayini with modern Ujjain 'but see also Ujani'; Green Message and MP Tourism give Harsiddhi, Ujjain. Bengali tradition (Banglapedia, the almanacs, Bengali Wikipedia) places it at the Mangalchandi temple of Ujani/Kogram, whose Devi name matches the text. Harsiddhi is also named by some as the Ashtadasha's Ujjain Mahakali (see 'bhairavaparvata-ujjain').",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Madhya Pradesh Tourism: Harsiddhi temple, Shakti Peetha in Ujjain",
+        "url": "https://www.mptourism.com/harsiddhi-temple-shakti-peetha-in-Ujjain.html"
+      },
+      {
+        "title": "Wikimedia Commons: geotagged photos of Harsiddhi Mata Temple, Ujjain",
+        "url": "https://commons.wikimedia.org/wiki/File:Harsidhhi_Mata_Temple_Ujjjain_-_panoramio.jpg"
+      },
+      {
+        "title": "OpenStreetMap: Ujani Shaktipeeth Kali temple (node 7259852106)",
+        "url": "https://www.openstreetmap.org/node/7259852106"
+      }
+    ]
+  },
+  {
+    "id": "chattala-chandranath",
+    "nameEn": "Chattala (Chandranath, Sitakunda)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Right arm",
+    "devi": "Bhavani",
+    "bhairava": "Chandrashekhara",
+    "candidates": [
+      {
+        "lat": 22.6336,
+        "lng": 91.6843,
+        "place": "Chandranath (Bhavani) temple on Chandranath hill, Sitakunda, Chattogram",
+        "country": "BD"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Wikipedia: Chandranath Temple (coordinates 22°38′01.0″N 91°41′03.5″E)",
+        "url": "https://en.wikipedia.org/wiki/Chandranath_Temple"
+      },
+      {
+        "title": "OpenStreetMap: Chandranath Temple (way 867012398)",
+        "url": "https://www.openstreetmap.org/way/867012398"
+      }
+    ]
+  },
+  {
+    "id": "tripura-sundari",
+    "nameEn": "Tripura (Tripura Sundari, Udaipur)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Right foot",
+    "devi": "Tripurasundari",
+    "bhairava": "Tripuresha",
+    "candidates": [
+      {
+        "lat": 23.5091,
+        "lng": 91.498,
+        "place": "Tripura Sundari (Matabari) temple, Udaipur, Gomati, Tripura",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "OpenStreetMap: Tripura Sundari Temple (way 656848966)",
+        "url": "https://www.openstreetmap.org/way/656848966"
+      },
+      {
+        "title": "Wikidata: Tripura Sundari Temple (Q7843873)",
+        "url": "https://www.wikidata.org/wiki/Q7843873"
+      }
+    ]
+  },
+  {
+    "id": "trisrota-bhramari",
+    "nameEn": "Trisrota (Bhramari, Jalpaiguri)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Left foot",
+    "devi": "Bhramari",
+    "bhairava": "Ambara (Ishvara)",
+    "candidates": [
+      {
+        "lat": 26.5314,
+        "lng": 88.8834,
+        "place": "Salbari, Maynaguri block (near Jalpesh), Jalpaiguri district, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar identifies Trisrota with the Tista river only. Bengali tradition places the shrine at 'Shalbari' near Jalpesh (Bengali Wikipedia, Green Message), while a travel guide and a 2026 paper place the Bhramari Devi temple at Bodaganj near Baikunthapur forest. The pin is the OSM hamlet 'Salbari' in Maynaguri block near Jalpesh; the temple itself is not mapped and Bodaganj's temple could not be located, so this coordinate is not verified to within 1 km.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Green Message: Shalbari Bhramari (Trisrota Shakti Peetha)",
+        "url": "https://www.greenmesg.org/bharatavarsha/pilgrimages/west_bengal/shalbari-bhramari.php"
+      },
+      {
+        "title": "North Bengal tourism: Bhramari Devi Mandir, Bodaganj",
+        "url": "https://north-bengal.com/bodaganj-dooars.php"
+      }
+    ]
+  },
+  {
+    "id": "kamakhya",
+    "nameEn": "Kamagiri / Kamarupa (Kamakhya)",
+    "lists": [
+      "peetha-nirnaya-51",
+      "ashtadasha-18",
+      "adi-4"
+    ],
+    "bodyPart": "Yoni (mahamudra)",
+    "devi": "Kamakhya",
+    "bhairava": "Umananda",
+    "candidates": [
+      {
+        "lat": 26.1664,
+        "lng": 91.7055,
+        "place": "Kamakhya temple, Nilachal hill, Guwahati, Assam",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "eSamskriti: Four Adi Shakti Peethas (Kalika Purana)",
+        "url": "https://www.esamskriti.com/e/Spirituality/Tantra/Shakti-Peethas-(Tantra-Peethas)-Of-India-2.aspx"
+      },
+      {
+        "title": "Wikipedia: Kamakhya Temple (coordinates 26.1664, 91.7055)",
+        "url": "https://en.wikipedia.org/wiki/Kamakhya_Temple"
+      },
+      {
+        "title": "OpenStreetMap: Kamakhya Temple (node 6161176228)",
+        "url": "https://www.openstreetmap.org/node/6161176228"
+      }
+    ]
+  },
+  {
+    "id": "yugadya-kshirgram",
+    "nameEn": "Yugadya (Jogadya, Kshirgram)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Right great toe",
+    "devi": "Yugadya (Jogadya; Bhutadhatri)",
+    "bhairava": "Kshirakantaka",
+    "candidates": [
+      {
+        "lat": 23.5141,
+        "lng": 88.0273,
+        "place": "Jogadya temple, Kshirgram, Mangalkot, Purba Bardhaman, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Coordinate is the Kshirgram village point from Wikipedia; the Jogadya temple is in the village but was not found on OpenStreetMap, so it is not verified to the building (village-level, expected within ~1 km).",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Wikipedia: Kshirgram (coordinates 23.5141, 88.0273)",
+        "url": "https://en.wikipedia.org/wiki/Kshirgram"
+      }
+    ]
+  },
+  {
+    "id": "kalighat",
+    "nameEn": "Kalipitha (Kalighat, Dakshina Kalika)",
+    "lists": [
+      "peetha-nirnaya-51",
+      "adi-4"
+    ],
+    "bodyPart": "Toes of the right foot",
+    "devi": "Kali (Dakshina Kalika)",
+    "bhairava": "Nakulisha",
+    "candidates": [
+      {
+        "lat": 22.5202,
+        "lng": 88.3421,
+        "place": "Kalighat Kali temple, Kolkata, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "The Adi Peetha tradition (Kalika Purana) names this seat 'Dakshina Kalika' and some sources give the body part as the face (mukha-khanda) rather than the toes.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "eSamskriti: Four Adi Shakti Peethas (Kalika Purana)",
+        "url": "https://www.esamskriti.com/e/Spirituality/Tantra/Shakti-Peethas-(Tantra-Peethas)-Of-India-2.aspx"
+      },
+      {
+        "title": "OpenStreetMap: Kalighat Kali Temple (way 146081534)",
+        "url": "https://www.openstreetmap.org/way/146081534"
+      },
+      {
+        "title": "Wikidata: Kalighat Kali Temple (Q535970)",
+        "url": "https://www.wikidata.org/wiki/Q535970"
+      }
+    ]
+  },
+  {
+    "id": "prayaga",
+    "nameEn": "Prayaga (Madhaveshwari / Lalita, Prayagraj)",
+    "lists": [
+      "peetha-nirnaya-51",
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Fingers of the hand",
+    "devi": "Lalita (Pithanirnaya); Madhaveshwari (Ashtadasha) - worshipped as Alopi Devi",
+    "bhairava": "Bhava",
+    "candidates": [
+      {
+        "lat": 25.4446,
+        "lng": 81.8711,
+        "place": "Alopi Devi (Alopshankari) temple, Alopibagh, Prayagraj, Uttar Pradesh",
+        "country": "IN"
+      },
+      {
+        "lat": 25.4315,
+        "lng": 81.834,
+        "place": "Kalyani Devi temple, Prayagraj, Uttar Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Three Prayagraj shrines claim this pitha: Alopi Devi (identified with the Ashtadasha Madhaveshwari; Wikipedia, Bengali Wikipedia), the Lalita Devi temple at Meerapur (whose Devi name matches the Pithanirnaya; Green Message lists 'Lalita (also Alopi)'), and Kalyani Devi. The Lalita Devi temple at Meerapur could not be located on any open map, so it has no pin yet; the Alopi and Kalyani pins come from a geotagged Commons photo and OSM respectively and are not verified to the building.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Wikimedia Commons: Alopshankari Siddhipeeth Temple, Prayagraj (geotagged)",
+        "url": "https://commons.wikimedia.org/wiki/File:Alopshankari_Siddhipeeth_Temple,_Prayagraj.jpg"
+      },
+      {
+        "title": "OpenStreetMap: Maa Kalyani Devi Shakti Peeth (node 7944158352)",
+        "url": "https://www.openstreetmap.org/node/7944158352"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      }
+    ]
+  },
+  {
+    "id": "jayanti-nartiang",
+    "nameEn": "Jayanti (Nartiang)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Left thigh",
+    "devi": "Jayanti",
+    "bhairava": "Kramadishvara",
+    "candidates": [
+      {
+        "lat": 25.567,
+        "lng": 92.209,
+        "place": "Nartiang Durga (Jayanti) temple, West Jaintia Hills, Meghalaya",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Disputed. Sircar locates Jayanti in the Sylhet district (now Bangladesh); Banglapedia and the Bengali almanacs put it at Baurbhag village (Falijur Kalibari), Jaintiapur, Sylhet. Green Message and most Indian lists identify it with the Nartiang Durga temple in Meghalaya (the old Jaintia kingdom spanned both). The Baurbhag shrine could not be located on any open map, so it is recorded here without a pin. The Nartiang pin (Wikipedia, 3 decimals) is about 1 km from the OSM village point; not verified to the building.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Wikipedia: Nartiang Durga Temple (coordinates 25.567, 92.209)",
+        "url": "https://en.wikipedia.org/wiki/Nartiang_Durga_Temple"
+      },
+      {
+        "title": "OpenStreetMap: Nartiang village (node 245735667)",
+        "url": "https://www.openstreetmap.org/node/245735667"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      }
+    ]
+  },
+  {
+    "id": "kirit",
+    "nameEn": "Kirita (Kiriteswari)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Crown (kirita)",
+    "devi": "Vimala (Bhuvaneshi)",
+    "bhairava": "Samvarta",
+    "candidates": [
+      {
+        "lat": 24.2,
+        "lng": 88.2186,
+        "place": "Kiriteswari temple, Kiritkona, Lalbagh, Murshidabad, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Coordinates from Wikipedia/Wikidata (round seconds), not cross-checked on OSM; not verified to within 1 km.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Wikipedia: Kiriteswari Temple (coordinates 24°12′0″N 88°13′7″E); Wikidata Q30133007",
+        "url": "https://en.wikipedia.org/wiki/Kiriteswari_Temple"
+      }
+    ]
+  },
+  {
+    "id": "varanasi-vishalakshi",
+    "nameEn": "Varanasi (Vishalakshi)",
+    "lists": [
+      "peetha-nirnaya-51",
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Earring (kundala)",
+    "devi": "Vishalakshi",
+    "bhairava": "Kala (Kalabhairava)",
+    "candidates": [
+      {
+        "lat": 25.31,
+        "lng": 83.012,
+        "place": "Vishalakshi temple, near Manikarnika Ghat, Varanasi, Uttar Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "OpenStreetMap: Maa Kashi Vishalakshi Temple (node 7107002877)",
+        "url": "https://www.openstreetmap.org/node/7107002877"
+      },
+      {
+        "title": "Wikidata: Vishalakshi Temple (Q7935940)",
+        "url": "https://www.wikidata.org/wiki/Q7935940"
+      }
+    ]
+  },
+  {
+    "id": "kanyashrama",
+    "nameEn": "Kanyashrama (Kanyakumari)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Back (prishtha)",
+    "devi": "Sarvani",
+    "bhairava": "Nimisha",
+    "candidates": [
+      {
+        "lat": 8.0793,
+        "lng": 77.551,
+        "place": "Kanyakumari Bhagavathy Amman (Kumari) temple, Kanyakumari, Tamil Nadu",
+        "country": "IN"
+      },
+      {
+        "lat": 22.4973,
+        "lng": 91.7155,
+        "place": "Kumira / Kumarikunda, Sitakunda, Chattogram",
+        "country": "BD"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Disputed. Sircar locates Kanyashrama 'in eastern India at Kumarikunda near the Kumira railway station in the Chittagong District', and Banglapedia's almanacs agree; Green Message and most modern lists give Kanyakumari. Bengali Wikipedia mentions both (and a fringe claim in Yunnan). Kanyakumari is primary as the identification nearly all pilgrims use; the Kumira pin is the OSM suburb point, not a shrine (not verified to a building).",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "OpenStreetMap: Kumari Temple (way 104700736)",
+        "url": "https://www.openstreetmap.org/way/104700736"
+      },
+      {
+        "title": "Wikidata: Kanyakumari Bhagavathy Amman (Q15708023)",
+        "url": "https://www.wikidata.org/wiki/Q15708023"
+      }
+    ]
+  },
+  {
+    "id": "kurukshetra",
+    "nameEn": "Kurukshetra (Bhadrakali, Thanesar)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Right ankle (gulpha)",
+    "devi": "Savitri (worshipped as Bhadrakali)",
+    "bhairava": "Sthanu",
+    "candidates": [
+      {
+        "lat": 29.9795,
+        "lng": 76.8325,
+        "place": "Shri Devikoop Bhadrakali temple, Thanesar, Kurukshetra, Haryana",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "OpenStreetMap: Maa Bhadrakali Mandir, Thanesar (node 5314988632)",
+        "url": "https://www.openstreetmap.org/node/5314988632"
+      }
+    ]
+  },
+  {
+    "id": "manivedaka-pushkar",
+    "nameEn": "Manivedaka (Manibandh, Pushkar)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Wrists (manibandha)",
+    "devi": "Gayatri",
+    "bhairava": "Sarvananda",
+    "candidates": [
+      {
+        "lat": 26.4736,
+        "lng": 74.5514,
+        "place": "Manibandh (Gayatri) Shaktipeeth, Gayatri hill, Pushkar, Rajasthan",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar notes that 'Manibandha' arose from a confused text (Maniveda) and that the place is uncertain ('possibly the same as Manipura'); the Pushkar identification is popular. Coordinate from Wikipedia only; not cross-checked on OSM.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Wikipedia: Manibandh Shaktipeeth (coordinates 26.473558, 74.551362)",
+        "url": "https://en.wikipedia.org/wiki/Manibandh_Shaktipeeth"
+      }
+    ]
+  },
+  {
+    "id": "shrishaila-sylhet",
+    "nameEn": "Shrishaila (Shrihatta, Sylhet)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Neck (griva)",
+    "devi": "Mahalakshmi",
+    "bhairava": "Shambarananda",
+    "candidates": [
+      {
+        "lat": 24.865,
+        "lng": 91.8756,
+        "place": "Shri Shail Mahalakshmi temple, Jainpur, Dakshin Surma, Sylhet",
+        "country": "BD"
+      },
+      {
+        "lat": 16.0742,
+        "lng": 78.8681,
+        "place": "Bhramaramba-Mallikarjuna temple, Srisailam, Andhra Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar records the variant reading 'Shrihatta' (Sylhet) and Bengali tradition (Banglapedia, Bengali Wikipedia) places the pitha at Jainpur near Sylhet; Green Message instead identifies it with Srisailam (Bhramaramba). Srisailam is primary for the separate Shriparvata pitha ('shriparvata-srisailam'), so here Sylhet is primary. The Sylhet coordinate is from Wikipedia only; not verified to within 1 km.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Wikipedia: Shri Shail (coordinates 24.8650, 91.8756)",
+        "url": "https://en.wikipedia.org/wiki/Shri_Shail"
+      }
+    ]
+  },
+  {
+    "id": "kanchi-kankalitala",
+    "nameEn": "Kanchi (Kankalitala)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Skeleton / bones (kankala)",
+    "devi": "Devagarbha",
+    "bhairava": "Ruru",
+    "candidates": [
+      {
+        "lat": 23.7147,
+        "lng": 87.7228,
+        "place": "Kankalitala temple, on the Kopai river near Bolpur, Birbhum, West Bengal",
+        "country": "IN"
+      },
+      {
+        "lat": 12.8419,
+        "lng": 79.7022,
+        "place": "Adi Kamakshi temple, Kanchipuram, Tamil Nadu",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar: earlier texts mean Kanchipuram, 'but some late works (composed in Bengal) possibly speak of a locality on the Kopai in the Birbhum District' (Kankalitala). Banglapedia and Bengali almanacs give Kankalitala; Green Message and Wikipedia give Kanchipuram (Adi Kamakshi / Kamakshi). The Kamakshi temple of Kanchipuram also has its own Ashtadasha entry ('kamakshi-kanchipuram'). The Kankalitala pin is the Wikipedia/Wikidata point; not cross-checked on OSM.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Wikipedia: Kankalitala (coordinates 23.714688, 87.722815)",
+        "url": "https://en.wikipedia.org/wiki/Kankalitala"
+      },
+      {
+        "title": "OpenStreetMap: Adi Kamakshi (node 5471055421)",
+        "url": "https://www.openstreetmap.org/node/5471055421"
+      }
+    ]
+  },
+  {
+    "id": "kalamadhava",
+    "nameEn": "Kalamadhava",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Left buttock (nitamba)",
+    "devi": "Kali",
+    "bhairava": "Asitanga",
+    "candidates": [
+      {
+        "lat": 22.6733,
+        "lng": 81.7595,
+        "place": "Amarkantak, Anuppur district, Madhya Pradesh (site near the source of the Son not located)",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Location unidentified in Sircar and Green Message. Popular lists (Bengali Wikipedia) place it in a hill cave by the Son river at Amarkantak. No specific shrine could be located, so the pin is the Amarkantak town point; not a verified temple location.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Green Message: Kalamadhava Shakti Peetha (location 'not identified')",
+        "url": "https://greenmesg.org/bharatavarsha/scriptures/agamas/peetha_nirnaya_tantra/shakti_peethas/kalamadhava_shakti_peetha.php"
+      },
+      {
+        "title": "Wikipedia: Amarkantak (coordinates 22.6733, 81.7595)",
+        "url": "https://en.wikipedia.org/wiki/Amarkantak"
+      }
+    ]
+  },
+  {
+    "id": "shona-narmada",
+    "nameEn": "Shona / Narmada (Amarkantak)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Right buttock (nitamba)",
+    "devi": "Shona (Narmada)",
+    "bhairava": "Bhadrasena",
+    "candidates": [
+      {
+        "lat": 22.6726,
+        "lng": 81.7595,
+        "place": "Narmada Udgam (source) temple, Amarkantak, Madhya Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Identified with the Narmada source at Amarkantak (Green Message, Bengali Wikipedia); some lists call the Devi Sonakshi.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Green Message: Narmada Shakti Peetha",
+        "url": "https://greenmesg.org/bharatavarsha/scriptures/agamas/peetha_nirnaya_tantra/shakti_peethas/narmada_shakti_peetha.php"
+      },
+      {
+        "title": "OpenStreetMap: Narmada Udgam Kund (way 762779890)",
+        "url": "https://www.openstreetmap.org/way/762779890"
+      }
+    ]
+  },
+  {
+    "id": "ramagiri",
+    "nameEn": "Ramagiri (Chitrakoot)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Breast (right breast in some lists)",
+    "devi": "Shivani",
+    "bhairava": "Chanda",
+    "candidates": [
+      {
+        "lat": 25.1696,
+        "lng": 80.8507,
+        "place": "Kamadgiri hill, Chitrakoot, Satna district, Madhya Pradesh",
+        "country": "IN"
+      },
+      {
+        "lat": 24.2612,
+        "lng": 80.7232,
+        "place": "Maa Sharda temple, Trikuta hill, Maihar, Madhya Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar: 'possibly modern Ramtek near Nagpur, or Chitrakuta'. Green Message and Bengali Wikipedia give Chitrakoot (Green Message also mentions Maihar); Wikipedia's combined table lists Maihar's Sharda temple separately (necklace). No Shivani shrine at Chitrakoot could be located: the primary pin is the Kamadgiri hill (centre of the OSM forest area), not a temple, and is not verified. Ramtek has no identified shrine and is not pinned.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "OpenStreetMap: Kamtanath (Kamadgiri) forest relation 16495564",
+        "url": "https://www.openstreetmap.org/relation/16495564"
+      },
+      {
+        "title": "Wikipedia: Maa Sharda Mandir, Maihar (coordinates 24.26120, 80.72316)",
+        "url": "https://en.wikipedia.org/wiki/Maa_Sharda_Mandir,_Maihar"
+      }
+    ]
+  },
+  {
+    "id": "vrindavan-katyayani",
+    "nameEn": "Vrindavana (Katyayani / Uma)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Locks of hair",
+    "devi": "Uma (worshipped as Katyayani)",
+    "bhairava": "Bhutesha",
+    "candidates": [
+      {
+        "lat": 27.5789,
+        "lng": 77.7037,
+        "place": "Katyayani Peeth, Radhabagh, Vrindavan, Mathura, Uttar Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Bengali Wikipedia places the shrine at the Bhuteshwar Mahadev temple area; the OSM point is the Katyayani temple. Single map source; not cross-checked.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "OpenStreetMap: Khram Katyayani, Vrindavan (node 7171865698)",
+        "url": "https://www.openstreetmap.org/node/7171865698"
+      }
+    ]
+  },
+  {
+    "id": "shuchi-suchindram",
+    "nameEn": "Shuchi / Anala (Suchindram)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Upper teeth",
+    "devi": "Narayani",
+    "bhairava": "Samhara (Samkrura)",
+    "candidates": [
+      {
+        "lat": 8.1548,
+        "lng": 77.4653,
+        "place": "Thanumalayan (Sthanumalaya) temple, Suchindram, Kanyakumari district, Tamil Nadu",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar gives the variant reading Anala and no location; Suchindram is the popular identification. Some lists name a separate Narayani shrine on the Kanyakumari-Thiruvananthapuram road; it could not be located, so the pin is the main Suchindram temple.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "OpenStreetMap: Suchindram Shri Thanumalayan Swamy Temple (way 56394994)",
+        "url": "https://www.openstreetmap.org/way/56394994"
+      },
+      {
+        "title": "Wikidata: Thanumalayan Temple (Q7710646)",
+        "url": "https://www.wikidata.org/wiki/Q7710646"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      }
+    ]
+  },
+  {
+    "id": "panchasagara",
+    "nameEn": "Panchasagara (Varahi)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Lower teeth",
+    "devi": "Varahi",
+    "bhairava": "Maharudra",
+    "candidates": [
+      {
+        "lat": 25.3087,
+        "lng": 83.0122,
+        "place": "Varahi temple area, Man Mandir Ghat, Varanasi, Uttar Pradesh",
+        "country": "IN"
+      },
+      {
+        "lat": 29.4132,
+        "lng": 79.8651,
+        "place": "Varahi Devi temple, Devidhura, Champawat district, Uttarakhand",
+        "country": "IN"
+      },
+      {
+        "lat": 18.8966,
+        "lng": 81.345,
+        "place": "Danteshwari temple, Dantewada, Chhattisgarh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Unidentified in Sircar and Green Message ('possibly the oceans are indicated'). Popular claims: Varanasi (the Varahi temple near Man Mandir Ghat, favoured by most devotional sources), Devidhura near Lohaghat (Wikipedia's combined table: 'Panchsagar, Champawat'), and Danteshwari at Dantewada (tooth legend). Bengali Wikipedia says only 'unknown, thought to be near Haridwar'. Varanasi pin is a geotagged photo at Man Mandir Ghat and the Devidhura pin is the OSM village point; neither is verified to the building.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Green Message: Panchasagara Shakti Peetha (location 'not identified')",
+        "url": "https://greenmesg.org/bharatavarsha/scriptures/agamas/peetha_nirnaya_tantra/shakti_peethas/panchasagara_shakti_peetha.php"
+      },
+      {
+        "title": "Yatradham: Varahi Devi temple Shaktipeeth (Varanasi / Devidhura claims)",
+        "url": "https://blog.yatradham.org/varahi-devi-temple-shaktipeeth-timings-history/"
+      },
+      {
+        "title": "Wikipedia: Danteshwari Temple (coordinates 18.8966, 81.3450)",
+        "url": "https://en.wikipedia.org/wiki/Danteshwari_Temple"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      }
+    ]
+  },
+  {
+    "id": "karatoya-bhabanipur",
+    "nameEn": "Karatoyatata (Bhabanipur)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Left ear / bed-sheet (talpa) - left anklet in popular lists",
+    "devi": "Aparna",
+    "bhairava": "Vamana",
+    "candidates": [
+      {
+        "lat": 24.557,
+        "lng": 89.434,
+        "place": "Bhabanipur Shaktipeeth, Sherpur upazila, Bogura",
+        "country": "BD"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Wikipedia: Bhabanipur Shakta pitha (coordinates 24.557, 89.434)",
+        "url": "https://en.wikipedia.org/wiki/Bhabanipur_Shakta_pitha"
+      },
+      {
+        "title": "OpenStreetMap: Bhabanipur Bazar (node 4875539606)",
+        "url": "https://www.openstreetmap.org/node/4875539606"
+      }
+    ]
+  },
+  {
+    "id": "shriparvata-srisailam",
+    "nameEn": "Shriparvata (Bhramaramba, Srisailam)",
+    "lists": [
+      "peetha-nirnaya-51",
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Right ear (Pithanirnaya); neck in the Ashtadasha tradition",
+    "devi": "Shrisundari (Pithanirnaya); Bhramaramba (Ashtadasha: 'Shrishaile Bhramarambika')",
+    "bhairava": "Sundarananda",
+    "candidates": [
+      {
+        "lat": 16.0742,
+        "lng": 78.8681,
+        "place": "Bhramaramba-Mallikarjuna temple, Srisailam, Nandyal district, Andhra Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Shriparvata is the classical name of Srisailam (Sircar: 'Sriparvata ... See Srisaila'), and Bengali Wikipedia gives Srisailam as the alternative; the popular Bengali identification, 'near Ladakh', has no locatable shrine and is not pinned (Green Message gives Ladakh). The Ashtadasha seat Bhramaramba is at Srisailam, so the two are merged; the 51-list identification is held only by some traditions. The Bhramaramba shrine is inside the Mallikarjuna temple complex (same pin as the Jyotirlinga).",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "OpenStreetMap: Mallikarjuna Swamy temple complex (way 130512419)",
+        "url": "https://www.openstreetmap.org/way/130512419"
+      }
+    ]
+  },
+  {
+    "id": "vibhasha-bargabhima",
+    "nameEn": "Vibhasha (Bargabhima, Tamluk)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Left ankle",
+    "devi": "Kapalini (Bhimarupa) - worshipped as Bargabhima",
+    "bhairava": "Sarvananda",
+    "candidates": [
+      {
+        "lat": 22.29,
+        "lng": 87.9238,
+        "place": "Bargabhima temple, Tamluk, Purba Medinipur, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Wikipedia: Bargabhima Temple (coordinates 22°17′24.08″N 87°55′25.87″E)",
+        "url": "https://en.wikipedia.org/wiki/Bargabhima_Temple"
+      }
+    ]
+  },
+  {
+    "id": "prabhasa",
+    "nameEn": "Prabhasa (Chandrabhaga)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Stomach (udara)",
+    "devi": "Chandrabhaga",
+    "bhairava": "Vakratunda",
+    "candidates": [
+      {
+        "lat": 20.8859,
+        "lng": 70.4095,
+        "place": "Triveni Sangam area, Prabhas Patan (Somnath), Gir Somnath district, Gujarat",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar and Green Message identify the place with Prabhas Patan (Somnath) near the Triveni Sangam; no individual Chandrabhaga shrine could be located, so the pin is a point on the Triveni Sangam road and is not verified to a building.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "OpenStreetMap: Triveni Sangam Gita Mandir Road, Veraval (way 120383211)",
+        "url": "https://www.openstreetmap.org/way/120383211"
+      }
+    ]
+  },
+  {
+    "id": "bhairavaparvata-ujjain",
+    "nameEn": "Bhairavaparvata / Avanti (Gadkalika, Ujjain)",
+    "lists": [
+      "peetha-nirnaya-51",
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Upper lip",
+    "devi": "Avanti (Pithanirnaya); Mahakali (Ashtadasha: 'Ujjayinyam Mahakali')",
+    "bhairava": "Lambakarna",
+    "candidates": [
+      {
+        "lat": 23.2082,
+        "lng": 75.7707,
+        "place": "Gadkalika temple, Bhairav hill by the Shipra, Ujjain, Madhya Pradesh",
+        "country": "IN"
+      },
+      {
+        "lat": 23.184,
+        "lng": 75.7647,
+        "place": "Harsiddhi temple, Ujjain, Madhya Pradesh",
+        "country": "IN"
+      },
+      {
+        "lat": 23.183,
+        "lng": 75.7682,
+        "place": "Mahakaleshwar temple complex, Ujjain, Madhya Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar places Bhairavaparvata 'probably in West Malwa'; Green Message and Bengali Wikipedia identify it with Bhairav hill / Gadkalika in Ujjain. The Ashtadasha's Ujjain Mahakali is identified by most devotional sources with Gadkalika, by some with Harsiddhi, and Wikipedia's Ashtadasha table names the Mahakaleshwar temple; all three are recorded. The Gadkalika pin comes from a geotagged photo and lies ~350 m from OSM's Gadkalika Road; not verified to the building.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Green Message: Bhairava Parvata Shakti Peetha (Gadh-Kalika, Ujjain)",
+        "url": "https://greenmesg.org/bharatavarsha/scriptures/agamas/peetha_nirnaya_tantra/shakti_peethas/bhairava_parvata_shakti_peetha.php"
+      },
+      {
+        "title": "Wikimedia Commons: Gadh Kalika Mata Temple, Ujjain (geotagged)",
+        "url": "https://commons.wikimedia.org/wiki/File:Gadh_Kalika_Mata_Temple_ujjain_-_panoramio.jpg"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      }
+    ]
+  },
+  {
+    "id": "janasthana",
+    "nameEn": "Janasthana (Saptashrungi, Nashik)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Chin (two parts)",
+    "devi": "Bhramari",
+    "bhairava": "Vikritaksha",
+    "candidates": [
+      {
+        "lat": 20.3903,
+        "lng": 73.9086,
+        "place": "Saptashrungi temple, Vani, Nashik district, Maharashtra",
+        "country": "IN"
+      },
+      {
+        "lat": 20.0019,
+        "lng": 73.7917,
+        "place": "Bhadrakali temple, Nashik city, Maharashtra",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar places Janasthana 'on the Godavari in the Nasik region'. Green Message, Wikipedia and Bengali Wikipedia ('Vani, Nashik') identify it with Saptashrungi; some local lists name the Bhadrakali temple in Nashik city. The Saptashrungi point is Wikidata's; not cross-checked on OSM.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Wikidata: Saptashrungi (Q6096471), 20.3903, 73.9086",
+        "url": "https://www.wikidata.org/wiki/Q6096471"
+      },
+      {
+        "title": "OpenStreetMap: Sri Bhadrakali Devi Mandir, Nashik (way 1466136048)",
+        "url": "https://www.openstreetmap.org/way/1466136048"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      }
+    ]
+  },
+  {
+    "id": "godavaritira",
+    "nameEn": "Godavaritira (Kotilingeswara, Rajahmundry)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Left cheek",
+    "devi": "Vishveshi (Rakini)",
+    "bhairava": "Dandapani (Vatsanabha)",
+    "candidates": [
+      {
+        "lat": 17.0226,
+        "lng": 81.7689,
+        "place": "Sri Uma Kotilingeswara Swamy temple, Rajamahendravaram, Andhra Pradesh",
+        "country": "IN"
+      },
+      {
+        "lat": 16.7001,
+        "lng": 82.0379,
+        "place": "Someswara Swamy temple, Kotipalli, Konaseema district, Andhra Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Green Message and Bengali Wikipedia give the Kotilingeswara temple at Rajahmundry; Kotipalli (on the Gautami Godavari) is another local claimant. Single OSM source each.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "OpenStreetMap: Sri Uma Kotilingeswara Swamy Temple (node 13335596115)",
+        "url": "https://www.openstreetmap.org/node/13335596115"
+      },
+      {
+        "title": "OpenStreetMap: Kotipalli Someswara Swamy Temple (way 285872302)",
+        "url": "https://www.openstreetmap.org/way/285872302"
+      }
+    ]
+  },
+  {
+    "id": "ratnavali",
+    "nameEn": "Ratnavali (Khanakul)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Right shoulder",
+    "devi": "Kumari",
+    "bhairava": "Shiva (Ghanteshwar)",
+    "candidates": [
+      {
+        "lat": 22.7109,
+        "lng": 87.854,
+        "place": "Ratnavali (Anandamayi) shrine by the Ghanteswar temple, Khanakul, Hooghly, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar leaves Ratnavali unidentified ('may be a locality in Bengal'); Bengali lists place it at Khanakul on the Ratnakar river. The pin is the OSM Ghanteswar temple (Ghanteshwar is the Bhairava named in Wikipedia's table); the Ratnavali shrine itself is not mapped, so the pin is not verified to it.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "OpenStreetMap: Ghanteswar Temple, Khanakul (way 1374405282)",
+        "url": "https://www.openstreetmap.org/way/1374405282"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      }
+    ]
+  },
+  {
+    "id": "mithila",
+    "nameEn": "Mithila (Uma)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Left shoulder",
+    "devi": "Uma (Mahadevi)",
+    "bhairava": "Mahodara",
+    "candidates": [
+      {
+        "lat": 26.7304,
+        "lng": 85.9257,
+        "place": "Janakpur, Madhesh Province (no separate Uma shrine identified; pin at Janaki Mandir)",
+        "country": "NP"
+      },
+      {
+        "lat": 26.4486,
+        "lng": 85.8862,
+        "place": "Uchaith Bhagwati (Vana Durga) temple, Uchchaith, Benipatti, Madhubani, Bihar",
+        "country": "IN"
+      },
+      {
+        "lat": 25.8484,
+        "lng": 86.473,
+        "place": "Ugratara Sthan, Mahishi, Saharsa, Bihar",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Disputed. Sircar and Bengali Wikipedia identify Mithila with Janakpur (Nepal), but no Uma shrine there is named, so the Janakpur pin sits on Janaki Mandir only as a town anchor. Green Message lists three Bihar claimants: Uchaith (Vana Durga, Madhubani), Jaya Mangala (Begusarai) and Ugratara (Mahishi, Saharsa; Wikipedia also lists Ugratara as the 'left eye' pitha). Jaya Mangala could not be located and is not pinned. The Uchaith pin is a village point; none of the three pins is verified to the shrine building.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Wikidata: Janaki Mandir (Q3161830), 26.7304, 85.9257",
+        "url": "https://www.wikidata.org/wiki/Q3161830"
+      },
+      {
+        "title": "Wikipedia: Ugratara Sthan (coordinates 25.84839, 86.47297)",
+        "url": "https://en.wikipedia.org/wiki/Ugratara_Sthan"
+      },
+      {
+        "title": "OpenStreetMap: Uchchaith sub-centre (node 8080814012)",
+        "url": "https://www.openstreetmap.org/node/8080814012"
+      }
+    ]
+  },
+  {
+    "id": "nalhati",
+    "nameEn": "Nalahati (Nalateshwari)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Vocal pipe / tubular bone (nala)",
+    "devi": "Kalika",
+    "bhairava": "Yogisha",
+    "candidates": [
+      {
+        "lat": 24.2963,
+        "lng": 87.8267,
+        "place": "Nalateshwari temple, Nalhati, Birbhum, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Wikimedia Commons: geotagged photos of the Nalateswari temple (17 files)",
+        "url": "https://commons.wikimedia.org/wiki/File:Nalateswari_Temple_Main_Gate_16.jpg"
+      },
+      {
+        "title": "OpenStreetMap: Nalhati (node 904964391)",
+        "url": "https://www.openstreetmap.org/node/904964391"
+      }
+    ]
+  },
+  {
+    "id": "kalighata-juranpur",
+    "nameEn": "Kalighata / Kalipitha (Juranpur)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Head (munda)",
+    "devi": "Jayadurga",
+    "bhairava": "Krodhisha",
+    "candidates": [
+      {
+        "lat": 23.6999,
+        "lng": 88.1891,
+        "place": "Jaydurga (Kalipitha) temple, Juranpur, Kaliganj, Nadia, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Sircar's text has 'Kalighata (Kalipitha)' here, a second Kalighat; Banglapedia's almanacs place this 'Kalipitha' (head) at Juranpur near Katwa, as does Green Message. Other recensions read Karnata (both ears, Jayadurga, Abhiru) - Bengali Wikipedia locates Karnata at Kangra - and later modifiers added Magadha (right thigh, Sarvanandakari, Vyomakesha; the Patna-Gaya region, often shown as Patan Devi, Patna). The Juranpur pin is the OSM point of the village hospital, not the temple; not verified to within 1 km.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "OpenStreetMap: Juranpur Hospital (node 7199717040)",
+        "url": "https://www.openstreetmap.org/node/7199717040"
+      }
+    ]
+  },
+  {
+    "id": "bakreshwar",
+    "nameEn": "Vakreshvara (Bakreshwar)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Mind / space between the eyebrows",
+    "devi": "Mahishamardini",
+    "bhairava": "Vakranatha",
+    "candidates": [
+      {
+        "lat": 23.8812,
+        "lng": 87.3764,
+        "place": "Bakreshwar (Mahishamardini) temple, Birbhum, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Wikipedia: Bakreshwar (coordinates 23°52′52.4″N 87°22′35.2″E)",
+        "url": "https://en.wikipedia.org/wiki/Bakreshwar"
+      },
+      {
+        "title": "OpenStreetMap: Bakreshwar river (way 1450655663), 0.5 km",
+        "url": "https://www.openstreetmap.org/way/1450655663"
+      }
+    ]
+  },
+  {
+    "id": "jashoreshwari",
+    "nameEn": "Yashora (Jeshoreshwari)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Palms of the hands (and soles of the feet in some lists)",
+    "devi": "Yashoreshvari",
+    "bhairava": "Chanda",
+    "candidates": [
+      {
+        "lat": 22.3062,
+        "lng": 89.1128,
+        "place": "Jeshoreshwari Kali temple, Ishwaripur, Shyamnagar, Satkhira",
+        "country": "BD"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "Wikipedia: Jeshoreshwari Kali Temple (coordinates 22.306216, 89.112772); Wikidata Q856631",
+        "url": "https://en.wikipedia.org/wiki/Jeshoreshwari_Kali_Temple"
+      }
+    ]
+  },
+  {
+    "id": "attahas",
+    "nameEn": "Attahasa (Phullara)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Lips (lower lip in Bengali lists)",
+    "devi": "Phullara",
+    "bhairava": "Vishvesha",
+    "candidates": [
+      {
+        "lat": 23.8169,
+        "lng": 87.8113,
+        "place": "Phullara (Fullara) temple, Labhpur, Birbhum, West Bengal",
+        "country": "IN"
+      },
+      {
+        "lat": 23.6935,
+        "lng": 88.0223,
+        "place": "Attahas temple, Dakshindihi, Ketugram, Purba Bardhaman, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Banglapedia: two Attahas temples are each regarded as the pitha - Labhpur (Birbhum) and Dakshindihi (Ketugram, Bardhaman). Green Message gives Labhpur; Bengali Wikipedia gives Dakshindihi. Labhpur is primary (OSM and Wikidata agree).",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "OpenStreetMap: Fullara (node 10934144611); Wikidata Q14216088",
+        "url": "https://www.openstreetmap.org/node/10934144611"
+      },
+      {
+        "title": "Wikipedia: Attahas, Katwa (coordinates 23.693508, 88.022303)",
+        "url": "https://en.wikipedia.org/wiki/Attahas,_Katwa"
+      }
+    ]
+  },
+  {
+    "id": "nandikeshwari",
+    "nameEn": "Nandipura (Nandikeshwari, Sainthia)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Necklace (hara)",
+    "devi": "Nandini",
+    "bhairava": "Nandikeshvara",
+    "candidates": [
+      {
+        "lat": 23.9493,
+        "lng": 87.6819,
+        "place": "Nandikeshwari temple, Sainthia, Birbhum, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Banglapedia: Sakta-pitha (Bengal pithas in the Mahapithanirupana and Bengali almanacs)",
+        "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+      },
+      {
+        "title": "OpenStreetMap: Nandikeshwari Temple (way 1147811653)",
+        "url": "https://www.openstreetmap.org/way/1147811653"
+      },
+      {
+        "title": "Wikipedia: Nandikeshwari temple (coordinates 23°56′57.1″N 87°40′54.8″E)",
+        "url": "https://en.wikipedia.org/wiki/Nandikeshwari_temple"
+      }
+    ]
+  },
+  {
+    "id": "lanka-indrakshi",
+    "nameEn": "Lanka (Indrakshi, Nainativu)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Anklets (nupura)",
+    "devi": "Indrakshi (worshipped as Nagapooshani)",
+    "bhairava": "Rakshaseshvara",
+    "candidates": [
+      {
+        "lat": 9.6191,
+        "lng": 79.7743,
+        "place": "Nagapooshani Amman temple, Nainativu, Jaffna",
+        "country": "LK"
+      },
+      {
+        "lat": 8.5825,
+        "lng": 81.2456,
+        "place": "Koneswaram temple, Trincomalee",
+        "country": "LK"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Green Message calls the site unidentified; Sircar notes 'lanka' can mean any island. Bengali Wikipedia and Wikipedia identify it with Nainativu's Nagapooshani Amman. Some identify the Lanka pitha with Trincomalee, which is the Ashtadasha's Shankari (separate entry 'shankari-trincomalee'). Nainativu coordinate is from Wikipedia/Wikidata only.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Wikipedia: Nainativu Nagapooshani Amman Temple (coordinates 9°37′8.6″N 79°46′27.4″E)",
+        "url": "https://en.wikipedia.org/wiki/Nainativu_Nagapooshani_Amman_Temple"
+      },
+      {
+        "title": "Wikidata: Koneswaram Temple (Q840346)",
+        "url": "https://www.wikidata.org/wiki/Q840346"
+      }
+    ]
+  },
+  {
+    "id": "virata",
+    "nameEn": "Virata (Ambika)",
+    "lists": [
+      "peetha-nirnaya-51"
+    ],
+    "bodyPart": "Toes of the left foot",
+    "devi": "Ambika",
+    "bhairava": "Amrita",
+    "candidates": [
+      {
+        "lat": 27.4332,
+        "lng": 76.1816,
+        "place": "Viratnagar (Bairat), Jaipur district, Rajasthan - Ambika shrine not located",
+        "country": "IN"
+      },
+      {
+        "lat": 25.3328,
+        "lng": 88.7643,
+        "place": "Patiram, Balurghat, Dakshin Dinajpur, West Bengal",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Green Message identifies Virata with Viratnagar (Bairat), Rajasthan, the ancient Matsya capital; Bengali Wikipedia instead names the Vidyeshwari/Ambika shrine at Patiram, Dakshin Dinajpur; Wikipedia's combined table says Bharatpur. Neither the Viratnagar nor the Patiram shrine could be located: both pins are town points and are not verified to a building.",
+    "sources": [
+      {
+        "title": "D. C. Sircar, The Sakta Pithas (JRASB 1948; repr. Motilal Banarsidass) - critical edition and table of the Pithanirnaya (Mahapithanirupana), the Peetha Nirnaya list",
+        "url": "https://archive.org/details/TheSaktaPithas"
+      },
+      {
+        "title": "Green Message: Shakti Peetha Stotram (Peetha Nirnaya Tantra list of 51 with modern identifications)",
+        "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+      },
+      {
+        "title": "Bengali Wikipedia: Shaktipith (table of 51 with modern sites)",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0"
+      },
+      {
+        "title": "Wikipedia: Viratnagar (coordinates 27.433189, 76.181591)",
+        "url": "https://en.wikipedia.org/wiki/Viratnagar"
+      },
+      {
+        "title": "OpenStreetMap: Patiram (way 393624286)",
+        "url": "https://www.openstreetmap.org/way/393624286"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      }
+    ]
+  },
+  {
+    "id": "shankari-trincomalee",
+    "nameEn": "Shankari (Trincomalee)",
+    "lists": [
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Groin (per Wikipedia's Ashtadasha table)",
+    "devi": "Shankari",
+    "bhairava": "Trikoneshwara (Koneswaram)",
+    "candidates": [
+      {
+        "lat": 8.5825,
+        "lng": 81.2456,
+        "place": "Koneswaram temple, Swami Rock, Trincomalee",
+        "country": "LK"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "'Lankayam Shankari Devi'. The original site is historically unknown; the modern identification with Koneswaram (which has no separate Devi shrine) is recent (Wikipedia). Sircar links the Ashtadasha's Lanka to the 51-list's Lanka (Indrakshi), whose usual modern site is Nainativu.",
+    "sources": [
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Hinduwebsite: Ashtadasa Peetha Sthothram (transliterated text)",
+        "url": "https://hinduwebsite.com/prayers/ashtadasa-peettha-sthothram.asp"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      },
+      {
+        "title": "Wikipedia: Koneswaram Temple (coordinates 8.5825, 81.2456)",
+        "url": "https://en.wikipedia.org/wiki/Koneswaram_Temple"
+      }
+    ]
+  },
+  {
+    "id": "kamakshi-kanchipuram",
+    "nameEn": "Kamakshi (Kanchipuram)",
+    "lists": [
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Part of the abdomen (per Wikipedia)",
+    "devi": "Kamakshi",
+    "bhairava": "Ekambareshwara",
+    "candidates": [
+      {
+        "lat": 12.8407,
+        "lng": 79.7032,
+        "place": "Kamakshi Amman temple, Kanchipuram, Tamil Nadu",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "'Kamakshi Kanchikapure'. Some traditions (Green Message, Wikipedia) also identify Kanchipuram with the 51-list's Kanchi pitha, whose Bengali identification is Kankalitala (entry 'kanchi-kankalitala').",
+    "sources": [
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Hinduwebsite: Ashtadasa Peetha Sthothram (transliterated text)",
+        "url": "https://hinduwebsite.com/prayers/ashtadasa-peettha-sthothram.asp"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      },
+      {
+        "title": "Wikipedia: Kamakshi Amman Temple (coordinates 12.8407, 79.7032)",
+        "url": "https://en.wikipedia.org/wiki/Kamakshi_Amman_Temple"
+      },
+      {
+        "title": "Wikidata: Kamakshi Amman Temple (Q2738610)",
+        "url": "https://www.wikidata.org/wiki/Q2738610"
+      }
+    ]
+  },
+  {
+    "id": "shrinkhala",
+    "nameEn": "Shrinkhala (Pradyumna)",
+    "lists": [
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Abdomen / stomach (per Wikipedia)",
+    "devi": "Shrinkhala",
+    "bhairava": "",
+    "candidates": [
+      {
+        "lat": 23.0797,
+        "lng": 88.2667,
+        "place": "Pandua (Hooghly), West Bengal - former shrine site at the Pandua minar/mosque complex",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "'Pradyumne Shrinkhala Devi'. The place is uncertain: Wikipedia and Bengal tradition read Pradyumna as Pandua (Hooghly), where the former shrine site now lies within the ASI-protected Pandua minar/mosque complex with no worship; Hindupedia places Pradyumna in Gujarat (no shrine named). No Bhairava is given in the Ashtadasha stotram or these sources. The pin is the median of geotagged photos of the Pandua monuments; not verified to a building.",
+    "sources": [
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Hinduwebsite: Ashtadasa Peetha Sthothram (transliterated text)",
+        "url": "https://hinduwebsite.com/prayers/ashtadasa-peettha-sthothram.asp"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      },
+      {
+        "title": "Open The Magazine: The realm of the goddess (Pradyumna and Pandua)",
+        "url": "https://openthemagazine.com/columns/the-realm-of-the-goddess"
+      },
+      {
+        "title": "Wikipedia: Pandua, Hooghly",
+        "url": "https://en.wikipedia.org/wiki/Pandua,_Hooghly"
+      }
+    ]
+  },
+  {
+    "id": "chamundeshwari",
+    "nameEn": "Chamundeshwari (Mysuru)",
+    "lists": [
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Hair (per Wikipedia)",
+    "devi": "Chamundeshwari",
+    "bhairava": "",
+    "candidates": [
+      {
+        "lat": 12.2725,
+        "lng": 76.6706,
+        "place": "Chamundeshwari temple, Chamundi hill, Mysuru, Karnataka",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "'Chamundi Kraunchapattane' (Krauncha-pura = Mysuru). The Ashtadasha stotram names no Bhairava, and none of the sources consulted gives one, so bhairava is left empty.",
+    "sources": [
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Hinduwebsite: Ashtadasa Peetha Sthothram (transliterated text)",
+        "url": "https://hinduwebsite.com/prayers/ashtadasa-peettha-sthothram.asp"
+      },
+      {
+        "title": "Wikipedia: Chamundeshwari Temple (coordinates 12.272474, 76.670611)",
+        "url": "https://en.wikipedia.org/wiki/Chamundeshwari_Temple"
+      },
+      {
+        "title": "Wikidata: Chamundeshwari Temple (Q1061529), 12.2725, 76.6706",
+        "url": "https://www.wikidata.org/wiki/Q1061529"
+      }
+    ]
+  },
+  {
+    "id": "jogulamba-alampur",
+    "nameEn": "Jogulamba (Alampur)",
+    "lists": [
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Teeth (per Wikipedia)",
+    "devi": "Jogulamba (Yogamba)",
+    "bhairava": "",
+    "candidates": [
+      {
+        "lat": 15.877,
+        "lng": 78.132,
+        "place": "Jogulamba temple, Alampur, Jogulamba Gadwal district, Telangana",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "'Alampure Jogulamba'. The stotram names no Bhairava and none of the sources consulted gives one, so bhairava is left empty (Alampur's Bala Brahmeshwara temple is the associated Shiva shrine locally - unconfirmed as the Bhairava).",
+    "sources": [
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Hinduwebsite: Ashtadasa Peetha Sthothram (transliterated text)",
+        "url": "https://hinduwebsite.com/prayers/ashtadasa-peettha-sthothram.asp"
+      },
+      {
+        "title": "Wikipedia: Jogulamba Temple, Alampur (coordinates 15°52′37.2″N 78°07′55.2″E)",
+        "url": "https://en.wikipedia.org/wiki/Jogulamba_Temple,_Alampur"
+      },
+      {
+        "title": "Wikidata: Alampur Jogulamba Temple (Q101314175), 15.8770, 78.1320",
+        "url": "https://www.wikidata.org/wiki/Q101314175"
+      }
+    ]
+  },
+  {
+    "id": "ekaveera-mahur",
+    "nameEn": "Ekaveera / Renuka (Mahur)",
+    "lists": [
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Left hand (per Wikipedia)",
+    "devi": "Ekaveerika (Renuka)",
+    "bhairava": "",
+    "candidates": [
+      {
+        "lat": 19.8329,
+        "lng": 77.9233,
+        "place": "Renuka Mata temple, Mahur (Mahurgad), Nanded district, Maharashtra",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "'Mahurye Ekaveerika'. The body part is from Wikipedia's table only. No Bhairava is named in the sources consulted.",
+    "sources": [
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Hinduwebsite: Ashtadasa Peetha Sthothram (transliterated text)",
+        "url": "https://hinduwebsite.com/prayers/ashtadasa-peettha-sthothram.asp"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      },
+      {
+        "title": "OpenStreetMap: Renuka Mata Mandir, Mahur (node 4507863165)",
+        "url": "https://www.openstreetmap.org/node/4507863165"
+      },
+      {
+        "title": "Wikipedia: Mahur, Maharashtra (coordinates 19°50′52″N 77°55′26″E)",
+        "url": "https://en.wikipedia.org/wiki/Mahur,_Maharashtra"
+      }
+    ]
+  },
+  {
+    "id": "puruhutika-pithapuram",
+    "nameEn": "Puruhutika (Pithapuram)",
+    "lists": [
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Back / hip (per Wikipedia)",
+    "devi": "Puruhutika",
+    "bhairava": "Durvaseshwar (per Wikipedia's table)",
+    "candidates": [
+      {
+        "lat": 17.1068,
+        "lng": 82.2433,
+        "place": "Puruhutika shrine in the Kukkuteswara temple, Pithapuram, Kakinada district, Andhra Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "'Peethikayam Puruhutika'. Wikipedia's combined table also lists Puruhutika as a 51-list pitha (hip, Bhairava Durvaseshwar), but it is not in the Pithanirnaya.",
+    "sources": [
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Hinduwebsite: Ashtadasa Peetha Sthothram (transliterated text)",
+        "url": "https://hinduwebsite.com/prayers/ashtadasa-peettha-sthothram.asp"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      },
+      {
+        "title": "Wikipedia: Kukkuteswara Temple (coordinates 17°06′24.46″N 82°14′36″E)",
+        "url": "https://en.wikipedia.org/wiki/Kukkuteswara_Temple"
+      },
+      {
+        "title": "Wikidata: Pithapuram Temple (Q24929198)",
+        "url": "https://www.wikidata.org/wiki/Q24929198"
+      }
+    ]
+  },
+  {
+    "id": "biraja-jajpur",
+    "nameEn": "Girija / Biraja (Jajpur)",
+    "lists": [
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Navel (per Wikipedia)",
+    "devi": "Girija (Biraja / Viraja)",
+    "bhairava": "Varaha (Varaheshwar)",
+    "candidates": [
+      {
+        "lat": 20.8337,
+        "lng": 86.3382,
+        "place": "Biraja temple, Jajpur, Odisha",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "'Odhyane Girija Devi' (Odra/Oddiyana = Odisha; Hindupedia says Cuttack, i.e. the old Cuttack district that included Jajpur). Sircar's reading of the Pithanirnaya ('Viraja-kshetra in Utkala') means some traditions identify Biraja with the 51-list's Utkala pitha, recorded under 'utkala-vimala' with Puri as primary.",
+    "sources": [
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Hinduwebsite: Ashtadasa Peetha Sthothram (transliterated text)",
+        "url": "https://hinduwebsite.com/prayers/ashtadasa-peettha-sthothram.asp"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      },
+      {
+        "title": "OpenStreetMap: Biraja Temple (way 672943946)",
+        "url": "https://www.openstreetmap.org/way/672943946"
+      },
+      {
+        "title": "Wikidata: Biraja Temple (Q4915588), 20.8338, 86.3381",
+        "url": "https://www.wikidata.org/wiki/Q4915588"
+      }
+    ]
+  },
+  {
+    "id": "manikyamba-draksharamam",
+    "nameEn": "Manikyamba (Draksharamam)",
+    "lists": [
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Left cheek (per Wikipedia)",
+    "devi": "Manikyamba",
+    "bhairava": "Bhimeshwara",
+    "candidates": [
+      {
+        "lat": 16.7928,
+        "lng": 82.0635,
+        "place": "Bhimeswara temple (Manikyamba shrine), Draksharamam, Konaseema district, Andhra Pradesh",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "'Dakshavatyam Manikya Devi'. Wikipedia's combined table also lists Manikyamba as a 51-list pitha (navel, Bheemeshwar), but it is not in the Pithanirnaya.",
+    "sources": [
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Hinduwebsite: Ashtadasa Peetha Sthothram (transliterated text)",
+        "url": "https://hinduwebsite.com/prayers/ashtadasa-peettha-sthothram.asp"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      },
+      {
+        "title": "Wikidata: Bhimeswara temple, Draksharama (Q70957775), 16.7928, 82.0635",
+        "url": "https://www.wikidata.org/wiki/Q70957775"
+      },
+      {
+        "title": "Wikipedia: Daksharamam (coordinates 16.792, 82.0633)",
+        "url": "https://en.wikipedia.org/wiki/Daksharamam"
+      }
+    ]
+  },
+  {
+    "id": "mangala-gauri-gaya",
+    "nameEn": "Sarvamangala / Mangala Gauri (Gaya)",
+    "lists": [
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Breast (per Wikipedia)",
+    "devi": "Sarvamangala (Mangala Gauri)",
+    "bhairava": "",
+    "candidates": [
+      {
+        "lat": 24.7751,
+        "lng": 85.0023,
+        "place": "Mangla Gauri temple, Bhasmakut hill, Gaya, Bihar",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "'Gayayam Mangalya Gauri'. Not in the Pithanirnaya; Sircar notes a late variant 'Magadha' (Patna-Gaya region) inserted by modifiers of that text. No Bhairava is named in the sources consulted.",
+    "sources": [
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Hinduwebsite: Ashtadasa Peetha Sthothram (transliterated text)",
+        "url": "https://hinduwebsite.com/prayers/ashtadasa-peettha-sthothram.asp"
+      },
+      {
+        "title": "Wikipedia: Mangla Gauri Temple (coordinates 24°46′30.5″N 85°00′08.3″E)",
+        "url": "https://en.wikipedia.org/wiki/Mangla_Gauri_Temple"
+      },
+      {
+        "title": "Wikidata: Mangla Gauri Temple (Q6749050), 24.7751, 85.0023",
+        "url": "https://www.wikidata.org/wiki/Q6749050"
+      }
+    ]
+  },
+  {
+    "id": "sharada-peeth",
+    "nameEn": "Saraswati / Sharada Peeth (Kashmir)",
+    "lists": [
+      "ashtadasha-18"
+    ],
+    "bodyPart": "Right hand (per Wikipedia)",
+    "devi": "Saraswati (Sharada)",
+    "bhairava": "",
+    "candidates": [
+      {
+        "lat": 34.7919,
+        "lng": 74.19,
+        "place": "Sharada Peeth ruins, Sharda village, Neelum valley, Jammu and Kashmir (Pakistan-administered)",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "'Kashmire tu Saraswati'. The ruined temple stands near the Line of Control in Pakistan-administered Kashmir, which India claims. Sircar lists the Ashtadasha's Kashmir as Saraswati; a new Sharada temple at Teetwal (Kupwara, India), consecrated in 2023, is not the pitha. No Bhairava is named in the sources consulted. Labelled per India's official boundary as drawn on the map: Jammu and Kashmir (Pakistan-administered) (owner decision, 2026-10-27).",
+    "sources": [
+      {
+        "title": "Hindupedia: Ashta Dasa Shakthi Peetha Stotram (18 places and Devis)",
+        "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+      },
+      {
+        "title": "Hinduwebsite: Ashtadasa Peetha Sthothram (transliterated text)",
+        "url": "https://hinduwebsite.com/prayers/ashtadasa-peettha-sthothram.asp"
+      },
+      {
+        "title": "Wikipedia: Shakta pithas (lists of 51, 18 Maha and 4 Adi pithas)",
+        "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+      },
+      {
+        "title": "Wikipedia: Sharada Peeth (coordinates 34°47′31″N 74°11′24″E)",
+        "url": "https://en.wikipedia.org/wiki/Sharada_Peeth"
+      },
+      {
+        "title": "Wikidata: Sharada Peeth (Q3765487), 34.7922, 74.1900",
+        "url": "https://www.wikidata.org/wiki/Q3765487"
+      }
+    ]
+  },
+  {
+    "id": "tara-tarini",
+    "nameEn": "Tara Tarini (Brahmapur)",
+    "lists": [
+      "adi-4"
+    ],
+    "bodyPart": "Breasts (stana-khanda)",
+    "devi": "Tara and Tarini",
+    "bhairava": "",
+    "candidates": [
+      {
+        "lat": 19.4897,
+        "lng": 84.8998,
+        "place": "Tara Tarini temple, Kumari hill on the Rushikulya, Purushottampur, Ganjam, Odisha",
+        "country": "IN"
+      }
+    ],
+    "primaryCandidate": 0,
+    "identificationNote": "Adi Peetha per the Kalika Purana tradition; not in the Pithanirnaya or the Ashtadasha. Wikipedia's combined table gives the Bhairava as Tumbeshwar, but the Adi Peetha sources consulted give none, so it is left empty.",
+    "sources": [
+      {
+        "title": "eSamskriti: Four Adi Shakti Peethas (Kalika Purana)",
+        "url": "https://www.esamskriti.com/e/Spirituality/Tantra/Shakti-Peethas-(Tantra-Peethas)-Of-India-2.aspx"
+      },
+      {
+        "title": "IndiaNetzone: Four Adi Shakti Pithas",
+        "url": "https://www.indianetzone.com/75/four_adi_shakti_pithas.htm"
+      },
+      {
+        "title": "Wikipedia: Tara Tarini Mandir (coordinates 19°29′22.83″N 84°53′59.23″E)",
+        "url": "https://en.wikipedia.org/wiki/Tara_Tarini_Mandir"
+      },
+      {
+        "title": "Wikidata: Tara Tarini Temple (Q5717871), 19.4897, 84.8998",
+        "url": "https://www.wikidata.org/wiki/Q5717871"
+      }
+    ]
+  }
+]
