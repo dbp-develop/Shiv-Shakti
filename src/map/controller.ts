@@ -3,8 +3,10 @@ import type { Map as MlMap, StyleSpecification } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import type { Lang } from '../content/langs';
 import type { Temple } from '../content/schema';
+import type { GeoJSONSource } from 'maplibre-gl';
 import type { Theme } from '../state';
 import { installBoundary } from './boundary';
+import { FLY_TO, buildMarkerList, installPins, pinHitAt, setPinsData, setPinsSelected, templeIdOf } from './pins';
 import { installRivers, riverIdAt, setRiversLang } from './rivers';
 import { OPENFREEMAP_STYLE_URL, transformBaseStyle } from './style';
 import { DEFAULT_PITCH, installTerrain, setTerrainEnabled } from './terrain';
@@ -58,6 +60,11 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
   const styleHooks: Array<(map: MlMap, t: Theme) => void> = [];
   const terrainFailHooks: Array<() => void> = [];
   const riverHooks: Array<(id: string) => void> = [];
+  const selectHooks: Array<(id: string) => void> = [];
+  let temples: Temple[] = [];
+  let selectedId: string | null = null;
+
+  const dur = (ms: number) => (reduced ? 0 : ms);
 
   const map = new maplibregl.Map({
     container: el,
@@ -85,17 +92,34 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
     installTerrain(map, theme, is3D && !terrainFailed);
     installBoundary(map, theme);
     installRivers(map, theme, lang);
+    installPins(map, theme, temples, lang, selectedId);
     applyLang();
     for (const cb of styleHooks) cb(map, theme);
   }
   map.on('style.load', onStyleLoad);
 
+  const markerHost = document.createElement('div');
+  markerHost.className = 'sr-only';
+  el.append(markerHost);
+  const rebuildMarkers = () => buildMarkerList(markerHost, temples, lang, (id) => pick(id));
+
+  // Pins and clusters take precedence over rivers: a tap on one never also opens a river card.
   map.on('click', (e) => {
+    const hit = pinHitAt(map, e.point);
+    if (hit?.kind === 'cluster') {
+      const src = map.getSource('temples') as GeoJSONSource | undefined;
+      void src?.getClusterExpansionZoom(hit.clusterId).then((zoom) => map.easeTo({ center: hit.center, zoom, duration: dur(500) }));
+      return;
+    }
+    if (hit) {
+      pick(hit.templeId);
+      return;
+    }
     const id = riverIdAt(map, e.point);
     if (id) for (const cb of riverHooks) cb(id);
   });
   map.on('mousemove', (e) => {
-    map.getCanvas().style.cursor = riverIdAt(map, e.point) ? 'pointer' : '';
+    map.getCanvas().style.cursor = pinHitAt(map, e.point) || riverIdAt(map, e.point) ? 'pointer' : '';
   });
 
   map.on('error', (e) => {
@@ -128,7 +152,20 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
     map.on('error', onError);
   });
 
-  const dur = (ms: number) => (reduced ? 0 : ms);
+  function select(id: string | null, opts?: { animate: boolean }): void {
+    selectedId = id;
+    setPinsSelected(map, id);
+    const tp = id ? temples.find((x) => x.id === id) : undefined;
+    if (!tp) return;
+    const cam = { center: [tp.location.lng, tp.location.lat] as [number, number], ...FLY_TO };
+    if (reduced || opts?.animate === false) map.jumpTo(cam);
+    else map.flyTo(cam);
+  }
+  /** A pin, cluster-free tap or marker-list activation: fly there and tell the listeners. */
+  function pick(id: string): void {
+    select(templeIdOf(id));
+    for (const cb of selectHooks) cb(templeIdOf(id));
+  }
 
   return {
     map,
@@ -141,6 +178,8 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
       lang = l;
       applyLang();
       setRiversLang(map, lang);
+      setPinsData(map, temples, lang);
+      rebuildMarkers();
     },
     set3D(on) {
       is3D = on;
@@ -150,9 +189,15 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
     resetView() {
       map.easeTo({ ...HOME, pitch: is3D ? DEFAULT_PITCH : 0, duration: dur(800) });
     },
-    setTemples() {},
-    select() {},
-    onSelect() {},
+    setTemples(ts) {
+      temples = ts;
+      setPinsData(map, temples, lang);
+      rebuildMarkers();
+    },
+    select,
+    onSelect(cb) {
+      selectHooks.push(cb);
+    },
     onRiver(cb) {
       riverHooks.push(cb);
     },
@@ -164,6 +209,7 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
       terrainFailHooks.push(cb);
     },
     destroy() {
+      markerHost.remove();
       map.remove();
     },
   };

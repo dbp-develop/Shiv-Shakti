@@ -63,3 +63,30 @@ a {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* Visually hidden but still reachable by keyboard and screen readers; shown when it has focus. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.sr-only:focus-within {
+  position: absolute;
+  z-index: 5;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0.5rem;
+  clip-path: none;
+  overflow: visible;
+  left: 0.5rem;
+  top: 0.5rem;
+  background: var(--bg, #12142b);
+  color: var(--text, #f4ead7);
+}

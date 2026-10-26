@@ -11,7 +11,7 @@
   },
   "notice": {
     "templeNotFound": "We could not find that temple.",
-    "geoDenied": "Location access was denied, so \u201cnearest temples\u201d is unavailable.",
+    "geoDenied": "Location access was denied, so “nearest temples” is unavailable.",
     "terrainFailed": "3D terrain could not load; showing the flat map."
   },
   "marker": {
@@ -83,5 +83,12 @@
   },
   "river": {
     "close": "Close"
+  },
+  "pins": {
+    "listLabel": "Temples on the map",
+    "jyotirlinga": "Jyotirlinga",
+    "mahaPeetha": "Maha Shakti Peetha",
+    "peetha": "Shakti Peetha",
+    "alternate": "Other claimed site"
   }
 }
