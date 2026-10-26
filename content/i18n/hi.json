@@ -1,0 +1,84 @@
+{
+  "app": {
+    "title": "शिव-शक्ति"
+  },
+  "lang": {
+    "menuLabel": "भाषा"
+  },
+  "theme": {
+    "toLight": "लाइट थीम पर जाएँ",
+    "toDark": "डार्क थीम पर जाएँ"
+  },
+  "notice": {
+    "templeNotFound": "वह मंदिर नहीं मिल सका।",
+    "geoDenied": "स्थान की अनुमति नहीं मिली, इसलिए निकटतम मंदिर उपलब्ध नहीं हैं।",
+    "terrainFailed": "3D भू-आकृति लोड नहीं हो सकी; सपाट मानचित्र दिखाया जा रहा है।"
+  },
+  "marker": {
+    "machineTranslation": "मशीन-सहायित अनुवाद",
+    "englishFallback": "अंग्रेज़ी में दिखाया गया"
+  },
+  "sheet": {
+    "photos": "चित्र",
+    "liveDarshan": "लाइव दर्शन",
+    "history": "इतिहास",
+    "story": "कथा",
+    "festivals": "उत्सव",
+    "uniqueFacts": "विशेष तथ्य",
+    "visiting": "दर्शन की जानकारी",
+    "otherClaimedSites": "अन्य दावेदार स्थल",
+    "sources": "स्रोत"
+  },
+  "calendar": {
+    "masas": [
+      "चैत्र",
+      "वैशाख",
+      "ज्येष्ठ",
+      "आषाढ़",
+      "श्रावण",
+      "भाद्रपद",
+      "आश्विन",
+      "कार्तिक",
+      "मार्गशीर्ष",
+      "पौष",
+      "माघ",
+      "फाल्गुन"
+    ],
+    "rashis": [
+      "मेष",
+      "वृषभ",
+      "मिथुन",
+      "कर्क",
+      "सिंह",
+      "कन्या",
+      "तुला",
+      "वृश्चिक",
+      "धनु",
+      "मकर",
+      "कुंभ",
+      "मीन"
+    ],
+    "weekdaysPlural": [
+      "रविवार",
+      "सोमवार",
+      "मंगलवार",
+      "बुधवार",
+      "गुरुवार",
+      "शुक्रवार",
+      "शनिवार"
+    ],
+    "shukla": "शुक्ल",
+    "krishna": "कृष्ण",
+    "purnima": "पूर्णिमा",
+    "amavasya": "अमावस्या",
+    "tpl": {
+      "tithi": "{masa} {paksha} {tithi}",
+      "tithiRange": "{masa} {paksha} {from}–{to}",
+      "special": "{masa} {name}",
+      "sankranti": "सूर्य {rashi} में प्रवेश करता है",
+      "sankrantiFrom": "सौर {masa} के दिन {n} से, {days} दिन",
+      "weekdayInMasa": "{masa} के {weekdays}",
+      "withMonths": "{when} ({months})"
+    }
+  }
+}

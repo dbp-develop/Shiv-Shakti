@@ -1,0 +1,84 @@
+{
+  "app": {
+    "title": "શિવ-શક્તિ"
+  },
+  "lang": {
+    "menuLabel": "ભાષા"
+  },
+  "theme": {
+    "toLight": "લાઇટ થીમ પર જાઓ",
+    "toDark": "ડાર્ક થીમ પર જાઓ"
+  },
+  "notice": {
+    "templeNotFound": "તે મંદિર મળ્યું નથી.",
+    "geoDenied": "સ્થાનની પરવાનગી નકારવામાં આવી, તેથી નજીકના મંદિરો ઉપલબ્ધ નથી.",
+    "terrainFailed": "3D ભૂપ્રદેશ લોડ થયો નથી; સપાટ નકશો બતાવાય છે."
+  },
+  "marker": {
+    "machineTranslation": "મશીન-સહાયિત અનુવાદ",
+    "englishFallback": "અંગ્રેજીમાં બતાવ્યું છે"
+  },
+  "sheet": {
+    "photos": "ફોટા",
+    "liveDarshan": "જીવંત દર્શન",
+    "history": "ઇતિહાસ",
+    "story": "કથા",
+    "festivals": "ઉત્સવો",
+    "uniqueFacts": "ખાસ તથ્યો",
+    "visiting": "દર્શનની માહિતી",
+    "otherClaimedSites": "અન્ય દાવો કરાયેલાં સ્થળો",
+    "sources": "સ્રોત"
+  },
+  "calendar": {
+    "masas": [
+      "ચૈત્ર",
+      "વૈશાખ",
+      "જ્યેષ્ઠ",
+      "આષાઢ",
+      "શ્રાવણ",
+      "ભાદ્રપદ",
+      "આશ્વિન",
+      "કાર્તિક",
+      "માર્ગશીર્ષ",
+      "પૌષ",
+      "માઘ",
+      "ફાલ્ગુન"
+    ],
+    "rashis": [
+      "મેષ",
+      "વૃષભ",
+      "મિથુન",
+      "કર્ક",
+      "સિંહ",
+      "કન્યા",
+      "તુલા",
+      "વૃશ્ચિક",
+      "ધનુ",
+      "મકર",
+      "કુંભ",
+      "મીન"
+    ],
+    "weekdaysPlural": [
+      "રવિવાર",
+      "સોમવાર",
+      "મંગળવાર",
+      "બુધવાર",
+      "ગુરુવાર",
+      "શુક્રવાર",
+      "શનિવાર"
+    ],
+    "shukla": "શુક્લ",
+    "krishna": "કૃષ્ણ",
+    "purnima": "પૂર્ણિમા",
+    "amavasya": "અમાસ",
+    "tpl": {
+      "tithi": "{masa} {paksha} {tithi}",
+      "tithiRange": "{masa} {paksha} {from}–{to}",
+      "special": "{masa} {name}",
+      "sankranti": "સૂર્ય {rashi} રાશિમાં પ્રવેશે છે",
+      "sankrantiFrom": "સૌર {masa}ના {n}મા દિવસથી, {days} દિવસ",
+      "weekdayInMasa": "{masa} માસના {weekdays}",
+      "withMonths": "{when} ({months})"
+    }
+  }
+}

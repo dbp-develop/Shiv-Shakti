@@ -1,0 +1,65 @@
+:root {
+  --font-sans: 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Bengali', 'Noto Sans Tamil',
+    'Noto Sans Telugu', 'Noto Sans Gujarati', system-ui, sans-serif;
+  --tap: 2.75rem; /* 44px at the default root size */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+button,
+a,
+select,
+input,
+summary,
+[role='button'] {
+  min-width: var(--tap);
+  min-height: var(--tap);
+  font: inherit;
+}
+
+button,
+select,
+input {
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--muted);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+}
+
+a {
+  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+}
+
+:focus-visible {
+  outline: 0.1875rem solid var(--accent);
+  outline-offset: 0.125rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

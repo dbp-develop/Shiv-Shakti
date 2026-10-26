@@ -1,0 +1,84 @@
+{
+  "app": {
+    "title": "Shiv-Shakti"
+  },
+  "lang": {
+    "menuLabel": "Language"
+  },
+  "theme": {
+    "toLight": "Switch to light theme",
+    "toDark": "Switch to dark theme"
+  },
+  "notice": {
+    "templeNotFound": "We could not find that temple.",
+    "geoDenied": "Location access was denied, so \u201cnearest temples\u201d is unavailable.",
+    "terrainFailed": "3D terrain could not load; showing the flat map."
+  },
+  "marker": {
+    "machineTranslation": "Machine-assisted translation",
+    "englishFallback": "Shown in English"
+  },
+  "sheet": {
+    "photos": "Photos",
+    "liveDarshan": "Live darshan",
+    "history": "History",
+    "story": "Story",
+    "festivals": "Festivals",
+    "uniqueFacts": "Unique facts",
+    "visiting": "Visiting",
+    "otherClaimedSites": "Other claimed sites",
+    "sources": "Sources"
+  },
+  "calendar": {
+    "masas": [
+      "Chaitra",
+      "Vaishakha",
+      "Jyeshtha",
+      "Ashadha",
+      "Shravana",
+      "Bhadrapada",
+      "Ashvina",
+      "Kartika",
+      "Margashirsha",
+      "Pausha",
+      "Magha",
+      "Phalguna"
+    ],
+    "rashis": [
+      "Mesha",
+      "Vrishabha",
+      "Mithuna",
+      "Karka",
+      "Simha",
+      "Kanya",
+      "Tula",
+      "Vrishchika",
+      "Dhanu",
+      "Makara",
+      "Kumbha",
+      "Meena"
+    ],
+    "weekdaysPlural": [
+      "Sundays",
+      "Mondays",
+      "Tuesdays",
+      "Wednesdays",
+      "Thursdays",
+      "Fridays",
+      "Saturdays"
+    ],
+    "shukla": "Shukla",
+    "krishna": "Krishna",
+    "purnima": "Purnima",
+    "amavasya": "Amavasya",
+    "tpl": {
+      "tithi": "{masa} {paksha} {tithi}",
+      "tithiRange": "{masa} {paksha} {from}–{to}",
+      "special": "{masa} {name}",
+      "sankranti": "Sun enters {rashi}",
+      "sankrantiFrom": "From day {n} of solar {masa}, {days} days",
+      "weekdayInMasa": "{weekdays} of {masa}",
+      "withMonths": "{when} ({months})"
+    }
+  }
+}

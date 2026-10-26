@@ -1,0 +1,26 @@
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #12142b;
+  --surface: #1c1f3d;
+  --text: #f3ebdd;
+  --muted: #c9bfae;
+  --accent: #ff9933;
+  --gold: #e8b44c;
+  --kumkum: #e04a5a;
+  --good: #5fd08a;
+  --bad: #ff7a7a;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #fbf5e9;
+  --surface: #ffffff;
+  --text: #4a1f14;
+  --muted: #6e4a3c;
+  --accent: #b05700;
+  --gold: #9a6a00;
+  --kumkum: #9e1b32;
+  --good: #1e7a44;
+  --bad: #b3261e;
+}

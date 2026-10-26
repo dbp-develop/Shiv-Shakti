@@ -1,32 +1,15 @@
 import { describe, expect, it, vi } from 'vitest';
 import { allowUntranslated } from '../../../src/content/langs';
+import { calendarTerms } from '../../../src/i18n';
+import { setLang } from '../../../src/state';
 import {
   FestivalSchema,
   festivalWhenText,
   loadFestivals,
-  type CalendarTerms,
   type FestivalDef,
 } from '../../../src/content/festivals';
 
-// Task 7 moves these into content/i18n/en.json under calendar.*
-export const EN_TERMS: CalendarTerms = {
-  masas: ['Chaitra', 'Vaishakha', 'Jyeshtha', 'Ashadha', 'Shravana', 'Bhadrapada', 'Ashvina', 'Kartika', 'Margashirsha', 'Pausha', 'Magha', 'Phalguna'],
-  rashis: ['Mesha', 'Vrishabha', 'Mithuna', 'Karka', 'Simha', 'Kanya', 'Tula', 'Vrishchika', 'Dhanu', 'Makara', 'Kumbha', 'Meena'],
-  weekdaysPlural: ['Sundays', 'Mondays', 'Tuesdays', 'Wednesdays', 'Thursdays', 'Fridays', 'Saturdays'],
-  shukla: 'Shukla',
-  krishna: 'Krishna',
-  purnima: 'Purnima',
-  amavasya: 'Amavasya',
-  tpl: {
-    tithi: '{masa} {paksha} {tithi}',
-    tithiRange: '{masa} {paksha} {from}–{to}',
-    special: '{masa} {name}',
-    sankranti: 'Sun enters {rashi}',
-    sankrantiFrom: 'From day {n} of solar {masa}, {days} days',
-    weekdayInMasa: '{weekdays} of {masa}',
-    withMonths: '{when} ({months})',
-  },
-};
+setLang('en');
 
 const EXPECTED: Record<string, string> = {
   'maha-shivaratri': 'Phalguna Krishna 14 (Feb–Mar)',
@@ -56,12 +39,12 @@ describe('festival data', () => {
 
   it.each(Object.entries(EXPECTED))('renders %s', (id, text) => {
     const f = festivals.find((x) => x.id === id)!;
-    expect(festivalWhenText(f, EN_TERMS, 'en')).toBe(text);
+    expect(festivalWhenText(f, calendarTerms(), 'en')).toBe(text);
   });
 
   it('renders a year-wrapping month range as Dec–Jan', () => {
     const f = FestivalSchema.parse({ ...base, months: [12, 1] }) as FestivalDef;
-    expect(festivalWhenText(f, EN_TERMS, 'en')).toBe('Chaitra Shukla 1 (Dec–Jan)');
+    expect(festivalWhenText(f, calendarTerms(), 'en')).toBe('Chaitra Shukla 1 (Dec–Jan)');
   });
 });
 
