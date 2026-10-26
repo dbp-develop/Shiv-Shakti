@@ -80,5 +80,8 @@
       "weekdayInMasa": "{masa} के {weekdays}",
       "withMonths": "{when} ({months})"
     }
+  },
+  "river": {
+    "close": "बंद करें"
   }
 }

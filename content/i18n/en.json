@@ -80,5 +80,8 @@
       "weekdayInMasa": "{weekdays} of {masa}",
       "withMonths": "{when} ({months})"
     }
+  },
+  "river": {
+    "close": "Close"
   }
 }

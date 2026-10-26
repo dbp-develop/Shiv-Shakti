@@ -1,0 +1,38 @@
+// @vitest-environment jsdom
+import { cleanup, fireEvent, render, screen } from '@testing-library/preact';
+import { afterEach, describe, expect, it, vi } from 'vitest';
+import { RiverCard } from '../../../src/ui/RiverCard';
+import { setLang } from '../../../src/state';
+
+afterEach(() => {
+  cleanup();
+  setLang('en');
+});
+
+describe('RiverCard', () => {
+  it('shows the Saraswati text, the reconstruction note and linked sources', () => {
+    render(<RiverCard onClose={() => {}} />);
+    expect(screen.getByRole('dialog').getAttribute('aria-labelledby')).toBeTruthy();
+    expect(screen.getByRole('heading', { name: 'The ancient Saraswati' })).toBeTruthy();
+    expect(screen.getByText(/RV 2\.41\.16/)).toBeTruthy();
+    expect(screen.getByText(/is a reconstruction/i)).toBeTruthy();
+    const links = screen.getAllByRole('link');
+    expect(links.length).toBeGreaterThanOrEqual(4);
+    for (const a of links) expect(a.getAttribute('href')).toMatch(/^https:\/\//);
+    expect(links.some((a) => /nrsc\.gov\.in/.test(a.getAttribute('href') ?? ''))).toBe(true);
+    expect(screen.queryByText('Shown in English')).toBeNull();
+  });
+
+  it('flags the English fallback while the other languages are untranslated', () => {
+    setLang('hi');
+    render(<RiverCard onClose={() => {}} />);
+    expect(screen.getAllByText('अंग्रेज़ी में दिखाया गया').length).toBeGreaterThan(0);
+  });
+
+  it('calls onClose', () => {
+    const onClose = vi.fn();
+    render(<RiverCard onClose={onClose} />);
+    fireEvent.click(screen.getByRole('button', { name: 'Close' }));
+    expect(onClose).toHaveBeenCalled();
+  });
+});

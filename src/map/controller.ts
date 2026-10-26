@@ -5,6 +5,7 @@ import type { Lang } from '../content/langs';
 import type { Temple } from '../content/schema';
 import type { Theme } from '../state';
 import { installBoundary } from './boundary';
+import { installRivers, riverIdAt, setRiversLang } from './rivers';
 import { OPENFREEMAP_STYLE_URL, transformBaseStyle } from './style';
 import { DEFAULT_PITCH, installTerrain, setTerrainEnabled } from './terrain';
 
@@ -56,6 +57,7 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
   let terrainFailed = false;
   const styleHooks: Array<(map: MlMap, t: Theme) => void> = [];
   const terrainFailHooks: Array<() => void> = [];
+  const riverHooks: Array<(id: string) => void> = [];
 
   const map = new maplibregl.Map({
     container: el,
@@ -82,10 +84,19 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
   function onStyleLoad(): void {
     installTerrain(map, theme, is3D && !terrainFailed);
     installBoundary(map, theme);
+    installRivers(map, theme, lang);
     applyLang();
     for (const cb of styleHooks) cb(map, theme);
   }
   map.on('style.load', onStyleLoad);
+
+  map.on('click', (e) => {
+    const id = riverIdAt(map, e.point);
+    if (id) for (const cb of riverHooks) cb(id);
+  });
+  map.on('mousemove', (e) => {
+    map.getCanvas().style.cursor = riverIdAt(map, e.point) ? 'pointer' : '';
+  });
 
   map.on('error', (e) => {
     const src = (e as { sourceId?: string }).sourceId;
@@ -129,6 +140,7 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
     setLang(l) {
       lang = l;
       applyLang();
+      setRiversLang(map, lang);
     },
     set3D(on) {
       is3D = on;
@@ -141,7 +153,9 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
     setTemples() {},
     select() {},
     onSelect() {},
-    onRiver() {},
+    onRiver(cb) {
+      riverHooks.push(cb);
+    },
     onStyleReady(cb) {
       styleHooks.push(cb);
       if (map.isStyleLoaded()) cb(map, theme);

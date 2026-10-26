@@ -80,5 +80,8 @@
       "weekdayInMasa": "{masa} மாதத்தின் {weekdays}",
       "withMonths": "{when} ({months})"
     }
+  },
+  "river": {
+    "close": "மூடு"
   }
 }

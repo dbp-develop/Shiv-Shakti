@@ -80,5 +80,8 @@
       "weekdayInMasa": "{masa} మాసంలో {weekdays}",
       "withMonths": "{when} ({months})"
     }
+  },
+  "river": {
+    "close": "మూసివేయి"
   }
 }
