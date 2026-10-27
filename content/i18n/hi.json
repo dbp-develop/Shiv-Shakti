@@ -29,7 +29,24 @@
     "uniqueFacts": "विशेष तथ्य",
     "visiting": "दर्शन की जानकारी",
     "otherClaimedSites": "अन्य दावेदार स्थल",
-    "sources": "स्रोत"
+    "sources": "स्रोत",
+    "close": "मंदिर विवरण बंद करें",
+    "expand": "मंदिर विवरण बड़ा करें",
+    "collapse": "मंदिर विवरण छोटा करें",
+    "openOfficial": "आधिकारिक वेबसाइट खोलें",
+    "lastVerified": "अंतिम सत्यापन {date}",
+    "commonsPage": "कॉमन्स पृष्ठ",
+    "photoBy": "चित्र: {author}",
+    "bodyPart": "अंग",
+    "devi": "देवी",
+    "bhairava": "भैरव",
+    "scriptures": "उल्लेख",
+    "elevation": "ऊँचाई {m} मीटर",
+    "timings": "समय",
+    "nearestAirport": "निकटतम हवाई अड्डा",
+    "nearestRail": "निकटतम रेलवे स्टेशन",
+    "bestSeason": "सर्वोत्तम मौसम",
+    "darshanTitle": "लाइव दर्शन: {name}"
   },
   "calendar": {
     "masas": [
@@ -127,5 +144,10 @@
     "title": "सभी मंदिर",
     "empty": "कोई मंदिर नहीं मिला।",
     "fallback": "इस उपकरण पर मानचित्र शुरू नहीं हो सका, इसलिए मंदिरों की सूची दी गई है।"
+  },
+  "lists": {
+    "peethaNirnaya51": "पीठनिर्णय तंत्र (51)",
+    "ashtadasha18": "अष्टादश शक्तिपीठ स्तोत्रम् (18)",
+    "adi4": "आदि शक्तिपीठ (4)"
   }
 }

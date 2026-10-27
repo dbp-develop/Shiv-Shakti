@@ -29,7 +29,24 @@
     "uniqueFacts": "বিশেষ তথ্য",
     "visiting": "দর্শনের তথ্য",
     "otherClaimedSites": "অন্যান্য দাবিকৃত স্থান",
-    "sources": "সূত্র"
+    "sources": "সূত্র",
+    "close": "মন্দিরের বিবরণ বন্ধ করুন",
+    "expand": "মন্দিরের বিবরণ বড় করুন",
+    "collapse": "মন্দিরের বিবরণ ছোট করুন",
+    "openOfficial": "অফিসিয়াল ওয়েবসাইট খুলুন",
+    "lastVerified": "সর্বশেষ যাচাই {date}",
+    "commonsPage": "কমন্স পাতা",
+    "photoBy": "ছবি: {author}",
+    "bodyPart": "অঙ্গ",
+    "devi": "দেবী",
+    "bhairava": "ভৈরব",
+    "scriptures": "উল্লেখ",
+    "elevation": "উচ্চতা {m} মিটার",
+    "timings": "সময়",
+    "nearestAirport": "নিকটতম বিমানবন্দর",
+    "nearestRail": "নিকটতম রেলস্টেশন",
+    "bestSeason": "সেরা ঋতু",
+    "darshanTitle": "সরাসরি দর্শন: {name}"
   },
   "calendar": {
     "masas": [
@@ -127,5 +144,10 @@
     "title": "সব মন্দির",
     "empty": "কোনো মন্দির মেলেনি।",
     "fallback": "এই ডিভাইসে মানচিত্র চালু করা যায়নি, তাই মন্দিরের তালিকা দেওয়া হলো।"
+  },
+  "lists": {
+    "peethaNirnaya51": "পীঠনির্ণয় তন্ত্র (৫১)",
+    "ashtadasha18": "অষ্টাদশ শক্তিপীঠ স্তোত্রম্ (১৮)",
+    "adi4": "আদি শক্তিপীঠ (৪)"
   }
 }

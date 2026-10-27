@@ -29,7 +29,24 @@
     "uniqueFacts": "खास तथ्ये",
     "visiting": "दर्शनाची माहिती",
     "otherClaimedSites": "इतर दावा केलेली स्थाने",
-    "sources": "स्रोत"
+    "sources": "स्रोत",
+    "close": "मंदिराचा तपशील बंद करा",
+    "expand": "मंदिराचा तपशील मोठा करा",
+    "collapse": "मंदिराचा तपशील लहान करा",
+    "openOfficial": "अधिकृत संकेतस्थळ उघडा",
+    "lastVerified": "शेवटची पडताळणी {date}",
+    "commonsPage": "कॉमन्स पान",
+    "photoBy": "छायाचित्र: {author}",
+    "bodyPart": "अवयव",
+    "devi": "देवी",
+    "bhairava": "भैरव",
+    "scriptures": "उल्लेख",
+    "elevation": "उंची {m} मीटर",
+    "timings": "वेळ",
+    "nearestAirport": "जवळचे विमानतळ",
+    "nearestRail": "जवळचे रेल्वे स्थानक",
+    "bestSeason": "सर्वोत्तम ऋतू",
+    "darshanTitle": "थेट दर्शन: {name}"
   },
   "calendar": {
     "masas": [
@@ -127,5 +144,10 @@
     "title": "सर्व मंदिरे",
     "empty": "कोणतेही मंदिर आढळले नाही.",
     "fallback": "या उपकरणावर नकाशा सुरू होऊ शकला नाही, म्हणून मंदिरांची यादी दिली आहे."
+  },
+  "lists": {
+    "peethaNirnaya51": "पीठनिर्णय तंत्र (५१)",
+    "ashtadasha18": "अष्टादश शक्तिपीठ स्तोत्र (१८)",
+    "adi4": "आदि शक्तिपीठे (४)"
   }
 }

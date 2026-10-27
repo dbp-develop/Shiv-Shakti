@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { loadFestivals } from './content/festivals';
 import { applyFilters } from './content/filters';
 import { nearestTemples } from './content/geo';
-import { loadTemples } from './content/load';
+import { getTemple, loadTemples } from './content/load';
 import { loadSaraswati } from './content/saraswati';
 import type { Temple } from './content/schema';
 import { t } from './i18n';
@@ -16,6 +16,7 @@ import { MapTools } from './ui/MapTools';
 import { NearestPanel, type Nearby } from './ui/NearestPanel';
 import { Notice } from './ui/Notice';
 import { RiverCard } from './ui/RiverCard';
+import { TempleSheet } from './ui/TempleSheet';
 
 const GEO_TIMEOUT_MS = 10_000;
 
@@ -112,11 +113,15 @@ export function App() {
   useEffect(() => ctl?.setTheme(theme.value), [ctl, theme.value]);
   useEffect(() => ctl?.setTemples(shown), [ctl, shown]);
   const r = route.value;
-  const known = r.kind === 'temple' && temples.some((x) => x.id === r.id);
+  // getTemple, not `shown`: a deep link to a temple the filters hide still opens its sheet (R5).
+  const routeId = r.kind === 'temple' ? r.id : null;
+  const temple = useMemo(() => (routeId ? safely(() => getTemple(routeId), undefined) : undefined), [routeId]);
+  const known = !!temple;
   useEffect(() => {
     if (!ctl) return;
-    ctl.select(r.kind === 'temple' && known ? r.id : null);
-  }, [ctl, r.kind === 'temple' ? r.id : null, known]);
+    if (temple) ctl.select(temple.id, { at: { lat: temple.location.lat, lng: temple.location.lng } });
+    else ctl.select(null);
+  }, [ctl, temple]);
 
   const closeRiver = () => {
     setRiver(null);
@@ -162,6 +167,7 @@ export function App() {
         )}
         {message && <Notice text={message} onDismiss={notice.value ? () => (notice.value = null) : undefined} />}
         {nearby && <NearestPanel nearby={nearby} onPick={pick} onClose={() => setNearby(null)} />}
+        {temple && <TempleSheet key={temple.id} temple={temple} festivals={festivals} onClose={() => navigate({ kind: 'map' })} />}
         {river && <RiverCard onClose={closeRiver} />}
       </main>
     </div>

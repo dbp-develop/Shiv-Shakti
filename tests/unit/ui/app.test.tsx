@@ -104,6 +104,28 @@ describe('App shell', () => {
     expect(ctl.c.select).not.toHaveBeenCalledWith('xyz', expect.anything());
   });
 
+  it('opens the sheet and flies to a temple hidden by the current filters', async () => {
+    filters.value = { categories: new Set(['peetha']) };
+    location.hash = '#/kedarnath';
+    route.value = { kind: 'temple', id: 'kedarnath' };
+    render(<App />);
+    await ready();
+    expect(screen.getByRole('dialog', { name: 'Kedarnath' })).toBeTruthy();
+    expect(screen.queryByText(t('notice.templeNotFound'))).toBeNull();
+    expect(ctl.c.select).toHaveBeenCalledWith('kedarnath', { at: { lat: 30.7352, lng: 79.0669 } });
+    filters.value = { categories: new Set(['jyotirlinga', 'maha-peetha', 'peetha']) };
+  });
+
+  it('closes the sheet with Escape by routing back to the map', async () => {
+    location.hash = '#/kedarnath';
+    route.value = { kind: 'temple', id: 'kedarnath' };
+    render(<App />);
+    await ready();
+    fireEvent.keyDown(screen.getByRole('dialog', { name: 'Kedarnath' }), { key: 'Escape' });
+    expect(location.hash).toBe('#/');
+    expect(screen.queryByRole('dialog')).toBeNull();
+  });
+
   it('renders the ListView with all temples when createMap rejects', async () => {
     const err = vi.spyOn(console, 'error').mockImplementation(() => {});
     ctl.createMap.mockRejectedValue(new Error('WebGL is unavailable'));
@@ -248,7 +270,7 @@ describe('App shell', () => {
     ctl.c.select.mockClear();
     location.hash = '#/kamakhya';
     window.dispatchEvent(new HashChangeEvent('hashchange'));
-    await waitFor(() => expect(ctl.c.select).toHaveBeenCalledWith('kamakhya'));
+    await waitFor(() => expect(ctl.c.select).toHaveBeenCalledWith('kamakhya', { at: expect.objectContaining({ lat: expect.any(Number), lng: expect.any(Number) }) }));
     expect(ctl.c.onSelect).toHaveBeenCalledTimes(1);
   });
 

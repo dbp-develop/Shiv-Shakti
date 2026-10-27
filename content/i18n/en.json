@@ -29,7 +29,24 @@
     "uniqueFacts": "Unique facts",
     "visiting": "Visiting",
     "otherClaimedSites": "Other claimed sites",
-    "sources": "Sources"
+    "sources": "Sources",
+    "close": "Close temple details",
+    "expand": "Expand temple details",
+    "collapse": "Collapse temple details",
+    "openOfficial": "Open official website",
+    "lastVerified": "Last verified {date}",
+    "commonsPage": "Commons page",
+    "photoBy": "Photo: {author}",
+    "bodyPart": "Body part",
+    "devi": "Devi",
+    "bhairava": "Bhairava",
+    "scriptures": "Listed in",
+    "elevation": "Elevation {m} m",
+    "timings": "Timings",
+    "nearestAirport": "Nearest airport",
+    "nearestRail": "Nearest railway",
+    "bestSeason": "Best season",
+    "darshanTitle": "Live darshan: {name}"
   },
   "calendar": {
     "masas": [
@@ -127,5 +144,10 @@
     "title": "All temples",
     "empty": "No temples match.",
     "fallback": "The map could not start on this device, so here is the list of temples."
+  },
+  "lists": {
+    "peethaNirnaya51": "Peetha Nirnaya Tantra (51)",
+    "ashtadasha18": "Ashtadasha Shakti Peetha Stotram (18)",
+    "adi4": "Adi Shakti Peethas (4)"
   }
 }

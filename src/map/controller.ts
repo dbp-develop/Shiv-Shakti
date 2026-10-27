@@ -17,7 +17,7 @@ export interface MapController {
   set3D(on: boolean): void;
   resetView(): void;
   setTemples(ts: Temple[]): void;
-  select(id: string | null, opts?: { animate: boolean }): void;
+  select(id: string | null, opts?: { animate?: boolean; at?: { lat: number; lng: number } }): void;
   onSelect(cb: (id: string) => void): void;
   onRiver(cb: (riverId: string) => void): void;
   /** Runs after every (re)load of the style; later tasks add their sources and layers here. */
@@ -154,12 +154,13 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
     map.on('error', onError);
   });
 
-  function select(id: string | null, opts?: { animate: boolean }): void {
+  function select(id: string | null, opts?: { animate?: boolean; at?: { lat: number; lng: number } }): void {
     selectedId = id;
     setPinsSelected(map, id);
-    const tp = id ? temples.find((x) => x.id === id) : undefined;
-    if (!tp) return;
-    const cam = { center: [tp.location.lng, tp.location.lat] as [number, number], zoom: SELECT_ZOOM, pitch: is3D ? SELECT_PITCH_3D : 0 };
+    // A deep link can name a temple the filters hide: fall back to the coordinates the caller gives.
+    const at = (id ? temples.find((x) => x.id === id)?.location : undefined) ?? opts?.at;
+    if (!at) return;
+    const cam = { center: [at.lng, at.lat] as [number, number], zoom: SELECT_ZOOM, pitch: is3D ? SELECT_PITCH_3D : 0 };
     if (reduced || opts?.animate === false) map.jumpTo(cam);
     else map.flyTo(cam);
   }

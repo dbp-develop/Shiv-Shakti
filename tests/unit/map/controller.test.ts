@@ -129,6 +129,13 @@ describe('temple pins in the controller', () => {
     expect(b.fake.flyTo).not.toHaveBeenCalled();
   });
 
+  it('select falls back to the given coordinates when the pin is not in the filtered set', async () => {
+    const { c, fake } = await setup();
+    c.setTemples([]);
+    c.select('kedarnath', { at: { lat: 30.7352, lng: 79.0669 } });
+    expect(fake.flyTo).toHaveBeenCalledWith({ center: [79.0669, 30.7352], zoom: 11, pitch: 60 });
+  });
+
   it('select uses pitch 0 once 3D is turned off, and 60 when back on', async () => {
     const { c, fake } = await setup();
     c.setTemples([temple]);

@@ -29,7 +29,24 @@
     "uniqueFacts": "ખાસ તથ્યો",
     "visiting": "દર્શનની માહિતી",
     "otherClaimedSites": "અન્ય દાવો કરાયેલાં સ્થળો",
-    "sources": "સ્રોત"
+    "sources": "સ્રોત",
+    "close": "મંદિરની વિગતો બંધ કરો",
+    "expand": "મંદિરની વિગતો મોટી કરો",
+    "collapse": "મંદિરની વિગતો નાની કરો",
+    "openOfficial": "સત્તાવાર વેબસાઇટ ખોલો",
+    "lastVerified": "છેલ્લે ચકાસણી {date}",
+    "commonsPage": "કૉમન્સ પૃષ્ઠ",
+    "photoBy": "ફોટો: {author}",
+    "bodyPart": "અંગ",
+    "devi": "દેવી",
+    "bhairava": "ભૈરવ",
+    "scriptures": "ઉલ્લેખ",
+    "elevation": "ઊંચાઈ {m} મીટર",
+    "timings": "સમય",
+    "nearestAirport": "નજીકનું એરપોર્ટ",
+    "nearestRail": "નજીકનું રેલવે સ્ટેશન",
+    "bestSeason": "શ્રેષ્ઠ ઋતુ",
+    "darshanTitle": "જીવંત દર્શન: {name}"
   },
   "calendar": {
     "masas": [
@@ -127,5 +144,10 @@
     "title": "બધા મંદિરો",
     "empty": "કોઈ મંદિર મળ્યું નથી.",
     "fallback": "આ ઉપકરણ પર નકશો શરૂ થઈ શક્યો નથી, તેથી મંદિરોની યાદી આપી છે."
+  },
+  "lists": {
+    "peethaNirnaya51": "પીઠનિર્ણય તંત્ર (૫૧)",
+    "ashtadasha18": "અષ્ટાદશ શક્તિપીઠ સ્તોત્ર (૧૮)",
+    "adi4": "આદિ શક્તિપીઠ (૪)"
   }
 }
