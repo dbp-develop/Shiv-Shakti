@@ -89,6 +89,14 @@ export function App() {
     };
   }, []);
 
+  // The map's box changes when the header wraps or the filter panel toggles; maplibre only watches the window.
+  useEffect(() => {
+    const el = mapEl.current;
+    if (!ctl || !el || typeof ResizeObserver === 'undefined') return;
+    const ro = new ResizeObserver(() => ctl.map?.resize?.());
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [ctl]);
   useEffect(() => ctl?.setLang(lang.value), [ctl, lang.value]);
   useEffect(() => ctl?.setTheme(theme.value), [ctl, theme.value]);
   useEffect(() => ctl?.setTemples(shown), [ctl, shown]);
