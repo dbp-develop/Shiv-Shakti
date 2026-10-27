@@ -21,6 +21,7 @@ export interface HeaderProps {
   onLang: (l: Lang) => void;
   onToggleTheme: () => void;
   onNearest: () => void;
+  geoBlocked: boolean;
   filtersOpen: boolean;
   onToggleFilters: () => void;
 }
@@ -57,7 +58,7 @@ export function Header(p: HeaderProps) {
         <button type="button" onClick={p.onToggleTheme} aria-label={theme.value === 'dark' ? t('theme.toLight') : t('theme.toDark')}>
           {theme.value === 'dark' ? '☀' : '☾'}
         </button>
-        <button type="button" onClick={p.onNearest}>
+        <button type="button" onClick={p.onNearest} aria-disabled={p.geoBlocked} title={p.geoBlocked ? t('notice.geoDenied') : undefined}>
           {t('nearest.button')}
         </button>
         <button type="button" class="filters-toggle" aria-expanded={p.filtersOpen} aria-controls="filter-bar" onClick={p.onToggleFilters}>

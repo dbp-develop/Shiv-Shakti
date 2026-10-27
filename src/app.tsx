@@ -17,11 +17,21 @@ import { RiverCard } from './ui/RiverCard';
 
 type Nearby = Array<{ temple: Temple; km: number }>;
 
-function getPosition(onOk: (p: { lat: number; lng: number }) => void): void {
+const GEO_TIMEOUT_MS = 10_000;
+
+/** Only on a click. `onDenied` fires for PERMISSION_DENIED (code 1); other failures just show a retry-able notice. */
+function getPosition(onOk: (p: { lat: number; lng: number }) => void, onDenied: () => void): void {
   const geo = typeof navigator === 'undefined' ? undefined : navigator.geolocation;
-  const denied = () => (notice.value = t('notice.geoDenied'));
+  const denied = () => {
+    notice.value = t('notice.geoDenied');
+    onDenied();
+  };
   if (!geo) return void denied();
-  geo.getCurrentPosition((p) => onOk({ lat: p.coords.latitude, lng: p.coords.longitude }), denied);
+  geo.getCurrentPosition(
+    (p) => onOk({ lat: p.coords.latitude, lng: p.coords.longitude }),
+    (e: { code?: number }) => (e?.code === 2 || e?.code === 3 ? (notice.value = t('notice.geoUnavailable')) : denied()),
+    { timeout: GEO_TIMEOUT_MS },
+  );
 }
 
 function safely<T>(load: () => T, fallback: T): T {
@@ -40,6 +50,7 @@ export function App() {
   const [river, setRiver] = useState<string | null>(null);
   const [nearby, setNearby] = useState<Nearby | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [geoBlocked, setGeoBlocked] = useState(false);
   const returnFocus = useRef<Element | null>(null);
 
   // A bad content file degrades only its feature (R15): log it and carry on with what loaded.
@@ -127,10 +138,9 @@ export function App() {
         onLang={(l) => setLang(l)}
         onToggleTheme={() => setTheme(theme.value === 'dark' ? 'light' : 'dark')}
         onNearest={() =>
-          getPosition((p) => {
-            setNearby(nearestTemples(temples, p, 5));
-          })
+          geoBlocked ? undefined : getPosition((p) => setNearby(nearestTemples(temples, p, 5)), () => setGeoBlocked(true))
         }
+        geoBlocked={geoBlocked}
         filtersOpen={filtersOpen}
         onToggleFilters={() => setFiltersOpen(!filtersOpen)}
       />
@@ -158,7 +168,11 @@ export function App() {
               <button
                 type="button"
                 aria-label={t('map.locate')}
-                onClick={() => getPosition((p) => ctl?.map.easeTo({ center: [p.lng, p.lat], zoom: 8 }))}
+                aria-disabled={geoBlocked}
+                title={geoBlocked ? t('notice.geoDenied') : undefined}
+                onClick={() =>
+                  geoBlocked ? undefined : getPosition((p) => ctl?.map.easeTo({ center: [p.lng, p.lat], zoom: 8 }), () => setGeoBlocked(true))
+                }
               >
                 ◎
               </button>

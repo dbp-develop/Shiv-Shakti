@@ -13,7 +13,8 @@
     "templeNotFound": "We could not find that temple.",
     "geoDenied": "Location access was denied, so “nearest temples” is unavailable.",
     "terrainFailed": "3D terrain could not load; showing the flat map.",
-    "dismiss": "Dismiss"
+    "dismiss": "Dismiss",
+    "geoUnavailable": "Your location could not be determined right now. Please try again."
   },
   "marker": {
     "machineTranslation": "Machine-assisted translation",

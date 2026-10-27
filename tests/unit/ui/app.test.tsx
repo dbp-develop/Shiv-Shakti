@@ -158,6 +158,37 @@ describe('App shell', () => {
     expect(container.querySelector('#map')).toBeTruthy();
   });
 
+  it('disables nearest and locate for the session after permission is denied', async () => {
+    const getCurrentPosition = vi.fn((_ok: unknown, bad: (e: unknown) => void) => bad({ code: 1 }));
+    Object.defineProperty(navigator, 'geolocation', { value: { getCurrentPosition }, configurable: true });
+    render(<App />);
+    await ready();
+    fireEvent.click(screen.getByRole('button', { name: t('nearest.button') }));
+    expect(await screen.findByText(t('notice.geoDenied'))).toBeTruthy();
+    const nearest = screen.getByRole('button', { name: t('nearest.button') });
+    const locate = screen.getByRole('button', { name: t('map.locate') });
+    expect(nearest.getAttribute('aria-disabled')).toBe('true');
+    expect(locate.getAttribute('aria-disabled')).toBe('true');
+    fireEvent.click(nearest);
+    fireEvent.click(locate);
+    expect(getCurrentPosition).toHaveBeenCalledTimes(1);
+  });
+
+  it('shows a distinct message on timeout and keeps the buttons enabled', async () => {
+    const getCurrentPosition = vi.fn((_ok: unknown, bad: (e: unknown) => void, opts: { timeout?: number }) => {
+      expect(opts.timeout).toBeGreaterThan(0);
+      bad({ code: 3 });
+    });
+    Object.defineProperty(navigator, 'geolocation', { value: { getCurrentPosition }, configurable: true });
+    render(<App />);
+    await ready();
+    fireEvent.click(screen.getByRole('button', { name: t('nearest.button') }));
+    expect(await screen.findByText(t('notice.geoUnavailable'))).toBeTruthy();
+    expect(screen.queryByText(t('notice.geoDenied'))).toBeNull();
+    expect(screen.getByRole('button', { name: t('nearest.button') }).getAttribute('aria-disabled')).not.toBe('true');
+    expect(screen.getByRole('button', { name: t('map.locate') }).getAttribute('aria-disabled')).not.toBe('true');
+  });
+
   it('lists the nearest temples with distances and opens one', async () => {
     const getCurrentPosition = vi.fn((ok: (p: unknown) => void) => ok({ coords: { latitude: 26.2, longitude: 91.7 } }));
     Object.defineProperty(navigator, 'geolocation', { value: { getCurrentPosition }, configurable: true });
