@@ -1,4 +1,5 @@
 import { signal } from '@preact/signals';
+import type { Filters } from './content/filters';
 import type { Lang } from './content/langs';
 import { detectLang, isLang } from './i18n/detect';
 import { loadFont } from './i18n/fonts';
@@ -35,6 +36,8 @@ export const lang = signal<Lang>(initialLang);
 export const theme = signal<Theme>(initialTheme);
 export const reducedMotion = signal<boolean>(motionQuery?.matches ?? false);
 export const is3D = signal<boolean>(true);
+export const notice = signal<string | null>(null);
+export const filters = signal<Filters>({ categories: new Set(['jyotirlinga', 'maha-peetha', 'peetha']) });
 
 motionQuery?.addEventListener?.('change', (e) => {
   reducedMotion.value = e.matches;

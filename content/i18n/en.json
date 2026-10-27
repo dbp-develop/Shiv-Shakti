@@ -12,7 +12,8 @@
   "notice": {
     "templeNotFound": "We could not find that temple.",
     "geoDenied": "Location access was denied, so “nearest temples” is unavailable.",
-    "terrainFailed": "3D terrain could not load; showing the flat map."
+    "terrainFailed": "3D terrain could not load; showing the flat map.",
+    "dismiss": "Dismiss"
   },
   "marker": {
     "machineTranslation": "Machine-assisted translation",
@@ -91,5 +92,39 @@
     "peetha": "Shakti Peetha",
     "alternate": "Other claimed site",
     "skip": "Skip temple list"
+  },
+  "search": {
+    "label": "Search temples",
+    "placeholder": "Search by temple, deity or alias",
+    "empty": "No temples match."
+  },
+  "map": {
+    "to2D": "Switch to 2D map",
+    "to3D": "Switch to 3D map",
+    "reset": "Reset map view",
+    "locate": "Centre map on my location"
+  },
+  "nearest": {
+    "button": "Nearest temples",
+    "title": "Temples nearest to you",
+    "km": "{km} km",
+    "close": "Close"
+  },
+  "filters": {
+    "toggle": "Filters",
+    "region": "Region",
+    "allRegions": "All regions",
+    "month": "Festival month",
+    "anyMonth": "Any month",
+    "list": {
+      "maha": "Maha 18",
+      "adi": "Adi 4",
+      "all51": "51"
+    }
+  },
+  "list": {
+    "title": "All temples",
+    "empty": "No temples match.",
+    "fallback": "The map could not start on this device, so here is the list of temples."
   }
 }

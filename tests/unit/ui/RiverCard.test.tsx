@@ -26,7 +26,7 @@ describe('RiverCard', () => {
   it('flags the English fallback while the other languages are untranslated', () => {
     setLang('hi');
     render(<RiverCard onClose={() => {}} />);
-    expect(screen.getAllByText('अंग्रेज़ी में दिखाया गया').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('अंग्रेज़ी में दिखाया गया')).toHaveLength(1);
   });
 
   it('calls onClose', () => {

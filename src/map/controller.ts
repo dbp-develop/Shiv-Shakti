@@ -32,6 +32,8 @@ export interface MapInit {
   theme: Theme;
   lang: Lang;
   reducedMotion: boolean;
+  /** Where "Skip temple list" sends focus; default is the map canvas. */
+  onSkip?: () => void;
 }
 
 const HOME = { center: [80, 23] as [number, number], zoom: 4, pitch: DEFAULT_PITCH, bearing: 0 };
@@ -101,7 +103,7 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
   const markerHost = document.createElement('div');
   markerHost.className = 'sr-only';
   el.append(markerHost);
-  const rebuildMarkers = () => buildMarkerList(markerHost, temples, lang, (id) => pick(id), () => map.getCanvas().focus());
+  const rebuildMarkers = () => buildMarkerList(markerHost, temples, lang, (id) => pick(id), () => (init.onSkip ? init.onSkip() : map.getCanvas().focus()));
 
   // Pins and clusters take precedence over rivers: a tap on one never also opens a river card.
   map.on('click', (e) => {
