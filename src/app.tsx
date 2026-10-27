@@ -5,17 +5,17 @@ import { nearestTemples } from './content/geo';
 import { loadTemples } from './content/load';
 import { loadSaraswati } from './content/saraswati';
 import type { Temple } from './content/schema';
-import { loc, t } from './i18n';
+import { t } from './i18n';
 import type { MapController } from './map/controller';
 import { navigate, route } from './router';
 import { filters, is3D, lang, notice, reducedMotion, setLang, setTheme, theme } from './state';
 import { FilterBar } from './ui/FilterBar';
 import { Header } from './ui/Header';
 import { ListView } from './ui/ListView';
+import { MapTools } from './ui/MapTools';
+import { NearestPanel, type Nearby } from './ui/NearestPanel';
 import { Notice } from './ui/Notice';
 import { RiverCard } from './ui/RiverCard';
-
-type Nearby = Array<{ temple: Temple; km: number }>;
 
 const GEO_TIMEOUT_MS = 10_000;
 
@@ -151,51 +151,17 @@ export function App() {
         ) : (
           <>
             <div id="map" class="map" ref={mapEl} />
-            <div id="map-tools" class="map-tools">
-              <button
-                type="button"
-                aria-label={is3D.value ? t('map.to2D') : t('map.to3D')}
-                onClick={() => {
-                  ctl?.set3D(!is3D.value);
-                  is3D.value = !is3D.value;
-                }}
-              >
-                {is3D.value ? '2D' : '3D'}
-              </button>
-              <button type="button" aria-label={t('map.reset')} onClick={() => ctl?.resetView()}>
-                ⟲
-              </button>
-              <button
-                type="button"
-                aria-label={t('map.locate')}
-                aria-disabled={geoBlocked}
-                title={geoBlocked ? t('notice.geoDenied') : undefined}
-                onClick={() =>
-                  geoBlocked ? undefined : getPosition((p) => ctl?.map.easeTo({ center: [p.lng, p.lat], zoom: 8 }), () => setGeoBlocked(true))
-                }
-              >
-                ◎
-              </button>
-            </div>
+            <MapTools
+              ctl={ctl}
+              geoBlocked={geoBlocked}
+              onLocate={() =>
+                geoBlocked ? undefined : getPosition((p) => ctl?.map.easeTo({ center: [p.lng, p.lat], zoom: 8 }), () => setGeoBlocked(true))
+              }
+            />
           </>
         )}
         {message && <Notice text={message} onDismiss={notice.value ? () => (notice.value = null) : undefined} />}
-        {nearby && (
-          <section class="nearby">
-            <ul aria-label={t('nearest.title')}>
-              {nearby.map(({ temple, km }) => (
-                <li key={temple.id}>
-                  <button type="button" onClick={() => pick(temple.id)}>
-                    {loc(temple.name).text} · {t('nearest.km', { km: Math.round(km) })}
-                  </button>
-                </li>
-              ))}
-            </ul>
-            <button type="button" onClick={() => setNearby(null)}>
-              {t('nearest.close')}
-            </button>
-          </section>
-        )}
+        {nearby && <NearestPanel nearby={nearby} onPick={pick} onClose={() => setNearby(null)} />}
         {river && <RiverCard onClose={closeRiver} />}
       </main>
     </div>
