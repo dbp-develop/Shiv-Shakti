@@ -3,6 +3,7 @@ import { loadFestivals } from './content/festivals';
 import { applyFilters } from './content/filters';
 import { nearestTemples } from './content/geo';
 import { loadTemples } from './content/load';
+import { loadSaraswati } from './content/saraswati';
 import type { Temple } from './content/schema';
 import { loc, t } from './i18n';
 import type { MapController } from './map/controller';
@@ -23,6 +24,15 @@ function getPosition(onOk: (p: { lat: number; lng: number }) => void): void {
   geo.getCurrentPosition((p) => onOk({ lat: p.coords.latitude, lng: p.coords.longitude }), denied);
 }
 
+function safely<T>(load: () => T, fallback: T): T {
+  try {
+    return load();
+  } catch (e) {
+    console.error('Content failed to load', e);
+    return fallback;
+  }
+}
+
 export function App() {
   const mapEl = useRef<HTMLDivElement>(null);
   const [ctl, setCtl] = useState<MapController | null>(null);
@@ -32,8 +42,9 @@ export function App() {
   const [filtersOpen, setFiltersOpen] = useState(false);
   const returnFocus = useRef<Element | null>(null);
 
-  const temples = useMemo(() => loadTemples(), []);
-  const festivals = useMemo(() => loadFestivals(), []);
+  // A bad content file degrades only its feature (R15): log it and carry on with what loaded.
+  const temples = useMemo(() => safely(loadTemples, [] as Temple[]), []);
+  const festivals = useMemo(() => safely(loadFestivals, []), []);
   const shown = useMemo(() => applyFilters(temples, filters.value, festivals), [temples, festivals, filters.value]);
 
   // Load the map module lazily so the header paints before maplibre downloads.
@@ -56,6 +67,7 @@ export function App() {
         c.onSelect((id) => navigate({ kind: 'temple', id }));
         c.onRiver((id) => {
           if (id !== 'saraswati') return; // only the Saraswati has a card; other rivers do nothing
+          if (safely(loadSaraswati, null) === null) return;
           returnFocus.current = document.activeElement;
           setRiver(id);
         });

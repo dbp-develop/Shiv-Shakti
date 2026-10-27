@@ -9,7 +9,7 @@ const TEMPLES = vi.hoisted(() => ({ list: [] as Temple[] }));
 TEMPLES.list = [fx('kedarnath'), fx('mahakaleshwar'), fx('kamakhya')];
 
 vi.mock('../../../src/content/load', () => ({
-  loadTemples: () => TEMPLES.list,
+  loadTemples: vi.fn(() => TEMPLES.list),
   getTemple: (id: string) => TEMPLES.list.find((t) => t.id === id),
 }));
 vi.mock('../../../src/map/icons', () => ({
@@ -17,6 +17,11 @@ vi.mock('../../../src/map/icons', () => ({
   ICON_IDS: [],
   renderIcon: () => ({}),
 }));
+
+vi.mock('../../../src/content/saraswati', async (orig) => {
+  const actual = await orig<typeof import('../../../src/content/saraswati')>();
+  return { ...actual, loadSaraswati: vi.fn(actual.loadSaraswati) };
+});
 
 const ctl = vi.hoisted(() => {
   const handlers: { select?: (id: string) => void; river?: (id: string) => void; terrain?: () => void } = {};
@@ -38,6 +43,8 @@ const ctl = vi.hoisted(() => {
 });
 vi.mock('../../../src/map/controller', () => ({ createMap: ctl.createMap }));
 
+import { loadSaraswati } from '../../../src/content/saraswati';
+import { loadTemples } from '../../../src/content/load';
 import { App } from '../../../src/app';
 import { buildMarkerList } from '../../../src/map/pins';
 import { route } from '../../../src/router';
@@ -64,6 +71,29 @@ afterEach(() => {
 const ready = () => waitFor(() => expect(ctl.c.setTemples).toHaveBeenCalled());
 
 describe('App shell', () => {
+  it('still renders the header and map when the Saraswati content fails to load', async () => {
+    vi.spyOn(console, 'error').mockImplementation(() => {});
+    vi.mocked(loadSaraswati).mockImplementationOnce(() => {
+      throw new Error('bad content');
+    });
+    const { container } = render(<App />);
+    await ready();
+    ctl.handlers.river!('saraswati');
+    expect(screen.queryByRole('dialog')).toBeNull();
+    expect(container.querySelector('h1')).toBeTruthy();
+    expect(container.querySelector('#map')).toBeTruthy();
+  });
+
+  it('still renders the header when the temple content fails to load', () => {
+    vi.spyOn(console, 'error').mockImplementation(() => {});
+    const bad = vi.fn(() => {
+      throw new Error('bad temples');
+    });
+    vi.mocked(loadTemples).mockImplementationOnce(bad);
+    const { container } = render(<App />);
+    expect(container.querySelector('h1')).toBeTruthy();
+  });
+
   it('shows the not-found notice and keeps the map for an unknown temple id', async () => {
     location.hash = '#/xyz';
     route.value = { kind: 'temple', id: 'xyz' };

@@ -24,8 +24,8 @@ const darshanBase = {
 };
 
 // Built per call so ALLOW_UNTRANSLATED is read at parse time (see langs.ts).
-function build() {
-  const l10n = l10nSchema();
+function build(strict = true) {
+  const l10n = l10nSchema(strict);
   const facts = z.object(
     Object.fromEntries(LANGS.map((l) => [l, z.array(z.string())])) as Record<Lang, z.ZodArray<z.ZodString>>,
   );
@@ -82,7 +82,9 @@ function build() {
 
 export type Temple = z.infer<ReturnType<typeof build>>;
 
-export const TempleSchema: z.ZodType<Temple> = z.lazy(build);
+/** Strict for the content checks, lenient (`strict=false`) for the runtime loader. */
+export const templeSchema = (strict = true): z.ZodType<Temple> => build(strict);
+export const TempleSchema: z.ZodType<Temple> = z.lazy(() => build());
 
 export function pinCategory(t: Temple): PinCategory {
   if (t.type === 'jyotirlinga') return 'jyotirlinga';

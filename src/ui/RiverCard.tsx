@@ -1,9 +1,10 @@
 import { useEffect, useRef } from 'preact/hooks';
-import { saraswati } from '../content/saraswati';
+import { loadSaraswati } from '../content/saraswati';
 import { loc, t } from '../i18n';
 
 /** Info card for the ancient Saraswati: Rig Vedic references, palaeochannel findings, the debate, and sources. */
 export function RiverCard({ onClose }: { onClose: () => void }) {
+  const saraswati = loadSaraswati();
   const title = loc(saraswati.title);
   const ref = useRef<HTMLElement>(null);
   useEffect(() => ref.current?.focus(), []);

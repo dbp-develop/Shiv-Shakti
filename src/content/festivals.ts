@@ -56,17 +56,21 @@ const whenSchema = z.discriminatedUnion('kind', [
 ]);
 
 // Built per call so the ALLOW_UNTRANSLATED env is read at parse time.
-export const FestivalSchema: z.ZodType<FestivalDef> = z.lazy(() =>
+export const festivalSchema = (strict = true): z.ZodType<FestivalDef> =>
   z.object({
     id: z.string().min(1),
-    name: l10nSchema(),
+    name: l10nSchema(strict),
     when: whenSchema,
     months: z.array(z.number().int().min(1).max(12)).min(1),
-  }),
-);
+  });
+export const FestivalSchema: z.ZodType<FestivalDef> = z.lazy(() => festivalSchema());
 
+let festivalCache: FestivalDef[] | undefined;
+
+/** Lenient at runtime (ruling R15): untranslated names fall back to English. */
 export function loadFestivals(): FestivalDef[] {
-  return z.array(FestivalSchema).parse(festivalsJson);
+  festivalCache ??= z.array(festivalSchema(false)).parse(festivalsJson);
+  return festivalCache;
 }
 
 const fill = (tpl: string, vars: Record<string, string | number>): string =>
