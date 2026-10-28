@@ -129,11 +129,11 @@
     }
   ],
   "darshan": {
-    "kind": "youtube-video",
-    "videoId": "K4pCZsxEqzY",
-    "url": "https://www.youtube.com/watch?v=K4pCZsxEqzY",
+    "kind": "youtube-channel",
+    "channelId": "UCT1egsvA08YcdMLiEu1DTRg",
+    "url": "https://www.youtube.com/@SomnathTempleOfficialChannel",
     "official": true,
-    "lastVerified": "2026-10-28",
+    "lastVerified": "2026-10-29",
     "verifiedVia": "https://somnath.org/somnath-live-darshan"
   },
   "photos": [
