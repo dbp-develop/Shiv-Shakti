@@ -2,7 +2,14 @@
 import { describe, expect, it, vi } from 'vitest';
 
 const MapCtor = vi.hoisted(() => vi.fn());
-vi.mock('maplibre-gl', () => ({ default: { Map: MapCtor } }));
+vi.mock('maplibre-gl', () => ({
+  default: {
+    Map: MapCtor,
+    LngLat: class {
+      constructor(public lng: number, public lat: number) {}
+    },
+  },
+}));
 vi.mock('maplibre-gl/dist/maplibre-gl.css', () => ({}));
 
 vi.mock('../../../src/map/terrain', () => ({ DEFAULT_PITCH: 45, installTerrain: vi.fn(), setTerrainEnabled: vi.fn() }));
@@ -53,6 +60,11 @@ describe('temple pins in the controller', () => {
       getCanvas: () => ({ style: {} }),
       flyTo: vi.fn(),
       getBearing: () => 0,
+      moved: 0,
+      getCenter: () => ({ distanceTo: () => fake.moved }),
+      idleCbs: [] as Array<() => void>,
+      once: vi.fn((ev: string, cb: () => void) => ev === 'idle' && fake.idleCbs.push(cb)),
+      idle: () => fake.idleCbs.splice(0).forEach((cb: () => void) => cb()),
       setLayoutProperty: vi.fn(),
       jumpTo: vi.fn(),
       easeTo: vi.fn(),
@@ -134,6 +146,54 @@ describe('temple pins in the controller', () => {
     c.setTemples([]);
     c.select('kedarnath', { at: { lat: 30.7352, lng: 79.0669 } });
     expect(fake.flyTo).toHaveBeenCalledWith({ center: [79.0669, 30.7352], zoom: 11, pitch: 60 });
+  });
+
+  it('select passes the sheet padding so the temple centres in the visible part of the map', async () => {
+    const { c, fake } = await setup();
+    c.setTemples([temple]);
+    const padding = { top: 0, right: 0, bottom: 280, left: 0 };
+    c.select('kedarnath', { padding });
+    expect(fake.flyTo).toHaveBeenLastCalledWith({ center: [79.0669, 30.7352], zoom: 11, pitch: 60, padding });
+    c.select('kedarnath', { padding, animate: false });
+    expect(fake.jumpTo).toHaveBeenLastCalledWith({ center: [79.0669, 30.7352], zoom: 11, pitch: 60, padding });
+  });
+
+  it('select folds the open credits on a narrow map so they do not cover the temple, but not on a wide one', async () => {
+    const { c, el } = await setup();
+    c.setTemples([temple]);
+    el.insertAdjacentHTML('beforeend', '<details class="maplibregl-ctrl-attrib maplibregl-compact maplibregl-compact-show" open></details>');
+    const attrib = el.querySelector('details')!;
+    Object.defineProperty(el, 'clientWidth', { configurable: true, value: 1280 });
+    c.select('kedarnath');
+    expect(attrib.classList.contains('maplibregl-compact-show')).toBe(true);
+    Object.defineProperty(el, 'clientWidth', { configurable: true, value: 360 });
+    c.select('kedarnath');
+    expect(attrib.classList.contains('maplibregl-compact-show')).toBe(false);
+    expect(attrib.hasAttribute('open')).toBe(false);
+  });
+
+  it('select re-aims at the temple once the terrain tiles are in (3D only), unless the map was moved', async () => {
+    const { c, fake } = await setup();
+    c.setTemples([temple]);
+    c.select('kedarnath');
+    expect(fake.once).toHaveBeenCalledWith('idle', expect.any(Function));
+    fake.idle();
+    expect(fake.jumpTo).toHaveBeenLastCalledWith({ center: [79.0669, 30.7352] });
+    fake.jumpTo.mockClear();
+    c.select('kedarnath');
+    fake.moved = 5000; // the user dragged away before the tiles loaded
+    fake.idle();
+    expect(fake.jumpTo).not.toHaveBeenCalled();
+    fake.moved = 0;
+    c.select('kedarnath');
+    c.select('kedarnath');
+    fake.idle(); // the first, superseded wait does nothing; only the latest re-aims
+    expect(fake.jumpTo).toHaveBeenCalledTimes(1);
+    fake.once.mockClear();
+    c.set3D(false);
+    fake.jumpTo.mockClear();
+    c.select('kedarnath');
+    expect(fake.once).not.toHaveBeenCalled();
   });
 
   it('select uses pitch 0 once 3D is turned off, and 60 when back on', async () => {

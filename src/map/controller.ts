@@ -1,5 +1,5 @@
 import maplibregl from 'maplibre-gl';
-import type { Map as MlMap, StyleSpecification } from 'maplibre-gl';
+import type { Map as MlMap, PaddingOptions, StyleSpecification } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import type { Lang } from '../content/langs';
 import type { Temple } from '../content/schema';
@@ -17,7 +17,8 @@ export interface MapController {
   set3D(on: boolean): void;
   resetView(): void;
   setTemples(ts: Temple[]): void;
-  select(id: string | null, opts?: { animate?: boolean; at?: { lat: number; lng: number } }): void;
+  /** `padding` keeps the temple centred in the part of the map an open sheet leaves visible. */
+  select(id: string | null, opts?: { animate?: boolean; at?: { lat: number; lng: number }; padding?: PaddingOptions }): void;
   onSelect(cb: (id: string) => void): void;
   onRiver(cb: (riverId: string) => void): void;
   /** Runs after every (re)load of the style; later tasks add their sources and layers here. */
@@ -38,6 +39,8 @@ export interface MapInit {
 
 const HOME = { center: [80, 23] as [number, number], zoom: 4, pitch: DEFAULT_PITCH, bearing: 0 };
 const MAX_BOUNDS: [[number, number], [number, number]] = [[55, 0], [105, 40]];
+/** MapLibre's own width limit for compact attribution. */
+const NARROW_PX = 640;
 
 function hasWebGL(): boolean {
   try {
@@ -154,16 +157,38 @@ export async function createMap(el: HTMLElement, init: MapInit): Promise<MapCont
     map.on('error', onError);
   });
 
-  function select(id: string | null, opts?: { animate?: boolean; at?: { lat: number; lng: number } }): void {
+  function select(id: string | null, opts?: { animate?: boolean; at?: { lat: number; lng: number }; padding?: PaddingOptions }): void {
     selectedId = id;
     setPinsSelected(map, id);
     // A deep link can name a temple the filters hide: fall back to the coordinates the caller gives.
     const at = (id ? temples.find((x) => x.id === id)?.location : undefined) ?? opts?.at;
     if (!at) return;
-    const cam = { center: [at.lng, at.lat] as [number, number], zoom: SELECT_ZOOM, pitch: is3D ? SELECT_PITCH_3D : 0 };
+    // MapLibre opens the compact credits on start and folds them only on a drag. On a narrow map they would
+    // cover the temple just flown to, so fold them; the ⓘ button still opens them.
+    if (el.clientWidth <= NARROW_PX) {
+      const attrib = el.querySelector('.maplibregl-ctrl-attrib.maplibregl-compact-show');
+      attrib?.classList.remove('maplibregl-compact-show');
+      attrib?.removeAttribute('open');
+    }
+    const cam = {
+      center: [at.lng, at.lat] as [number, number],
+      zoom: SELECT_ZOOM,
+      pitch: is3D ? SELECT_PITCH_3D : 0,
+      ...(opts?.padding && { padding: opts.padding }),
+    };
     if (reduced || opts?.animate === false) map.jumpTo(cam);
     else map.flyTo(cam);
+    // MapLibre takes the terrain height under the centre when the move starts, before the target's DEM tiles
+    // load, so a high shrine (Kedarnath) ends up far above centre. Re-aim once the tiles are in, unless the
+    // user has moved the map or picked another temple meanwhile.
+    if (!is3D || terrainFailed) return;
+    const token = ++settleToken;
+    map.once('idle', () => {
+      if (token === settleToken && map.getCenter().distanceTo(new maplibregl.LngLat(...cam.center)) < 1)
+        map.jumpTo({ center: cam.center }); // easeTo to an unchanged centre does not re-read the terrain height
+    });
   }
+  let settleToken = 0;
   /** A pin, cluster-free tap or marker-list activation: fly there and tell the listeners. */
   function pick(id: string): void {
     select(templeIdOf(id));

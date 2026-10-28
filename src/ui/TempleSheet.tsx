@@ -22,6 +22,18 @@ function countryName(code: string): string {
   }
 }
 
+/** Matches the CSS: the bottom sheet's low snap height and the side panel's width (from 48rem). */
+const SHEET_LOW = 0.35;
+const PANEL_WIDTH = 420;
+
+/** Map padding that centres the selected temple in the part of the map the sheet leaves visible. */
+export function sheetInsets(mapWidth: number, mapHeight: number, wide: boolean) {
+  const pad = { top: 0, right: 0, bottom: 0, left: 0 };
+  if (wide) pad.right = mapWidth > PANEL_WIDTH ? PANEL_WIDTH : 0;
+  else pad.bottom = Math.round(mapHeight * SHEET_LOW);
+  return pad;
+}
+
 /** One "Shown in English" marker per section, never per paragraph. */
 const Fallback = ({ show }: { show: boolean }) => (show ? <p class="sheet__marker">{t('marker.englishFallback')}</p> : null);
 

@@ -112,7 +112,7 @@ describe('App shell', () => {
     await ready();
     expect(screen.getByRole('dialog', { name: 'Kedarnath' })).toBeTruthy();
     expect(screen.queryByText(t('notice.templeNotFound'))).toBeNull();
-    expect(ctl.c.select).toHaveBeenCalledWith('kedarnath', { at: { lat: 30.7352, lng: 79.0669 } });
+    expect(ctl.c.select).toHaveBeenCalledWith('kedarnath', { at: { lat: 30.7352, lng: 79.0669 }, padding: expect.any(Object) });
     filters.value = { categories: new Set(['jyotirlinga', 'maha-peetha', 'peetha']) };
   });
 
@@ -270,7 +270,7 @@ describe('App shell', () => {
     ctl.c.select.mockClear();
     location.hash = '#/kamakhya';
     window.dispatchEvent(new HashChangeEvent('hashchange'));
-    await waitFor(() => expect(ctl.c.select).toHaveBeenCalledWith('kamakhya', { at: expect.objectContaining({ lat: expect.any(Number), lng: expect.any(Number) }) }));
+    await waitFor(() => expect(ctl.c.select).toHaveBeenCalledWith('kamakhya', { at: expect.objectContaining({ lat: expect.any(Number), lng: expect.any(Number) }), padding: expect.any(Object) }));
     expect(ctl.c.onSelect).toHaveBeenCalledTimes(1);
   });
 

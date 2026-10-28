@@ -6,7 +6,7 @@ import { loadFestivals } from '../../../src/content/festivals';
 import type { Temple } from '../../../src/content/schema';
 import { t } from '../../../src/i18n';
 import { reducedMotion, setLang } from '../../../src/state';
-import { TempleSheet } from '../../../src/ui/TempleSheet';
+import { sheetInsets, TempleSheet } from '../../../src/ui/TempleSheet';
 
 const fx = (n: string): Temple => JSON.parse(readFileSync(`tests/fixtures/temples/${n}.json`, 'utf8'));
 const L = (en: string, extra: Partial<Record<string, string>> = {}) => ({
@@ -219,5 +219,17 @@ describe('TempleSheet', () => {
     reducedMotion.value = true;
     show(kedar());
     expect(screen.getByRole('dialog').className).toContain('temple-sheet--still');
+  });
+});
+
+describe('sheetInsets', () => {
+  it('on a phone pads the bottom by the 35% sheet, so the temple sits above it', () => {
+    expect(sheetInsets(360, 640, false)).toEqual({ top: 0, right: 0, bottom: 224, left: 0 });
+  });
+  it('on a wide screen pads the side covered by the 420px panel', () => {
+    expect(sheetInsets(1280, 740, true)).toEqual({ top: 0, right: 420, bottom: 0, left: 0 });
+  });
+  it('is all zero before the map has a size', () => {
+    expect(sheetInsets(0, 0, false)).toEqual({ top: 0, right: 0, bottom: 0, left: 0 });
   });
 });

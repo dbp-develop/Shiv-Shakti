@@ -16,7 +16,7 @@ import { MapTools } from './ui/MapTools';
 import { NearestPanel, type Nearby } from './ui/NearestPanel';
 import { Notice } from './ui/Notice';
 import { RiverCard } from './ui/RiverCard';
-import { TempleSheet } from './ui/TempleSheet';
+import { sheetInsets, TempleSheet } from './ui/TempleSheet';
 
 const GEO_TIMEOUT_MS = 10_000;
 
@@ -119,8 +119,12 @@ export function App() {
   const known = !!temple;
   useEffect(() => {
     if (!ctl) return;
-    if (temple) ctl.select(temple.id, { at: { lat: temple.location.lat, lng: temple.location.lng } });
-    else ctl.select(null);
+    if (!temple) return ctl.select(null);
+    // Centre the temple above the bottom sheet (phones) or beside the side panel (wide screens).
+    const box = mapEl.current;
+    const wide = typeof matchMedia === 'function' && matchMedia('(min-width: 48rem)').matches;
+    const padding = sheetInsets(box?.clientWidth ?? 0, box?.clientHeight ?? 0, wide);
+    ctl.select(temple.id, { at: { lat: temple.location.lat, lng: temple.location.lng }, padding });
   }, [ctl, temple]);
 
   const closeRiver = () => {

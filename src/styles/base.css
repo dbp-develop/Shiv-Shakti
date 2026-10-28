@@ -34,6 +34,17 @@ summary,
   font: inherit;
 }
 
+/* MapLibre's attribution keeps its own sizes: 44px would tile its 24px ⓘ background (four icons)
+   and stretch every credit link into a 44px row, filling the map centre on phones. */
+.maplibregl-ctrl-attrib-button,
+.maplibregl-ctrl-attrib a {
+  min-width: 0;
+  min-height: 0;
+}
+.maplibregl-ctrl-attrib a {
+  display: inline;
+}
+
 button,
 select,
 input {
