@@ -1,0 +1,223 @@
+{
+  "id": "karavira",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51",
+    "ashtadasha-18"
+  ],
+  "location": {
+    "lat": 16.6949,
+    "lng": 74.2229,
+    "country": "IN",
+    "region": "Maharashtra"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Naina Devi temple (Bilaspur, Himachal Pradesh)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 31.306,
+      "lng": 76.5364,
+      "note": {
+        "en": "Some traditions identify the Karavira pitha with Naina Devi, where the eyes are also said to have fallen.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Karavira (Mahalakshmi, Kolhapur)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Mahalakshmi, locally Ambabai",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "The three eyes",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Mahishamardini; in the Ashtadasha list, Mahalakshmi (Ambabai)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Krodhisha",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Karavira is the classical name of Kolhapur, and the name 'Karveer' is still used locally for the city. The Mahalakshmi (Ambabai) temple there is traditionally dated to the Chalukya period, and a date of 634 CE is often given; a 12th-century Kannada writer claimed that it had first been a Jain shrine. Which site the Pithanirnaya means is debated: Karavira is usually read as Kolhapur, but its variant reading Sharkarara has been taken for Sukkur in Sindh, and some identify the pitha with Naina Devi in Himachal Pradesh.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's three eyes fell here. A local legend says Mahalakshmi appeared here to slay the demon Kolhasura, after whom Kolhapur is named.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Mahalakshmi of Kolhapur is one of the 18 Maha Shakti Peethas of the Ashtadasha Stotram.",
+      "Kolhapur is counted among the 'three and a half' Shakti Peethas of Maharashtra.",
+      "The black-stone image of the goddess is about three feet tall, crowned, with a five-headed snake on the crown and a stone lion behind her.",
+      "A Shri Yantra is carved on one of the temple walls.",
+      "The temple holds five worship services a day, the first, Kakad Aarti, at about 5:00 AM.",
+      "The temple says that on three days a year the sun pays its respects to the goddess, its rays reaching her image."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "The first of the day's five services, Kakad Aarti, is at about 5:00 AM. The routine changes during Navratri.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Kolhapur Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Kolhapur (Chhatrapati Shahu Maharaj Terminus).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Navratri in Ashwin (September to October) is the main festival, celebrated for ten days.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "sharad-navratri",
+      "localNote": {
+        "en": "Celebrated over ten days, with a changed daily routine of abhishek and aarti.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://www.mahalaxmikolhapur.com/mahalaxmi-live-darshan",
+    "verifiedVia": "https://www.mahalaxmikolhapur.com/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Mahalakshmi temple, Kolhapur.jpg",
+    "File:Mahalaxmi Temple, Kolhapur.jpg",
+    "File:Ambadevi's Temple, Kolhapur.jpg",
+    "File:Mahalaxmi Temple, Kolhapur, Maharashtra 08.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Shree Karveer Niwasini Ambabai Mahalaxmi (official website)",
+      "url": "https://www.mahalaxmikolhapur.com/"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "Wikipedia: Mahalakshmi Temple, Kolhapur",
+      "url": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple,_Kolhapur"
+    },
+    {
+      "title": "Wikipedia: Naina Devi",
+      "url": "https://en.wikipedia.org/wiki/Naina_Devi"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

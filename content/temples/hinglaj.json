@@ -1,0 +1,165 @@
+{
+  "id": "hinglaj",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 25.5127,
+    "lng": 65.5156,
+    "country": "PK",
+    "region": "Balochistan"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Hinglaj (Hingula)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Hinglaj Mata, also called Nani",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Crown of the head (Brahmarandhra)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Kottari; locally Hinglaj Mata",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Bhimalochana",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The shrine of Hinglaj Mata is a cave in a narrow gorge on the west bank of the Hingol river, in the Lasbela district of Balochistan, Pakistan, inside the Hingol National Park and about 19 km inland from the Arabian Sea. It is one of two Shakti Peethas in Pakistan, the other being Sharada Peeth. Over the last few decades it has become a unifying point of reference for Pakistan's Hindu communities.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's crown of the head fell here. The whole valley of Hinglaj is regarded as the goddess herself.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The four-day Hinglaj Yatra in April draws about 300,000 people and is the largest Hindu pilgrimage in Pakistan.",
+      "The main ceremony falls on the third day of the pilgrimage, when the priests invoke the deity to accept the pilgrims' offerings.",
+      "Pilgrim groups traditionally set out from the Nanad Panthi Akhara in Karachi, led by a holy staff bearer called the chaadiar.",
+      "The goddess is affectionately called Nani (grandmother), and the shrine Nani Mandir.",
+      "Hindus from the Thar region form the largest group of pilgrims."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Karachi, the usual starting point of the pilgrimage, then by road along the Makran coast.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "There is no railway to Hinglaj; pilgrims travel by road from Karachi.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The annual pilgrimage is held in April.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Nani ki Mandir2.jpg",
+    "File:Pilgrims at Nani Mandir - Hinglaj Mata Festival - panoramio.jpg",
+    "File:Hinglaj Mata Nani Mandir.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Wikipedia: Hinglaj Mata",
+      "url": "https://en.wikipedia.org/wiki/Hinglaj_Mata"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "utkala-vimala",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51",
+    "adi-4"
+  ],
+  "location": {
+    "lat": 19.8047,
+    "lng": 85.8183,
+    "country": "IN",
+    "region": "Odisha"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Biraja (Viraja) temple (Jajpur, Odisha)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 20.8337,
+      "lng": 86.3382,
+      "note": {
+        "en": "The Pithanirnaya's 'Viraja-kshetra' points to Jajpur's Biraja temple, though its Devi and Bhairava point to Puri.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Utkala / Viraja-kshetra (Vimala, Puri)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Vimala, in the Jagannath temple complex",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Navel; in the Adi Peetha tradition, the feet",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Vimala",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Jagannatha",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Vimala temple stands in the south-west corner of the inner enclosure of the Jagannath temple complex at Puri, next to the sacred pond Rohini Kunda. It faces east, is built of sandstone and laterite in the Deula style, and is maintained by the Archaeological Survey of India. The Pithanirnaya names 'Viraja-kshetra in Utkala', which points to the Biraja temple at Jajpur, but gives the Devi as Vimala and the Bhairava as Jagannatha, which point to Puri. Puri's Vimala is also counted among the four Adi Shakti Peethas.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's navel fell here. Vimala is regarded as the tantric consort of Jagannath and the guardian of the temple complex.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Vimala is one of the four Adi Shakti Peethas.",
+      "Devotees pay respect to Vimala before worshipping Jagannath in the main temple.",
+      "Food offered to Jagannath becomes Mahaprasad only after it has also been offered to Vimala.",
+      "During Durga Puja, Vimala is worshipped as Durga, and the titular Gajapati king of Puri worships her on Vijayadashami.",
+      "Her temple has a vimana, jagamohana, nata-mandapa and bhoga-mandapa."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Vimala is visited within the Jagannath temple complex, whose hours apply.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Bhubaneswar (Biju Patnaik International Airport).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Puri station.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Durga Puja in Ashwin (September to October) is the goddess's main festival.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "durga-puja",
+      "localNote": {
+        "en": "Celebrated for sixteen days, ending on Vijayadashami.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "photos": [
+    "File:Minor temples in Jagannath Puri.jpg",
+    "File:Night view of the Jagannath Temple in Puri.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Wikipedia: Vimala Temple",
+      "url": "https://en.wikipedia.org/wiki/Vimala_Temple"
+    },
+    {
+      "title": "eSamskriti: Four Adi Shakti Peethas (Kalika Purana)",
+      "url": "https://www.esamskriti.com/e/Spirituality/Tantra/Shakti-Peethas-(Tantra-Peethas)-Of-India-2.aspx"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

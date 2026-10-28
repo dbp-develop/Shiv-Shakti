@@ -1,0 +1,164 @@
+{
+  "id": "nepala-guhyeshwari",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 27.7116,
+    "lng": 85.3537,
+    "country": "NP",
+    "region": "Bagmati"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Nepala (Guhyeshwari)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Guhyeshwari (Guhyakali)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Both knees",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Mahamaya, worshipped as Guhyeshwari",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Kapali",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Guhyeshwari temple stands about 1 km east of Pashupatinath in Kathmandu, on the southern bank of the Bagmati river. King Pratap Malla renovated it in the 17th century. Sircar says only that the Pithanirnaya's 'Nepala' may refer to Kathmandu; Guhyeshwari is the usual modern identification. Local tradition holds that a different part of Sati, the 'guhya' (hidden) part, fell here, and the Nepal Mahatmya places the knees at the confluence of the Bagmati and Vishnumati instead.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's knees fell here. In the local tradition the goddess's name, Guhyeshwari, comes from guhya (secret, hidden) and ishwari (goddess).",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The Devi Bhagavata Purana names the deity of Nepal as Guhyakali.",
+      "The temple is an important place of pilgrimage for Tantric worshippers.",
+      "Daily rituals are performed by Newar Karmacharya priests according to the Sarvamnaya Tantra; Rajopadhyaya Brahmins perform the Vedic rites on special occasions.",
+      "It lies in the Pashupati area, close to the Pashupatinath temple."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Tribhuvan International Airport, Kathmandu, close to the Pashupati area.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "There is no railway to Kathmandu.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Guhyeshwari Shaktipeeth Temple.jpg",
+    "File:Guhyeshwari Toran.jpg",
+    "File:Guhyeshwari Temple Pashupatinath Kathmandu Nepal Rajesh Dhungana (4).jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Wikipedia: Guhyeshwari Temple",
+      "url": "https://en.wikipedia.org/wiki/Guhyeshwari_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

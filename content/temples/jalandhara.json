@@ -1,0 +1,202 @@
+{
+  "id": "jalandhara",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 31.3436,
+    "lng": 75.5827,
+    "country": "IN",
+    "region": "Punjab"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Vajreshwari (Bajreshwari) Devi temple (Kangra, Himachal Pradesh)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 32.1018,
+      "lng": 76.2699,
+      "note": {
+        "en": "Some traditions place the Jalandhara pitha here, in the old kingdom of Jalandhara.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Jalandhara (Tripuramalini)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Tripuramalini, at the Devi Talab Mandir",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Breast",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Tripuramalini",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Bhishana",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Most lists place the Jalandhara pitha, with the goddess Tripuramalini, at the Devi Talab Mandir in Jalandhar, Punjab. The temple is known for its ancient tank and for the gold work inside it and on its top. Another tradition places the pitha at the Vajreshwari (Bajreshwari) temple in Kangra, in the old kingdom of Jalandhara.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's breast fell here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The temple's ancient tank (talab) gives the temple its name and is of great religious importance to devotees.",
+      "A separate shrine to Maa Tripuramalini stands in the complex.",
+      "The complex also has a model of the Amarnath cave and an old Kali temple.",
+      "The temple trust runs a charitable hospital."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Adampur (Jalandhar) Airport; Amritsar is the nearest large airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Jalandhar City station.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "darshan": {
+    "kind": "website",
+    "url": "https://shreedevitalabmandir.org/",
+    "verifiedVia": "https://shreedevitalabmandir.org/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Devi Talab Mandir, Jalandhar, Punjab, 19 September 2017 (cropped).jpg",
+    "File:Devi talab jal.jpg",
+    "File:Devi Talab Mandir.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Shree Devi Talab Mandir (official website)",
+      "url": "https://shreedevitalabmandir.org/"
+    },
+    {
+      "title": "Wikipedia: Devi Talab Mandir",
+      "url": "https://en.wikipedia.org/wiki/Devi_Talab_Mandir"
+    },
+    {
+      "title": "Wikipedia: Bajreshwari Mata Temple, Kangra",
+      "url": "https://en.wikipedia.org/wiki/Bajreshwari_Mata_Temple,_Kangra"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

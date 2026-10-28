@@ -1,0 +1,212 @@
+{
+  "id": "jwalamukhi",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51",
+    "ashtadasha-18"
+  ],
+  "location": {
+    "lat": 31.8754,
+    "lng": 76.3245,
+    "country": "IN",
+    "region": "Himachal Pradesh"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Vaishno Devi (Reasi, Jammu and Kashmir)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 33.0311,
+      "lng": 74.9489,
+      "note": {
+        "en": "Some devotees read the Ashtadasha Stotram's 'Jwala - Vaishnavi' as Vaishno Devi rather than Jwalamukhi.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Jwalamukhi",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Jwalamukhi, the goddess of the flaming mouth",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Tongue",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Siddhida (Ambika); in the Ashtadasha list, Vaishnavi",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Unmatta",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Jwalamukhi temple stands in the town of Jawalamukhi in the Kangra district of Himachal Pradesh, in the Shivalik hills. It is built over a rock fissure that gives off natural gas, and the flames burning from it are worshipped as the goddess; there is no image. The earliest text to name the place, the 14th-century Tarikh-i-Firuz-Shahi, says Firuz Shah Tughlaq visited it. The Kangra district administration notes later gifts from Maharaja Ranjit Singh and a legend that the Mughal emperor Akbar tried and failed to put out the flames. The Ashtadasha Stotram's 'Jwala - Vaishnavi' is usually read as Jwalamukhi, though some devotees identify it with Vaishno Devi.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's tongue fell here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The goddess is worshipped as eternal flames rising from the rock, usually nine, each taken as a form of the Devi.",
+      "Jwalamukhi is one of the 18 Maha Shakti Peethas of the Ashtadasha Stotram.",
+      "Devotees believe the fissure is the goddess's mouth, while her body is at the Vajreshwari temple in Kangra.",
+      "Abul Fazl described 'mountain lights resembling lamps' here and took them for the effect of a sulphur mine.",
+      "The temple is surrounded by smaller shrines to other gods and goddesses."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "The district administration gives the hours as about 5:00 AM to 10:00 PM, with Mangal Aarti at 5:00 to 6:00 AM in summer (6:00 to 7:00 AM in winter), Bhog Aarti around noon, evening aarti at 7:00 to 8:00 PM and Shaiyan Aarti around 10:00 PM.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Gaggal (Dharamshala), about 46 to 50 km; Chandigarh is about 200 km.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Pathankot is the nearest broad-gauge station (about 123 to 140 km); the narrow-gauge Kangra Valley line stops at Jawalamukhi Road.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The temple is open all year. The district suggests March to June, or the Navratri festivals, when crowds and special pujas are at their peak.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "chaitra-navratri"
+    },
+    {
+      "festivalId": "sharad-navratri"
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://hpkangra.nic.in/tourist-place/shri-jawalamukhi-mata-temple/",
+    "verifiedVia": "https://hpkangra.nic.in/tourist-place/shri-jawalamukhi-mata-temple/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:0051223 Jwalamukhi temple, Jvala ji Himachal Pradesh 024.jpg",
+    "File:Jwalamukhi temple,kangra, himachal pradesh..JPG",
+    "File:Photograph of the Jwala Ji Mandir in Kangra district, taken by Dhanna Singh Chahal 'Patialvi', 1933.jpg",
+    "File:0051223 Jwalamukhi temple, Jvala ji Himachal Pradesh 002.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "District Kangra, Government of Himachal Pradesh: Shri Jawalamukhi Mata Temple",
+      "url": "https://hpkangra.nic.in/tourist-place/shri-jawalamukhi-mata-temple/"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "Wikipedia: Jwalamukhi temple, Himachal Pradesh",
+      "url": "https://en.wikipedia.org/wiki/Jwalamukhi_temple,_Himachal_Pradesh"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

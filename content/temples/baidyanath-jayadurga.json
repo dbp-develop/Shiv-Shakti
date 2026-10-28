@@ -1,0 +1,182 @@
+{
+  "id": "baidyanath-jayadurga",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 24.4928,
+    "lng": 86.7,
+    "country": "IN",
+    "region": "Jharkhand"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Vaidyanatha (Jayadurga, Deoghar)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Jayadurga, beside the Vaidyanath Jyotirlinga",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Heart",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Jayadurga",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Vaidyanatha",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Jayadurga shrine stands in the Baidyanath Dham temple complex at Deoghar in Jharkhand, which also holds the Vaidyanath Jyotirlinga; the Deoghar district administration counts the site among both the twelve Jyotirlingas and the 51 Shakti Peethas. Sircar identifies this pitha with Deoghar. Parli in Maharashtra, which claims the Jyotirlinga, does not claim the Shakti Peetha.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's heart fell here. Because the Jyotirlinga and the Peetha stand side by side, Deoghar is especially sacred to both Shaivas and Shaktas.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Deoghar is one of the few places where a Jyotirlinga and a Shakti Peetha stand together.",
+      "The Bhairava of this pitha is Vaidyanatha, the Shiva of the Jyotirlinga.",
+      "The temple complex has 22 temples; the tallest, that of Baidyanath, is about 72 feet high.",
+      "In Shravan, pilgrims carry Ganga water from Sultanganj to Deoghar on foot."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Darshan times are set by the temple administration and change during the Shravani Mela; check local notices before travelling.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Deoghar Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Baidyanath Dham station (about 2 km), Deoghar Junction (about 3 km) and Jasidih Junction (about 7 km).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Shravani Mela in July and August is the busiest time of the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "shravan-somvar"
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://deoghar.nic.in/tourist-place/baidyanath-temple/",
+    "verifiedVia": "https://deoghar.nic.in/tourist-place/baidyanath-temple/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Baidyanath temple and temple complex, Deoghar 21.jpg",
+    "File:Baidyanath temple and temple complex, Deoghar 01.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "District Deoghar, Government of Jharkhand: Baba Baidyanath Dham Temple",
+      "url": "https://deoghar.nic.in/tourist-place/baidyanath-temple/"
+    },
+    {
+      "title": "District Deoghar, Government of Jharkhand: History",
+      "url": "https://deoghar.nic.in/history/"
+    },
+    {
+      "title": "Wikipedia: Baidyanath Temple",
+      "url": "https://en.wikipedia.org/wiki/Baidyanath_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

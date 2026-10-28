@@ -1,0 +1,165 @@
+{
+  "id": "manasa",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 30.67,
+    "lng": 81.46,
+    "country": "CN",
+    "region": "Tibet (Ngari)"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Manasa (Manasarovar)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Dakshayani, at Lake Manasarovar",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Right hand",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Dakshayani",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Amara (Hara)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "This pitha has no temple building: it is Lake Manasarovar itself, a freshwater lake at about 4,600 m near Mount Kailash in the Ngari region of Tibet, close to where China, India and Nepal meet. The map pin marks a point in the lake. The lake is sacred in Hinduism, Buddhism, Jainism and the Bon religion, and is named in the Ramayana and the Mahabharata.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's right hand fell here. Mount Kailash, beside the lake, is believed to be the abode of Shiva.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The lake covers about 320 km², is roughly round with a circumference of about 88 km, and is up to 100 m deep.",
+      "It overflows into the salt lake Rakshastal through the Ganga Chhu channel.",
+      "The sources of the Indus, Sutlej, Brahmaputra and Karnali lie in the surrounding region.",
+      "The pilgrimage usually combines a trek to the lake with a circumambulation of Mount Kailash.",
+      "The name comes from the Sanskrit manas (mind) and sarovara (lake)."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "There is no temple and no fixed hours; visits follow the pilgrimage season.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "There is no nearby airport; the lake is reached overland through Tibet.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "There is no railway near the lake.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "April to June is fairly dry; winters are far below freezing.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Lake Manasa Sarovar 01.jpg",
+    "File:Mansarovar.jpg",
+    "File:Lake Manasarovar cloudy.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Wikipedia: Lake Manasarovar",
+      "url": "https://en.wikipedia.org/wiki/Lake_Manasarovar"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "kashmira-amarnath",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 34.2149,
+    "lng": 75.5008,
+    "country": "IN",
+    "region": "Jammu and Kashmir"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Kashmira (Amarnath)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Mahamaya, at the cave of Amarnath",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Throat",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Mahamaya",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Trisandhyeshvara",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Pithanirnaya names only 'Kashmira'; identifying the pitha with the Amarnath cave is a popular modern reading, not one stated in the text. The cave lies at about 3,888 m on the Amarnath mountain in the Anantnag district of Jammu and Kashmir, about 141 km from Srinagar, and is reached via Pahalgam or Sonamarg. The 6th to 7th-century Nilamata Purana and Kalhana's 12th-century Rajatarangini mention the shrine as Amareshvara and its annual yatra.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's throat fell here. The cave is also sacred to Shiva, whose ice linga forms inside it.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Inside the 40 m high cave, an ice stalagmite forms each year and is worshipped as a self-manifested Shiva linga; two smaller ones are taken to be Parvati and Ganesha.",
+      "The ice linga grows from May to August as snowmelt seeps into the cave, and then slowly shrinks.",
+      "The cave is snow-bound most of the year and opens to pilgrims only for a short summer season of about 20 to 60 days.",
+      "Abu'l Fazl's 16th-century Ain-i-Akbari describes the waxing and waning of the linga.",
+      "The traditional southern route passes Sheshnag lake, which Kalhana already mentions."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "The cave can be visited only during the annual summer yatra, whose dates are announced each year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Srinagar, about 141 km away, then by road.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Travel on by road to the base camps at Pahalgam or Sonamarg.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Only during the short summer yatra.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Amarnath Cave Temple.jpg",
+    "File:Cave Temple of Lord Amarnath.jpg",
+    "File:Amarnath cave view.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Wikipedia: Amarnath Temple",
+      "url": "https://en.wikipedia.org/wiki/Amarnath_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}
