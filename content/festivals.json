@@ -238,5 +238,27 @@
     "months": [
       6
     ]
+  },
+  {
+    "id": "rangbhari-ekadashi",
+    "name": {
+      "en": "Rangbhari Ekadashi",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "when": {
+      "kind": "tithi",
+      "masa": 11,
+      "paksha": "shukla",
+      "tithi": 11
+    },
+    "months": [
+      2,
+      3
+    ]
   }
 ]

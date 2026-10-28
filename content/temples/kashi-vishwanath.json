@@ -1,0 +1,167 @@
+{
+  "id": "kashi-vishwanath",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 25.3108,
+    "lng": 83.0106,
+    "country": "IN",
+    "region": "Uttar Pradesh"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Kashi Vishwanath",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Shiva as Vishwanath (Vishweshwara), the Lord of the Universe",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "The Kashi Vishwanath temple stands in Varanasi, near the western bank of the Ganga. Earlier temples on or near this site were destroyed and rebuilt several times: by the Ghurids in 1194, under Sikandar Lodi in 1490, and in 1669 on the order of the Mughal emperor Aurangzeb, after which the Gyanvapi mosque was built on the site. Shri Kashi Vishwanath Temple Trust says the temple in its present form was built in 1780 by Maharani Ahilyabai Holkar of Indore, that a Naubatkhana was added in front of it in 1785, and that in 1839 two of its domes were covered with gold donated by Maharaja Ranjit Singh. The Government of Uttar Pradesh took over the temple on 28 January 1983, and a trust has managed it since. The Kashi Vishwanath Dham corridor, linking the temple to the Ganga, was inaugurated on 13 December 2021.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Shiva Purana tradition, Brahma and Vishnu once argued over which of them was supreme. Shiva appeared between them as an endless pillar of light. Vishnu, as a boar, searched for its base and Brahma, as a swan, searched for its top. Neither found an end, but Brahma falsely claimed he had, and Shiva cursed him. Kashi is held to be a place where this column of light, the Jyotirlinga, manifested.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The presiding deity is called Vishwanath or Vishweshwara, which means Lord of the Universe.",
+      "The Trust says tradition holds that a single visit to Kashi Vishwanath brings the merit of darshan at all the other Jyotirlingas.",
+      "The Trust records that Adi Shankaracharya, Goswami Tulsidas, Guru Nanak, Ramakrishna Paramahamsa and Swami Vivekananda are among those who visited the temple.",
+      "The temple is popularly called the Golden Temple because of the gold covering on its domes and spire.",
+      "The Jnana Vapi (well of wisdom) lies to the north of the main temple; tradition says the linga was hidden in it to protect it from invaders.",
+      "Twelve days after Maha Shivaratri, on Rangbhari Ekadashi, the temple celebrates Shiva bringing Parvati to Kashi, with damaru drums and colours."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "The temple is open from early morning until late night. Mangala Aarti is held at about 3:30 AM, Bhog Aarti at about 12:00 noon, Saptarishi Aarti at about 7:30 PM and Shringar Aarti at about 11:00 PM. Times can change on festival days.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Varanasi (Lal Bahadur Shastri) Airport, with direct flights to Delhi and other major cities.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Varanasi is a major railway junction with direct trains from the metro cities.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Varanasi draws pilgrims all year. Maha Shivaratri, Rangbhari Ekadashi and the Shravan month are the busiest periods.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri"
+    },
+    {
+      "festivalId": "rangbhari-ekadashi",
+      "localNote": {
+        "en": "Shiva and Parvati are welcomed back to Kashi with damaru drums and gulal, twelve days after Maha Shivaratri.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "festivalId": "shravan-somvar"
+    }
+  ],
+  "darshan": {
+    "kind": "youtube-channel",
+    "channelId": "UCdMj2twWfMHXrWgX5oVdoyA",
+    "url": "https://www.youtube.com/@ShreeKashiVishwanathMandir",
+    "verifiedVia": "https://shrikashivishwanath.org/online/live_darshan",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Kashi Vishwanath Temple in 2025.jpg",
+    "File:Ganga Dwar, Gateway of Corridor of Kashi Vishwanath Temple, Varanasi 2.webp",
+    "File:Shri Kashi Vishwanath Temple 7.jpg",
+    "File:Benares- The Golden Temple, India, ca. 1915 (IMP-CSCNWW33-OS14-66).jpg"
+  ],
+  "sources": [
+    {
+      "title": "Shri Kashi Vishwanath Temple Trust: Mythology and history",
+      "url": "https://shrikashivishwanath.org/mythology"
+    },
+    {
+      "title": "Shri Kashi Vishwanath Temple Trust: Live darshan",
+      "url": "https://shrikashivishwanath.org/online/live_darshan"
+    },
+    {
+      "title": "District Varanasi, Government of Uttar Pradesh: Shree Kashi Vishvanath Temple",
+      "url": "https://varanasi.nic.in/tourist-place/shri-kashi-vishwanath-temple/"
+    },
+    {
+      "title": "Wikipedia: Kashi Vishwanath Temple",
+      "url": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple"
+    },
+    {
+      "title": "The CSR Journal: Rangbhari Ekadashi 2026",
+      "url": "https://thecsrjournal.in/rangbhari-ekadashi-2026-date-rituals-and-spiritual-significance-explained/"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

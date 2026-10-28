@@ -1,0 +1,192 @@
+{
+  "id": "trimbakeshwar",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 19.9321,
+    "lng": 73.5308,
+    "country": "IN",
+    "region": "Maharashtra"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Trimbakeshwar",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Shiva as Trimbakeshwar, the three-eyed Lord, with Brahma and Vishnu",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "Trimbakeshwar stands in the town of Trimbak, about 28 km from Nashik, at the foot of the Brahmagiri hill from which the Godavari river rises. Shri Trimbakeshwar Devasthan Trust says the present temple was built by the third Peshwa, Balaji Bajirao (Nanasaheb Peshwa, 1740 to 1760), on the site of an old temple, and that the Jogalekar family looked after the temple from his time. The temple's affairs were registered as a public trust in 1954. Since 1995 a board of trustees has managed it, chaired by a judge appointed by the District Judge.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to tradition, the sage Gautama lived with his wife Ahalya near Brahmagiri. During a drought he performed long penance there, and Shiva, pleased, sent the Ganga to flow in the region; she appeared on Brahmagiri as the Godavari. Gautama is said to have bathed in her waters to free himself from the sin of accidentally killing a cow.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The Trust says the linga here is unusual: it has three faces, representing Brahma, Vishnu and Shiva.",
+      "The Godavari, the longest river in peninsular India, rises on the Brahmagiri hill above the town.",
+      "At the Simhastha Kumbh Mela, held here once every twelve years, the most sacred bath (Shahi Snan) is taken at Kushavarta tirth in Trimbakeshwar.",
+      "Sant Nivruttinath, elder brother and guru of Sant Dnyaneshwar, took samadhi at Trimbakeshwar, and a yatra on his death anniversary draws lakhs of Varkari pilgrims.",
+      "On every Monday the Trust takes the palanquin of Trimbakeshwar in procession to Kushavarta tirth for worship.",
+      "The linga is covered by a jewelled crown placed over a gold mask of the three deities; the crown is shown to devotees on Mondays."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "The Trust gives darshan hours as 5:30 AM to 9:00 PM. Paid donation darshan passes are also sold by the Trust.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Nashik (Ozar) airport, about 24 km from Nashik city, which is about 28 to 30 km from Trimbakeshwar.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Nashik Road, about 40 km away.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Trust's busiest days are Maha Shivaratri, the Mondays of Shravan, and Tripuri Purnima in Kartik, when the deity is taken out in a chariot.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri",
+      "localNote": {
+        "en": "The palanquin of Trimbakraja is taken through the town, with kirtan at night.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "festivalId": "shravan-somvar"
+    },
+    {
+      "festivalId": "nag-panchami",
+      "localNote": {
+        "en": "The deity is specially adorned.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "festivalId": "kartik-purnima",
+      "localNote": {
+        "en": "The chariot procession of Trimbakraja goes to Kushavarta tirth, and lamps are lit in front of the temple.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://trimbakeshwartrust.com/#live-video",
+    "verifiedVia": "https://trimbakeshwartrust.com/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Trimbakeshwar Shiva Temple 2005.jpg",
+    "File:Trimbakeshwar nj.jpg",
+    "File:Trimbakeshwar Temple, Nashik.jpg",
+    "File:Trimbakeshwar Shiva Temple (Entrance Gate), Trimbak, Nashik District, Maharastra.jpg",
+    "File:Shri Trimbakeshwar Devasthan.jpg"
+  ],
+  "sources": [
+    {
+      "title": "Shri Trimbakeshwar Devasthan Trust (official website, with live darshan)",
+      "url": "https://trimbakeshwartrust.com/"
+    },
+    {
+      "title": "Shri Trimbakeshwar Devasthan Trust: About",
+      "url": "https://trimbakeshwartrust.com/about"
+    },
+    {
+      "title": "Shri Trimbakeshwar Devasthan Trust: History",
+      "url": "https://trimbakeshwartrust.com/history"
+    },
+    {
+      "title": "Shri Trimbakeshwar Devasthan Trust: Festivals",
+      "url": "https://trimbakeshwartrust.com/festivals"
+    },
+    {
+      "title": "District Nashik, Government of Maharashtra: Trimbakeshwar",
+      "url": "https://nashik.gov.in/tourist-place/trimbakeshwar/"
+    },
+    {
+      "title": "Wikipedia: Trimbakeshwar Shiva Temple",
+      "url": "https://en.wikipedia.org/wiki/Trimbakeshwar_Shiva_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "grishneshwar",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 20.0249,
+    "lng": 75.1698,
+    "country": "IN",
+    "region": "Maharashtra"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Grishneshwar",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Shiva as Ghrishneshwar (Ghushmeshwar)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "Grishneshwar stands in Verul village, about a kilometre from the Ellora caves and about 30 km from Chhatrapati Sambhajinagar. The district administration describes it as an 18th-century temple. Earlier structures were destroyed in the 13th and 14th centuries and again during the Mughal–Maratha wars. Maloji Bhosale, grandfather of Shivaji, restored the temple in the 16th century, and it was rebuilt in its present form in 1729 under the sponsorship of Gautama Bai Holkar of Indore. The temple is a nationally protected site.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, a devout woman named Ghushma made 101 earthen lingas every day, worshipped them and immersed them in a pond. Her jealous sister Sudeha killed Ghushma's son and threw his body into the same pond. Ghushma kept to her worship, and when she went to immerse the lingas her son came out of the water alive. Shiva appeared and offered her a boon; she asked him to forgive her sister and to stay there for ever, and he remained as the Jyotirlinga called Ghushmeshwar.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Grishneshwar is mentioned in the Shiva Purana and the Skanda Purana.",
+      "It is one of five Jyotirlingas in Maharashtra, counting the traditions there.",
+      "By local tradition, men enter the sanctum bare-chested.",
+      "The temple is about a kilometre from the Ellora caves, a World Heritage Site of 34 Buddhist, Hindu and Jain rock-cut temples."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Darshan and aarti times are set by the temple; check them locally before visiting, especially during Shravan.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Chhatrapati Sambhajinagar airport, about 36 km away.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Chhatrapati Sambhajinagar railway station, in the city about 30 km away.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims come all year; many combine the visit with the Ellora caves.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri"
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://chhatrapatisambhajinagar.maharashtra.gov.in/en/tourist-place/ellora-leni-and-ghrishneshwar-jyotirlinga-temple-verul/",
+    "verifiedVia": "https://chhatrapatisambhajinagar.maharashtra.gov.in/en/tourist-place/ellora-leni-and-ghrishneshwar-jyotirlinga-temple-verul/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Grishneshwar temple in Aurangabad district.jpg",
+    "File:Grishneshwar Shiva temple Maharashtra.jpg",
+    "File:Grishneshwar Temple Shiva Jyotirlinga Maharashtra India.jpg",
+    "File:Grishneshwar temple (Sive view) in Aurangabad district.jpg"
+  ],
+  "sources": [
+    {
+      "title": "District Chhatrapati Sambhajinagar, Government of Maharashtra: Ellora Leni and Ghrishneshwar Jyotirlinga Temple, Verul",
+      "url": "https://chhatrapatisambhajinagar.maharashtra.gov.in/en/tourist-place/ellora-leni-and-ghrishneshwar-jyotirlinga-temple-verul/"
+    },
+    {
+      "title": "Wikipedia: Grishneshwar Temple",
+      "url": "https://en.wikipedia.org/wiki/Grishneshwar_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

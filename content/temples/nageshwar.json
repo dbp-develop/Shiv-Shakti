@@ -1,0 +1,191 @@
+{
+  "id": "nageshwar",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 22.3359,
+    "lng": 69.0869,
+    "country": "IN",
+    "region": "Gujarat"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Aundha Nagnath temple (Hingoli, Maharashtra)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 19.5371,
+      "lng": 77.0415,
+      "note": {
+        "en": "Maharashtra tradition identifies this temple with the 'Nagesham Darukavane' of the Stotram.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "name": {
+        "en": "Jageshwar temple complex (Almora, Uttarakhand)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 29.6375,
+      "lng": 79.8543,
+      "note": {
+        "en": "Local Kumaon tradition holds this to be the Nageshwar Jyotirlinga, reading Darukavana as the deodar forest.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Nageshwar",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Shiva as Nageshwar, the Lord of serpents",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "Nageshwar stands on the Saurashtra coast of Gujarat, on the road between Dwarka and Beyt Dwarka. The Devbhumi Dwarka district administration describes its Jyotirlinga as enshrined in an underground sanctum, with a 25 m statue of a seated Shiva and a large garden with a pond. The Shiva Purana places the Nageshwar Jyotirlinga in 'Darukavana', a forest whose location is debated. Besides Dwarka, two other temples claim to be the Jyotirlinga: Aundha Nagnath in Maharashtra, from the Stotram's 'Nagesham Darukavane', and Jageshwar in Uttarakhand, where Darukavana is read as a deodar forest.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Shiva Purana, the demon Daruka imprisoned a Shiva devotee named Supriya with many others in his city under the sea. Supriya led the prisoners in chanting 'Om Namah Shivaya'; when the demons tried to kill him, Shiva appeared, defeated them, and stayed on as the Jyotirlinga named Nageshwar.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The Jyotirlinga is in an underground sanctum.",
+      "A 25 m statue of a seated Shiva stands at the temple.",
+      "Incredible India says the linga is made of Dwarka Shila stone, and that the Shiva Purana holds that worship here protects from poisons and snake bites.",
+      "The district administration also records a Vamana Purana legend in which Shiva, after testing the sages of Darukavana, promised to stay there as a Jyotirlinga.",
+      "The temple is about 16 km from Dwarka, and is often visited together with the Dwarkadhish temple and Beyt Dwarka."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Darshan and aarti times are set by the temple; check them locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Jamnagar or Porbandar airport, then by road.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Dwarka station, about 16 km away by road.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Maha Shivaratri is the main festival here.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri"
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://devbhumidwarka.nic.in/tourist-place/nageshwar-temple/",
+    "verifiedVia": "https://devbhumidwarka.nic.in/tourist-place/nageshwar-temple/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Nageshwar Jyotirling Temple, Dwarka, Gujarat.jpg",
+    "File:Nageshwar Temple.jpg",
+    "File:Nageshvara jyotirlinga temple Dwarka Gujarat India.jpg",
+    "File:Nageshvara Jyotirlinga.JPG"
+  ],
+  "sources": [
+    {
+      "title": "District Devbhumi Dwarka, Government of Gujarat: Nageshwar Jyotirling",
+      "url": "https://devbhumidwarka.nic.in/tourist-place/nageshwar-temple/"
+    },
+    {
+      "title": "Incredible India (Ministry of Tourism): Nageshwar Jyotirlinga",
+      "url": "https://www.incredibleindia.gov.in/en/gujarat/dwarka/nageshwar-jyotirlinga"
+    },
+    {
+      "title": "Wikipedia: Nageshvara Jyotirlinga",
+      "url": "https://en.wikipedia.org/wiki/Nageshvara_Jyotirlinga"
+    },
+    {
+      "title": "Wikipedia: Aundha Nagnath Temple",
+      "url": "https://en.wikipedia.org/wiki/Aundha_Nagnath_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

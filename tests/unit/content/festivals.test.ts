@@ -23,6 +23,7 @@ const EXPECTED: Record<string, string> = {
   'shravan-somvar': 'Mondays of Shravana (Jul–Aug)',
   'makar-sankranti': 'Sun enters Makara (Jan)',
   ambubachi: 'From day 7 of solar Ashadha, 4 days (Jun)',
+  'rangbhari-ekadashi': 'Phalguna Shukla 11 (Feb–Mar)',
 };
 
 const name = { en: 'X', hi: '', bn: '', mr: '', ta: '', te: '', gu: '' };

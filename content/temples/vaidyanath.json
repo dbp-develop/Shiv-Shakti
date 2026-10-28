@@ -1,0 +1,187 @@
+{
+  "id": "vaidyanath",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 24.4928,
+    "lng": 86.7,
+    "country": "IN",
+    "region": "Jharkhand"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Vaijnath temple, Parli Vaijnath (Beed, Maharashtra)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 18.8422,
+      "lng": 76.5352,
+      "note": {
+        "en": "Maharashtra tradition reads the Stotram's 'Paralyam Vaidyanatham' as Parli and holds this temple to be the Jyotirlinga.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Vaidyanath (Baidyanath)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Shiva as Vaidyanath, the Lord of physicians",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "Baidyanath Dham stands in Deoghar, in the Santhal Parganas of Jharkhand. The Deoghar district administration says the origin of the shrine is lost in antiquity, that Sanskrit texts call the place Haritakivan or Ketakivan, and that the builder of the temple is not known, though parts of its front are said to have been built by Puran Mal, an ancestor of the Maharaja of Gidhaur, in 1596. The temple faces east and is a plain stone structure with a pyramidal tower about 72 feet (22 m) high, the tallest of the 22 temples in the complex. Which temple is the Vaidyanath Jyotirlinga is disputed: the Dvadasha Jyotirlinga Stotram's phrase 'Paralyam Vaidyanatham' is read in Maharashtra as Parli Vaijnath in Beed district, which tradition there holds to be the Jyotirlinga.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to legend, Ravana did penance to Shiva and was allowed to carry a linga to Lanka on condition that it would stay wherever it was set down. On the way, near Deoghar, Ravana handed it to a cowherd while he stepped aside, and the cowherd, said to be Vishnu in disguise, put it on the ground. Ravana could not lift it again, and the linga remained here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The district administration calls Deoghar the abode of the gods; it is also known as Baidyanath Dham or Baba Dham.",
+      "The top of the main temple carries three gold vessels donated by the Maharaja of Gidhaur and a Panchashula, a rare five-pointed trident.",
+      "An eight-petalled lotus jewel called the Chandrakanta Mani is set in the inner top of the temple.",
+      "Each Shravan, pilgrims carry Ganga water about 100 km on foot from Sultanganj to offer at Baidyanath; the district calls the Shravani Mela the longest fair in Asia.",
+      "Deoghar is counted among both the twelve Jyotirlingas and the 51 Shakti Peethas; the Devi here is Jaya Durga.",
+      "Pilgrims traditionally complete the journey with a visit to the Basukinath temple, about 43 km from Deoghar."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Darshan times are set by the temple administration and change during the Shravani Mela, when queues are controlled; check local notices before travelling.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Deoghar Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Baidyanath Dham station (about 2 km), Deoghar Junction (about 3 km) and Jasidih Junction (about 7 km).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Shravani Mela in July and August is the high point of the year and the most crowded; outside Shravan the town is much quieter.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "shravan-somvar",
+      "localNote": {
+        "en": "The Shravani Mela: kanwariyas bring Ganga water from Sultanganj, about 100 km away.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "festivalId": "maha-shivaratri"
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://deoghar.nic.in/tourist-place/baidyanath-temple/",
+    "verifiedVia": "https://deoghar.nic.in/tourist-place/baidyanath-temple/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Baidyanath temple and temple complex, Deoghar 16.jpg",
+    "File:Baidyanath temple and temple complex, Deoghar 17.jpg",
+    "File:Baidyanath temple and temple complex, Deoghar 09.jpg",
+    "File:Sacred Pond - Baidyanath Dham Temple Complex - Deoghar.jpg",
+    "File:Temples at Deorgag, Santal Parhanas, Bihar - William Hodges, 1782 - BL Foster 396.jpg"
+  ],
+  "sources": [
+    {
+      "title": "District Deoghar, Government of Jharkhand: Baba Baidyanath Dham Temple",
+      "url": "https://deoghar.nic.in/tourist-place/baidyanath-temple/"
+    },
+    {
+      "title": "District Deoghar, Government of Jharkhand: History",
+      "url": "https://deoghar.nic.in/history/"
+    },
+    {
+      "title": "Jharkhand Tourism: Deoghar",
+      "url": "https://tourism.jharkhand.gov.in/how-to-reach/53/1"
+    },
+    {
+      "title": "Wikipedia: Baidyanath Temple",
+      "url": "https://en.wikipedia.org/wiki/Baidyanath_Temple"
+    },
+    {
+      "title": "Wikipedia: Jyotirlinga (the 'Paralyam Vaidyanatham' reading)",
+      "url": "https://en.wikipedia.org/wiki/Jyotirlinga"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

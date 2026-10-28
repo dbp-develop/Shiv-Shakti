@@ -1,0 +1,144 @@
+{
+  "id": "rameshwaram",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 9.2881,
+    "lng": 79.3174,
+    "country": "IN",
+    "region": "Tamil Nadu"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Rameshwaram (Ramanathaswamy)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Shiva as Ramanathaswamy, the Lord worshipped by Rama",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "The Ramanathaswamy temple stands on Rameswaram island and is administered by the Hindu Religious and Charitable Endowments Department of the Government of Tamil Nadu. The temple was expanded in the 12th century under the Pandyas, and kings of Jaffna renovated its sanctum in the late 14th and early 15th centuries. The Ramanathapuram district administration says the Sethupathi rulers of Ramnad built the grand temple with its third corridor, the longest in Asia, 197 m from east to west and 133 m from south to north. It also records that Swami Vivekananda prayed here in 1897.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to tradition, Rama worshipped Shiva here before crossing to Lanka. Two lingas stand in the sanctum: the Ramalingam, which Sita is said to have made from sand, and the Vishvalingam, which Hanuman brought from Kailash. Rama asked that the Vishvalingam be worshipped first, and this is still done.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Rameswaram is one of the Char Dham, the four holy abodes at the four corners of India, with Badrinath, Puri and Dwarka.",
+      "There are 22 theerthams (holy water bodies) inside the temple, said to stand for the 22 arrows in Rama's quiver; bathing in them is part of the pilgrimage.",
+      "Agni Theertham, the sea in front of the temple, is the first and main theertham.",
+      "The corridors measure about 3,850 feet (about 1,170 m) in all, and the outer corridor has about 1,212 carved pillars.",
+      "The temple is one of the 276 Paadal Petra Sthalams praised in the hymns of the Nayanar saints Appar, Sundarar and Sambandar.",
+      "The district administration notes that the temple is revered by both Shaivas and Vaishnavas."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Darshan and pooja times are set by the temple administration; check them locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Madurai, about 175 km away; Thoothukudi is about 195 km away.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Rameswaram station, about 1.3 km from the temple.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims come all year. Maha Shivaratri and the festivals of the Tamil months of Masi (February to March) and Adi (July to August) are the busiest times.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri"
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://ramanathapuram.nic.in/tourist-place/ramanathaswamy-temple/",
+    "verifiedVia": "https://ramanathapuram.nic.in/tourist-place/ramanathaswamy-temple/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Ramanathaswamy Temple night view.jpg",
+    "File:Ramanathaswamy Temple Rameswaram (1).jpg",
+    "File:The great corridor at Rameswaram Ramanathaswamy Temple.jpg",
+    "File:Rameswaram Temple, Tamil Nadu.jpg",
+    "File:Ramanathaswamy Temple Shore 02.jpg"
+  ],
+  "sources": [
+    {
+      "title": "Ramanathapuram District Administration: Ramanathaswamy temple",
+      "url": "https://ramanathapuram.nic.in/tourist-place/ramanathaswamy-temple/"
+    },
+    {
+      "title": "Wikipedia: Ramanathaswamy Temple",
+      "url": "https://en.wikipedia.org/wiki/Ramanathaswamy_Temple"
+    },
+    {
+      "title": "Culture and Heritage: Maha Shivaratri celebrations in Sri Ramanathaswamy Temple",
+      "url": "https://cultureandheritage.org/2023/05/maha-shivaratri-celebrations-in-sri-ramanathaswamy-temple-rameshwaram-a-spiritual-spectacle.html"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}
