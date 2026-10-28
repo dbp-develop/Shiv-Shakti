@@ -41,6 +41,12 @@ describe('parseImageInfo', () => {
     expect(missing).toEqual([NONE]);
   });
 
+  it('drops hidden duplicate text from the author', () => {
+    const one = structuredClone(api);
+    one.query.pages['4624438'].imageinfo[0].extmetadata.Artist.value = 'Unknown author<span style="display: none;">Unknown author</span>';
+    expect(parseImageInfo(one, [KEDAR]).credits[KEDAR].author).toBe('Unknown author');
+  });
+
   it('reports a requested file the response does not mention at all', () => {
     expect(parseImageInfo(api, [KEDAR, 'File:Never asked.jpg']).missing).toEqual(['File:Never asked.jpg']);
   });

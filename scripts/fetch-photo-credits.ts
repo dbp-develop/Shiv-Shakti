@@ -27,9 +27,10 @@ interface ApiResponse {
 
 const ENTITIES: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
 
-/** extmetadata values are HTML: drop the tags, decode entities, collapse whitespace. */
+/** extmetadata values are HTML: drop hidden elements and the tags, decode entities, collapse whitespace. */
 function plainText(html: string): string {
   return html
+    .replace(/<(\w+)[^>]*display:\s*none[^>]*>[\s\S]*?<\/\1>/gi, '')
     .replace(/<[^>]*>/g, '')
     .replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e: string) => {
       if (e[0] !== '#') return ENTITIES[e.toLowerCase()] ?? m;
