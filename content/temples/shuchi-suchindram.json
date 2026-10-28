@@ -1,0 +1,163 @@
+{
+  "id": "shuchi-suchindram",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 8.1548,
+    "lng": 77.4653,
+    "country": "IN",
+    "region": "Tamil Nadu"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Shuchi / Anala (Suchindram)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Narayani, at the Thanumalayan temple",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Upper teeth",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Narayani",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Samhara (Samkrura)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Sircar gives the variant reading Anala and no location; Suchindram, in the Kanyakumari district of Tamil Nadu, is the popular identification. Some lists name a separate Narayani shrine on the Kanyakumari–Thiruvananthapuram road, which has not been located, so the map pin marks the main Thanumalayan temple. The present masonry of the Thanumalayan temple was built under the Cholas in the 9th century and expanded by Thirumalai Nayak and the Travancore Maharajas.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's upper teeth fell here. The temple's own legend says Indra was freed from a curse here by worshipping the main linga.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The name Sthanumalaya joins Sthanu (Shiva), Mal (Vishnu) and Ayan (Brahma), so the temple is sacred to both Shaivas and Vaishnavas.",
+      "Its eastern gopuram rises 11 storeys, about 44 m.",
+      "The shrines of Sthanumalayan and of Hanuman are the most prominent in the complex.",
+      "Six rituals are held daily between about 5:30 AM and 9:00 PM; the festival in the Tamil month of Margazhi is the most important of the year."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Daily rituals between about 5:30 AM and 9:00 PM.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Thiruvananthapuram International Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Nagercoil Junction.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Margazhi festival (December to January) is the temple's main festival.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Suchindram Thanumalayan Temple 2014 (30).jpg",
+    "File:Suchindram Thanumalayan Temple 2014 (23).jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Wikipedia: Thanumalayan Temple",
+      "url": "https://en.wikipedia.org/wiki/Thanumalayan_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

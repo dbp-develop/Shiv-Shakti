@@ -1,0 +1,199 @@
+{
+  "id": "janasthana",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 20.3903,
+    "lng": 73.9086,
+    "country": "IN",
+    "region": "Maharashtra"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Bhadrakali temple (Nashik)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 20.0019,
+      "lng": 73.7917,
+      "note": {
+        "en": "Some local lists identify Janasthana with the Bhadrakali temple in Nashik city.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Janasthana (Saptashrungi, Nashik)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Saptashrungi Nivasini, the goddess of the seven peaks",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Chin",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Bhramari, worshipped as Saptashrungi",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Vikritaksha",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Sircar places Janasthana 'on the Godavari in the Nasik region'. Most lists identify it with Saptashrungi, a pilgrimage site at Vani, about 60 km from Nashik, where the goddess is said to dwell within seven mountain peaks. Some local lists name the Bhadrakali temple in Nashik city instead.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's chin fell here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The name means 'seven peaks' (sapta, seven; shrunga, peak).",
+      "Saptashrungi is counted among the 'three and a half' Shakti Peethas of Maharashtra, and is generally regarded as the half pitha.",
+      "About 510 steps lead up to the temple; since 2018 the temple trust has also run a funicular trolley.",
+      "The Marathas and several tribal communities have long worshipped the goddess, some as their family deity."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Nashik (Ozar) airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Nashik Road.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "darshan": {
+    "kind": "youtube-channel",
+    "channelId": "UCV1vRlaiwy2oD7P6-5Ac_Iw",
+    "url": "https://www.youtube.com/@shreesaptashrungniwasinidevi",
+    "verifiedVia": "https://ssndtonline.org/?p=home/live_darshan",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Saptashrungi temple.JPG",
+    "File:Goddess Saptashrungi Devi Temple1.jpg",
+    "File:Steps of Saptashrungi 02.JPG"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Shree Saptashrung Nivasini Devi Trust (official website)",
+      "url": "https://ssndtonline.org/"
+    },
+    {
+      "title": "Wikipedia: Saptashrungi",
+      "url": "https://en.wikipedia.org/wiki/Saptashrungi"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

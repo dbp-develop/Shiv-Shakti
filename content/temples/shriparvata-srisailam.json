@@ -1,0 +1,185 @@
+{
+  "id": "shriparvata-srisailam",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51",
+    "ashtadasha-18"
+  ],
+  "location": {
+    "lat": 16.0742,
+    "lng": 78.8681,
+    "country": "IN",
+    "region": "Andhra Pradesh"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Shriparvata (Bhramaramba, Srisailam)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Bhramaramba (Shrisundari)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Right ear; in the Ashtadasha tradition, the neck",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Shrisundari; in the Ashtadasha list, Bhramaramba",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Sundarananda",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Shriparvata is the classical name of Srisailam, where the goddess Bhramaramba is worshipped beside the Mallikarjuna Jyotirlinga in the Nandyal district of Andhra Pradesh. The temple is administered by the state government through Srisaila Devasthanam. A popular Bengali identification places Shriparvata 'near Ladakh', but no shrine there has been located.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's right ear fell here. The Ashtadasha Stotram praises the goddess here as 'Shrishaile Bhramarambika'.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Srisailam is one of the few places where a Jyotirlinga and a Shakti Peetha stand together.",
+      "Bhramaramba is counted among the 18 Maha Shakti Peethas.",
+      "The temple is walled and entered through four gopurams.",
+      "Srisaila Devasthanam names Maha Shivaratri and Ugadi as the special festivals of Srisailam."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Darshan and seva hours vary by day; Srisaila Devasthanam publishes them on its website.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Hyderabad, about 230 km away.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Markapur Road, about 85 km.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Maha Shivaratri and Ugadi are the busiest festivals.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri"
+    }
+  ],
+  "darshan": {
+    "kind": "youtube-channel",
+    "channelId": "UCNIzL2dT2gZxQae2LHXvl0A",
+    "url": "https://www.youtube.com/channel/UCNIzL2dT2gZxQae2LHXvl0A",
+    "verifiedVia": "https://www.srisailadevasthanam.org/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:2025 West Gopuram behind Bhramaramba temple in Srisailam.jpg",
+    "File:Srisailam Gopuram.jpg",
+    "File:2025 West Gopuram and Bhramaramba Devi temple view in Srisailam.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Srisaila Devasthanam (official website)",
+      "url": "https://www.srisailadevasthanam.org/"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "Wikipedia: Mallikarjuna Temple, Srisailam",
+      "url": "https://en.wikipedia.org/wiki/Mallikarjuna_Temple,_Srisailam"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

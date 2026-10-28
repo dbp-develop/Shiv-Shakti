@@ -1,0 +1,212 @@
+{
+  "id": "panchasagara",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 25.3087,
+    "lng": 83.0122,
+    "country": "IN",
+    "region": "Uttar Pradesh"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Varahi Devi temple (Devidhura, Champawat, Uttarakhand)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 29.4132,
+      "lng": 79.8651,
+      "note": {
+        "en": "One of the places popularly identified with Panchasagara.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "name": {
+        "en": "Danteshwari temple (Dantewada, Chhattisgarh)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 18.8966,
+      "lng": 81.345,
+      "note": {
+        "en": "Its name recalls the tooth (danth) of Sati, and some identify it with this pitha.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Panchasagara (Varahi)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Varahi",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Lower teeth",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Varahi",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Maharudra",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Sircar and Green Message leave Panchasagara unidentified ('possibly the oceans are indicated'). Popular claims point to three places: the Varahi temple near Man Mandir Ghat in Varanasi, favoured by most devotional sources and shown here as the main pin; the Varahi Devi temple at Devidhura in Champawat, Uttarakhand; and the Danteshwari temple at Dantewada, Chhattisgarh, whose name comes from a tooth (danth) of Sati.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's lower teeth fell here. In Varanasi, Varahi is worshipped as Patala Bhairavi.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The site of this pitha is uncertain, and three places claim it.",
+      "Danteshwari, one of the claimants, was built in the 14th century and is the family goddess of the old Bastar state.",
+      "At Dantewada, thousands of tribal pilgrims gather each Dussehra, when the goddess is carried in procession."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Varanasi (Lal Bahadur Shastri) Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Varanasi Junction.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Yatradham: Varahi Devi temple, Varanasi",
+      "url": "https://blog.yatradham.org/varahi-devi-temple-shaktipeeth-timings-history/"
+    },
+    {
+      "title": "Wikipedia: Varahi",
+      "url": "https://en.wikipedia.org/wiki/Varahi"
+    },
+    {
+      "title": "Wikipedia: Danteshwari Temple",
+      "url": "https://en.wikipedia.org/wiki/Danteshwari_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

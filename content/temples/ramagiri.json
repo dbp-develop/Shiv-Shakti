@@ -1,0 +1,186 @@
+{
+  "id": "ramagiri",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 25.1696,
+    "lng": 80.8507,
+    "country": "IN",
+    "region": "Madhya Pradesh"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Maa Sharda temple (Maihar, Madhya Pradesh)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 24.2612,
+      "lng": 80.7232,
+      "note": {
+        "en": "Some lists identify the Ramagiri pitha with the Sharda temple on Trikuta hill at Maihar.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Ramagiri (Chitrakoot)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Shivani",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Breast",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Shivani",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Chanda",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Sircar suggests Ramagiri is 'possibly modern Ramtek near Nagpur, or Chitrakuta'. Popular lists give Chitrakoot, where many sites of religious and Puranic importance lie across the border of Uttar Pradesh and Madhya Pradesh. No Shivani shrine at Chitrakoot has been located, so the map pin marks the Kamadgiri hill. Some lists instead identify the pitha with the Maa Sharda temple at Maihar, whose goddess is believed to be an incarnation of Saraswati.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's breast fell here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The exact site of this pitha is uncertain.",
+      "Chitrakoot has many places of religious and Puranic importance that draw pilgrims.",
+      "At Maihar, the legendary warriors Alha and Udal are said to have been the goddess Sharda's first devotees, and Alha is believed to visit the temple still."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Chitrakoot has no airport; travel via Satna by rail or road.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Chitrakoot Dham (Karwi) station, about 10 km away; Satna is about 78 km away.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "District Satna, Government of Madhya Pradesh: Chitrakoot Dham",
+      "url": "https://satna.nic.in/tourist-place/chitrakoot-dham/"
+    },
+    {
+      "title": "Wikipedia: Maa Sharda Mandir, Maihar",
+      "url": "https://en.wikipedia.org/wiki/Maa_Sharda_Mandir,_Maihar"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}
