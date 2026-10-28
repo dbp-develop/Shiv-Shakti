@@ -1,0 +1,161 @@
+{
+  "id": "mallikarjuna",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 16.0742,
+    "lng": 78.8681,
+    "country": "IN",
+    "region": "Andhra Pradesh"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Mallikarjuna (Srisailam)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "aliases": [
+    "Srisailam",
+    "Srisailam Temple"
+  ],
+  "deity": {
+    "en": "Shiva as Mallikarjuna, with the goddess Bhramaramba",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "The Srisailam temple of Mallikarjuna and Bhramaramba stands in the Nandyal district of Andhra Pradesh and is administered by the state government through Srisaila Devasthanam. Wikipedia reports inscriptions from the Satavahana period that place the temple in existence from about the 2nd century CE, and records major additions under Vijayanagara rulers in the 14th and 15th centuries. The Devasthanam says the steps down to Pathalaganga on the Krishna river were built by Vittalamba, consort of Harihara II, around 1393 to 1396. It also says Adi Shankaracharya visited Srisailam and composed the Soundaryalahari there.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to a legend given on Wikipedia, when Shiva and Parvati arranged marriages for their sons, Ganesha was married first, and Kartikeya left in anger for Mount Krauncha. Shiva and Parvati then stayed at the place that came to be called Srisailam. The same source says the name Mallikarjuna refers to the linga being worshipped with jasmine, called mallika in Telugu.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Srisaila Devasthanam calls Mallikarjuna the second of the twelve Jyotirlingas.",
+      "The goddess Bhramaramba is also counted among the 18 Maha Shakta Pithas, so the site is sacred to both Shaivas and Shaktas.",
+      "The temple faces east and is enclosed by walls about 183 m by 152 m and 8.5 m high, with four gopurams, according to Wikipedia.",
+      "The Krishna river here is called Pathalaganga. Wikipedia reports 852 steps down to reach it.",
+      "The Devasthanam names Maha Shivaratri and Ugadi as the special festivals of Srisailam.",
+      "The Devasthanam lists the nearest airport as Hyderabad, about 230 km away."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Darshan and seva hours vary by day and by seva; Srisaila Devasthanam publishes the seva timings on its website. Its temple office is staffed from 9:00 AM to 5:00 PM.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Hyderabad, about 230 km away (as given by Srisaila Devasthanam).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Markapur Road, about 85 km; Nandyal and Kurnool are roughly 180 km away (per Wikipedia).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Devasthanam names Maha Shivaratri and Ugadi as its special festivals; the Devasthanam applies special accommodation rules for the days around them, which points to heavy crowds.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri"
+    },
+    {
+      "festivalId": "chaitra-navratri",
+      "localNote": {
+        "en": "Ugadi, the Telugu New Year, falls on the first day of Chaitra Shukla and is one of Srisailam's two special festivals.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "darshan": {
+    "kind": "youtube-channel",
+    "channelId": "UCNIzL2dT2gZxQae2LHXvl0A",
+    "url": "https://www.youtube.com/channel/UCNIzL2dT2gZxQae2LHXvl0A",
+    "official": true,
+    "lastVerified": "2026-10-28",
+    "verifiedVia": "https://www.srisailadevasthanam.org/"
+  },
+  "photos": [
+    "File:Srisailam-temple-entrance.jpg",
+    "File:Night view of Srisailam Temple South Gopuram.jpg",
+    "File:SRISAILAM TEMPLE,AP - panoramio.jpg",
+    "File:2025 West Gopuram and Bhramaramba Devi temple view in Srisailam.jpg",
+    "File:Gopuram of Mallikarjuna Devasthanam, SriSailam.jpeg"
+  ],
+  "sources": [
+    {
+      "title": "Srisaila Devasthanam (official website)",
+      "url": "https://www.srisailadevasthanam.org/"
+    },
+    {
+      "title": "Wikipedia: Mallikarjuna Temple, Srisailam",
+      "url": "https://en.wikipedia.org/wiki/Mallikarjuna_Temple,_Srisailam"
+    },
+    {
+      "title": "Shri Omkareshwar Mandir Trust: festival list for 2026 (Ugadi and Chaitra Navratri on the same day)",
+      "url": "https://shriomkareshwar.org/Festivals.aspx"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

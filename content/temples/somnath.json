@@ -1,0 +1,176 @@
+{
+  "id": "somnath",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 20.888,
+    "lng": 70.4013,
+    "country": "IN",
+    "region": "Gujarat"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Somnath",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Shiva as Somnath, the Lord of the Moon",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "Somnath stands at Prabhas Patan near Veraval on the Arabian Sea coast and is counted as the first of the twelve Jyotirlingas. Shree Somnath Trust describes the shore temple, according to tradition, as built in successive materials: gold by the Moon, then silver, wood and finally stone by King Bhimadeva. Historians say the date of the earliest temple is uncertain, and that the temple was rebuilt several times after attacks, beginning with Mahmud of Ghazni in January 1026. The present temple was rebuilt on the initiative of Sardar Vallabhbhai Patel, who visited the ruins on 13 November 1947, and Dr Rajendra Prasad performed its pran-pratishtha on 11 May 1951. The Trust describes the temple as built in the Kailas Mahameru Prasad style, with a garbhagriha, sabhamandap and nrityamandap.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to tradition recorded by Shree Somnath Trust, the Moon god was married to the twenty-seven daughters of Daksha Prajapati but favoured Rohini. Daksha cursed him to lose his light. On the advice of Brahma, the Moon came to Prabhas Tirtha and worshipped Shiva, who relieved him of the curse. The Trust says the Moon is believed to have built the first, golden temple here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The Trust calls Somnath the first of the twelve Aadi Jyotirlingas, and the Shiva Purana's Jnanasamhita is cited as the oldest known text to list the Jyotirlingas with Somnath at the head.",
+      "The present temple was reconsecrated on 11 May 1951 by the first President of India, Dr Rajendra Prasad.",
+      "The Trust says a Tirth Stambh (arrow pillar) on the shore points along an unobstructed sea route to the South Pole, with no land for about 9,936 km.",
+      "Bhalka Tirth, where Krishna is said to have been struck by a hunter's arrow, and the Hiran, Kapila and Saraswati river confluence lie nearby at Prabhas Patan.",
+      "Entry is free. Mobile phones, cameras and other electronics are not allowed inside, and the Trust provides free lockers and a free shoe house.",
+      "A Sound and Light show called Jay Somnath is held in the evening, except in the monsoon season."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "The Trust gives darshan as 6:00 AM to 10:00 PM, with aartis at about 7:00 AM, 12:00 noon and 7:00 PM. Hours can change on festival days.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Diu Airport, about 95 km by road (as given by the Trust).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Veraval Junction, about 7 km from the temple; Somnath is also reached by rail and road from Ahmedabad (about 400 km).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Outside the monsoon, when the evening Sound and Light show is held. The Shravan month, Maha Shivaratri and the five-day Kartik Purnima fair are the major festival periods, and the busiest.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri"
+    },
+    {
+      "festivalId": "shravan-somvar",
+      "localNote": {
+        "en": "The Trust lists the whole month of Shravan as a major festival period.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "festivalId": "kartik-purnima",
+      "localNote": {
+        "en": "A five-day Kartik Purnima fair is held at Somnath.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "darshan": {
+    "kind": "youtube-video",
+    "videoId": "K4pCZsxEqzY",
+    "url": "https://www.youtube.com/watch?v=K4pCZsxEqzY",
+    "official": true,
+    "lastVerified": "2026-10-28",
+    "verifiedVia": "https://somnath.org/somnath-live-darshan"
+  },
+  "photos": [
+    "File:2015 Somnath Jyotirlinga temple Prabhas Patan.jpg",
+    "File:Somnath Jyotirling Temple, Gujarat.jpg",
+    "File:Somnath Jyotirling Temple, Gujarat 01.jpg",
+    "File:Somanath mandir (cropped).jpg"
+  ],
+  "sources": [
+    {
+      "title": "Shree Somnath Trust: Somnath Darshan",
+      "url": "https://somnath.org/somnath-darshan/"
+    },
+    {
+      "title": "Shree Somnath Trust: Jay Somnath",
+      "url": "https://somnath.org/jay-somnath"
+    },
+    {
+      "title": "Shree Somnath Trust: FAQs",
+      "url": "https://somnath.org/faq/"
+    },
+    {
+      "title": "Shree Somnath Trust: Pilgrim Facilities",
+      "url": "https://somnath.org/pilgrim-facilities"
+    },
+    {
+      "title": "Wikipedia: Somnath temple",
+      "url": "https://en.wikipedia.org/wiki/Somnath_temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

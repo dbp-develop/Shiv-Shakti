@@ -1,0 +1,188 @@
+{
+  "id": "omkareshwar",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 22.2457,
+    "lng": 76.1508,
+    "country": "IN",
+    "region": "Madhya Pradesh"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Mamleshwar (Amareshwar) temple",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 22.2422,
+      "lng": 76.1505,
+      "note": {
+        "en": "Many traditions hold that the Jyotirlinga is Omkareshwar and Mamleshwar together; some regard Mamleshwar (Amaleshwar) as the Jyotirlinga itself.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Omkareshwar",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Shiva as Omkareshwar, the Lord of Om",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "Shri Omkareshwar Mandir Trust describes Omkareshwar as the fourth of the twelve Jyotirlingas, mentioned in the Skanda, Shiva and Vayu Puranas, on the Narmada river in Madhya Pradesh about 77 km from Indore. Wikipedia places it on Mandhata island, whose shape is said to resemble the Om symbol. There are two main Shiva temples: Omkareshwar on the island and Mamleshwar (also called Amreshwar or Amaleshwar) on the southern bank. Traditions differ on which holds the Jyotirlinga: many treat the two together, and some regard Mamleshwar as the Jyotirlinga itself. The Trust says Mamleshwar is managed by the Ahilyabai Khasgi Trust, and that Maharani Ahilyabai Holkar used to worship there.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to a legend given on Wikipedia, Vindhya, the deity of the Vindhya mountains, worshipped Shiva with a linga of sand and clay, and Shiva appeared in two forms, as Omkareshwar and Amaleshwara. Wikipedia lists other stories as well, including king Mandhata of the Ikshvaku line worshipping Shiva here, and Shiva emerging as the Jyotirlinga to defeat the Danavas after the Devas prayed to him.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The Trust calls Omkareshwar the fourth of the twelve Jyotirlingas.",
+      "The Trust says Omkareshwar is the only Jyotirlinga on the northern shore of the Narmada.",
+      "According to the Trust, Shiva is believed to rest here after travelling the three worlds each day, so the temple holds a Shayan Aarti and Shayan Darshan every night.",
+      "The Omkar Parvat parikrama is about 7 km and passes shrines such as Siddhanath Baradari, the Gauri Somnath temple and the statue of Adi Shankaracharya at Ekatm Dham.",
+      "Wikipedia says Omkareshwar is traditionally the place where Adi Shankara met his guru Govinda Bhagavatpada in a cave.",
+      "A Somvar Sawari procession starts from Koti Tirth Ghat every Monday, and a royal version is held in Shravan."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "The Trust lists Mangal Darshan from about 5:00 AM to 12:20 PM, Madhyanha Darshan 1:15 to 4:00 PM, Shringar Darshan 4:30 to 9:30 PM and Shayan Darshan 10:00 to 10:30 PM, with breaks for bhog and aarti. Darshan is closed before 5:00 AM and after 10:30 PM, and timings can vary on special occasions. Normal darshan is free.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Devi Ahilyabai Holkar International Airport, Indore, about 77 km.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Sanawad station (about 12 km, local trains to Khandwa) or Khandwa Junction (about 72 km, express trains).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Trust gives no best season. Mondays have the Somvar Sawari, and Shravan has a royal version of it; Maha Shivaratri is also celebrated here.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri"
+    },
+    {
+      "festivalId": "shravan-somvar",
+      "localNote": {
+        "en": "A royal Somvar Sawari is held during Shravan.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "darshan": {
+    "kind": "youtube-channel",
+    "channelId": "UCsIZ3yYwCW4316fPX3V-4lg",
+    "url": "https://www.youtube.com/channel/UCsIZ3yYwCW4316fPX3V-4lg",
+    "official": true,
+    "lastVerified": "2026-10-28",
+    "verifiedVia": "https://shriomkareshwar.org/LiveDarshan.aspx"
+  },
+  "photos": [
+    "File:Omkareshwar Temple 01.jpg",
+    "File:Omkareshwar Temple 02.jpg",
+    "File:Omkareshwar Temple 03.jpg",
+    "File:Omkareshwar Mandhata island.jpg",
+    "File:Omkareshwar Narmada River.jpg"
+  ],
+  "sources": [
+    {
+      "title": "Shri Omkareshwar Mandir Trust (official website)",
+      "url": "https://shriomkareshwar.org/"
+    },
+    {
+      "title": "Shri Omkareshwar Mandir Trust: How To Reach and timetable",
+      "url": "https://shriomkareshwar.org/HowToReach.aspx"
+    },
+    {
+      "title": "Shri Omkareshwar Mandir Trust: FAQ",
+      "url": "https://shriomkareshwar.org/FAQ.aspx"
+    },
+    {
+      "title": "Shri Omkareshwar Mandir Trust: Festivals",
+      "url": "https://shriomkareshwar.org/Festivals.aspx"
+    },
+    {
+      "title": "Wikipedia: Omkareshwar Temple",
+      "url": "https://en.wikipedia.org/wiki/Omkareshwar_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

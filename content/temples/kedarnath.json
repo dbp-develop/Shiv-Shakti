@@ -1,0 +1,143 @@
+{
+  "id": "kedarnath",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 30.7352,
+    "lng": 79.0669,
+    "elevationM": 3581,
+    "country": "IN",
+    "region": "Uttarakhand"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Kedarnath",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "aliases": [
+    "Kedar"
+  ],
+  "deity": {
+    "en": "Shiva as Kedara, Lord of Kedarkhand",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "The Badrinath-Kedarnath Temple Committee says the temple was originally built in the 8th century by Adi Shankaracharya, next to the site of an even earlier temple attributed to the Pandavas. Wikipedia notes that who built the first temple, and when, is not certain. The Skanda Purana (about the 7th to 8th century) is one of the earliest texts to mention Kedara, and Kedarnath was a prominent pilgrimage centre by the 12th century. The temple is built of large grey stone slabs on a raised platform, with inscriptions in Pali on the steps, according to the Committee. A samadhi shrine of Adi Shankara stands behind it. Wikipedia notes that the temple structure survived the 2013 floods without major damage, protected by a large rock among the debris.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the legend given by the Committee, the Pandavas sought Shiva's forgiveness after the Kurukshetra war. Shiva avoided them, and took refuge at Kedarnath in the form of a bull. When they followed, he dived into the ground and left his hump on the surface. The other parts appeared at Tungnath (arms), Rudranath (face), Madhmaheshwar (belly) and Kalpeshwar (hair and head). Together with Kedarnath they form the Panch Kedar.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The Committee describes Kedarnath as the highest of the twelve Jyotirlingas, at an altitude of about 3,581 m.",
+      "A conical rock inside the temple is worshipped as Shiva in his Sadashiva form.",
+      "The temple is part of the Char Dham and Panch Kedar pilgrimages in Uttarakhand.",
+      "The shrine generally closes on the first day of Kartik (Oct to Nov) and reopens in Vaishakh (Apr to May).",
+      "In winter the symbolic statue of Shiva is carried down to Ukhimath, where it is worshipped until the temple reopens.",
+      "The temple is reached by a trek of about 16 km from Gaurikund, which is the road head; the Committee also lists helicopter and pony options."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "The temple is open to pilgrims only in the warm season. The Committee says it generally closes on the first day of Kartik (Oct to Nov) and reopens in Vaishakh (Apr to May), on dates announced in advance. Daily darshan hours are set by the Committee and are not listed on its page, so check before travelling.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Jolly Grant Airport, Dehradun, about 235 km from Gaurikund (as given by the Committee).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Rishikesh, about 243 km from Gaurikund.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "May to June, which the Committee calls the ideal time. July to mid-September is the monsoon, with landslide risk, and the temple is shut in winter.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "darshan": {
+    "kind": "website",
+    "url": "https://badrinath-kedarnath.gov.in/",
+    "official": true,
+    "lastVerified": "2026-10-28",
+    "verifiedVia": "https://badrinath-kedarnath.gov.in/"
+  },
+  "photos": [
+    "File:Kedarnath Temple.jpg",
+    "File:Kedarnath Temple at Dawn - OCT 2014.jpg",
+    "File:Kedarnath temple in uttarakhand.jpg",
+    "File:Kedarnath Temple in Rainy season.jpg"
+  ],
+  "sources": [
+    {
+      "title": "Shri Badrinath-Kedarnath Temple Committee: Shri Kedarnath",
+      "url": "https://badrinath-kedarnath.gov.in/AboutUs/shri-kedarnath.aspx"
+    },
+    {
+      "title": "Shri Badrinath-Kedarnath Temple Committee (official website)",
+      "url": "https://badrinath-kedarnath.gov.in/"
+    },
+    {
+      "title": "Wikipedia: Kedarnath Temple",
+      "url": "https://en.wikipedia.org/wiki/Kedarnath_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

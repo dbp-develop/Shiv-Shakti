@@ -1,0 +1,221 @@
+{
+  "id": "bhimashankar",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 19.072,
+    "lng": 73.536,
+    "country": "IN",
+    "region": "Maharashtra"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Bhimeswar Dham, Pamohi (Guwahati)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 26.0971,
+      "lng": 91.6961,
+      "note": {
+        "en": "Claimed from the Shiva Purana's 'Dakinyam ... Kamarupa' reading; promoted by the Assam government in 2023. There is no temple building: a linga in a hill stream. Coordinates from Wikipedia's Bhimeswar Dham article; not cross-checked on a map to within 1 km.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "name": {
+        "en": "Moteshwar Mahadev (Bheemashankar) temple, Kashipur",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 29.2027,
+      "lng": 78.9843,
+      "note": {
+        "en": "Local tradition (Kashipur was 'Dakini state'). Wikipedia's infobox coordinates (28.9765, 79.3937) are wrong (they fall near Rudrapur); this point is from a Kashipur listing and lies about 170 m from the OSM-mapped Maa Bala Sundari (Chaiti) temple next to the shrine. Approximate; not verified to within 1 km.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Bhimashankar",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Shiva as Bhimashankar",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "The Shree Kshetra Bhimashankar Trust places the temple in Bhorgiri village in the Sahyadri hills, about 125 km from Pune, and says it was built in the 13th century in the Nagara and Hemadpanthi styles. The Trust says the sabhamandap was built by Nana Fadnavis in the 18th century, and that he also built the spire. The Trust says Shivaji Maharaj is said to have donated to the temple, and that Chimaji Appa offered here one of the bells taken from Vasai Fort; it is inscribed 1721. The location of the Bhimashankar Jyotirlinga is disputed. The Shiva Purana's phrase 'Dakinyam Bhimashankaram' is read by some as Maharashtra's Sahyadri, which is the site the Trust presents, but the Assam government has said it refers to Kamrup, near Guwahati (EastMojo, 2023), and a local tradition places it at Kashipur in Uttarakhand.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Trust, the demon Tripurasura did penance in the Bhimashankar forest and received immortality on condition that he serve the people. When he later troubled gods and humans, Shiva and Parvati, in the form of Ardhanarinateshwar, killed him on Kartik Purnima, also called Tripuraari Purnima. Shiva then granted Tripurasura's wives, Dakini and Shakini, the same immortality, and the area became known as Dakinyam Bhimashankaram. Wikipedia gives a version in which the sweat from Shiva's body after the battle formed the Bhimarathi river.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The Trust says Bhimashankar is the source of the Bhima river, which is called Chandrabhaga at Pandharpur; the source is about 50 m from the stairs down to the temple.",
+      "The temple lies in the Bhimashankar Wildlife Sanctuary, home to the Malabar giant squirrel, which is called Shekaru locally.",
+      "A bell inscribed 1721, one of those taken by Chimaji Appa from Vasai Fort, hangs near the temple.",
+      "The Trust describes the main temple as in the Nagara style with Hemadpanthi features, and decorated with Dashavatara figures.",
+      "Kamalaja Mata, the goddess linked to the Tripurasura story, has her own temple nearby; on Tripurari Purnima her palanquin goes round the Bhimashankar temple.",
+      "Hanuman Lake, Gupt Bhima and the Bhima river source are among the places the Trust lists within a few km of the temple."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "The Trust's normal schedule has the temple open from about 5:00 AM to 9:30 PM. On the date we checked (28 October 2026) its site said that, because of construction on the Sabhamandap and stairs, the temple was open for darshan only from 7:00 AM to 11:00 AM. Check the Trust's site before travelling.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Pune, about 125 km by road (as given by the Trust).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Pune is the main rail hub, about 125 km away; the Trust names no closer station.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Trust names no best season. Maha Shivratri (with a yatra) and Tripurari Purnima on Kartik Purnima are the main festival days. The temple stands in a wildlife sanctuary and the hill trek is popular.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri",
+      "localNote": {
+        "en": "The Trust holds a Maha Shivratri Yatra, with Mahaarti and a palanquin procession in the evening.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "festivalId": "kartik-purnima",
+      "localNote": {
+        "en": "Tripurari Purnima: the Trust holds a Mahapuja at midday and palanquin processions at night.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://shreebhimashankar.com/en/",
+    "official": true,
+    "lastVerified": "2026-10-28",
+    "verifiedVia": "https://shreebhimashankar.com/en/"
+  },
+  "photos": [
+    "File:Bhimashankar temple front.jpg",
+    "File:Bhimashankar temple, Maharashtra.JPG",
+    "File:Bhimashankar temple.JPG",
+    "File:Bhimashankar temple 2, pune.jpg"
+  ],
+  "sources": [
+    {
+      "title": "Shree Kshetra Bhimashankar Trust: About the Temple",
+      "url": "https://shreebhimashankar.com/en/about-temple/"
+    },
+    {
+      "title": "Shree Kshetra Bhimashankar Trust: History",
+      "url": "https://shreebhimashankar.com/en/bhimashankar-temple-history/"
+    },
+    {
+      "title": "Shree Kshetra Bhimashankar Trust: Temple Schedule",
+      "url": "https://shreebhimashankar.com/en/temple-schedule/"
+    },
+    {
+      "title": "Wikipedia: Bhimashankar Temple",
+      "url": "https://en.wikipedia.org/wiki/Bhimashankar_Temple"
+    },
+    {
+      "title": "EastMojo: Bhimashankar Jyotirlinga located in Assam's Kamrup, says Himanta (2023)",
+      "url": "https://eastmojo.com/assam/2023/02/20/bhimashankar-jyotirlinga-located-in-assams-kamrup-himanta/"
+    },
+    {
+      "title": "Wikipedia: Moteshwar Mahadev (Kashipur)",
+      "url": "https://en.wikipedia.org/wiki/Moteshwar_Mahadev"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

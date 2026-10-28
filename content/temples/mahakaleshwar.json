@@ -1,0 +1,176 @@
+{
+  "id": "mahakaleshwar",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 23.183,
+    "lng": 75.7682,
+    "country": "IN",
+    "region": "Madhya Pradesh"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Mahakaleshwar (Ujjain)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "aliases": [
+    "Mahakal"
+  ],
+  "deity": {
+    "en": "Shiva as Mahakala, the Lord of Time",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "The Temple Management Committee says the origins of the Mahakaleshwar temple go back to prehistoric times and that its exact date of construction is unknown. It cites historical records that in the 6th century BCE King Chandapradyot of Ujjain placed his son Kumarsena in charge of the temple, and that under the Paramara kings of Malwa, by the 10th century, it was a celebrated centre of pilgrimage. The Committee says Sultan Iltutmish demolished the temple structure in 1235 CE. The present building is the work of the Maratha revival: in the 1730s, Ranoji Shinde's Diwan Ramchandra Baba Shenvi rebuilt it using remains of earlier temples, and the Committee describes a blend of Bhoomija, Chalukya and Maratha styles.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Shiva Purana, as told by the Temple Management Committee, the people of Ujjain were tormented by a demon named Dushan and prayed to Shiva for protection. Shiva appeared as a radiant Jyoti, destroyed the demon, and stayed in Ujjain in the form of the Jyotirlinga.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The Committee describes Mahakaleshwar as the only south-facing Jyotirlinga among the twelve.",
+      "The Jyotirlinga is enshrined on the lowest level of the temple. The Omkareshwar linga is above it, and the Nagchandreshwar shrine on the top level opens to the public only once a year, on Nag Panchami.",
+      "A Bhasma Aarti is performed every day in the early morning, and the Committee describes it as a daily ritual unique to this temple.",
+      "Shiv Navratri runs from Falgun Krishna Panchami to Trayodashi, and the Mahashivratri Mahapuja includes a once-a-year afternoon Bhasma Aarti.",
+      "On Mondays from Shravan Krishna Pratipada to Bhadrapada Amavasya, a Mahakal Sawari procession takes the deity through the city to Ramghat on the Kshipra river.",
+      "Ujjain is one of four cities where the Simhastha Kumbh Mela is held, once in twelve years."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Bhasma Aarti is about 4:00 AM to 6:00 AM. From Chaitra to Ashwin, the Committee lists Dadhyodak Aarti at about 7:00 to 7:45 AM, Bhog Aarti 10:00 to 10:45 AM, Sandhya Aarti 7:00 to 7:45 PM and Shayan Aarti 10:30 to 11:00 PM. From Kartik to Falgun, these shift by up to 30 minutes (7:30 AM, 10:30 AM, 6:30 PM).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Devi Ahilya Bai Holkar Airport, Indore, approximately 58 km away.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Ujjain Junction, which is well connected to major cities.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Committee names Shravan Mondays, Nag Panchami, Shiv Navratri and Maha Shivaratri as the periods when lakhs of pilgrims gather, so quieter days suit a calm visit.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri",
+      "localNote": {
+        "en": "Shiv Navratri runs for nine days before Maha Shivaratri, with the Mahapuja held at night.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "festivalId": "shravan-somvar",
+      "localNote": {
+        "en": "The Mahakal Sawari procession is taken out on the Mondays of Shravan.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "festivalId": "nag-panchami",
+      "localNote": {
+        "en": "The Nagchandreshwar shrine opens to the public only on this day.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "darshan": {
+    "kind": "youtube-channel",
+    "channelId": "UCEUuwXHmHckwmdANSy4c7Sw",
+    "url": "https://www.youtube.com/@shrimahakaleshwarjyotirlingamm",
+    "official": true,
+    "lastVerified": "2026-10-28",
+    "verifiedVia": "https://www.shrimahakaleshwar.mp.gov.in/"
+  },
+  "photos": [
+    "File:Mahakaleshwar Temple, Ujjain.jpg",
+    "File:Mahakaleshwar Temple in Ujjain.jpg",
+    "File:Shri Mahakaleshwar Temple Ujjain - panoramio.jpg",
+    "File:Mahakaleshwar ujjain.jpg"
+  ],
+  "sources": [
+    {
+      "title": "Shri Mahakaleshwar Temple Management Committee (official website)",
+      "url": "https://www.shrimahakaleshwar.mp.gov.in/"
+    },
+    {
+      "title": "Wikipedia: Mahakaleshwar Jyotirlinga",
+      "url": "https://en.wikipedia.org/wiki/Mahakaleshwar_Jyotirlinga"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}
