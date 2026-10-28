@@ -1,0 +1,189 @@
+{
+  "id": "tripura-sundari",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 23.5091,
+    "lng": 91.498,
+    "country": "IN",
+    "region": "Tripura"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Tripura (Tripura Sundari, Udaipur)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Tripura Sundari (Tripureshwari)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Right foot",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Tripurasundari",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Tripuresha",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Tripura Sundari temple, popularly called Matabari, stands in the old capital of Udaipur, about 55 km from Agartala. The Gomati district administration says Maharaja Dhanya Manikya built it in 1501. The shrine is a cubical building in the Bengali ek-ratna style with a three-tiered roof, on a small hill shaped like a tortoise's back. The state of Tripura is named after this temple.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's right foot, with the big toe, fell here. The hill's tortoise shape (Kurma) is considered the holiest form of site for a Shakti temple, and gives the shrine its other name, Kurma Pitha.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Two black-stone images stand in the sanctum: Tripura Sundari, about 5 feet tall, and the smaller Chandi, called Chhoto-Ma (Little Mother), about 2 feet tall.",
+      "The kings of Tripura are said to have carried Chhoto-Ma into battle and on hunting expeditions.",
+      "After Kamakhya, it draws more visitors than any other temple in North-East India.",
+      "A large lake, Kalyan Sagar, lies beside the temple.",
+      "A famous fair is held here every year at Diwali."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Agartala; Udaipur itself has no airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Udaipur can be reached by train from Agartala.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Diwali fair is the busiest time of the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "diwali",
+      "localNote": {
+        "en": "A large fair is held at the temple.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://gomati.nic.in/tourist-place/udaipur/",
+    "verifiedVia": "https://gomati.nic.in/tourist-place/udaipur/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Tripura Sundari Temple.JPG",
+    "File:Tripura Sundari Temple in Udaipur, Tripura 2018-03-25 -1.jpg",
+    "File:Tripura Sundari Temple in Udaipur, Tripura - premises 2018-03-25 -1.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "District Gomati, Government of Tripura: Udaipur",
+      "url": "https://gomati.nic.in/tourist-place/udaipur/"
+    },
+    {
+      "title": "Wikipedia: Tripura Sundari Temple",
+      "url": "https://en.wikipedia.org/wiki/Tripura_Sundari_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

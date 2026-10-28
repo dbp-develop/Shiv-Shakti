@@ -1,0 +1,165 @@
+{
+  "id": "gandaki-muktinath",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 28.8167,
+    "lng": 83.8713,
+    "country": "NP",
+    "region": "Gandaki (Mustang)"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Gandaki (Muktinath)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Gandaki Chandi, at the Muktinath shrine",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Cheek",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Gandaki Chandi",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Chakrapani",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Pithanirnaya names the river Gandaki; identifying the pitha with Muktinath, near the river's source, is the popular modern reading. Muktinath is an ancient religious complex in the Mustang district of Nepal, at the foot of the Thorong La pass and at about 3,800 m, one of the highest temples in the world. Its central shrine, in the Newari style, was built in 1814 or 1815 and is credited to Queen Subarna Prabha Devi of Nepal.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's cheek fell here. Muktinath means 'lord of liberation', and the complex is called Mukti Kshetra, the place of liberation.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Muktinath is sacred to Hindus, who worship Vishnu and the Devi here, and to Buddhists, who revere it as an abode of the bodhisattva Avalokiteshvara.",
+      "Tibetan Buddhists call the site Chumig Gyatsa, 'Hundred Waters'.",
+      "Springs encircling the shrine are believed to represent each of the 108 holy places of the Sri Vaishnava tradition.",
+      "It is one of the 108 Divya Desams of Sri Vaishnavism, praised as Thiru Salagramam.",
+      "It is counted among the Char Dham of Nepal."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "There is no airport at the shrine; it is reached through the Mustang district.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "There is no railway in the region.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Check weather and access before travelling to this high-altitude shrine.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Muktinath Temple (1).jpg",
+    "File:Muktinath Main Temple in 2023 - IMG 3740.jpg",
+    "File:Muktinath-temple-nepal.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Wikipedia: Muktinath",
+      "url": "https://en.wikipedia.org/wiki/Muktinath"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

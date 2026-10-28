@@ -1,0 +1,191 @@
+{
+  "id": "prayaga",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51",
+    "ashtadasha-18"
+  ],
+  "location": {
+    "lat": 25.4446,
+    "lng": 81.8711,
+    "country": "IN",
+    "region": "Uttar Pradesh"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Kalyani Devi temple (Prayagraj)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 25.4315,
+      "lng": 81.834,
+      "note": {
+        "en": "One of three Prayagraj shrines that claim this pitha.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Prayaga (Lalita / Madhaveshwari, Prayagraj)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Alopi (Alop Shankari), identified with Lalita and Madhaveshwari",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Fingers of the hand",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Lalita; in the Ashtadasha list, Madhaveshwari, worshipped as Alopi Devi",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Bhava",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Alopi Devi temple stands at Alopibagh in Prayagraj, near the Sangam where the Ganga, the Yamuna and the legendary Saraswati meet, and close to the grounds of the Kumbh Mela. Three Prayagraj shrines claim this pitha: Alopi Devi, identified with the Ashtadasha Stotram's Madhaveshwari; the Lalita Devi temple at Meerapur, whose goddess's name matches the Pithanirnaya; and the Kalyani Devi temple. The Lalita Devi temple is not yet shown on the map.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's fingers fell here. Local belief holds that the last part of Sati's body vanished here, which gave Alopi ('the one who disappeared') her name.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "There is no image in the Alopi Devi temple; a wooden palanquin (doli) is worshipped instead.",
+      "Prayaga is one of the 18 Maha Shakti Peethas of the Ashtadasha Stotram.",
+      "The Maratha general Mahadji Shinde developed the Sangam area in 1771 to 1772, and Maharani Baizabai Scindia later renovated its ghats and temples."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Prayagraj Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Prayagraj Junction.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Kumbh Mela years bring very large crowds to the Sangam area.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Alopshankari Siddhipeeth Temple, Prayagraj.jpg",
+    "File:Alop Shankari Devi Mandir, Prayagraj.jpg",
+    "File:Alop Shankari Devi Mandir.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "Wikipedia: Alopi Devi Mandir",
+      "url": "https://en.wikipedia.org/wiki/Alopi_Devi_Mandir"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

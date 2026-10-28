@@ -1,0 +1,189 @@
+{
+  "id": "kalighat",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51",
+    "adi-4"
+  ],
+  "location": {
+    "lat": 22.5202,
+    "lng": 88.3421,
+    "country": "IN",
+    "region": "West Bengal"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Kalipitha (Kalighat, Dakshina Kalika)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Kali (Dakshina Kalika)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Toes of the right foot; in the Adi Peetha tradition, the face",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Kali (Dakshina Kalika)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Nakulisha",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Kalighat Kali temple in Kolkata is one of the oldest and most important places of worship in eastern India and one of the four Adi Shakti Peethas. The shrine is mentioned in the 15th-century Manasar Bhasan and the 17th-century Kavi Kankan Chandi. The present temple was begun in 1798 by Santosh Roy Chowdhury and completed in 1809 under the patronage of the Sabarna Roy Choudhury family. In 2024 it received its first major renovation since then.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's toes of the right foot fell here. The place name Kalighat comes from the goddess Kali and the ghat, or riverbank, where the temple stands.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Kalighat is one of the four Adi Shakti Peethas; that tradition names the seat Dakshina Kalika.",
+      "Kali here is worshipped as the supreme deity of the Kalikula tradition.",
+      "The temple draws hundreds of thousands of devotees, especially at Kali Puja, Poila Baisakh, Snana Yatra, Durga Puja and on new-moon days.",
+      "The area is also called Kali Kshetra."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Kolkata (Netaji Subhas Chandra Bose International Airport).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Howrah or Sealdah; the Kalighat metro station is nearby.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Kali Puja and Durga Puja in autumn are the busiest times.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "diwali",
+      "localNote": {
+        "en": "Kali Puja is celebrated on this new-moon night.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "festivalId": "durga-puja"
+    }
+  ],
+  "photos": [
+    "File:Kalighat Kali Temple.jpg",
+    "File:Kalighat Kali Temple after renovation.jpg",
+    "File:Kalighat temple.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "eSamskriti: Four Adi Shakti Peethas (Kalika Purana)",
+      "url": "https://www.esamskriti.com/e/Spirituality/Tantra/Shakti-Peethas-(Tantra-Peethas)-Of-India-2.aspx"
+    },
+    {
+      "title": "Banglapedia: Sakta-pitha",
+      "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+    },
+    {
+      "title": "Wikipedia: Kalighat Kali Temple",
+      "url": "https://en.wikipedia.org/wiki/Kalighat_Kali_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

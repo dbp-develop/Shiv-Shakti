@@ -1,0 +1,210 @@
+{
+  "id": "ujjayini-harsiddhi",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 23.184,
+    "lng": 75.7647,
+    "country": "IN",
+    "region": "Madhya Pradesh"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Mangalchandi temple, Ujani (Kogram, West Bengal)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 23.5405,
+      "lng": 87.8972,
+      "note": {
+        "en": "Bengali tradition places the Ujjayini pitha here; its goddess, Mangalchandi, matches the name in the text.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Ujjayini (Harsiddhi, Ujjain)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Harsiddhi",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Elbow",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Mangalachandika, worshipped in Ujjain as Harsiddhi",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Kapilambara",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Madhya Pradesh Tourism describes the Harsiddhi Mata temple as one of the oldest temples of Ujjain and one of the two Shakti Peethas of Madhya Pradesh. Popular legend says King Vikramaditya first built it. Its present architecture shows Maratha influence, with four entrances facing the four directions. The identification is disputed: Sircar reads Ujjayini as Ujjain but notes Ujani in Bengal, and Bengali tradition places the pitha at the Mangalchandi temple of Ujani (Kogram), whose goddess's name matches the text.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's elbow fell here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Two tall lamp pillars in the courtyard hold 726 lamps, which are lit on festival nights, especially during Navratri.",
+      "Madhya Pradesh Tourism notes the temple's link with the Kumbh Mela, held in Ujjain every twelve years.",
+      "Some also identify Harsiddhi with the Ashtadasha Stotram's 'Ujjain Mahakali'."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Devi Ahilya Bai Holkar Airport, Indore, about 58 km away.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Ujjain Junction.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Navratri, when the lamp pillars are lit, is the most striking time to visit.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "sharad-navratri",
+      "localNote": {
+        "en": "The 726 lamps on the two lamp pillars are lit.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://www.mptourism.com/harsiddhi-temple-shakti-peetha-in-Ujjain.html",
+    "verifiedVia": "https://www.mptourism.com/harsiddhi-temple-shakti-peetha-in-Ujjain.html",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Harsiddhi Temple, Ujjain 02.jpg",
+    "File:Harsiddhi Temple, Ujjain 01.jpg",
+    "File:Harsiddhi Temple, Deepstambha, Ujjain.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Madhya Pradesh Tourism: Harsiddhi Temple",
+      "url": "https://www.mptourism.com/harsiddhi-temple-shakti-peetha-in-Ujjain.html"
+    },
+    {
+      "title": "Banglapedia: Sakta-pitha",
+      "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

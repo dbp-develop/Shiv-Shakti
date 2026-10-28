@@ -1,0 +1,212 @@
+{
+  "id": "kamakhya",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51",
+    "ashtadasha-18",
+    "adi-4"
+  ],
+  "location": {
+    "lat": 26.1664,
+    "lng": 91.7055,
+    "country": "IN",
+    "region": "Assam"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Kamagiri / Kamarupa (Kamakhya)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Kamakhya",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Yoni",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Kamakhya",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Umananda",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Kamakhya temple stands on the Nilachal hill in Guwahati, Assam, and is one of the oldest centres of Tantric worship. The temple is dated structurally to the 8th to 9th centuries, with many later rebuildings that created the hybrid Nilachal style. The Koch king Nara Narayan completed its reconstruction in 1565, after his father Vishwasingha had revived worship at the ruins; the Ahom kings added the natamandira in the 18th century. The Kalika Purana links the goddess with Naraka, the legendary progenitor of the Kamarupa kings.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's yoni fell here. Here the goddess is worshipped not as an image but as a yoni-shaped cleft in the rock, kept moist by a natural spring.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Kamakhya is counted in all three lists: the 51, the 18 Maha Shakti Peethas and the four Adi Shakti Peethas.",
+      "The sanctum is a small, dark cave reached by narrow, steep stone steps.",
+      "The main temple is surrounded by temples of the ten Mahavidyas.",
+      "During the Ambubachi Mela, held when the goddess is believed to have her annual menstruation, the temple doors stay closed for three days.",
+      "Manasa Puja is held for three days from Shravana Sankranti, with the Deodhani dance in the natamandir.",
+      "Durga Puja is celebrated here for five days during the autumn Navratri."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Darshan follows the Devalaya's daily schedule; special darshan tickets are sold through its website. The temple closes during the Ambubachi Mela.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Guwahati (Lokapriya Gopinath Bordoloi International Airport).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Kamakhya and Guwahati stations.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Ambubachi Mela in June is the largest gathering; Durga Puja in autumn is also busy.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "ambubachi",
+      "localNote": {
+        "en": "The temple closes for three days and reopens with great crowds.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "festivalId": "durga-puja"
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://maakamakhya.org/",
+    "verifiedVia": "https://maakamakhya.org/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Kamakhya Temple, Guwahati, Assam.jpg",
+    "File:Kamakhya Temple Guwahati.jpg",
+    "File:Kamakhya Temple on the Ambubachi Mela, 2023.jpg",
+    "File:Kamakhya Temple, Guwahati.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Maa Kamakhya Devalaya (official website)",
+      "url": "https://maakamakhya.org/"
+    },
+    {
+      "title": "Maa Kamakhya Devalaya: Festivals",
+      "url": "https://maakamakhya.org/festival"
+    },
+    {
+      "title": "Maa Kamakhya Devalaya: History",
+      "url": "https://maakamakhya.org/history"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "eSamskriti: Four Adi Shakti Peethas (Kalika Purana)",
+      "url": "https://www.esamskriti.com/e/Spirituality/Tantra/Shakti-Peethas-(Tantra-Peethas)-Of-India-2.aspx"
+    },
+    {
+      "title": "Wikipedia: Kamakhya Temple",
+      "url": "https://en.wikipedia.org/wiki/Kamakhya_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}
