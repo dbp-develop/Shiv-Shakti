@@ -1,0 +1,180 @@
+{
+  "id": "kurukshetra",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 29.9795,
+    "lng": 76.8325,
+    "country": "IN",
+    "region": "Haryana"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Kurukshetra (Bhadrakali, Thanesar)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Bhadrakali, at the Shri Devi Koop temple",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Right ankle",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Savitri, worshipped as Bhadrakali",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Sthanu",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Maa Bhadrakali temple, also called Shri Devi Koop, stands in Thanesar, Kurukshetra. Incredible India describes it as one of the 51 Shakti Peethas, dedicated to Bhadrakali, one of the eight forms of Kali. Its name, Devi Koop ('the goddess's well'), comes from the belief that Sati's right ankle fell into a well on this spot; a large white marble lotus now marks it inside the temple.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's right ankle fell here. Local tradition says the Pandavas sought the goddess's blessing here before the Kurukshetra war and offered horses after their victory.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Devotees whose prayers are answered offer small horses of clay, terracotta or metal, recalling the Pandavas' offering.",
+      "Saturday worship is considered especially fruitful.",
+      "Local tradition holds that the mundan (first haircut) of Krishna and Balarama took place here, and the temple is popular for mundan ceremonies.",
+      "Navratri, Raksha Bandhan and Durga Puja draw worshippers from across India."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Chandigarh International Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Kurukshetra Junction.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Navratri and Durga Puja are the busiest times.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "chaitra-navratri"
+    },
+    {
+      "festivalId": "sharad-navratri"
+    },
+    {
+      "festivalId": "durga-puja"
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://www.incredibleindia.gov.in/en/haryana/kurukshetra/bhadrakali-temple",
+    "verifiedVia": "https://www.incredibleindia.gov.in/en/haryana/kurukshetra/bhadrakali-temple",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Devi koop Bhadrakali Mandir, Kurukshetra.jpg",
+    "File:Shaktipeeth Shri Devikoop Bhadrakali Mandir, Kurukshetra.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Incredible India (Ministry of Tourism): Bhadrakali Temple",
+      "url": "https://www.incredibleindia.gov.in/en/haryana/kurukshetra/bhadrakali-temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

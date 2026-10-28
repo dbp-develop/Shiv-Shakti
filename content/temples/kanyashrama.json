@@ -1,0 +1,203 @@
+{
+  "id": "kanyashrama",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 8.0793,
+    "lng": 77.551,
+    "country": "IN",
+    "region": "Tamil Nadu"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Kumarikunda, Kumira (Sitakunda, Chattogram)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 22.4973,
+      "lng": 91.7155,
+      "note": {
+        "en": "Sircar and the Bengali almanacs place the Kanyashrama pitha here.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Kanyashrama (Kanyakumari)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Kanya Kumari, the virgin goddess",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Back",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Sarvani",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Nimisha",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Kumari Amman (Bhagavathy Amman) temple stands at the edge of the ocean at Kanyakumari, the southern tip of India, and gives the town its name. The goddess is mentioned in the Ramayana, the Mahabharata and the Sangam works, and the 1st-century Periplus of the Erythraean Sea describes pilgrims coming to 'Comori' to bathe and dedicate themselves to the goddess. The identification is disputed: Sircar and the Bengali almanacs place Kanyashrama at Kumarikunda near Kumira in Chittagong, Bangladesh, while most modern lists, and nearly all pilgrims, give Kanyakumari.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's back fell here. A local legend tells that the goddess came to Kumari as a virgin girl to destroy the demon Banasura, who could be killed only by a virgin. Her wedding to Shiva was foiled when the sage Narada, as a cock, crowed before dawn; she remained a virgin and slew the demon.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The goddess is worshipped as a form of Parvati in the form of an adolescent girl, and by Shaktas as Bhadrakali.",
+      "Her annual festivals are the car festival in May or June and the nine-day Navaratri in September or October.",
+      "The district administration gives the temple hours as 4:30 AM to 12:15 PM and 4:00 to 8:15 PM."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "4:30 AM to 12:15 PM and 4:00 to 8:15 PM, according to the Kanniyakumari district administration.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Thiruvananthapuram International Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Kanyakumari station.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Navaratri (September to October) and the car festival (May to June) are the main festivals.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "sharad-navratri"
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://kanniyakumari.nic.in/tourist-place/temples/",
+    "verifiedVia": "https://kanniyakumari.nic.in/tourist-place/temples/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Kanyakumari Bhagavathy Amman.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Kanniyakumari District, Government of Tamil Nadu: Temples",
+      "url": "https://kanniyakumari.nic.in/tourist-place/temples/"
+    },
+    {
+      "title": "Banglapedia: Sakta-pitha",
+      "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+    },
+    {
+      "title": "Wikipedia: Devi Kanya Kumari",
+      "url": "https://en.wikipedia.org/wiki/Devi_Kanya_Kumari"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

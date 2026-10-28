@@ -1,0 +1,173 @@
+{
+  "id": "shona-narmada",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 22.6726,
+    "lng": 81.7595,
+    "country": "IN",
+    "region": "Madhya Pradesh"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Shona / Narmada (Amarkantak)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Narmada (Shona)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Right buttock",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Shona (Narmada); some lists say Sonakshi",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Bhadrasena",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "This pitha is identified with the source of the Narmada at Amarkantak, a small town in the Vindhya and Satpura hills, where the river rises from a hill said to be shaped like a cow's mouth. The Anuppur district administration says the Narmada temple was built by the Kalachuris around the 12th century. Tradition holds that Shankaracharya declared the stream at the temple to be the true source of the river, and the temple was later renovated by Maharani Ahilyabai Holkar.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's right buttock fell here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The Narmada Udgam (source) temple marks where the river begins.",
+      "Amarkantak is said to have been a place of meditation for the sages Maikal, Vyasa and Bhrigu.",
+      "Many temples at Amarkantak date from the Kalachuri period."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Jabalpur (Dumna) Airport, about 240 km away.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Pendra Road (about 43 km) and Anuppur (about 75 km).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "darshan": {
+    "kind": "website",
+    "url": "https://anuppur.nic.in/tourist-place/narmada-udgam-temple/",
+    "verifiedVia": "https://anuppur.nic.in/tourist-place/narmada-udgam-temple/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:NARMADA UDGAM COMPLEX, AMARKANTAK - panoramio.jpg",
+    "File:0010522 Narmada Mandir Complex, Amarkantak 019.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "District Anuppur, Government of Madhya Pradesh: Narmada Udgam Temple",
+      "url": "https://anuppur.nic.in/tourist-place/narmada-udgam-temple/"
+    },
+    {
+      "title": "Wikipedia: Amarkantak",
+      "url": "https://en.wikipedia.org/wiki/Amarkantak"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

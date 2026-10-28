@@ -1,0 +1,167 @@
+{
+  "id": "varanasi-vishalakshi",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51",
+    "ashtadasha-18"
+  ],
+  "location": {
+    "lat": 25.31,
+    "lng": 83.012,
+    "country": "IN",
+    "region": "Uttar Pradesh"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Varanasi (Vishalakshi)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Vishalakshi, the wide-eyed goddess",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Earring",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Vishalakshi",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Kala (Kalabhairava)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Vishalakshi temple stands near Mir Ghat in Varanasi, about 250 m north-west of the Kashi Vishwanath temple. Since the 19th century it has been rebuilt and maintained by the Nattukottai Nagarathars, a mercantile community from Tamil Nadu. It is built in a haveli-like North Indian style with South Indian features, including a small Dravidian gopura.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's earring fell here. The gem of the earring (manikarna) is said to have fallen here, so the goddess is also called Manikarni Devi.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Vishalakshi is counted among both the 51 and the 18 Maha Shakti Peethas.",
+      "The Bhairava here is Kalabhairava, the guardian deity of Kashi.",
+      "Its main festival is Kajali Teej, in the waning fortnight of Bhadrapada.",
+      "It stands about 200 m from the Annapurna temple."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Varanasi (Lal Bahadur Shastri) Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Varanasi Junction.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year; Kajali Teej is the temple's own festival.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:காசி விசாலாட்சி கோயில்.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "Wikipedia: Vishalakshi Temple",
+      "url": "https://en.wikipedia.org/wiki/Vishalakshi_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}
