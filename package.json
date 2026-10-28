@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit",
     "check": "npm run typecheck && npm test",
     "test:e2e": "playwright test tests/e2e --pass-with-no-tests",
-    "credits": "tsx scripts/credits.ts"
+    "credits": "tsx scripts/fetch-photo-credits.ts"
   },
   "dependencies": {
     "@preact/signals": "2.11.3",
