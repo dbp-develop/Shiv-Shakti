@@ -73,10 +73,18 @@ describe('TempleSheet', () => {
     expect(within(sec).getByText('Night vigil at the shrine.')).toBeTruthy();
   });
 
-  it('skips a festival id that does not exist', () => {
-    show(kedar({ festivals: [{ festivalId: 'nope' }] }));
+  it('skips a festival id that does not exist, and omits the section when none remain', () => {
+    show(kedar({ festivals: [{ festivalId: 'nope' }, { festivalId: 'maha-shivaratri' }] }));
     const sec = screen.getByRole('region', { name: t('sheet.festivals') });
-    expect(within(sec).queryAllByRole('listitem')).toHaveLength(0);
+    expect(within(sec).queryAllByRole('listitem')).toHaveLength(1);
+    cleanup();
+    show(kedar({ festivals: [{ festivalId: 'nope' }] }));
+    expect(screen.queryByRole('region', { name: t('sheet.festivals') })).toBeNull();
+  });
+
+  it('omits the festivals section when the temple lists none', () => {
+    show(kedar({ festivals: [] }));
+    expect(screen.queryByRole('region', { name: t('sheet.festivals') })).toBeNull();
   });
 
   it('embeds the youtube-channel live stream and always offers the official site', () => {

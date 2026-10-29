@@ -189,16 +189,18 @@ export function TempleSheet({
         <Section id="story" title={t('sheet.story')} fallback={story.fallback}>
           <p>{story.text}</p>
         </Section>
-        <Section id="festivals" title={t('sheet.festivals')} fallback={festFallback}>
-          <ul>
-            {fests.map(({ f, note, title }) => (
-              <li key={f.id}>
-                <p>{`${title.text} — ${festivalWhenText(f, terms, lang.value)}`}</p>
-                {note && <p>{note.text}</p>}
-              </li>
-            ))}
-          </ul>
-        </Section>
+        {fests.length > 0 && (
+          <Section id="festivals" title={t('sheet.festivals')} fallback={festFallback}>
+            <ul>
+              {fests.map(({ f, note, title }) => (
+                <li key={f.id}>
+                  <p>{`${title.text} — ${festivalWhenText(f, terms, lang.value)}`}</p>
+                  {note && <p>{note.text}</p>}
+                </li>
+              ))}
+            </ul>
+          </Section>
+        )}
         <Section id="facts" title={t('sheet.uniqueFacts')} fallback={factsFallback}>
           <ul>
             {facts.map((x) => (
