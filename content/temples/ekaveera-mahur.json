@@ -1,0 +1,172 @@
+{
+  "id": "ekaveera-mahur",
+  "type": "shakti-peetha",
+  "lists": [
+    "ashtadasha-18"
+  ],
+  "location": {
+    "lat": 19.8329,
+    "lng": 77.9233,
+    "country": "IN",
+    "region": "Maharashtra"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Ekaveera / Renuka (Mahur)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Renuka (Ekaveera), mother of Parashurama",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Left hand (as given in later tables; the Ashtadasha Stotram itself names no body part)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Ekaveerika (Renuka)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Not named in the Ashtadasha tradition",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Renuka Devi temple stands on a hillock about 2.4 km from the village of Mahur (Mahurgad) in the Nanded district of Maharashtra. The district administration says it is believed to have been built by a Yadava king of Devagiri about eight or nine hundred years ago. Mahur is counted among the 'three and a half' Shakti Peethas of Maharashtra.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's left hand fell here. Adi Shankara's Ashtadasha Shakti Peetha Stotram praises the goddess here as 'Mahurye Ekaveerika'.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Renuka is the mother of Parashurama.",
+      "Mahur is also held to be the birthplace of Dattatreya, whose parents Atri and Anasuya lived here.",
+      "A very big fair is held every year on Dasara in honour of Renuka Devi."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Nanded Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Kinwat and Nanded are the nearest railway stations.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Dasara fair is the biggest gathering of the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "darshan": {
+    "kind": "website",
+    "url": "https://nanded.gov.in/tourist-place/mahur-gadh/",
+    "verifiedVia": "https://nanded.gov.in/tourist-place/mahur-gadh/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Renuka Mata.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "District Nanded, Government of Maharashtra: Mahur Gadh",
+      "url": "https://nanded.gov.in/tourist-place/mahur-gadh/"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "Wikipedia: Mahur, Maharashtra",
+      "url": "https://en.wikipedia.org/wiki/Mahur,_Maharashtra"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

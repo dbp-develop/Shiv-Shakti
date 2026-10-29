@@ -1,0 +1,162 @@
+{
+  "id": "manikyamba-draksharamam",
+  "type": "shakti-peetha",
+  "lists": [
+    "ashtadasha-18"
+  ],
+  "location": {
+    "lat": 16.7928,
+    "lng": 82.0635,
+    "country": "IN",
+    "region": "Andhra Pradesh"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Manikyamba (Draksharamam)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Manikyamba, beside Shiva as Bhimeswara",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Left cheek (as given in later tables; the Ashtadasha Stotram itself names no body part)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Manikyamba",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Bhimeshwara",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Draksharamam, in the Konaseema district of Andhra Pradesh, is one of the five Pancharama Kshetras sacred to Shiva and is counted as the twelfth of the Ashtadasha Shakti Peethas. Inscriptions show that its Bhimeswara temple was built in the 9th and 10th centuries by the Eastern Chalukya king Bhima, in a blend of Chalukyan and Chola styles.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's left cheek fell here. Adi Shankara's Ashtadasha Shakti Peetha Stotram praises the goddess here as 'Dakshavatyam Manikya Devi'. Draksharamam is held to be the very place where Daksha performed his sacrifice; its name means 'abode of Daksha', and pilgrims still visit the spot.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The name Draksharamam means 'abode of Daksha'.",
+      "It is one of the five Pancharama Kshetras of Shiva.",
+      "The temple was built by the Eastern Chalukya king Bhima in the 9th to 10th centuries."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Rajahmundry Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Ramachandrapuram and Kakinada are the nearest railway towns.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Draksharamam temple.jpg",
+    "File:Pond near the temple at Draksharamam 05.JPG"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "Wikipedia: Daksharamam",
+      "url": "https://en.wikipedia.org/wiki/Daksharamam"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

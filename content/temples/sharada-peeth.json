@@ -1,0 +1,163 @@
+{
+  "id": "sharada-peeth",
+  "type": "shakti-peetha",
+  "lists": [
+    "ashtadasha-18"
+  ],
+  "location": {
+    "lat": 34.7919,
+    "lng": 74.19,
+    "country": "IN",
+    "region": "Jammu and Kashmir (Pakistan-administered)"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Saraswati / Sharada Peeth (Kashmir)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Sharada (Saraswati)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Right hand (as given in later tables; the Ashtadasha Stotram itself names no body part)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Saraswati (Sharada)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Not named in the Ashtadasha tradition",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Sharada Peeth is a ruined Hindu temple and ancient centre of learning in the Neelum valley of Pakistan-administered Kashmir, about 1,981 m above sea level in the village of Sharda, close to the Line of Control. It played a key role in spreading the Sharada script, which is named after it, and gave Kashmir the name 'Sharada Desh'. A new Sharada temple at Teetwal in India, consecrated in 2023, is not the pitha itself.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's right hand fell here. Adi Shankara's Ashtadasha Shakti Peetha Stotram praises the goddess here as 'Kashmire tu Saraswati'.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "It is one of the three holiest pilgrimage sites of the Kashmiri Pandits, with the Martand Sun Temple and Amarnath.",
+      "The Sharada script of North India is named after the shrine.",
+      "Al-Biruni recorded it as a revered shrine with a wooden image of Sharada.",
+      "It stands in the valley of Mount Harmukh, believed by Kashmiri Pandits to be the abode of Shiva."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "The site is a ruin in Pakistan-administered Kashmir; access is restricted.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "There is no practical airport for pilgrims; access depends on cross-border arrangements.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "There is no railway near the site.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Access to the site is limited and depends on the political situation.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Sharada Peeth, Sharda, Azad Kashmir.jpg",
+    "File:Sharada Peeth Sharda Kashmir Pakistan.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "Wikipedia: Sharada Peeth",
+      "url": "https://en.wikipedia.org/wiki/Sharada_Peeth"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

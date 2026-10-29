@@ -1,0 +1,162 @@
+{
+  "id": "mangala-gauri-gaya",
+  "type": "shakti-peetha",
+  "lists": [
+    "ashtadasha-18"
+  ],
+  "location": {
+    "lat": 24.7751,
+    "lng": 85.0023,
+    "country": "IN",
+    "region": "Bihar"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Sarvamangala / Mangala Gauri (Gaya)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Mangala Gauri",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Breast (as given in later tables; the Ashtadasha Stotram itself names no body part)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Sarvamangala (Mangala Gauri)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Not named in the Ashtadasha tradition",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Mangla Gauri temple stands on top of the Mangalagauri hill in Gaya, Bihar, facing east, in what is otherwise a mainly Vaishnava pilgrimage centre. It is mentioned in the Padma, Vayu and Agni Puranas and in the Devi Bhagavata and Markandeya Puranas. It is not in the Pithanirnaya; Sircar notes a late variant 'Magadha' inserted by later editors of that text.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's breast fell here. Adi Shankara's Ashtadasha Shakti Peetha Stotram praises the goddess here as 'Gayayam Mangalya Gauri'.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The temple faces east from the top of the Mangalagauri hill, with views over Gaya.",
+      "It is a shrine of the Mother Goddess in Gaya, a predominantly Vaishnava pilgrimage centre.",
+      "It is counted among the 18 Maha Shakti Peethas."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Gaya International Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Gaya Junction.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Mangala Gauri Temple at Gaya, Bihar.jpg",
+    "File:View of Gaya from Hills of Mangla Gauri.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "Wikipedia: Mangla Gauri Temple",
+      "url": "https://en.wikipedia.org/wiki/Mangla_Gauri_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

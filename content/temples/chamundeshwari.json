@@ -1,0 +1,178 @@
+{
+  "id": "chamundeshwari",
+  "type": "shakti-peetha",
+  "lists": [
+    "ashtadasha-18"
+  ],
+  "location": {
+    "lat": 12.2725,
+    "lng": 76.6706,
+    "country": "IN",
+    "region": "Karnataka"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Chamundeshwari (Mysuru)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Chamundeshwari (Mahishasuramardini)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Hair (as given in later tables; the Ashtadasha Stotram itself names no body part)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Chamundeshwari",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Not named in the Ashtadasha tradition",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Chamundeshwari temple stands on top of Chamundi hill, about 3,489 feet above sea level and 13 km from Mysuru. The goddess is the tutelary deity of the Mysore royal family. The original shrine is thought to date from the 12th century under the Hoysalas, and its tower from later Vijayanagara times. In 1659 a staircase of a thousand steps was built to the summit. Krishnaraja Wodeyar III added a gopura with gold finials, and in 1827 arranged festivals and processions.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's hair fell here. Adi Shankara's Ashtadasha Shakti Peetha Stotram praises the goddess here as 'Chamundi Kraunchapattane'. Local legend says the goddess slew the buffalo demon Mahishasura on this hill, which gave Mysuru its name (Mahishooru).",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "A huge granite Nandi stands by the 700th step of the hill's staircase.",
+      "The goddess is the titular deity of the Mysore royal family.",
+      "The temple is famous for the festivals of Ashada Shukravara, Navaratri and Ammanavara Vardhanthi.",
+      "Krishnaraja Wodeyar III gifted a lion vehicle (Simhavahana) to the goddess in 1843."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Mysuru Airport; Bengaluru is the main international airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Mysuru Junction, about 13 km away.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Navaratri and the Fridays of Ashadha are the main festival times.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [
+    {
+      "festivalId": "sharad-navratri"
+    }
+  ],
+  "darshan": {
+    "kind": "website",
+    "url": "https://mysore.nic.in/tourist-place/chamunid-hill/",
+    "verifiedVia": "https://mysore.nic.in/tourist-place/chamunid-hill/",
+    "official": true,
+    "lastVerified": "2026-10-29"
+  },
+  "photos": [
+    "File:Chamundeshwari Temple, Mysuru, Karnataka, India Temple.jpg",
+    "File:Chamundeshwari temple, mysore, karnataka.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "District Mysuru, Government of Karnataka: Chamundi Hill",
+      "url": "https://mysore.nic.in/tourist-place/chamunid-hill/"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "Wikipedia: Chamundeshwari Temple",
+      "url": "https://en.wikipedia.org/wiki/Chamundeshwari_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "shankari-trincomalee",
+  "type": "shakti-peetha",
+  "lists": [
+    "ashtadasha-18"
+  ],
+  "location": {
+    "lat": 8.5825,
+    "lng": 81.2456,
+    "country": "LK",
+    "region": "Eastern Province (Trincomalee)"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Shankari (Trincomalee)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Shankari, at the Koneswaram temple",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Groin (as given in later tables; the Ashtadasha Stotram itself names no body part)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Shankari",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Trikoneshwara (Koneswaram)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Koneswaram temple stands on Konesar Malai (Swami Rock), a promontory above Trincomalee and the Indian Ocean. It is the most sacred of the Pancha Ishwarams of Sri Lanka and is praised in the Tevaram hymns of Sambandar and Sundarar. The complex was destroyed by the Portuguese between 1622 and 1624, and a fort was built from its debris. The original site of the Ashtadasha's Shankari is historically unknown; the identification with Koneswaram is recent. Sircar links the Ashtadasha's Lanka with the Lanka pitha of the 51, usually placed at Nainativu.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's groin fell here. Adi Shankara's Ashtadasha Shakti Peetha Stotram praises the goddess here as 'Lankayam Shankari Devi'.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Koneswaram is known as the Temple of the Thousand Pillars and Dakshina Kailasam (the Kailash of the South).",
+      "Shiva is worshipped here as Konesar, and the goddess consort as Mathumai Amman.",
+      "It is one of the Paadal Petra Sthalams praised in the Tevaram.",
+      "The annual Ther Thiruvilah (chariot festival) involves the Bhadrakali temple of Trincomalee and the Papanasuchunai holy well."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Colombo (Bandaranaike International Airport) is the main international airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Trincomalee station.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The annual chariot festival is the temple's main celebration.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Koneswaram temple of Trincomalee 02.jpg",
+    "File:Trincomalee Koneswaram Temple.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Hindupedia: Ashtadasha Shakti Peetha Stotram",
+      "url": "https://hindupedia.com/en/Ashta_Dasa_Shakthi_Peetha_Stotram"
+    },
+    {
+      "title": "Wikipedia: Koneswaram Temple",
+      "url": "https://en.wikipedia.org/wiki/Koneswaram_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}
