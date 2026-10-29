@@ -1,0 +1,167 @@
+{
+  "id": "bakreshwar",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 23.8812,
+    "lng": 87.3764,
+    "country": "IN",
+    "region": "West Bengal"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Vakreshvara (Bakreshwar)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Mahishamardini",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Mind (the space between the eyebrows)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Mahishamardini",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Vakranatha",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Bakreshwar, in the Birbhum district of West Bengal, is a pilgrimage town with a temple to the Devi as Mahishamardini; the pitha's Bhairava is Vakranatha. Banglapedia names it among the eight famous pithas of West Bengal in the Mahapithanirupana. Bakreshwar is also a place of geological interest, with ten hot springs.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's mind fell here. The place takes its name from the sage Ashtavakra ('bent in eight places'), who is said to have been blessed by Shiva here after long penance.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Bakreshwar has ten hot springs.",
+      "Legend says the sage Ashtavakra, crippled after being insulted by Indra at the wedding of Lakshmi and Narayana, was blessed by Shiva here.",
+      "It is one of the four famous pithas of the Birbhum district."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Kolkata (Netaji Subhas Chandra Bose International Airport).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Siuri and Dubrajpur are the nearest railway stations.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Bakreswar Temples and Hot spring 18.jpg",
+    "File:Bakreswar Temples and Hot spring 08.jpg",
+    "File:Bakreswar Temples and Hot spring 01.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Banglapedia: Sakta-pitha",
+      "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+    },
+    {
+      "title": "Wikipedia: Bakreshwar",
+      "url": "https://en.wikipedia.org/wiki/Bakreshwar"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

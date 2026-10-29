@@ -1,0 +1,162 @@
+{
+  "id": "kalighata-juranpur",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 23.6999,
+    "lng": 88.1891,
+    "country": "IN",
+    "region": "West Bengal"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Kalighata / Kalipitha (Juranpur)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Jayadurga",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Head",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Jayadurga",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Krodhisha",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "In Sircar's text this slot reads 'Kalighata (Kalipitha)', a second Kalighat. Banglapedia's almanacs, and Green Message, place this Kalipitha near the town of Katwa in the Nadia district, at Juranpur. Other recensions read Karnata here instead (both ears, Jayadurga, Abhiru), and later editors added Magadha; neither variant has its own entry.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's head fell here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "Banglapedia names Kalipitha, near Katwa, among the eight famous pithas of West Bengal in the Mahapithanirupana.",
+      "The Juranpur Satipith stands in a temple campus with large old banyan trees.",
+      "The goddess here is Jayadurga and the Bhairava Krodhisha."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Kolkata (Netaji Subhas Chandra Bose International Airport).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Katwa Junction.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Juranpur Satipith and temple campus at Juranpur 03.jpg",
+    "File:Juranpur Satipith and temple campus at Juranpur 02.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Banglapedia: Sakta-pitha",
+      "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

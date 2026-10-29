@@ -1,0 +1,186 @@
+{
+  "id": "lanka-indrakshi",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 9.6191,
+    "lng": 79.7743,
+    "country": "LK",
+    "region": "Northern Province (Jaffna)"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Koneswaram temple (Trincomalee)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 8.5825,
+      "lng": 81.2456,
+      "note": {
+        "en": "Some identify the Lanka pitha with Trincomalee.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Lanka (Indrakshi, Nainativu)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Nagapooshani (Bhuvaneshwari), identified with Indrakshi",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Anklets",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Indrakshi, worshipped as Nagapooshani",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Rakshaseshvara",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Nagapooshani Amman temple stands on the island of Nainativu in the Palk Bay, off the Jaffna peninsula of Sri Lanka. It is dedicated to Parvati as Nagapooshani or Bhuvaneshwari and to Shiva as Nayinaar. The present temple was built between 1720 and 1790, after the Portuguese destroyed the earlier structure in 1620. Sircar notes that 'Lanka' can mean any island, and Green Message calls the site unidentified; some identify the Lanka pitha with Trincomalee instead, which has its own entry as the Ashtadasha Stotram's Shankari.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's anklets fell here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The temple draws about 1,000 visitors a day, and about 5,000 at festivals.",
+      "The 16-day Mahotsavam (Thiruvizha) in the Tamil month of Aani (June to July) attracts over 100,000 pilgrims.",
+      "Naka Nadu, 'land of the Nagas', was a name for the whole Jaffna peninsula in some historical records."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Jaffna International Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Jaffna is the nearest railway town; the island is reached by boat.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The Aani Mahotsavam in June to July is the largest festival.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Nagapooshani Amman Temple.jpg",
+    "File:Nainativu Nagapooshani Amman Temple.jpg",
+    "File:MAIN NAGAPOOSHANI TEMPLE.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Wikipedia: Nainativu Nagapooshani Amman Temple",
+      "url": "https://en.wikipedia.org/wiki/Nainativu_Nagapooshani_Amman_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

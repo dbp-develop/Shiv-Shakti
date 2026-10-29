@@ -1,0 +1,206 @@
+{
+  "id": "mithila",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 26.7304,
+    "lng": 85.9257,
+    "country": "NP",
+    "region": "Madhesh"
+  },
+  "alternateSites": [
+    {
+      "name": {
+        "en": "Uchaith Bhagwati (Vana Durga) temple (Madhubani, Bihar)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 26.4486,
+      "lng": 85.8862,
+      "note": {
+        "en": "One of the Bihar temples identified with the Mithila pitha.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    },
+    {
+      "name": {
+        "en": "Ugratara Sthan (Mahishi, Saharsa, Bihar)",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      },
+      "lat": 25.8484,
+      "lng": 86.473,
+      "note": {
+        "en": "One of the Bihar temples identified with the Mithila pitha.",
+        "hi": "",
+        "bn": "",
+        "mr": "",
+        "ta": "",
+        "te": "",
+        "gu": ""
+      }
+    }
+  ],
+  "name": {
+    "en": "Mithila (Uma)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Uma (Mahadevi)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Left shoulder",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Uma (Mahadevi)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Mahodara",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "Sircar and Bengali tradition identify Mithila with Janakpur in Nepal, but no Uma shrine there is named, so the map pin marks the town at the Janaki Mandir. Green Message lists three claimants in Bihar instead: the Vana Durga temple at Uchchaith (Madhubani), Jaya Mangala (Begusarai) and the Ugratara temple at Mahishi (Saharsa), 17 km west of Saharsa Junction.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's left shoulder fell here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The site of this pitha is disputed between Janakpur in Nepal and several places in Bihar's Mithila region.",
+      "The Ugratara temple at Mahishi is also known locally as Tarapith."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Janakpur Airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Janakpur is linked by rail to Jaynagar in Bihar.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Janaki Mandir, Janakpur Nepal 01.jpg",
+    "File:Ugratara Shakti Peeth (Temple) in Mahishi, Near Saharsa Town.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Wikipedia: Ugratara Sthan",
+      "url": "https://en.wikipedia.org/wiki/Ugratara_Sthan"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

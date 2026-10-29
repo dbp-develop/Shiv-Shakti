@@ -1,0 +1,167 @@
+{
+  "id": "nalhati",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 24.2963,
+    "lng": 87.8267,
+    "country": "IN",
+    "region": "West Bengal"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Nalahati (Nalateshwari)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Kalika (Nalateshwari)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Vocal pipe (nala)",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Kalika",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Yogisha",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The town of Nalhati in the Birbhum district of West Bengal is named after the Nalateshwari temple, which stands on a low hill within the town. Banglapedia names Nalahati among the eight famous pithas of West Bengal listed in the Mahapithanirupana, written about 1690 to 1720.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's vocal pipe (nala) fell here. The town's name, Nalhati, is said to come from it.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The temple stands on a small, low hill in the middle of Nalhati town.",
+      "Nalahati is one of four famous pithas in the Birbhum district, with Bakreshwar, Attahas and Nandipur.",
+      "A shrine of Ana Shahid Baba stands on the same hill."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Kolkata (Netaji Subhas Chandra Bose International Airport).",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Nalhati Junction.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "Pilgrims visit through the year.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Nalateswari Temple at Nalhati, Birbhum 05.jpg",
+    "File:Nalateswari Temple 11.jpg",
+    "File:Nalateswari Temple 04.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Banglapedia: Sakta-pitha",
+      "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+    },
+    {
+      "title": "Wikipedia: Nalhati",
+      "url": "https://en.wikipedia.org/wiki/Nalhati"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}

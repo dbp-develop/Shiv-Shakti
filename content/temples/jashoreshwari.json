@@ -1,0 +1,167 @@
+{
+  "id": "jashoreshwari",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51"
+  ],
+  "location": {
+    "lat": 22.3062,
+    "lng": 89.1128,
+    "country": "BD",
+    "region": "Khulna (Satkhira)"
+  },
+  "alternateSites": [],
+  "name": {
+    "en": "Yashora (Jeshoreshwari)",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "The Devi as Jeshoreshwari Kali",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Palms of the hands",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Yashoreshvari",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Chanda",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The Jeshoreshwari Kali temple stands in Ishwaripur village, Shyamnagar upazila, Satkhira district, Bangladesh. Banglapedia says the legendary Raja Pratapaditya of the Sundarbans is believed to have founded it, that Ishwaripur is regarded as his capital, and that the Chatterjee family, his priests, built the present two-storey temple on the ruins. The name of the town of Jessore is said to come from the goddess.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's palms fell here.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The Shivacharita lists the temple among the upa-pithas, and the Mahapithanirupana among the pithas.",
+      "Ruins of the old capital lie around the village.",
+      "Members of the Chatterjee family living in Dhaka still manage the annual festival.",
+      "India's Prime Minister Narendra Modi prayed here on 27 March 2021 and offered a crown, which was stolen in October 2024."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "No official timings are published; check locally before visiting.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Jessore Airport; Dhaka is the main international airport.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Khulna is the nearest major railway station.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "The annual festival is the main gathering.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "festivals": [],
+  "photos": [
+    "File:Jessoreshori temple.jpg",
+    "File:যশোরেশ্বরী মন্দির, 01.jpg"
+  ],
+  "sources": [
+    {
+      "title": "D. C. Sircar, The Śākta Pīṭhas (Pithanirnaya list)",
+      "url": "https://archive.org/details/TheSaktaPithas"
+    },
+    {
+      "title": "Green Message: Shakti Peetha Stotram (the 51 with modern identifications)",
+      "url": "https://greenmesg.org/stotras/durga/shakti_peethas.php"
+    },
+    {
+      "title": "Wikipedia: Shakta pithas",
+      "url": "https://en.wikipedia.org/wiki/Shakta_pithas"
+    },
+    {
+      "title": "Banglapedia: Sakta-pitha",
+      "url": "https://en.banglapedia.org/index.php/Sakta-pitha"
+    },
+    {
+      "title": "Wikipedia: Jeshoreshwari Kali Temple",
+      "url": "https://en.wikipedia.org/wiki/Jeshoreshwari_Kali_Temple"
+    }
+  ],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  }
+}
