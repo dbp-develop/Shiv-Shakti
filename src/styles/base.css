@@ -44,6 +44,11 @@ summary,
 .maplibregl-ctrl-attrib a {
   display: inline;
 }
+/* Links inside the credits line must be distinguishable without colour. maplibre-gl.css loads later
+   and removes the underline, so this selector is one class more specific. */
+.maplibregl-ctrl.maplibregl-ctrl-attrib a {
+  text-decoration: underline;
+}
 
 button,
 select,

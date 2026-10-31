@@ -10,7 +10,7 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "check": "npm run typecheck && npm test",
-    "test:e2e": "playwright test tests/e2e --pass-with-no-tests",
+    "test:e2e": "playwright test",
     "credits": "tsx scripts/fetch-photo-credits.ts"
   },
   "dependencies": {

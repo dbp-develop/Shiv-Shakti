@@ -34,7 +34,9 @@ export function Header(p: HeaderProps) {
       <SearchBox temples={p.temples} onSelect={p.onSelectTemple} />
       <div class="app-header__actions">
         <div class="lang-menu">
-          <button type="button" aria-haspopup="true" aria-expanded={menu} aria-controls="lang-list" aria-label={t('lang.menuLabel')} onClick={() => setMenu(!menu)}>
+          <button type="button" aria-haspopup="true" aria-expanded={menu} aria-controls="lang-list" onClick={() => setMenu(!menu)}>
+            {/* A hidden prefix, not aria-label, so the spoken name still contains the visible endonym. */}
+            <span class="sr-only">{t('lang.menuLabel')}:</span>{' '}
             {ENDONYMS.find(([l]) => l === lang.value)![1]}
           </button>
           <ul id="lang-list" hidden={!menu}>

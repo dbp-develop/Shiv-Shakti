@@ -143,7 +143,8 @@ describe('App shell', () => {
     render(<App />);
     await ready();
     const names = ['English', 'हिन्दी', 'বাংলা', 'मराठी', 'தமிழ்', 'తెలుగు', 'ગુજરાતી'];
-    fireEvent.click(screen.getByRole('button', { name: t('lang.menuLabel') }));
+    // The accessible name must contain the visible endonym (WCAG 2.5.3, label in name).
+    fireEvent.click(screen.getByRole('button', { name: `${t('lang.menuLabel')}: English` }));
     for (const n of names) expect(screen.getByRole('button', { name: n })).toBeTruthy();
     fireEvent.click(screen.getByRole('button', { name: 'हिन्दी' }));
     expect(document.documentElement.lang).toBe('hi');
