@@ -26,7 +26,8 @@ const EXPECTED: Record<string, string> = {
   'rangbhari-ekadashi': 'Phalguna Shukla 11 (Feb–Mar)',
 };
 
-const name = { en: 'X', hi: '', bn: '', mr: '', ta: '', te: '', gu: '' };
+const name = { en: 'X', hi: 'X', bn: 'X', mr: 'X', ta: 'X', te: 'X', gu: 'X' };
+const untranslated = { ...name, hi: '', bn: '', mr: '', ta: '', te: '', gu: '' };
 const base = { id: 'x', name, when: { kind: 'tithi', masa: 0, paksha: 'shukla', tithi: 1 }, months: [3] };
 
 describe('festival data', () => {
@@ -70,7 +71,9 @@ describe('FestivalSchema', () => {
     const prev = process.env.ALLOW_UNTRANSLATED;
     try {
       process.env.ALLOW_UNTRANSLATED = '0';
-      expect(FestivalSchema.safeParse(base).success).toBe(false);
+      expect(FestivalSchema.safeParse({ ...base, name: untranslated }).success).toBe(false);
+      process.env.ALLOW_UNTRANSLATED = '1';
+      expect(FestivalSchema.safeParse({ ...base, name: untranslated }).success).toBe(true);
     } finally {
       if (prev === undefined) delete process.env.ALLOW_UNTRANSLATED;
       else process.env.ALLOW_UNTRANSLATED = prev;
@@ -81,7 +84,7 @@ describe('FestivalSchema', () => {
     vi.stubGlobal('process', undefined);
     try {
       expect(allowUntranslated()).toBe(false);
-      expect(FestivalSchema.safeParse(base).success).toBe(false);
+      expect(FestivalSchema.safeParse({ ...base, name: untranslated }).success).toBe(false);
     } finally {
       vi.unstubAllGlobals();
     }
