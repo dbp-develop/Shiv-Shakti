@@ -1,0 +1,264 @@
+[
+  {
+    "id": "maha-shivaratri",
+    "name": {
+      "en": "Maha Shivaratri",
+      "hi": "महाशिवरात्रि",
+      "bn": "মহাশিবরাত্রি",
+      "mr": "महाशिवरात्री",
+      "ta": "மகா சிவராத்திரி",
+      "te": "మహాశివరాత్రి",
+      "gu": "મહાશિવરાત્રિ"
+    },
+    "when": {
+      "kind": "tithi",
+      "masa": 11,
+      "paksha": "krishna",
+      "tithi": 14
+    },
+    "months": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "chaitra-navratri",
+    "name": {
+      "en": "Chaitra Navratri",
+      "hi": "चैत्र नवरात्रि",
+      "bn": "চৈত্র নবরাত্রি",
+      "mr": "चैत्र नवरात्र",
+      "ta": "சைத்ர நவராத்திரி",
+      "te": "చైత్ర నవరాత్రి",
+      "gu": "ચૈત્ર નવરાત્રિ"
+    },
+    "when": {
+      "kind": "tithi",
+      "masa": 0,
+      "paksha": "shukla",
+      "tithi": 1,
+      "days": 9
+    },
+    "months": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "sharad-navratri",
+    "name": {
+      "en": "Sharad Navratri",
+      "hi": "शारदीय नवरात्रि",
+      "bn": "শারদীয় নবরাত্রি",
+      "mr": "शारदीय नवरात्र",
+      "ta": "சாரதா நவராத்திரி",
+      "te": "శరన్నవరాత్రి",
+      "gu": "શારદીય નવરાત્રિ"
+    },
+    "when": {
+      "kind": "tithi",
+      "masa": 6,
+      "paksha": "shukla",
+      "tithi": 1,
+      "days": 9
+    },
+    "months": [
+      9,
+      10
+    ]
+  },
+  {
+    "id": "durga-puja",
+    "name": {
+      "en": "Durga Puja",
+      "hi": "दुर्गा पूजा",
+      "bn": "দুর্গাপূজা",
+      "mr": "दुर्गापूजा",
+      "ta": "துர்கா பூஜை",
+      "te": "దుర్గాపూజ",
+      "gu": "દુર્ગાપૂજા"
+    },
+    "when": {
+      "kind": "tithi",
+      "masa": 6,
+      "paksha": "shukla",
+      "tithi": 6,
+      "days": 5
+    },
+    "months": [
+      9,
+      10
+    ]
+  },
+  {
+    "id": "diwali",
+    "name": {
+      "en": "Diwali",
+      "hi": "दीवाली",
+      "bn": "দীপাবলি",
+      "mr": "दिवाळी",
+      "ta": "தீபாவளி",
+      "te": "దీపావళి",
+      "gu": "દિવાળી"
+    },
+    "when": {
+      "kind": "tithi",
+      "masa": 7,
+      "paksha": "krishna",
+      "tithi": 15
+    },
+    "months": [
+      10,
+      11
+    ]
+  },
+  {
+    "id": "kartik-purnima",
+    "name": {
+      "en": "Kartik Purnima",
+      "hi": "कार्तिक पूर्णिमा",
+      "bn": "কার্তিক পূর্ণিমা",
+      "mr": "कार्तिक पौर्णिमा",
+      "ta": "கார்த்திகை பௌர்ணமி",
+      "te": "కార్తీక పౌర్ణమి",
+      "gu": "કારતક પૂર્ણિમા"
+    },
+    "when": {
+      "kind": "tithi",
+      "masa": 7,
+      "paksha": "shukla",
+      "tithi": 15
+    },
+    "months": [
+      10,
+      11
+    ]
+  },
+  {
+    "id": "guru-purnima",
+    "name": {
+      "en": "Guru Purnima",
+      "hi": "गुरु पूर्णिमा",
+      "bn": "গুরু পূর্ণিমা",
+      "mr": "गुरुपौर्णिमा",
+      "ta": "குரு பௌர்ணமி",
+      "te": "గురు పౌర్ణమి",
+      "gu": "ગુરુ પૂર્ણિમા"
+    },
+    "when": {
+      "kind": "tithi",
+      "masa": 3,
+      "paksha": "shukla",
+      "tithi": 15
+    },
+    "months": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": "nag-panchami",
+    "name": {
+      "en": "Nag Panchami",
+      "hi": "नागपंचमी",
+      "bn": "নাগপঞ্চমী",
+      "mr": "नागपंचमी",
+      "ta": "நாக பஞ்சமி",
+      "te": "నాగపంచమి",
+      "gu": "નાગપંચમી"
+    },
+    "when": {
+      "kind": "tithi",
+      "masa": 4,
+      "paksha": "shukla",
+      "tithi": 5
+    },
+    "months": [
+      7,
+      8
+    ]
+  },
+  {
+    "id": "shravan-somvar",
+    "name": {
+      "en": "Shravan Somvar",
+      "hi": "श्रावण सोमवार",
+      "bn": "শ্রাবণ সোমবার",
+      "mr": "श्रावणी सोमवार",
+      "ta": "சிராவண சோமவாரம்",
+      "te": "శ్రావణ సోమవారం",
+      "gu": "શ્રાવણી સોમવાર"
+    },
+    "when": {
+      "kind": "weekday-in-masa",
+      "masa": 4,
+      "weekday": 1
+    },
+    "months": [
+      7,
+      8
+    ]
+  },
+  {
+    "id": "makar-sankranti",
+    "name": {
+      "en": "Makar Sankranti",
+      "hi": "मकर संक्रांति",
+      "bn": "মকর সংক্রান্তি",
+      "mr": "मकर संक्रांत",
+      "ta": "மகர சங்கராந்தி",
+      "te": "మకర సంక్రాంతి",
+      "gu": "મકર સંક્રાંતિ"
+    },
+    "when": {
+      "kind": "sankranti",
+      "rashi": 9
+    },
+    "months": [
+      1
+    ]
+  },
+  {
+    "id": "ambubachi",
+    "name": {
+      "en": "Ambubachi Mela",
+      "hi": "अंबुबाची मेला",
+      "bn": "অম্বুবাচী মেলা",
+      "mr": "अंबुबाची मेळा",
+      "ta": "அம்புபாச்சி மேளா",
+      "te": "అంబుబాచి మేళా",
+      "gu": "અંબુબાચી મેળો"
+    },
+    "when": {
+      "kind": "sankranti",
+      "rashi": 2,
+      "offsetDays": 6,
+      "days": 4
+    },
+    "months": [
+      6
+    ]
+  },
+  {
+    "id": "rangbhari-ekadashi",
+    "name": {
+      "en": "Rangbhari Ekadashi",
+      "hi": "रंगभरी एकादशी",
+      "bn": "রঙ্গভরী একাদশী",
+      "mr": "रंगभरी एकादशी",
+      "ta": "ரங்கபரி ஏகாதசி",
+      "te": "రంగభరి ఏకాదశి",
+      "gu": "રંગભરી એકાદશી"
+    },
+    "when": {
+      "kind": "tithi",
+      "masa": 11,
+      "paksha": "shukla",
+      "tithi": 11
+    },
+    "months": [
+      2,
+      3
+    ]
+  }
+]

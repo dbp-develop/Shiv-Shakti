@@ -1,0 +1,164 @@
+{
+  "alternateSites": [],
+  "aliases": [
+    "Kamrup Kamakhya",
+    "Kamarupa"
+  ],
+  "festivals": [
+    {
+      "festivalId": "ambubachi"
+    }
+  ],
+  "photos": [],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  },
+  "id": "kamakhya",
+  "type": "shakti-peetha",
+  "lists": [
+    "peetha-nirnaya-51",
+    "ashtadasha-18",
+    "adi-4"
+  ],
+  "location": {
+    "lat": 26.1664,
+    "lng": 91.7058,
+    "elevationM": 194,
+    "country": "IN",
+    "region": "Assam"
+  },
+  "name": {
+    "en": "Kamakhya",
+    "hi": "कामाख्या",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Goddess Kamakhya",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "peetha": {
+    "bodyPart": {
+      "en": "Yoni",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "devi": {
+      "en": "Kamakhya",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bhairava": {
+      "en": "Umananda",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "history": {
+    "en": "The hilltop temple on Nilachal Hill was rebuilt in the 16th century under the Koch king Nara Narayan.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "After Sati's self-immolation, her yoni is said to have fallen on Nilachal Hill.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The sanctum has a natural spring instead of an idol.",
+      "The Ambubachi Mela marks the goddess's annual menstruation."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Roughly 5:30 am to 10 pm; closed during Ambubachi.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Lokpriya Gopinath Bordoloi International Airport, Guwahati",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Guwahati",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "October to April",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "darshan": {
+    "kind": "website",
+    "url": "https://maakamakhya.in",
+    "official": true,
+    "lastVerified": "2026-10-25",
+    "verifiedVia": "https://maakamakhya.in"
+  },
+  "sources": [
+    {
+      "title": "Kamakhya Debalaya",
+      "url": "https://maakamakhya.in"
+    }
+  ]
+}

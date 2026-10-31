@@ -1,0 +1,130 @@
+{
+  "alternateSites": [],
+  "aliases": [
+    "Kedar"
+  ],
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri"
+    }
+  ],
+  "photos": [],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  },
+  "id": "kedarnath",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 30.7352,
+    "lng": 79.0669,
+    "elevationM": 3583,
+    "country": "IN",
+    "region": "Uttarakhand"
+  },
+  "name": {
+    "en": "Kedarnath",
+    "hi": "केदारनाथ",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Shiva as Kedara",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "The stone temple in the Garhwal Himalaya is traditionally attributed to the Pandavas and was revived by Adi Shankaracharya.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "The Pandavas sought Shiva after the Kurukshetra war; he hid as a bull and the hump surfaced at Kedarnath.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The temple opens only from April or May to October or November.",
+      "It stands near the source of the Mandakini river."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Roughly 4 am to 9 pm during the season.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Jolly Grant Airport, Dehradun",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Rishikesh",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "May to June and September to October",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "darshan": {
+    "kind": "website",
+    "url": "https://badrinath-kedarnath.gov.in",
+    "official": true,
+    "lastVerified": "2026-10-25",
+    "verifiedVia": "https://badrinath-kedarnath.gov.in"
+  },
+  "sources": [
+    {
+      "title": "Shri Badrinath-Kedarnath Temple Committee",
+      "url": "https://badrinath-kedarnath.gov.in"
+    }
+  ]
+}

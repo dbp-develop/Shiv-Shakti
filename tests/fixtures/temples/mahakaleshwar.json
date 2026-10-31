@@ -1,0 +1,130 @@
+{
+  "alternateSites": [],
+  "aliases": [
+    "Mahakal"
+  ],
+  "festivals": [
+    {
+      "festivalId": "maha-shivaratri"
+    }
+  ],
+  "photos": [],
+  "translationReviewed": {
+    "en": true,
+    "hi": false,
+    "bn": false,
+    "mr": false,
+    "ta": false,
+    "te": false,
+    "gu": false
+  },
+  "id": "mahakaleshwar",
+  "type": "jyotirlinga",
+  "lists": [],
+  "location": {
+    "lat": 23.1828,
+    "lng": 75.7682,
+    "elevationM": 491,
+    "country": "IN",
+    "region": "Madhya Pradesh"
+  },
+  "name": {
+    "en": "Mahakaleshwar",
+    "hi": "महाकालेश्वर",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "deity": {
+    "en": "Shiva as Mahakala",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "history": {
+    "en": "The temple on the Rudrasagar lake in Ujjain has been rebuilt several times, most recently by the Maratha general Ranoji Scindia in the 18th century.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "story": {
+    "en": "Shiva is said to have appeared here as Mahakala to protect Ujjain from the demon Dushana.",
+    "hi": "",
+    "bn": "",
+    "mr": "",
+    "ta": "",
+    "te": "",
+    "gu": ""
+  },
+  "facts": {
+    "en": [
+      "The lingam is Swayambhu, believed to be self-manifested.",
+      "The Bhasma Aarti at dawn is the best-known ritual."
+    ],
+    "hi": [],
+    "bn": [],
+    "mr": [],
+    "ta": [],
+    "te": [],
+    "gu": []
+  },
+  "visiting": {
+    "timings": {
+      "en": "Roughly 4 am to 11 pm; Bhasma Aarti needs advance booking.",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestAirport": {
+      "en": "Devi Ahilya Bai Holkar Airport, Indore",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "nearestRail": {
+      "en": "Ujjain Junction",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    },
+    "bestSeason": {
+      "en": "October to March",
+      "hi": "",
+      "bn": "",
+      "mr": "",
+      "ta": "",
+      "te": "",
+      "gu": ""
+    }
+  },
+  "darshan": {
+    "kind": "website",
+    "url": "https://shrimahakaleshwar.com",
+    "official": true,
+    "lastVerified": "2026-10-25",
+    "verifiedVia": "https://shrimahakaleshwar.com"
+  },
+  "sources": [
+    {
+      "title": "Shri Mahakaleshwar Temple Committee",
+      "url": "https://shrimahakaleshwar.com"
+    }
+  ]
+}

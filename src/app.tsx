@@ -1,0 +1,179 @@
+import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
+import { loadFestivals } from './content/festivals';
+import { applyFilters } from './content/filters';
+import { nearestTemples } from './content/geo';
+import { getTemple, loadTemples } from './content/load';
+import { loadSaraswati } from './content/saraswati';
+import type { Temple } from './content/schema';
+import { t } from './i18n';
+import type { MapController } from './map/controller';
+import { navigate, route } from './router';
+import { filters, is3D, lang, notice, reducedMotion, setLang, setTheme, theme } from './state';
+import { FilterBar } from './ui/FilterBar';
+import { Header } from './ui/Header';
+import { ListView } from './ui/ListView';
+import { MapTools } from './ui/MapTools';
+import { NearestPanel, type Nearby } from './ui/NearestPanel';
+import { Notice } from './ui/Notice';
+import { RiverCard } from './ui/RiverCard';
+import { sheetInsets, TempleSheet } from './ui/TempleSheet';
+
+const GEO_TIMEOUT_MS = 10_000;
+
+/** Only on a click. `onDenied` fires for PERMISSION_DENIED (code 1); other failures just show a retry-able notice. */
+function getPosition(onOk: (p: { lat: number; lng: number }) => void, onDenied: () => void): void {
+  const geo = typeof navigator === 'undefined' ? undefined : navigator.geolocation;
+  const denied = () => {
+    notice.value = t('notice.geoDenied');
+    onDenied();
+  };
+  if (!geo) return void denied();
+  geo.getCurrentPosition(
+    (p) => onOk({ lat: p.coords.latitude, lng: p.coords.longitude }),
+    (e: { code?: number }) => (e?.code === 2 || e?.code === 3 ? (notice.value = t('notice.geoUnavailable')) : denied()),
+    { timeout: GEO_TIMEOUT_MS },
+  );
+}
+
+function safely<T>(load: () => T, fallback: T): T {
+  try {
+    return load();
+  } catch (e) {
+    console.error('Content failed to load', e);
+    return fallback;
+  }
+}
+
+export function App() {
+  const mapEl = useRef<HTMLDivElement>(null);
+  const [ctl, setCtl] = useState<MapController | null>(null);
+  const [failed, setFailed] = useState(false);
+  const [river, setRiver] = useState<string | null>(null);
+  const [nearby, setNearby] = useState<Nearby | null>(null);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [geoBlocked, setGeoBlocked] = useState(false);
+  const returnFocus = useRef<Element | null>(null);
+
+  // A bad content file degrades only its feature (R15): log it and carry on with what loaded.
+  const temples = useMemo(() => safely(loadTemples, [] as Temple[]), []);
+  const festivals = useMemo(() => safely(loadFestivals, []), []);
+  const shown = useMemo(() => applyFilters(temples, filters.value, festivals), [temples, festivals, filters.value]);
+
+  // Load the map module lazily so the header paints before maplibre downloads.
+  useEffect(() => {
+    let dead = false;
+    let made: MapController | undefined;
+    import('./map/controller')
+      .then((m) =>
+        m.createMap(mapEl.current!, {
+          theme: theme.value,
+          lang: lang.value,
+          reducedMotion: reducedMotion.value,
+          // Skip must land after the (visually hidden) marker list, not on the canvas that precedes it.
+          onSkip: () => document.querySelector<HTMLElement>('#map-tools button')?.focus(),
+        }),
+      )
+      .then((c) => {
+        if (dead) return c.destroy();
+        made = c;
+        c.onSelect((id) => navigate({ kind: 'temple', id }));
+        c.onRiver((id) => {
+          if (id !== 'saraswati') return; // only the Saraswati has a card; other rivers do nothing
+          if (safely(loadSaraswati, null) === null) return;
+          returnFocus.current = document.activeElement;
+          setRiver(id);
+        });
+        c.onTerrainFail(() => {
+          c.set3D(false);
+          is3D.value = false;
+          notice.value = t('notice.terrainFailed');
+        });
+        setCtl(c);
+      })
+      .catch((e) => {
+        if (dead) return;
+        console.error('Map failed to start', e);
+        setFailed(true);
+      });
+    return () => {
+      dead = true;
+      made?.destroy();
+    };
+  }, []);
+
+  // The map's box changes when the header wraps or the filter panel toggles; maplibre only watches the window.
+  useEffect(() => {
+    const el = mapEl.current;
+    if (!ctl || !el || typeof ResizeObserver === 'undefined') return;
+    const ro = new ResizeObserver(() => ctl.map?.resize?.());
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [ctl]);
+  useEffect(() => ctl?.setLang(lang.value), [ctl, lang.value]);
+  useEffect(() => ctl?.setTheme(theme.value), [ctl, theme.value]);
+  useEffect(() => ctl?.setTemples(shown), [ctl, shown]);
+  const r = route.value;
+  // getTemple, not `shown`: a deep link to a temple the filters hide still opens its sheet (R5).
+  const routeId = r.kind === 'temple' ? r.id : null;
+  const temple = useMemo(() => (routeId ? safely(() => getTemple(routeId), undefined) : undefined), [routeId]);
+  const known = !!temple;
+  useEffect(() => {
+    if (!ctl) return;
+    if (!temple) return ctl.select(null);
+    // Centre the temple above the bottom sheet (phones) or beside the side panel (wide screens).
+    const box = mapEl.current;
+    const wide = typeof matchMedia === 'function' && matchMedia('(min-width: 48rem)').matches;
+    const padding = sheetInsets(box?.clientWidth ?? 0, box?.clientHeight ?? 0, wide);
+    ctl.select(temple.id, { at: { lat: temple.location.lat, lng: temple.location.lng }, padding });
+  }, [ctl, temple]);
+
+  const closeRiver = () => {
+    setRiver(null);
+    const el = returnFocus.current;
+    if (el instanceof HTMLElement && el.isConnected) el.focus();
+  };
+  const pick = (id: string) => {
+    setNearby(null);
+    navigate({ kind: 'temple', id });
+  };
+
+  const message = notice.value ?? (r.kind === 'temple' && !known ? t('notice.templeNotFound') : null);
+
+  return (
+    <div class="app">
+      <Header
+        temples={temples}
+        onSelectTemple={pick}
+        onLang={(l) => setLang(l)}
+        onToggleTheme={() => setTheme(theme.value === 'dark' ? 'light' : 'dark')}
+        onNearest={() =>
+          geoBlocked ? undefined : getPosition((p) => setNearby(nearestTemples(temples, p, 5)), () => setGeoBlocked(true))
+        }
+        geoBlocked={geoBlocked}
+        filtersOpen={filtersOpen}
+        onToggleFilters={() => setFiltersOpen(!filtersOpen)}
+      />
+      <FilterBar temples={temples} filters={filters.value} onChange={(f) => (filters.value = f)} open={filtersOpen} />
+      <main class="app-main">
+        {failed ? (
+          <ListView temples={shown} onSelect={pick} />
+        ) : (
+          <>
+            <div id="map" class="map" ref={mapEl} />
+            <MapTools
+              ctl={ctl}
+              geoBlocked={geoBlocked}
+              onLocate={() =>
+                geoBlocked ? undefined : getPosition((p) => ctl?.map.easeTo({ center: [p.lng, p.lat], zoom: 8 }), () => setGeoBlocked(true))
+              }
+            />
+          </>
+        )}
+        {message && <Notice text={message} onDismiss={notice.value ? () => (notice.value = null) : undefined} />}
+        {nearby && <NearestPanel nearby={nearby} onPick={pick} onClose={() => setNearby(null)} />}
+        {temple && <TempleSheet key={temple.id} temple={temple} festivals={festivals} onClose={() => navigate({ kind: 'map' })} />}
+        {river && <RiverCard onClose={closeRiver} />}
+      </main>
+    </div>
+  );
+}

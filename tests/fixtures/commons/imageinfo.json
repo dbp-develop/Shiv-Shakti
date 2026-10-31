@@ -1,0 +1,99 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "normalized": [
+      {
+        "from": "File:Kamakhya_Temple,_Guwahati.jpg",
+        "to": "File:Kamakhya Temple, Guwahati.jpg"
+      }
+    ],
+    "pages": {
+      "-1": {
+        "ns": 6,
+        "title": "File:Shiv-Shakti no such photo.jpg",
+        "missing": "",
+        "imagerepository": ""
+      },
+      "21002042": {
+        "pageid": 21002042,
+        "ns": 6,
+        "title": "File:Kamakhya Temple, Guwahati.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/960px-Kamakhya_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 800,
+            "thumbheight": 600,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/1920px-Kamakhya_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/960px-Kamakhya_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 800,
+              "height": 600,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Kamakhya_Temple%2C_Guwahati.jpg/1920px-Kamakhya_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Kamakhya_Temple%2C_Guwahati.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kamakhya_Temple,_Guwahati.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21002042",
+            "extmetadata": {
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kunaldalui\" title=\"User:Kunaldalui\">Kunal Dalui</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              }
+            }
+          }
+        ]
+      },
+      "4624438": {
+        "pageid": 4624438,
+        "ns": 6,
+        "title": "File:Kedarnath Temple.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Kedarnath_Temple.jpg/960px-Kedarnath_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 800,
+            "thumbheight": 533,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Kedarnath_Temple.jpg/1920px-Kedarnath_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Kedarnath_Temple.jpg/960px-Kedarnath_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 800,
+              "height": 533,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Kedarnath_Temple.jpg/1920px-Kedarnath_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Kedarnath_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kedarnath_Temple.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4624438",
+            "extmetadata": {
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/User:Shaq774\" class=\"extiw\" title=\"en:User:Shaq774\">Shaq774</a> at <a class=\"external text\" data-mw-original-href=\"http://en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
