@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Nepala (Guhyeshwari)",
-    "hi": "",
+    "hi": "नेपाल (गुह्येश्वरी)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Guhyeshwari (Guhyakali)",
-    "hi": "",
+    "hi": "देवी, गुह्येश्वरी (गुह्यकाली) के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Both knees",
-      "hi": "",
+      "hi": "दोनों घुटने",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Mahamaya, worshipped as Guhyeshwari",
-      "hi": "",
+      "hi": "महामाया, गुह्येश्वरी के रूप में पूजित",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Kapali",
-      "hi": "",
+      "hi": "कपाली",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "The Guhyeshwari temple stands about 1 km east of Pashupatinath in Kathmandu, on the southern bank of the Bagmati river. King Pratap Malla renovated it in the 17th century. Sircar says only that the Pithanirnaya's 'Nepala' may refer to Kathmandu; Guhyeshwari is the usual modern identification. Local tradition holds that a different part of Sati, the 'guhya' (hidden) part, fell here, and the Nepal Mahatmya places the knees at the confluence of the Bagmati and Vishnumati instead.",
-    "hi": "",
+    "hi": "गुह्येश्वरी मंदिर काठमांडू में पशुपतिनाथ से लगभग 1 किमी पूर्व, बागमती नदी के दक्षिणी तट पर है। राजा प्रताप मल्ल ने 17वीं सदी में इसका जीर्णोद्धार किया। सरकार केवल इतना कहते हैं कि पीठनिर्णय का 'नेपाल' काठमांडू को सूचित कर सकता है; गुह्येश्वरी आधुनिक काल की सामान्य पहचान है। स्थानीय परंपरा के अनुसार यहाँ सती का एक अलग अंग, 'गुह्य' (गुप्त) भाग, गिरा था, और नेपाल माहात्म्य घुटनों को बागमती और विष्णुमती के संगम पर बताता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's knees fell here. In the local tradition the goddess's name, Guhyeshwari, comes from guhya (secret, hidden) and ishwari (goddess).",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — घुटने — यहीं गिरा था। स्थानीय परंपरा में देवी का नाम गुह्येश्वरी 'गुह्य' (गुप्त, छिपा) और 'ईश्वरी' (देवी) से बना है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -83,7 +83,12 @@
       "Daily rituals are performed by Newar Karmacharya priests according to the Sarvamnaya Tantra; Rajopadhyaya Brahmins perform the Vedic rites on special occasions.",
       "It lies in the Pashupati area, close to the Pashupatinath temple."
     ],
-    "hi": [],
+    "hi": [
+      "देवी भागवत पुराण नेपाल की देवी का नाम गुह्यकाली बताता है।",
+      "यह मंदिर तांत्रिक उपासकों के लिए एक महत्वपूर्ण तीर्थ है।",
+      "दैनिक अनुष्ठान नेवार कर्माचार्य पुजारी सर्वाम्नाय तंत्र के अनुसार करते हैं; विशेष अवसरों पर राजोपाध्याय ब्राह्मण वैदिक विधियाँ करते हैं।",
+      "यह पशुपति क्षेत्र में, पशुपतिनाथ मंदिर के पास है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -93,7 +98,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -102,7 +107,7 @@
     },
     "nearestAirport": {
       "en": "Tribhuvan International Airport, Kathmandu, close to the Pashupati area.",
-      "hi": "",
+      "hi": "त्रिभुवन अंतरराष्ट्रीय हवाई अड्डा, काठमांडू, पशुपति क्षेत्र के पास।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -111,7 +116,7 @@
     },
     "nearestRail": {
       "en": "There is no railway to Kathmandu.",
-      "hi": "",
+      "hi": "काठमांडू तक कोई रेलमार्ग नहीं है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -120,7 +125,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

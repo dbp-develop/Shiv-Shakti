@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Shona / Narmada (Amarkantak)",
-    "hi": "",
+    "hi": "शोण / नर्मदा (अमरकंटक)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Narmada (Shona)",
-    "hi": "",
+    "hi": "देवी, नर्मदा (शोणा) के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Right buttock",
-      "hi": "",
+      "hi": "दायाँ नितंब",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Shona (Narmada); some lists say Sonakshi",
-      "hi": "",
+      "hi": "शोणा (नर्मदा); कुछ सूचियों में सोनाक्षी",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Bhadrasena",
-      "hi": "",
+      "hi": "भद्रसेन",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "This pitha is identified with the source of the Narmada at Amarkantak, a small town in the Vindhya and Satpura hills, where the river rises from a hill said to be shaped like a cow's mouth. The Anuppur district administration says the Narmada temple was built by the Kalachuris around the 12th century. Tradition holds that Shankaracharya declared the stream at the temple to be the true source of the river, and the temple was later renovated by Maharani Ahilyabai Holkar.",
-    "hi": "",
+    "hi": "यह पीठ अमरकंटक में नर्मदा के उद्गम से जोड़ा जाता है, जो विंध्य और सतपुड़ा पहाड़ियों में एक छोटा नगर है, जहाँ नदी गाय के मुख जैसी बताई जाने वाली पहाड़ी से निकलती है। अनूपपुर ज़िला प्रशासन बताता है कि नर्मदा मंदिर कलचुरियों ने लगभग 12वीं सदी में बनवाया। परंपरा के अनुसार शंकराचार्य ने मंदिर की धारा को नदी का सच्चा उद्गम घोषित किया, और बाद में महारानी अहिल्याबाई होल्कर ने मंदिर का जीर्णोद्धार कराया।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's right buttock fell here.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — दायाँ नितंब — यहीं गिरा था।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -82,7 +82,11 @@
       "Amarkantak is said to have been a place of meditation for the sages Maikal, Vyasa and Bhrigu.",
       "Many temples at Amarkantak date from the Kalachuri period."
     ],
-    "hi": [],
+    "hi": [
+      "नर्मदा उद्गम मंदिर उस स्थान को चिह्नित करता है जहाँ से नदी शुरू होती है।",
+      "कहा जाता है कि अमरकंटक ऋषि मैकल, व्यास और भृगु की तपोभूमि रहा।",
+      "अमरकंटक के कई मंदिर कलचुरि काल के हैं।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -92,7 +96,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -101,7 +105,7 @@
     },
     "nearestAirport": {
       "en": "Jabalpur (Dumna) Airport, about 240 km away.",
-      "hi": "",
+      "hi": "जबलपुर (डुमना) हवाई अड्डा, लगभग 240 किमी दूर।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -110,7 +114,7 @@
     },
     "nearestRail": {
       "en": "Pendra Road (about 43 km) and Anuppur (about 75 km).",
-      "hi": "",
+      "hi": "पेंड्रा रोड (लगभग 43 किमी) और अनूपपुर (लगभग 75 किमी)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -119,7 +123,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

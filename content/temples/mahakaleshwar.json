@@ -11,7 +11,7 @@
   "alternateSites": [],
   "name": {
     "en": "Mahakaleshwar (Ujjain)",
-    "hi": "",
+    "hi": "महाकालेश्वर (उज्जैन)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -23,7 +23,7 @@
   ],
   "deity": {
     "en": "Shiva as Mahakala, the Lord of Time",
-    "hi": "",
+    "hi": "शिव, काल के स्वामी महाकाल के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   },
   "history": {
     "en": "The Temple Management Committee says the origins of the Mahakaleshwar temple go back to prehistoric times and that its exact date of construction is unknown. It cites historical records that in the 6th century BCE King Chandapradyot of Ujjain placed his son Kumarsena in charge of the temple, and that under the Paramara kings of Malwa, by the 10th century, it was a celebrated centre of pilgrimage. The Committee says Sultan Iltutmish demolished the temple structure in 1235 CE. The present building is the work of the Maratha revival: in the 1730s, Ranoji Shinde's Diwan Ramchandra Baba Shenvi rebuilt it using remains of earlier temples, and the Committee describes a blend of Bhoomija, Chalukya and Maratha styles.",
-    "hi": "",
+    "hi": "मंदिर प्रबंध समिति के अनुसार महाकालेश्वर मंदिर का उद्गम प्रागैतिहासिक काल तक जाता है और इसके निर्माण की सटीक तिथि ज्ञात नहीं है। समिति ऐतिहासिक अभिलेखों का हवाला देती है कि ईसा पूर्व 6वीं सदी में उज्जैन के राजा चंडप्रद्योत ने अपने पुत्र कुमारसेन को मंदिर का दायित्व सौंपा था, और 10वीं सदी तक मालवा के परमार राजाओं के काल में यह प्रसिद्ध तीर्थ बन चुका था। समिति के अनुसार सुल्तान इल्तुतमिश ने 1235 ई. में मंदिर का ढाँचा ध्वस्त किया। वर्तमान भवन मराठा पुनरुत्थान की देन है: 1730 के दशक में राणोजी शिंदे के दीवान रामचंद्र बाबा शेणवी ने पुराने मंदिरों के अवशेषों से इसे फिर बनवाया, और समिति इसकी शैली को भूमिज, चालुक्य और मराठा शैलियों का मिश्रण बताती है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -41,7 +41,7 @@
   },
   "story": {
     "en": "According to the Shiva Purana, as told by the Temple Management Committee, the people of Ujjain were tormented by a demon named Dushan and prayed to Shiva for protection. Shiva appeared as a radiant Jyoti, destroyed the demon, and stayed in Ujjain in the form of the Jyotirlinga.",
-    "hi": "",
+    "hi": "मंदिर प्रबंध समिति द्वारा बताए गए शिव पुराण के अनुसार उज्जैन के लोग दूषण नामक असुर से पीड़ित थे और उन्होंने शिव से रक्षा की प्रार्थना की। शिव दिव्य ज्योति के रूप में प्रकट हुए, असुर का नाश किया और ज्योतिर्लिंग के रूप में उज्जैन में ही रह गए।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -57,7 +57,14 @@
       "On Mondays from Shravan Krishna Pratipada to Bhadrapada Amavasya, a Mahakal Sawari procession takes the deity through the city to Ramghat on the Kshipra river.",
       "Ujjain is one of four cities where the Simhastha Kumbh Mela is held, once in twelve years."
     ],
-    "hi": [],
+    "hi": [
+      "समिति महाकालेश्वर को बारह में से एकमात्र दक्षिणमुखी ज्योतिर्लिंग बताती है।",
+      "ज्योतिर्लिंग मंदिर के सबसे निचले तल पर स्थापित है। उसके ऊपर ओंकारेश्वर लिंग है, और सबसे ऊपरी तल पर नागचंद्रेश्वर मंदिर वर्ष में केवल एक बार, नागपंचमी को, जनता के लिए खुलता है।",
+      "प्रतिदिन भोर में भस्म आरती होती है, जिसे समिति इस मंदिर की अनूठी दैनिक विधि बताती है।",
+      "शिव नवरात्रि फाल्गुन कृष्ण पंचमी से त्रयोदशी तक चलती है, और महाशिवरात्रि की महापूजा में वर्ष में एक बार दोपहर की भस्म आरती होती है।",
+      "श्रावण कृष्ण प्रतिपदा से भाद्रपद अमावस्या तक सोमवारों को महाकाल की सवारी देवता को नगर में घुमाते हुए क्षिप्रा तट के रामघाट तक ले जाती है।",
+      "उज्जैन उन चार नगरों में से है जहाँ हर बारह वर्ष में सिंहस्थ कुंभ मेला लगता है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -67,7 +74,7 @@
   "visiting": {
     "timings": {
       "en": "Bhasma Aarti is about 4:00 AM to 6:00 AM. From Chaitra to Ashwin, the Committee lists Dadhyodak Aarti at about 7:00 to 7:45 AM, Bhog Aarti 10:00 to 10:45 AM, Sandhya Aarti 7:00 to 7:45 PM and Shayan Aarti 10:30 to 11:00 PM. From Kartik to Falgun, these shift by up to 30 minutes (7:30 AM, 10:30 AM, 6:30 PM).",
-      "hi": "",
+      "hi": "भस्म आरती लगभग सुबह 4:00 से 6:00 बजे तक होती है। चैत्र से आश्विन तक समिति दद्योदक आरती लगभग सुबह 7:00–7:45, भोग आरती 10:00–10:45, संध्या आरती शाम 7:00–7:45 और शयन आरती रात 10:30–11:00 बताती है। कार्तिक से फाल्गुन तक ये 30 मिनट तक खिसक जाती हैं (सुबह 7:30, सुबह 10:30, शाम 6:30)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -76,7 +83,7 @@
     },
     "nearestAirport": {
       "en": "Devi Ahilya Bai Holkar Airport, Indore, approximately 58 km away.",
-      "hi": "",
+      "hi": "देवी अहिल्या बाई होल्कर हवाई अड्डा, इंदौर, लगभग 58 किमी दूर।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -85,7 +92,7 @@
     },
     "nearestRail": {
       "en": "Ujjain Junction, which is well connected to major cities.",
-      "hi": "",
+      "hi": "उज्जैन जंक्शन, जो बड़े शहरों से अच्छी तरह जुड़ा है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -94,7 +101,7 @@
     },
     "bestSeason": {
       "en": "The Committee names Shravan Mondays, Nag Panchami, Shiv Navratri and Maha Shivaratri as the periods when lakhs of pilgrims gather, so quieter days suit a calm visit.",
-      "hi": "",
+      "hi": "समिति श्रावण सोमवार, नागपंचमी, शिव नवरात्रि और महाशिवरात्रि को वे अवसर बताती है जब लाखों तीर्थयात्री जुटते हैं, इसलिए शांत दर्शन के लिए सामान्य दिन बेहतर हैं।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -107,7 +114,7 @@
       "festivalId": "maha-shivaratri",
       "localNote": {
         "en": "Shiv Navratri runs for nine days before Maha Shivaratri, with the Mahapuja held at night.",
-        "hi": "",
+        "hi": "महाशिवरात्रि से पहले नौ दिन तक शिव नवरात्रि चलती है, और रात में महापूजा होती है।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -119,7 +126,7 @@
       "festivalId": "shravan-somvar",
       "localNote": {
         "en": "The Mahakal Sawari procession is taken out on the Mondays of Shravan.",
-        "hi": "",
+        "hi": "श्रावण के सोमवारों को महाकाल की सवारी निकाली जाती है।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -131,7 +138,7 @@
       "festivalId": "nag-panchami",
       "localNote": {
         "en": "The Nagchandreshwar shrine opens to the public only on this day.",
-        "hi": "",
+        "hi": "नागचंद्रेश्वर मंदिर केवल इसी दिन जनता के लिए खुलता है।",
         "bn": "",
         "mr": "",
         "ta": "",

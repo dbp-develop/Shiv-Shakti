@@ -23,10 +23,11 @@ describe('RiverCard', () => {
     expect(screen.queryByText('Shown in English')).toBeNull();
   });
 
-  it('flags the English fallback while the other languages are untranslated', () => {
+  it('shows the translated text without the English-fallback notice', () => {
     setLang('hi');
     render(<RiverCard onClose={() => {}} />);
-    expect(screen.getAllByText('अंग्रेज़ी में दिखाया गया')).toHaveLength(1);
+    expect(screen.getByRole('heading', { name: 'प्राचीन सरस्वती' })).toBeTruthy();
+    expect(screen.queryByText('अंग्रेज़ी में दिखाया गया')).toBeNull();
   });
 
   it('calls onClose', () => {

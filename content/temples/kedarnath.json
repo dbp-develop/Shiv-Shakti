@@ -12,7 +12,7 @@
   "alternateSites": [],
   "name": {
     "en": "Kedarnath",
-    "hi": "",
+    "hi": "केदारनाथ",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -24,7 +24,7 @@
   ],
   "deity": {
     "en": "Shiva as Kedara, Lord of Kedarkhand",
-    "hi": "",
+    "hi": "शिव, केदारखंड के स्वामी केदार के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -33,7 +33,7 @@
   },
   "history": {
     "en": "The Badrinath-Kedarnath Temple Committee says the temple was originally built in the 8th century by Adi Shankaracharya, next to the site of an even earlier temple attributed to the Pandavas. Who built the first temple, and when, is not certain. The Skanda Purana (about the 7th to 8th century) is one of the earliest texts to mention Kedara, and Kedarnath was a prominent pilgrimage centre by the 12th century. The temple is built of large grey stone slabs on a raised platform, with inscriptions in Pali on the steps, according to the Committee. A samadhi shrine of Adi Shankara stands behind it. The temple structure survived the 2013 floods without major damage, protected by a large rock among the debris.",
-    "hi": "",
+    "hi": "बदरीनाथ-केदारनाथ मंदिर समिति के अनुसार मंदिर मूल रूप से 8वीं सदी में आदि शंकराचार्य ने बनवाया, पांडवों से जुड़े एक और भी पुराने मंदिर के स्थान के पास। पहला मंदिर किसने और कब बनाया, यह निश्चित नहीं है। स्कंद पुराण (लगभग 7वीं-8वीं सदी) केदार का उल्लेख करने वाले शुरुआती ग्रंथों में है, और 12वीं सदी तक केदारनाथ एक प्रमुख तीर्थ बन चुका था। समिति के अनुसार मंदिर एक ऊँचे चबूतरे पर बड़ी धूसर शिलाओं से बना है, और सीढ़ियों पर पाली में अभिलेख हैं। इसके पीछे आदि शंकराचार्य की समाधि है। 2013 की बाढ़ में मंदिर का ढाँचा बिना बड़ी क्षति के बच गया, मलबे में आई एक बड़ी चट्टान ने उसकी रक्षा की।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -42,7 +42,7 @@
   },
   "story": {
     "en": "According to the legend given by the Committee, the Pandavas sought Shiva's forgiveness after the Kurukshetra war. Shiva avoided them, and took refuge at Kedarnath in the form of a bull. When they followed, he dived into the ground and left his hump on the surface. The other parts appeared at Tungnath (arms), Rudranath (face), Madhmaheshwar (belly) and Kalpeshwar (hair and head). Together with Kedarnath they form the Panch Kedar.",
-    "hi": "",
+    "hi": "समिति द्वारा दी गई कथा के अनुसार कुरुक्षेत्र युद्ध के बाद पांडव शिव से क्षमा माँगने गए। शिव उनसे बचते रहे और बैल के रूप में केदारनाथ में छिप गए। जब पांडव पीछे आए, तो वे धरती में समा गए और उनका कूबड़ ऊपर रह गया। शेष अंग तुंगनाथ (भुजाएँ), रुद्रनाथ (मुख), मध्यमहेश्वर (नाभि) और कल्पेश्वर (जटा और सिर) में प्रकट हुए। केदारनाथ के साथ ये मिलकर पंच केदार बनाते हैं।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -58,7 +58,14 @@
       "In winter the symbolic statue of Shiva is carried down to Ukhimath, where it is worshipped until the temple reopens.",
       "The temple is reached by a trek of about 16 km from Gaurikund, which is the road head; the Committee also lists helicopter and pony options."
     ],
-    "hi": [],
+    "hi": [
+      "समिति केदारनाथ को बारह ज्योतिर्लिंगों में सबसे ऊँचा बताती है, लगभग 3,581 मीटर की ऊँचाई पर।",
+      "मंदिर के भीतर एक शंकु-आकार की शिला की शिव के सदाशिव रूप में पूजा होती है।",
+      "मंदिर उत्तराखंड की चार धाम और पंच केदार यात्राओं का हिस्सा है।",
+      "धाम प्रायः कार्तिक के पहले दिन (अक्टूबर–नवंबर) बंद होता है और वैशाख (अप्रैल–मई) में फिर खुलता है।",
+      "शीतकाल में शिव की प्रतीकात्मक मूर्ति को नीचे ऊखीमठ ले जाया जाता है, जहाँ मंदिर के फिर खुलने तक उसकी पूजा होती है।",
+      "मंदिर तक सड़क के अंतिम बिंदु गौरीकुंड से लगभग 16 किमी की पैदल चढ़ाई है; समिति हेलीकॉप्टर और घोड़े-खच्चर के विकल्प भी बताती है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -68,7 +75,7 @@
   "visiting": {
     "timings": {
       "en": "The temple is open to pilgrims only in the warm season. The Committee says it generally closes on the first day of Kartik (Oct to Nov) and reopens in Vaishakh (Apr to May), on dates announced in advance. Daily darshan hours are set by the Committee and are not listed on its page, so check before travelling.",
-      "hi": "",
+      "hi": "मंदिर तीर्थयात्रियों के लिए केवल गर्म मौसम में खुलता है। समिति के अनुसार यह प्रायः कार्तिक के पहले दिन (अक्टूबर–नवंबर) बंद होता है और वैशाख (अप्रैल–मई) में पहले से घोषित तिथियों पर खुलता है। दैनिक दर्शन का समय समिति तय करती है और उसके पृष्ठ पर नहीं दिया गया है, इसलिए यात्रा से पहले जाँच लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -77,7 +84,7 @@
     },
     "nearestAirport": {
       "en": "Jolly Grant Airport, Dehradun, about 235 km from Gaurikund (as given by the Committee).",
-      "hi": "",
+      "hi": "जॉली ग्रांट हवाई अड्डा, देहरादून, गौरीकुंड से लगभग 235 किमी (समिति के अनुसार)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -86,7 +93,7 @@
     },
     "nearestRail": {
       "en": "Rishikesh, about 243 km from Gaurikund.",
-      "hi": "",
+      "hi": "ऋषिकेश, गौरीकुंड से लगभग 243 किमी।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -95,7 +102,7 @@
     },
     "bestSeason": {
       "en": "May to June, which the Committee calls the ideal time. July to mid-September is the monsoon, with landslide risk, and the temple is shut in winter.",
-      "hi": "",
+      "hi": "मई से जून, जिसे समिति आदर्श समय बताती है। जुलाई से मध्य सितंबर तक मानसून रहता है, भूस्खलन का ख़तरा होता है, और शीतकाल में मंदिर बंद रहता है।",
       "bn": "",
       "mr": "",
       "ta": "",

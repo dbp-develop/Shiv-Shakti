@@ -14,7 +14,7 @@
     {
       "name": {
         "en": "Someswara Swamy temple (Kotipalli, Konaseema)",
-        "hi": "",
+        "hi": "सोमेश्वर स्वामी मंदिर (कोटिपल्ली, कोनसीमा)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -25,7 +25,7 @@
       "lng": 82.0379,
       "note": {
         "en": "A local claimant to this pitha, on the Gautami branch of the Godavari.",
-        "hi": "",
+        "hi": "गोदावरी की गौतमी शाखा के किनारे स्थित, इस पीठ का एक स्थानीय दावेदार।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -36,7 +36,7 @@
   ],
   "name": {
     "en": "Godavaritira (Kotilingeswara, Rajahmundry)",
-    "hi": "",
+    "hi": "गोदावरी-तीर (कोटिलिंगेश्वर, राजमहेंद्रवरम)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -45,7 +45,7 @@
   },
   "deity": {
     "en": "The Devi as Vishveshi (Rakini)",
-    "hi": "",
+    "hi": "देवी, विश्वेशी (राकिणी) के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -55,7 +55,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Left cheek",
-      "hi": "",
+      "hi": "बायाँ गाल",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -64,7 +64,7 @@
     },
     "devi": {
       "en": "Vishveshi (Rakini)",
-      "hi": "",
+      "hi": "विश्वेशी (राकिणी)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -73,7 +73,7 @@
     },
     "bhairava": {
       "en": "Dandapani (Vatsanabha)",
-      "hi": "",
+      "hi": "दंडपाणि (वत्सनाभ)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -83,7 +83,7 @@
   },
   "history": {
     "en": "Green Message and Bengali tradition identify this pitha, 'on the bank of the Godavari', with the Sri Uma Kotilingeswara Swamy temple at Kotilingala Revu in Rajahmundry (Rajamahendravaram). Rajahmundry lies on the left bank of the Godavari just above the head of its delta. Kotipalli, on the Gautami branch of the Godavari, is another local claimant.",
-    "hi": "",
+    "hi": "ग्रीन मैसेज और बंगाली परंपरा 'गोदावरी के तट पर' स्थित इस पीठ की पहचान राजमहेंद्रवरम (राजमुंदरी) में कोटिलिंगाला रेवु पर स्थित श्री उमा कोटिलिंगेश्वर स्वामी मंदिर से करती हैं। राजमुंदरी गोदावरी के बाएँ तट पर उसके डेल्टा के आरंभ से ठीक ऊपर है। गोदावरी की गौतमी शाखा पर स्थित कोटिपल्ली एक अन्य स्थानीय दावेदार है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -92,7 +92,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's left cheek fell here.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — बायाँ गाल — यहीं गिरा था।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -105,7 +105,11 @@
       "Rajahmundry is the largest town of the East Godavari district.",
       "The road-cum-rail bridge over the Godavari between Kovvur and Rajahmundry is considered an engineering feat."
     ],
-    "hi": [],
+    "hi": [
+      "मंदिर गोदावरी किनारे कोटिलिंगाला रेवु पर है।",
+      "राजमुंदरी पूर्वी गोदावरी ज़िले का सबसे बड़ा नगर है।",
+      "कोव्वूर और राजमुंदरी के बीच गोदावरी पर बना सड़क-सह-रेल पुल इंजीनियरिंग का एक करिश्मा माना जाता है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -115,7 +119,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -124,7 +128,7 @@
     },
     "nearestAirport": {
       "en": "Rajahmundry Airport.",
-      "hi": "",
+      "hi": "राजमुंदरी हवाई अड्डा।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -133,7 +137,7 @@
     },
     "nearestRail": {
       "en": "Rajahmundry and Godavari stations, on the Howrah–Chennai line.",
-      "hi": "",
+      "hi": "हावड़ा–चेन्नई रेलमार्ग पर राजमुंदरी और गोदावरी स्टेशन।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -142,7 +146,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

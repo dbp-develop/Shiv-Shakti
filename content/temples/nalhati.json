@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Nalahati (Nalateshwari)",
-    "hi": "",
+    "hi": "नलहाटी (नलटेश्वरी)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Kalika (Nalateshwari)",
-    "hi": "",
+    "hi": "देवी, कालिका (नलटेश्वरी) के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Vocal pipe (nala)",
-      "hi": "",
+      "hi": "स्वरनली (नल)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Kalika",
-      "hi": "",
+      "hi": "कालिका",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Yogisha",
-      "hi": "",
+      "hi": "योगीश",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "The town of Nalhati in the Birbhum district of West Bengal is named after the Nalateshwari temple, which stands on a low hill within the town. Banglapedia names Nalahati among the eight famous pithas of West Bengal listed in the Mahapithanirupana, written about 1690 to 1720.",
-    "hi": "",
+    "hi": "पश्चिम बंगाल के बीरभूम ज़िले का नलहाटी नगर नलटेश्वरी मंदिर के नाम पर है, जो नगर के भीतर एक नीची पहाड़ी पर खड़ा है। बांग्लापीडिया नलहाटी को लगभग 1690 से 1720 के बीच लिखे महापीठनिरूपण में सूचीबद्ध पश्चिम बंगाल के आठ प्रसिद्ध पीठों में गिनाता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's vocal pipe (nala) fell here. The town's name, Nalhati, is said to come from it.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — स्वरनली (नल) — यहीं गिरा था। कहा जाता है कि नगर का नाम, नलहाटी, इसी से आया।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -82,7 +82,11 @@
       "Nalahati is one of four famous pithas in the Birbhum district, with Bakreshwar, Attahas and Nandipur.",
       "A shrine of Ana Shahid Baba stands on the same hill."
     ],
-    "hi": [],
+    "hi": [
+      "मंदिर नलहाटी नगर के बीच एक छोटी, नीची पहाड़ी पर है।",
+      "नलहाटी बीरभूम ज़िले के चार प्रसिद्ध पीठों में से एक है, बक्रेश्वर, अट्टहास और नंदीपुर के साथ।",
+      "उसी पहाड़ी पर अना शहीद बाबा की एक दरगाह भी है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -92,7 +96,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -101,7 +105,7 @@
     },
     "nearestAirport": {
       "en": "Kolkata (Netaji Subhas Chandra Bose International Airport).",
-      "hi": "",
+      "hi": "कोलकाता (नेताजी सुभाष चंद्र बोस अंतरराष्ट्रीय हवाई अड्डा)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -110,7 +114,7 @@
     },
     "nearestRail": {
       "en": "Nalhati Junction.",
-      "hi": "",
+      "hi": "नलहाटी जंक्शन।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -119,7 +123,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

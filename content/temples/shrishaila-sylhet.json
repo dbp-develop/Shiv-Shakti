@@ -14,7 +14,7 @@
     {
       "name": {
         "en": "Bhramaramba-Mallikarjuna temple (Srisailam, Andhra Pradesh)",
-        "hi": "",
+        "hi": "भ्रमरांबा-मल्लिकार्जुन मंदिर (श्रीशैलम, आंध्र प्रदेश)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -25,7 +25,7 @@
       "lng": 78.8681,
       "note": {
         "en": "Some lists identify this pitha with Srisailam rather than Sylhet.",
-        "hi": "",
+        "hi": "कुछ सूचियाँ इस पीठ को सिलहट के बजाय श्रीशैलम से जोड़ती हैं।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -36,7 +36,7 @@
   ],
   "name": {
     "en": "Shrishaila (Shrihatta, Sylhet)",
-    "hi": "",
+    "hi": "श्रीशैल (श्रीहट्ट, सिलहट)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -45,7 +45,7 @@
   },
   "deity": {
     "en": "The Devi as Mahalakshmi",
-    "hi": "",
+    "hi": "देवी, महालक्ष्मी के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -55,7 +55,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Neck",
-      "hi": "",
+      "hi": "गर्दन",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -64,7 +64,7 @@
     },
     "devi": {
       "en": "Mahalakshmi",
-      "hi": "",
+      "hi": "महालक्ष्मी",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -73,7 +73,7 @@
     },
     "bhairava": {
       "en": "Shambarananda",
-      "hi": "",
+      "hi": "शंबरानंद",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -83,7 +83,7 @@
   },
   "history": {
     "en": "Sircar records 'Shrihatta' (Sylhet) as a variant reading of this pitha's name, and Bengali tradition places it at the Shri Shail Mahalakshmi temple in Jainpur village, Dakshin Surma, about 3 km south-east of Sylhet town in Bangladesh. Other lists identify this pitha with Srisailam in Andhra Pradesh instead, which also has its own entry as the Shriparvata pitha.",
-    "hi": "",
+    "hi": "सरकार 'श्रीहट्ट' (सिलहट) को इस पीठ के नाम का एक पाठांतर बताते हैं, और बंगाली परंपरा इसे बांग्लादेश में सिलहट नगर से लगभग 3 किमी दक्षिण-पूर्व, दक्षिण सुरमा के जैनपुर गाँव के श्री शैल महालक्ष्मी मंदिर में मानती है। अन्य सूचियाँ इसके बजाय इस पीठ को आंध्र प्रदेश के श्रीशैलम से जोड़ती हैं, जिसकी श्रीपर्वत पीठ के रूप में अपनी अलग प्रविष्टि भी है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -92,7 +92,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's neck fell here.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — गर्दन — यहीं गिरा था।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -105,7 +105,11 @@
       "The shrine is also called Mahalakshmi Bhairavi Griva Mahapeetha, 'griva' meaning neck.",
       "It is one of the Pithanirnaya's pithas in present-day Bangladesh."
     ],
-    "hi": [],
+    "hi": [
+      "यहाँ देवी महालक्ष्मी हैं और भैरव शंबरानंद।",
+      "इस मंदिर को महालक्ष्मी भैरवी ग्रीवा महापीठ भी कहते हैं; 'ग्रीवा' का अर्थ गर्दन है।",
+      "यह आज के बांग्लादेश में स्थित पीठनिर्णय के पीठों में से एक है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -115,7 +119,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -124,7 +128,7 @@
     },
     "nearestAirport": {
       "en": "Sylhet (Osmani International Airport).",
-      "hi": "",
+      "hi": "सिलहट (उस्मानी अंतरराष्ट्रीय हवाई अड्डा)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -133,7 +137,7 @@
     },
     "nearestRail": {
       "en": "Sylhet station.",
-      "hi": "",
+      "hi": "सिलहट स्टेशन।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -142,7 +146,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

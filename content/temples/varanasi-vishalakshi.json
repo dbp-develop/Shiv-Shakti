@@ -14,7 +14,7 @@
   "alternateSites": [],
   "name": {
     "en": "Varanasi (Vishalakshi)",
-    "hi": "",
+    "hi": "वाराणसी (विशालाक्षी)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -23,7 +23,7 @@
   },
   "deity": {
     "en": "The Devi as Vishalakshi, the wide-eyed goddess",
-    "hi": "",
+    "hi": "देवी, विशालाक्षी — विशाल नेत्रों वाली — के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -33,7 +33,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Earring",
-      "hi": "",
+      "hi": "कुंडल",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -42,7 +42,7 @@
     },
     "devi": {
       "en": "Vishalakshi",
-      "hi": "",
+      "hi": "विशालाक्षी",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -51,7 +51,7 @@
     },
     "bhairava": {
       "en": "Kala (Kalabhairava)",
-      "hi": "",
+      "hi": "काल (कालभैरव)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -61,7 +61,7 @@
   },
   "history": {
     "en": "The Vishalakshi temple stands near Mir Ghat in Varanasi, about 250 m north-west of the Kashi Vishwanath temple. Since the 19th century it has been rebuilt and maintained by the Nattukottai Nagarathars, a mercantile community from Tamil Nadu. It is built in a haveli-like North Indian style with South Indian features, including a small Dravidian gopura.",
-    "hi": "",
+    "hi": "विशालाक्षी मंदिर वाराणसी में मीर घाट के पास, काशी विश्वनाथ मंदिर से लगभग 250 मीटर उत्तर-पश्चिम में है। 19वीं सदी से तमिलनाडु के व्यापारी समुदाय नाट्टुकोट्टै नगरत्तार इसका पुनर्निर्माण और रखरखाव करते आए हैं। यह हवेली जैसी उत्तर भारतीय शैली में दक्षिण भारतीय विशेषताओं के साथ बना है, जिनमें एक छोटा द्रविड़ गोपुर भी है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -70,7 +70,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's earring fell here. The gem of the earring (manikarna) is said to have fallen here, so the goddess is also called Manikarni Devi.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — कुंडल — यहीं गिरा था। कहा जाता है कि यहाँ कुंडल का मणि (मणिकर्ण) गिरा था, इसलिए देवी को मणिकर्णी देवी भी कहते हैं।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -84,7 +84,12 @@
       "Its main festival is Kajali Teej, in the waning fortnight of Bhadrapada.",
       "It stands about 200 m from the Annapurna temple."
     ],
-    "hi": [],
+    "hi": [
+      "विशालाक्षी 51 और 18 महाशक्तिपीठों, दोनों में गिनी जाती हैं।",
+      "यहाँ के भैरव काशी के रक्षक देवता कालभैरव हैं।",
+      "इसका मुख्य उत्सव भाद्रपद कृष्ण पक्ष की कजली तीज है।",
+      "यह अन्नपूर्णा मंदिर से लगभग 200 मीटर दूर है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -94,7 +99,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -103,7 +108,7 @@
     },
     "nearestAirport": {
       "en": "Varanasi (Lal Bahadur Shastri) Airport.",
-      "hi": "",
+      "hi": "वाराणसी (लाल बहादुर शास्त्री) हवाई अड्डा।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -112,7 +117,7 @@
     },
     "nearestRail": {
       "en": "Varanasi Junction.",
-      "hi": "",
+      "hi": "वाराणसी जंक्शन।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -121,7 +126,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year; Kajali Teej is the temple's own festival.",
-      "hi": "",
+      "hi": "तीर्थयात्री पूरे वर्ष आते हैं; कजली तीज मंदिर का अपना उत्सव है।",
       "bn": "",
       "mr": "",
       "ta": "",

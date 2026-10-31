@@ -14,7 +14,7 @@
     {
       "name": {
         "en": "Bhadrakali temple (Nashik)",
-        "hi": "",
+        "hi": "भद्रकाली मंदिर (नासिक)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -25,7 +25,7 @@
       "lng": 73.7917,
       "note": {
         "en": "Some local lists identify Janasthana with the Bhadrakali temple in Nashik city.",
-        "hi": "",
+        "hi": "कुछ स्थानीय सूचियाँ जनस्थान की पहचान नासिक शहर के भद्रकाली मंदिर से करती हैं।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -36,7 +36,7 @@
   ],
   "name": {
     "en": "Janasthana (Saptashrungi, Nashik)",
-    "hi": "",
+    "hi": "जनस्थान (सप्तश्रृंगी, नासिक)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -45,7 +45,7 @@
   },
   "deity": {
     "en": "The Devi as Saptashrungi Nivasini, the goddess of the seven peaks",
-    "hi": "",
+    "hi": "देवी, सप्तश्रृंगी निवासिनी के रूप में, सात शिखरों की देवी",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -55,7 +55,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Chin",
-      "hi": "",
+      "hi": "ठोड़ी",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -64,7 +64,7 @@
     },
     "devi": {
       "en": "Bhramari, worshipped as Saptashrungi",
-      "hi": "",
+      "hi": "भ्रामरी, सप्तश्रृंगी के रूप में पूजित",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -73,7 +73,7 @@
     },
     "bhairava": {
       "en": "Vikritaksha",
-      "hi": "",
+      "hi": "विकृताक्ष",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -83,7 +83,7 @@
   },
   "history": {
     "en": "Sircar places Janasthana 'on the Godavari in the Nasik region'. Most lists identify it with Saptashrungi, a pilgrimage site at Vani, about 60 km from Nashik, where the goddess is said to dwell within seven mountain peaks. Some local lists name the Bhadrakali temple in Nashik city instead.",
-    "hi": "",
+    "hi": "सरकार जनस्थान को 'नासिक क्षेत्र में गोदावरी पर' रखते हैं। अधिकांश सूचियाँ इसे सप्तश्रृंगी से जोड़ती हैं, जो नासिक से लगभग 60 किमी दूर वणी में एक तीर्थ है, जहाँ माना जाता है कि देवी सात पर्वत-शिखरों के बीच निवास करती हैं। कुछ स्थानीय सूचियाँ इसके बजाय नासिक शहर के भद्रकाली मंदिर का नाम लेती हैं।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -92,7 +92,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's chin fell here.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — ठोड़ी — यहीं गिरा था।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -106,7 +106,12 @@
       "About 510 steps lead up to the temple; since 2018 the temple trust has also run a funicular trolley.",
       "The Marathas and several tribal communities have long worshipped the goddess, some as their family deity."
     ],
-    "hi": [],
+    "hi": [
+      "नाम का अर्थ है 'सात शिखर' (सप्त = सात, श्रृंग = शिखर)।",
+      "सप्तश्रृंगी महाराष्ट्र के 'साढ़े तीन' शक्तिपीठों में गिना जाता है, और प्रायः इसे ही आधा पीठ माना जाता है।",
+      "मंदिर तक लगभग 510 सीढ़ियाँ हैं; 2018 से मंदिर ट्रस्ट एक फ़्यूनिक्युलर ट्रॉली भी चलाता है।",
+      "मराठा और अनेक जनजातीय समुदाय लंबे समय से देवी की पूजा करते आए हैं, कुछ कुलदेवी के रूप में।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -116,7 +121,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -125,7 +130,7 @@
     },
     "nearestAirport": {
       "en": "Nashik (Ozar) airport.",
-      "hi": "",
+      "hi": "नासिक (ओझर) हवाई अड्डा।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -134,7 +139,7 @@
     },
     "nearestRail": {
       "en": "Nashik Road.",
-      "hi": "",
+      "hi": "नासिक रोड।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -143,7 +148,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

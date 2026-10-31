@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Shrinkhala (Pradyumna)",
-    "hi": "",
+    "hi": "शृंखला (प्रद्युम्न)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Shrinkhala",
-    "hi": "",
+    "hi": "देवी, शृंखला के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Abdomen (as given in later tables; the Ashtadasha Stotram itself names no body part)",
-      "hi": "",
+      "hi": "उदर (बाद की तालिकाओं के अनुसार; अष्टादश स्तोत्र स्वयं किसी अंग का नाम नहीं देता)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Shrinkhala",
-      "hi": "",
+      "hi": "शृंखला",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Not named in the Ashtadasha tradition",
-      "hi": "",
+      "hi": "अष्टादश परंपरा में नाम नहीं दिया गया",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "The Ashtadasha Stotram names 'Pradyumne Shrinkhala Devi', but the place is uncertain. Bengal tradition reads Pradyumna as Pandua in the Hooghly district, where the former shrine site now lies within the protected Pandua minar and mosque complex, with no worship. Hindupedia places Pradyumna in Gujarat instead, naming no shrine. Pandua is best known for its 13th-century minar, about 38 m high, which local tradition says Shah Sufiuddin built as a victory pillar after defeating the Hindu king of Pandua.",
-    "hi": "",
+    "hi": "अष्टादश स्तोत्र 'प्रद्युम्ने शृंखला देवी' का नाम लेता है, पर स्थान अनिश्चित है। बंगाल की परंपरा प्रद्युम्न को हुगली ज़िले का पांडुआ मानती है, जहाँ पूर्व मंदिर-स्थल अब संरक्षित पांडुआ मीनार और मस्जिद परिसर के भीतर है और वहाँ कोई पूजा नहीं होती। हिंदूपीडिया इसके बजाय प्रद्युम्न को गुजरात में बताता है, किसी मंदिर का नाम लिए बिना। पांडुआ अपनी 13वीं सदी की लगभग 38 मीटर ऊँची मीनार के लिए सबसे प्रसिद्ध है, जिसे स्थानीय परंपरा के अनुसार शाह सूफ़ीउद्दीन ने पांडुआ के हिंदू राजा को हराने के बाद विजय-स्तंभ के रूप में बनवाया।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's abdomen fell here. Adi Shankara's Ashtadasha Shakti Peetha Stotram praises the goddess here as 'Pradyumne Shrinkhala Devi'.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — उदर — यहीं गिरा था। आदि शंकराचार्य का अष्टादश शक्तिपीठ स्तोत्र यहाँ देवी की 'प्रद्युम्ने शृंखला देवी' कहकर स्तुति करता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -82,7 +82,11 @@
       "Pandua's minar, about 38 m high, dates from the 13th century.",
       "The place of this pitha is disputed between Bengal and Gujarat."
     ],
-    "hi": [],
+    "hi": [
+      "पूर्व मंदिर-स्थल पर आज कोई पूजा नहीं होती।",
+      "पांडुआ की लगभग 38 मीटर ऊँची मीनार 13वीं सदी की है।",
+      "इस पीठ का स्थान बंगाल और गुजरात के बीच विवादित है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -92,7 +96,7 @@
   "visiting": {
     "timings": {
       "en": "There is no active shrine to visit.",
-      "hi": "",
+      "hi": "यहाँ जाने के लिए कोई सक्रिय मंदिर नहीं है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -101,7 +105,7 @@
     },
     "nearestAirport": {
       "en": "Kolkata (Netaji Subhas Chandra Bose International Airport).",
-      "hi": "",
+      "hi": "कोलकाता (नेताजी सुभाष चंद्र बोस अंतरराष्ट्रीय हवाई अड्डा)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -110,7 +114,7 @@
     },
     "nearestRail": {
       "en": "Pandua station.",
-      "hi": "",
+      "hi": "पांडुआ स्टेशन।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -119,7 +123,7 @@
     },
     "bestSeason": {
       "en": "The site can be seen through the year.",
-      "hi": "",
+      "hi": "स्थल पूरे वर्ष देखा जा सकता है।",
       "bn": "",
       "mr": "",
       "ta": "",

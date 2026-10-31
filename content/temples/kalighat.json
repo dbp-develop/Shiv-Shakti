@@ -14,7 +14,7 @@
   "alternateSites": [],
   "name": {
     "en": "Kalipitha (Kalighat, Dakshina Kalika)",
-    "hi": "",
+    "hi": "कालीपीठ (कालीघाट, दक्षिणा कालिका)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -23,7 +23,7 @@
   },
   "deity": {
     "en": "The Devi as Kali (Dakshina Kalika)",
-    "hi": "",
+    "hi": "देवी, काली (दक्षिणा कालिका) के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -33,7 +33,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Toes of the right foot; in the Adi Peetha tradition, the face",
-      "hi": "",
+      "hi": "दाहिने पैर की उँगलियाँ; आदि पीठ परंपरा में मुख",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -42,7 +42,7 @@
     },
     "devi": {
       "en": "Kali (Dakshina Kalika)",
-      "hi": "",
+      "hi": "काली (दक्षिणा कालिका)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -51,7 +51,7 @@
     },
     "bhairava": {
       "en": "Nakulisha",
-      "hi": "",
+      "hi": "नकुलीश",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -61,7 +61,7 @@
   },
   "history": {
     "en": "The Kalighat Kali temple in Kolkata is one of the oldest and most important places of worship in eastern India and one of the four Adi Shakti Peethas. The shrine is mentioned in the 15th-century Manasar Bhasan and the 17th-century Kavi Kankan Chandi. The present temple was begun in 1798 by Santosh Roy Chowdhury and completed in 1809 under the patronage of the Sabarna Roy Choudhury family. In 2024 it received its first major renovation since then.",
-    "hi": "",
+    "hi": "कोलकाता का कालीघाट काली मंदिर पूर्वी भारत के सबसे प्राचीन और महत्त्वपूर्ण पूजा-स्थलों में से एक है, और चार आदि शक्तिपीठों में से एक। इस धाम का उल्लेख 15वीं सदी के 'मनसार भासान' और 17वीं सदी के 'कविकंकण चंडी' में मिलता है। वर्तमान मंदिर 1798 में संतोष राय चौधुरी ने आरंभ कराया और 1809 में सावर्ण राय चौधुरी परिवार के संरक्षण में पूरा हुआ। 2024 में इसका तब से पहला बड़ा जीर्णोद्धार हुआ।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -70,7 +70,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's toes of the right foot fell here. The place name Kalighat comes from the goddess Kali and the ghat, or riverbank, where the temple stands.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — दाहिने पैर की उँगलियाँ — यहीं गिरा था। कालीघाट नाम देवी काली और उस घाट, यानी नदी-तट, से बना है जहाँ मंदिर स्थित है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -84,7 +84,12 @@
       "The temple draws hundreds of thousands of devotees, especially at Kali Puja, Poila Baisakh, Snana Yatra, Durga Puja and on new-moon days.",
       "The area is also called Kali Kshetra."
     ],
-    "hi": [],
+    "hi": [
+      "कालीघाट चार आदि शक्तिपीठों में से एक है; उस परंपरा में इस पीठ को दक्षिणा कालिका कहा गया है।",
+      "यहाँ काली की पूजा कालीकुल परंपरा की सर्वोच्च देवी के रूप में होती है।",
+      "मंदिर में लाखों भक्त आते हैं, विशेषकर काली पूजा, पोइला बैसाख, स्नान यात्रा, दुर्गा पूजा और अमावस्याओं पर।",
+      "इस क्षेत्र को काली क्षेत्र भी कहा जाता है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -94,7 +99,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -103,7 +108,7 @@
     },
     "nearestAirport": {
       "en": "Kolkata (Netaji Subhas Chandra Bose International Airport).",
-      "hi": "",
+      "hi": "कोलकाता (नेताजी सुभाष चंद्र बोस अंतरराष्ट्रीय हवाई अड्डा)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -112,7 +117,7 @@
     },
     "nearestRail": {
       "en": "Howrah or Sealdah; the Kalighat metro station is nearby.",
-      "hi": "",
+      "hi": "हावड़ा या सियालदह; कालीघाट मेट्रो स्टेशन पास में है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -121,7 +126,7 @@
     },
     "bestSeason": {
       "en": "Kali Puja and Durga Puja in autumn are the busiest times.",
-      "hi": "",
+      "hi": "शरद ऋतु की काली पूजा और दुर्गा पूजा सबसे व्यस्त समय हैं।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -134,7 +139,7 @@
       "festivalId": "diwali",
       "localNote": {
         "en": "Kali Puja is celebrated on this new-moon night.",
-        "hi": "",
+        "hi": "इस अमावस्या की रात को काली पूजा मनाई जाती है।",
         "bn": "",
         "mr": "",
         "ta": "",

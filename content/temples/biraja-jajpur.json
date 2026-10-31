@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Girija / Biraja (Jajpur)",
-    "hi": "",
+    "hi": "गिरिजा / बिरजा (जाजपुर)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Biraja (Girija), a form of Durga",
-    "hi": "",
+    "hi": "देवी, बिरजा (गिरिजा) के रूप में, जो दुर्गा का एक रूप हैं",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Navel (as given in later tables; the Ashtadasha Stotram itself names no body part)",
-      "hi": "",
+      "hi": "नाभि (बाद की तालिकाओं के अनुसार; अष्टादश स्तोत्र स्वयं किसी अंग का नाम नहीं देता)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Girija (Biraja / Viraja)",
-      "hi": "",
+      "hi": "गिरिजा (बिरजा / विरजा)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Varaha (Varaheshwar)",
-      "hi": "",
+      "hi": "वराह (वराहेश्वर)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "The Biraja temple stands in Jajpur, about 125 km north of Bhubaneswar in Odisha, and gave the town its nicknames Biraja Kshetra and Biraja Pitha. The Pithanirnaya's 'Viraja-kshetra in Utkala' leads some traditions to identify Biraja with the Utkala pitha of the 51, which is usually placed at Puri's Vimala temple.",
-    "hi": "",
+    "hi": "बिरजा मंदिर ओडिशा में भुवनेश्वर से लगभग 125 किमी उत्तर में जाजपुर में है, और इसी से नगर को 'बिरजा क्षेत्र' और 'बिरजा पीठ' उपनाम मिले। पीठनिर्णय के 'उत्कल में विरजा-क्षेत्र' के आधार पर कुछ परंपराएँ बिरजा को 51 पीठों के उत्कल पीठ से जोड़ती हैं, जिसे प्रायः पुरी के विमला मंदिर में माना जाता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's navel fell here. Adi Shankara's Ashtadasha Shakti Peetha Stotram praises the goddess here as 'Odhyane Girija Devi'.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — नाभि — यहीं गिरा था। आदि शंकराचार्य का अष्टादश शक्तिपीठ स्तोत्र यहाँ देवी की 'ओढ्याने गिरिजा देवी' कहकर स्तुति करता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -82,7 +82,11 @@
       "One of her feet rests on a lion and the other on Mahishasura's chest.",
       "Jajpur is believed to hold about one crore Shiva lingas."
     ],
-    "hi": [],
+    "hi": [
+      "दो भुजाओं वाली दुर्गा एक हाथ से जलभैंसे के रूप में दिखाए गए महिषासुर की छाती में भाला भोंकती हैं और दूसरे हाथ से उसकी पूँछ खींचती हैं।",
+      "उनका एक पैर सिंह पर और दूसरा महिषासुर की छाती पर है।",
+      "माना जाता है कि जाजपुर में लगभग एक करोड़ शिवलिंग हैं।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -92,7 +96,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -101,7 +105,7 @@
     },
     "nearestAirport": {
       "en": "Bhubaneswar (Biju Patnaik International Airport), about 125 km away.",
-      "hi": "",
+      "hi": "भुवनेश्वर (बीजू पटनायक अंतरराष्ट्रीय हवाई अड्डा), लगभग 125 किमी दूर।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -110,7 +114,7 @@
     },
     "nearestRail": {
       "en": "Jajpur Keonjhar Road station.",
-      "hi": "",
+      "hi": "जाजपुर क्योंझर रोड स्टेशन।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -119,7 +123,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

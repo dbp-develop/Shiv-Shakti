@@ -15,7 +15,7 @@
     {
       "name": {
         "en": "Vaishno Devi (Reasi, Jammu and Kashmir)",
-        "hi": "",
+        "hi": "वैष्णो देवी (रियासी, जम्मू और कश्मीर)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -26,7 +26,7 @@
       "lng": 74.9489,
       "note": {
         "en": "Some devotees read the Ashtadasha Stotram's 'Jwala - Vaishnavi' as Vaishno Devi rather than Jwalamukhi.",
-        "hi": "",
+        "hi": "कुछ भक्त अष्टादश स्तोत्र के 'ज्वालायां वैष्णवी' को ज्वालामुखी के बजाय वैष्णो देवी मानते हैं।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -37,7 +37,7 @@
   ],
   "name": {
     "en": "Jwalamukhi",
-    "hi": "",
+    "hi": "ज्वालामुखी",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -46,7 +46,7 @@
   },
   "deity": {
     "en": "The Devi as Jwalamukhi, the goddess of the flaming mouth",
-    "hi": "",
+    "hi": "देवी, ज्वालामुखी के रूप में, ज्वालामय मुख वाली देवी",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -56,7 +56,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Tongue",
-      "hi": "",
+      "hi": "जीभ",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -65,7 +65,7 @@
     },
     "devi": {
       "en": "Siddhida (Ambika); in the Ashtadasha list, Vaishnavi",
-      "hi": "",
+      "hi": "सिद्धिदा (अंबिका); अष्टादश सूची में वैष्णवी",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -74,7 +74,7 @@
     },
     "bhairava": {
       "en": "Unmatta",
-      "hi": "",
+      "hi": "उन्मत्त",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -84,7 +84,7 @@
   },
   "history": {
     "en": "The Jwalamukhi temple stands in the town of Jawalamukhi in the Kangra district of Himachal Pradesh, in the Shivalik hills. It is built over a rock fissure that gives off natural gas, and the flames burning from it are worshipped as the goddess; there is no image. The earliest text to name the place, the 14th-century Tarikh-i-Firuz-Shahi, says Firuz Shah Tughlaq visited it. The Kangra district administration notes later gifts from Maharaja Ranjit Singh and a legend that the Mughal emperor Akbar tried and failed to put out the flames. The Ashtadasha Stotram's 'Jwala - Vaishnavi' is usually read as Jwalamukhi, though some devotees identify it with Vaishno Devi.",
-    "hi": "",
+    "hi": "ज्वालामुखी मंदिर हिमाचल प्रदेश के कांगड़ा ज़िले में शिवालिक पहाड़ियों के बीच ज्वालामुखी नगर में है। यह एक चट्टानी दरार पर बना है जिससे प्राकृतिक गैस निकलती है, और उससे जलती ज्वालाओं की देवी के रूप में पूजा होती है; यहाँ कोई प्रतिमा नहीं है। इस स्थान का नाम लेने वाला सबसे पुराना ग्रंथ, 14वीं सदी का तारीख़-ए-फ़ीरोज़शाही, बताता है कि फ़ीरोज़ शाह तुग़लक़ यहाँ आए थे। कांगड़ा ज़िला प्रशासन बाद में महाराजा रणजीत सिंह के दान और इस कथा का उल्लेख करता है कि मुग़ल सम्राट अकबर ने ज्वालाएँ बुझाने का प्रयास किया पर असफल रहे। अष्टादश स्तोत्र के 'ज्वालायां वैष्णवी' को प्रायः ज्वालामुखी माना जाता है, यद्यपि कुछ भक्त इसे वैष्णो देवी मानते हैं।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -93,7 +93,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's tongue fell here.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — जीभ — यहीं गिरा था।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -108,7 +108,13 @@
       "Abul Fazl described 'mountain lights resembling lamps' here and took them for the effect of a sulphur mine.",
       "The temple is surrounded by smaller shrines to other gods and goddesses."
     ],
-    "hi": [],
+    "hi": [
+      "देवी की पूजा चट्टान से उठती शाश्वत ज्वालाओं के रूप में होती है, जो प्रायः नौ होती हैं और हर एक को देवी का एक रूप माना जाता है।",
+      "ज्वालामुखी अष्टादश स्तोत्र के 18 महाशक्तिपीठों में से एक है।",
+      "भक्त मानते हैं कि यह दरार देवी का मुख है, जबकि उनका शरीर कांगड़ा के वज्रेश्वरी मंदिर में है।",
+      "अबुल फ़ज़ल ने यहाँ 'दीपकों जैसी पहाड़ी रोशनियों' का वर्णन किया और उन्हें गंधक की खान का प्रभाव माना।",
+      "मंदिर के चारों ओर अन्य देवी-देवताओं के छोटे मंदिर हैं।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -118,7 +124,7 @@
   "visiting": {
     "timings": {
       "en": "The district administration gives the hours as about 5:00 AM to 10:00 PM, with Mangal Aarti at 5:00 to 6:00 AM in summer (6:00 to 7:00 AM in winter), Bhog Aarti around noon, evening aarti at 7:00 to 8:00 PM and Shaiyan Aarti around 10:00 PM.",
-      "hi": "",
+      "hi": "ज़िला प्रशासन के अनुसार मंदिर लगभग सुबह 5:00 से रात 10:00 बजे तक खुला रहता है; मंगल आरती गर्मियों में सुबह 5:00–6:00 (सर्दियों में 6:00–7:00), भोग आरती लगभग दोपहर, संध्या आरती शाम 7:00–8:00 और शयन आरती लगभग रात 10:00 बजे होती है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -127,7 +133,7 @@
     },
     "nearestAirport": {
       "en": "Gaggal (Dharamshala), about 46 to 50 km; Chandigarh is about 200 km.",
-      "hi": "",
+      "hi": "गग्गल (धर्मशाला), लगभग 46–50 किमी; चंडीगढ़ लगभग 200 किमी।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -136,7 +142,7 @@
     },
     "nearestRail": {
       "en": "Pathankot is the nearest broad-gauge station (about 123 to 140 km); the narrow-gauge Kangra Valley line stops at Jawalamukhi Road.",
-      "hi": "",
+      "hi": "पठानकोट निकटतम बड़ी लाइन का स्टेशन है (लगभग 123–140 किमी); छोटी लाइन की कांगड़ा घाटी रेल ज्वालामुखी रोड पर रुकती है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -145,7 +151,7 @@
     },
     "bestSeason": {
       "en": "The temple is open all year. The district suggests March to June, or the Navratri festivals, when crowds and special pujas are at their peak.",
-      "hi": "",
+      "hi": "मंदिर पूरे वर्ष खुला रहता है। ज़िला प्रशासन मार्च से जून, या नवरात्रि का समय सुझाता है, जब भीड़ और विशेष पूजाएँ चरम पर होती हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

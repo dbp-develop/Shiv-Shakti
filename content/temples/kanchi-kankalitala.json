@@ -14,7 +14,7 @@
     {
       "name": {
         "en": "Adi Kamakshi temple (Kanchipuram, Tamil Nadu)",
-        "hi": "",
+        "hi": "आदि कामाक्षी मंदिर (कांचीपुरम, तमिलनाडु)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -25,7 +25,7 @@
       "lng": 79.7022,
       "note": {
         "en": "Some lists identify the Kanchi pitha with Kanchipuram.",
-        "hi": "",
+        "hi": "कुछ सूचियाँ कांची पीठ की पहचान कांचीपुरम से करती हैं।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -36,7 +36,7 @@
   ],
   "name": {
     "en": "Kanchi (Kankalitala)",
-    "hi": "",
+    "hi": "कांची (कंकालीतला)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -45,7 +45,7 @@
   },
   "deity": {
     "en": "The Devi as Devagarbha",
-    "hi": "",
+    "hi": "देवी, देवगर्भा के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -55,7 +55,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Skeleton (kankala)",
-      "hi": "",
+      "hi": "कंकाल",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -64,7 +64,7 @@
     },
     "devi": {
       "en": "Devagarbha",
-      "hi": "",
+      "hi": "देवगर्भा",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -73,7 +73,7 @@
     },
     "bhairava": {
       "en": "Ruru",
-      "hi": "",
+      "hi": "रुरु",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -83,7 +83,7 @@
   },
   "history": {
     "en": "Kankalitala is a temple town on the bank of the Kopai river, about 9 km from Bolpur on the Bolpur–Labhpur road, in the Birbhum district of West Bengal. Sircar notes that the earlier texts mean Kanchipuram by 'Kanchi', but that some late works composed in Bengal speak of a place on the Kopai in Birbhum. Banglapedia and the Bengali almanacs give Kankalitala, while other lists give the Adi Kamakshi temple of Kanchipuram.",
-    "hi": "",
+    "hi": "कंकालीतला पश्चिम बंगाल के बीरभूम ज़िले में बोलपुर–लाभपुर मार्ग पर बोलपुर से लगभग 9 किमी दूर, कोपाई नदी के किनारे एक मंदिर-नगर है। सरकार बताते हैं कि पुराने ग्रंथ 'कांची' से कांचीपुरम का अर्थ लेते हैं, पर बंगाल में रचित कुछ बाद की कृतियाँ बीरभूम में कोपाई के किनारे के एक स्थान की बात करती हैं। बांग्लापीडिया और बंगाली पंचांग कंकालीतला बताते हैं, जबकि अन्य सूचियाँ कांचीपुरम का आदि कामाक्षी मंदिर।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -92,7 +92,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's skeleton (kankal in Bengali) fell here.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — कंकाल (बंगाली में 'कंकाल') — यहीं गिरा था।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -105,7 +105,11 @@
       "The Kanchishwar Shiva temple stands in the Kankalitala temple complex.",
       "Kankalitala is a popular Hindu pilgrimage site of West Bengal, near Santiniketan."
     ],
-    "hi": [],
+    "hi": [
+      "नगर का नाम सती के कंकाल से पड़ा, जो माना जाता है कि यहीं गिरा था।",
+      "कंकालीतला मंदिर परिसर में कांचीश्वर शिव मंदिर है।",
+      "कंकालीतला शांतिनिकेतन के पास पश्चिम बंगाल का एक लोकप्रिय हिंदू तीर्थ है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -115,7 +119,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -124,7 +128,7 @@
     },
     "nearestAirport": {
       "en": "Kolkata (Netaji Subhas Chandra Bose International Airport).",
-      "hi": "",
+      "hi": "कोलकाता (नेताजी सुभाष चंद्र बोस अंतरराष्ट्रीय हवाई अड्डा)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -133,7 +137,7 @@
     },
     "nearestRail": {
       "en": "Bolpur Santiniketan station, about 9 km away.",
-      "hi": "",
+      "hi": "बोलपुर शांतिनिकेतन स्टेशन, लगभग 9 किमी दूर।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -142,7 +146,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

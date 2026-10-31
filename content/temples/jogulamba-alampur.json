@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Jogulamba (Alampur)",
-    "hi": "",
+    "hi": "जोगुलांबा (आलमपुर)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Jogulamba (Yogamba)",
-    "hi": "",
+    "hi": "देवी, जोगुलांबा (योगांबा) के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Teeth (as given in later tables; the Ashtadasha Stotram itself names no body part)",
-      "hi": "",
+      "hi": "दाँत (बाद की तालिकाओं के अनुसार; अष्टादश स्तोत्र स्वयं किसी अंग का नाम नहीं देता)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Jogulamba (Yogamba)",
-      "hi": "",
+      "hi": "जोगुलांबा (योगांबा)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Not named in the Ashtadasha tradition",
-      "hi": "",
+      "hi": "अष्टादश परंपरा में नाम नहीं दिया गया",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "Alampur stands on the Tungabhadra near its confluence with the Krishna. The Jogulamba temple is in the same complex as the Navabrahma temples, nine Shiva temples built by the Badami Chalukyas in the 7th and 8th centuries. The original temple was destroyed by the Bahmani Sultans in 1390; it was rebuilt on its former site in 2005, and the original image was installed in the new temple.",
-    "hi": "",
+    "hi": "आलमपुर तुंगभद्रा के तट पर कृष्णा के साथ उसके संगम के पास है। जोगुलांबा मंदिर नवब्रह्म मंदिरों के परिसर में ही है, जो बादामी चालुक्यों द्वारा 7वीं-8वीं सदी में बनाए गए नौ शिव मंदिर हैं। मूल मंदिर 1390 में बहमनी सुल्तानों ने नष्ट कर दिया था; 2005 में इसे पूर्व स्थान पर फिर से बनाया गया और नए मंदिर में मूल प्रतिमा स्थापित की गई।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's teeth fell here. Adi Shankara's Ashtadasha Shakti Peetha Stotram praises the goddess here as 'Alampure Jogulamba'.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — दाँत — यहीं गिरा था। आदि शंकराचार्य का अष्टादश शक्तिपीठ स्तोत्र यहाँ देवी की 'अलंपुरे जोगुलांबा' कहकर स्तुति करता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -82,7 +82,11 @@
       "The temple shares its complex with the Navabrahma temples of the Badami Chalukyas.",
       "Alampur lies near the confluence of the Tungabhadra and the Krishna."
     ],
-    "hi": [],
+    "hi": [
+      "देवी को एक शव पर विराजमान दिखाया गया है, जिनके सिर पर बिच्छू, मेंढक और छिपकली हैं।",
+      "मंदिर बादामी चालुक्यों के नवब्रह्म मंदिरों के साथ एक ही परिसर में है।",
+      "आलमपुर तुंगभद्रा और कृष्णा के संगम के पास है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -92,7 +96,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -101,7 +105,7 @@
     },
     "nearestAirport": {
       "en": "Hyderabad (Rajiv Gandhi International Airport).",
-      "hi": "",
+      "hi": "हैदराबाद (राजीव गांधी अंतरराष्ट्रीय हवाई अड्डा)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -110,7 +114,7 @@
     },
     "nearestRail": {
       "en": "Alampur Road station.",
-      "hi": "",
+      "hi": "आलमपुर रोड स्टेशन।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -119,7 +123,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

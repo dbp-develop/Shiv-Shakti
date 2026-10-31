@@ -15,7 +15,7 @@
   "alternateSites": [],
   "name": {
     "en": "Kamagiri / Kamarupa (Kamakhya)",
-    "hi": "",
+    "hi": "कामगिरि / कामरूप (कामाख्या)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -24,7 +24,7 @@
   },
   "deity": {
     "en": "The Devi as Kamakhya",
-    "hi": "",
+    "hi": "देवी, कामाख्या के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -34,7 +34,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Yoni",
-      "hi": "",
+      "hi": "योनि",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -43,7 +43,7 @@
     },
     "devi": {
       "en": "Kamakhya",
-      "hi": "",
+      "hi": "कामाख्या",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -52,7 +52,7 @@
     },
     "bhairava": {
       "en": "Umananda",
-      "hi": "",
+      "hi": "उमानंद",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -62,7 +62,7 @@
   },
   "history": {
     "en": "The Kamakhya temple stands on the Nilachal hill in Guwahati, Assam, and is one of the oldest centres of Tantric worship. The temple is dated structurally to the 8th to 9th centuries, with many later rebuildings that created the hybrid Nilachal style. The Koch king Nara Narayan completed its reconstruction in 1565, after his father Vishwasingha had revived worship at the ruins; the Ahom kings added the natamandira in the 18th century. The Kalika Purana links the goddess with Naraka, the legendary progenitor of the Kamarupa kings.",
-    "hi": "",
+    "hi": "कामाख्या मंदिर असम के गुवाहाटी में नीलाचल पहाड़ी पर है और तांत्रिक उपासना के सबसे प्राचीन केंद्रों में से एक है। संरचना की दृष्टि से मंदिर 8वीं-9वीं सदी का है, और बाद के अनेक पुनर्निर्माणों से इसकी मिश्रित 'नीलाचल' शैली बनी। कोच राजा नरनारायण ने 1565 में इसका पुनर्निर्माण पूरा कराया, जबकि उनके पिता विश्वसिंह ने खंडहरों में पूजा फिर से शुरू की थी; अहोम राजाओं ने 18वीं सदी में नाटमंदिर जोड़ा। कालिका पुराण देवी को कामरूप के राजाओं के पौराणिक पूर्वज नरक से जोड़ता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -71,7 +71,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's yoni fell here. Here the goddess is worshipped not as an image but as a yoni-shaped cleft in the rock, kept moist by a natural spring.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — योनि — यहीं गिरा था। यहाँ देवी की पूजा प्रतिमा के रूप में नहीं, बल्कि चट्टान में योनि-आकार की एक दरार के रूप में होती है, जिसे एक प्राकृतिक झरना नम रखता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -87,7 +87,14 @@
       "Manasa Puja is held for three days from Shravana Sankranti, with the Deodhani dance in the natamandir.",
       "Durga Puja is celebrated here for five days during the autumn Navratri."
     ],
-    "hi": [],
+    "hi": [
+      "कामाख्या तीनों सूचियों में गिना जाता है: 51 पीठ, 18 महाशक्तिपीठ और चार आदि शक्तिपीठ।",
+      "गर्भगृह एक छोटी, अँधेरी गुफा है, जिस तक संकरी और खड़ी पत्थर की सीढ़ियाँ जाती हैं।",
+      "मुख्य मंदिर दस महाविद्याओं के मंदिरों से घिरा है।",
+      "अंबुबाची मेले में, जब माना जाता है कि देवी वार्षिक रजस्वला होती हैं, मंदिर के द्वार तीन दिन बंद रहते हैं।",
+      "श्रावण संक्रांति से तीन दिन मनसा पूजा होती है, जिसमें नाटमंदिर में देवधनी नृत्य होता है।",
+      "शारदीय नवरात्रि में यहाँ पाँच दिन दुर्गा पूजा मनाई जाती है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -97,7 +104,7 @@
   "visiting": {
     "timings": {
       "en": "Darshan follows the Devalaya's daily schedule; special darshan tickets are sold through its website. The temple closes during the Ambubachi Mela.",
-      "hi": "",
+      "hi": "दर्शन देवालय की दैनिक समय-सारणी के अनुसार होते हैं; विशेष दर्शन के टिकट उसकी वेबसाइट पर मिलते हैं। अंबुबाची मेले के दौरान मंदिर बंद रहता है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -106,7 +113,7 @@
     },
     "nearestAirport": {
       "en": "Guwahati (Lokapriya Gopinath Bordoloi International Airport).",
-      "hi": "",
+      "hi": "गुवाहाटी (लोकप्रिय गोपीनाथ बोरदोलोई अंतरराष्ट्रीय हवाई अड्डा)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -115,7 +122,7 @@
     },
     "nearestRail": {
       "en": "Kamakhya and Guwahati stations.",
-      "hi": "",
+      "hi": "कामाख्या और गुवाहाटी स्टेशन।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -124,7 +131,7 @@
     },
     "bestSeason": {
       "en": "The Ambubachi Mela in June is the largest gathering; Durga Puja in autumn is also busy.",
-      "hi": "",
+      "hi": "जून का अंबुबाची मेला सबसे बड़ा समागम है; शरद ऋतु की दुर्गा पूजा में भी भीड़ रहती है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -137,7 +144,7 @@
       "festivalId": "ambubachi",
       "localNote": {
         "en": "The temple closes for three days and reopens with great crowds.",
-        "hi": "",
+        "hi": "मंदिर तीन दिन बंद रहता है और भारी भीड़ के साथ फिर खुलता है।",
         "bn": "",
         "mr": "",
         "ta": "",

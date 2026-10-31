@@ -12,7 +12,7 @@
     {
       "name": {
         "en": "Mamleshwar (Amareshwar) temple",
-        "hi": "",
+        "hi": "ममलेश्वर (अमरेश्वर) मंदिर",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -23,7 +23,7 @@
       "lng": 76.1505,
       "note": {
         "en": "Many traditions hold that the Jyotirlinga is Omkareshwar and Mamleshwar together; some regard Mamleshwar (Amaleshwar) as the Jyotirlinga itself.",
-        "hi": "",
+        "hi": "कई परंपराएँ ओंकारेश्वर और ममलेश्वर को मिलाकर ज्योतिर्लिंग मानती हैं; कुछ ममलेश्वर (अमलेश्वर) को ही ज्योतिर्लिंग मानती हैं।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -34,7 +34,7 @@
   ],
   "name": {
     "en": "Omkareshwar",
-    "hi": "",
+    "hi": "ओंकारेश्वर",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -43,7 +43,7 @@
   },
   "deity": {
     "en": "Shiva as Omkareshwar, the Lord of Om",
-    "hi": "",
+    "hi": "शिव, ओंकारेश्वर — ॐ के स्वामी — के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -52,7 +52,7 @@
   },
   "history": {
     "en": "Shri Omkareshwar Mandir Trust describes Omkareshwar as the fourth of the twelve Jyotirlingas, mentioned in the Skanda, Shiva and Vayu Puranas, on the Narmada river in Madhya Pradesh about 77 km from Indore. It stands on Mandhata island, whose shape is said to resemble the Om symbol. There are two main Shiva temples: Omkareshwar on the island and Mamleshwar (also called Amreshwar or Amaleshwar) on the southern bank. Traditions differ on which holds the Jyotirlinga: many treat the two together, and some regard Mamleshwar as the Jyotirlinga itself. The Trust says Mamleshwar is managed by the Ahilyabai Khasgi Trust, and that Maharani Ahilyabai Holkar used to worship there.",
-    "hi": "",
+    "hi": "श्री ओंकारेश्वर मंदिर ट्रस्ट ओंकारेश्वर को बारह ज्योतिर्लिंगों में चौथा बताता है, जिसका उल्लेख स्कंद, शिव और वायु पुराणों में है, और जो मध्य प्रदेश में नर्मदा नदी पर इंदौर से लगभग 77 किमी दूर है। यह मांधाता द्वीप पर है, जिसका आकार ॐ चिह्न जैसा बताया जाता है। यहाँ शिव के दो मुख्य मंदिर हैं: द्वीप पर ओंकारेश्वर और दक्षिणी तट पर ममलेश्वर (जिसे अमरेश्वर या अमलेश्वर भी कहते हैं)। ज्योतिर्लिंग किसमें है, इस पर परंपराएँ अलग हैं: कई दोनों को साथ मानती हैं, और कुछ ममलेश्वर को ही ज्योतिर्लिंग मानती हैं। ट्रस्ट के अनुसार ममलेश्वर का प्रबंधन अहिल्याबाई खासगी ट्रस्ट करता है, और महारानी अहिल्याबाई होल्कर वहाँ पूजा करती थीं।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -61,7 +61,7 @@
   },
   "story": {
     "en": "According to legend, Vindhya, the deity of the Vindhya mountains, worshipped Shiva with a linga of sand and clay, and Shiva appeared in two forms, as Omkareshwar and Amaleshwara. Other stories are told as well, including king Mandhata of the Ikshvaku line worshipping Shiva here, and Shiva emerging as the Jyotirlinga to defeat the Danavas after the Devas prayed to him.",
-    "hi": "",
+    "hi": "कथा के अनुसार विंध्य पर्वत के देवता विंध्य ने रेत और मिट्टी के लिंग से शिव की पूजा की, और शिव दो रूपों में प्रकट हुए, ओंकारेश्वर और अमलेश्वर। और भी कथाएँ कही जाती हैं, जैसे इक्ष्वाकु वंश के राजा मांधाता का यहाँ शिव की पूजा करना, और देवताओं की प्रार्थना पर दानवों को हराने के लिए शिव का ज्योतिर्लिंग रूप में प्रकट होना।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -77,7 +77,14 @@
       "By tradition, Omkareshwar is the place where Adi Shankara met his guru Govinda Bhagavatpada in a cave.",
       "A Somvar Sawari procession starts from Koti Tirth Ghat every Monday, and a royal version is held in Shravan."
     ],
-    "hi": [],
+    "hi": [
+      "ट्रस्ट ओंकारेश्वर को बारह ज्योतिर्लिंगों में चौथा बताता है।",
+      "ट्रस्ट के अनुसार ओंकारेश्वर नर्मदा के उत्तरी तट पर स्थित एकमात्र ज्योतिर्लिंग है।",
+      "ट्रस्ट के अनुसार माना जाता है कि शिव हर दिन तीनों लोकों का भ्रमण करके यहाँ विश्राम करते हैं, इसलिए मंदिर में हर रात शयन आरती और शयन दर्शन होते हैं।",
+      "ओंकार पर्वत की परिक्रमा लगभग 7 किमी की है और सिद्धनाथ बारादरी, गौरी सोमनाथ मंदिर और एकात्म धाम में आदि शंकराचार्य की प्रतिमा जैसे स्थलों से होकर जाती है।",
+      "परंपरा के अनुसार ओंकारेश्वर वह स्थान है जहाँ आदि शंकर एक गुफा में अपने गुरु गोविंद भगवत्पाद से मिले।",
+      "हर सोमवार कोटि तीर्थ घाट से सोमवार की सवारी निकलती है, और श्रावण में इसका शाही रूप निकलता है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -87,7 +94,7 @@
   "visiting": {
     "timings": {
       "en": "The Trust lists Mangal Darshan from about 5:00 AM to 12:20 PM, Madhyanha Darshan 1:15 to 4:00 PM, Shringar Darshan 4:30 to 9:30 PM and Shayan Darshan 10:00 to 10:30 PM, with breaks for bhog and aarti. Darshan is closed before 5:00 AM and after 10:30 PM, and timings can vary on special occasions. Normal darshan is free.",
-      "hi": "",
+      "hi": "ट्रस्ट मंगल दर्शन लगभग सुबह 5:00 से दोपहर 12:20, मध्याह्न दर्शन 1:15 से 4:00, शृंगार दर्शन शाम 4:30 से रात 9:30 और शयन दर्शन रात 10:00 से 10:30 बताता है, बीच में भोग और आरती के लिए विराम रहते हैं। सुबह 5:00 से पहले और रात 10:30 के बाद दर्शन बंद रहते हैं, और विशेष अवसरों पर समय बदल सकता है। सामान्य दर्शन निःशुल्क है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -96,7 +103,7 @@
     },
     "nearestAirport": {
       "en": "Devi Ahilyabai Holkar International Airport, Indore, about 77 km.",
-      "hi": "",
+      "hi": "देवी अहिल्याबाई होल्कर अंतरराष्ट्रीय हवाई अड्डा, इंदौर, लगभग 77 किमी।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -105,7 +112,7 @@
     },
     "nearestRail": {
       "en": "Sanawad station (about 12 km, local trains to Khandwa) or Khandwa Junction (about 72 km, express trains).",
-      "hi": "",
+      "hi": "सनावद स्टेशन (लगभग 12 किमी, खंडवा के लिए लोकल ट्रेनें) या खंडवा जंक्शन (लगभग 72 किमी, एक्सप्रेस ट्रेनें)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -114,7 +121,7 @@
     },
     "bestSeason": {
       "en": "The Trust gives no best season. Mondays have the Somvar Sawari, and Shravan has a royal version of it; Maha Shivaratri is also celebrated here.",
-      "hi": "",
+      "hi": "ट्रस्ट कोई सबसे अच्छा मौसम नहीं बताता। सोमवार को सोमवार की सवारी निकलती है, और श्रावण में इसका शाही रूप; महाशिवरात्रि भी यहाँ मनाई जाती है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -130,7 +137,7 @@
       "festivalId": "shravan-somvar",
       "localNote": {
         "en": "A royal Somvar Sawari is held during Shravan.",
-        "hi": "",
+        "hi": "श्रावण में शाही सोमवार सवारी निकलती है।",
         "bn": "",
         "mr": "",
         "ta": "",

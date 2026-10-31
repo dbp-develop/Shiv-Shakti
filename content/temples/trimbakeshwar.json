@@ -11,7 +11,7 @@
   "alternateSites": [],
   "name": {
     "en": "Trimbakeshwar",
-    "hi": "",
+    "hi": "त्र्यंबकेश्वर",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -20,7 +20,7 @@
   },
   "deity": {
     "en": "Shiva as Trimbakeshwar, the three-eyed Lord, with Brahma and Vishnu",
-    "hi": "",
+    "hi": "शिव, त्र्यंबकेश्वर — त्रिनेत्र प्रभु — के रूप में, ब्रह्मा और विष्णु के साथ",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -29,7 +29,7 @@
   },
   "history": {
     "en": "Trimbakeshwar stands in the town of Trimbak, about 28 km from Nashik, at the foot of the Brahmagiri hill from which the Godavari river rises. Shri Trimbakeshwar Devasthan Trust says the present temple was built by the third Peshwa, Balaji Bajirao (Nanasaheb Peshwa, 1740 to 1760), on the site of an old temple, and that the Jogalekar family looked after the temple from his time. The temple's affairs were registered as a public trust in 1954. Since 1995 a board of trustees has managed it, chaired by a judge appointed by the District Judge.",
-    "hi": "",
+    "hi": "त्र्यंबकेश्वर नासिक से लगभग 28 किमी दूर त्र्यंबक नगर में ब्रह्मगिरि पहाड़ी की तलहटी में है, जहाँ से गोदावरी नदी निकलती है। श्री त्र्यंबकेश्वर देवस्थान ट्रस्ट बताता है कि वर्तमान मंदिर तीसरे पेशवा बालाजी बाजीराव (नानासाहेब पेशवा, 1740 से 1760) ने एक पुराने मंदिर के स्थान पर बनवाया, और उन्हीं के समय से जोगलेकर परिवार मंदिर की देखरेख करता रहा। 1954 में मंदिर के कामकाज को सार्वजनिक ट्रस्ट के रूप में पंजीकृत किया गया। 1995 से न्यासी मंडल इसका प्रबंधन करता है, जिसके अध्यक्ष ज़िला न्यायाधीश द्वारा नियुक्त एक न्यायाधीश होते हैं।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -38,7 +38,7 @@
   },
   "story": {
     "en": "According to tradition, the sage Gautama lived with his wife Ahalya near Brahmagiri. During a drought he performed long penance there, and Shiva, pleased, sent the Ganga to flow in the region; she appeared on Brahmagiri as the Godavari. Gautama is said to have bathed in her waters to free himself from the sin of accidentally killing a cow.",
-    "hi": "",
+    "hi": "परंपरा के अनुसार ऋषि गौतम अपनी पत्नी अहल्या के साथ ब्रह्मगिरि के पास रहते थे। एक अकाल के दौरान उन्होंने वहाँ लंबी तपस्या की, और प्रसन्न होकर शिव ने गंगा को उस क्षेत्र में बहने भेजा; वे ब्रह्मगिरि पर गोदावरी के रूप में प्रकट हुईं। कहा जाता है कि गौतम ने अनजाने में एक गाय की हत्या के पाप से मुक्ति के लिए उनके जल में स्नान किया।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -54,7 +54,14 @@
       "On every Monday the Trust takes the palanquin of Trimbakeshwar in procession to Kushavarta tirth for worship.",
       "The linga is covered by a jewelled crown placed over a gold mask of the three deities; the crown is shown to devotees on Mondays."
     ],
-    "hi": [],
+    "hi": [
+      "ट्रस्ट बताता है कि यहाँ का लिंग असामान्य है: इसके तीन मुख हैं, जो ब्रह्मा, विष्णु और शिव का प्रतीक हैं।",
+      "प्रायद्वीपीय भारत की सबसे लंबी नदी गोदावरी नगर के ऊपर ब्रह्मगिरि पहाड़ी से निकलती है।",
+      "हर बारह वर्ष में यहाँ होने वाले सिंहस्थ कुंभ मेले में सबसे पवित्र स्नान (शाही स्नान) त्र्यंबकेश्वर के कुशावर्त तीर्थ में होता है।",
+      "संत ज्ञानेश्वर के बड़े भाई और गुरु संत निवृत्तिनाथ ने त्र्यंबकेश्वर में समाधि ली, और उनकी पुण्यतिथि की यात्रा में लाखों वारकरी तीर्थयात्री आते हैं।",
+      "हर सोमवार ट्रस्ट त्र्यंबकेश्वर की पालकी को शोभायात्रा में पूजा के लिए कुशावर्त तीर्थ ले जाता है।",
+      "लिंग तीनों देवों के सोने के मुखौटे के ऊपर रखे रत्नजड़ित मुकुट से ढका रहता है; सोमवार को भक्तों को मुकुट के दर्शन कराए जाते हैं।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -64,7 +71,7 @@
   "visiting": {
     "timings": {
       "en": "The Trust gives darshan hours as 5:30 AM to 9:00 PM. Paid donation darshan passes are also sold by the Trust.",
-      "hi": "",
+      "hi": "ट्रस्ट दर्शन का समय सुबह 5:30 से रात 9:00 बताता है। ट्रस्ट सशुल्क दान दर्शन पास भी देता है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -73,7 +80,7 @@
     },
     "nearestAirport": {
       "en": "Nashik (Ozar) airport, about 24 km from Nashik city, which is about 28 to 30 km from Trimbakeshwar.",
-      "hi": "",
+      "hi": "नासिक (ओझर) हवाई अड्डा, नासिक शहर से लगभग 24 किमी; नासिक त्र्यंबकेश्वर से लगभग 28 से 30 किमी दूर है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -82,7 +89,7 @@
     },
     "nearestRail": {
       "en": "Nashik Road, about 40 km away.",
-      "hi": "",
+      "hi": "नासिक रोड, लगभग 40 किमी दूर।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -91,7 +98,7 @@
     },
     "bestSeason": {
       "en": "The Trust's busiest days are Maha Shivaratri, the Mondays of Shravan, and Tripuri Purnima in Kartik, when the deity is taken out in a chariot.",
-      "hi": "",
+      "hi": "ट्रस्ट के सबसे भीड़ वाले दिन महाशिवरात्रि, श्रावण के सोमवार और कार्तिक की त्रिपुरी पूर्णिमा हैं, जब देवता को रथ में निकाला जाता है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -104,7 +111,7 @@
       "festivalId": "maha-shivaratri",
       "localNote": {
         "en": "The palanquin of Trimbakraja is taken through the town, with kirtan at night.",
-        "hi": "",
+        "hi": "त्र्यंबकराज की पालकी नगर में घुमाई जाती है, और रात में कीर्तन होता है।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -119,7 +126,7 @@
       "festivalId": "nag-panchami",
       "localNote": {
         "en": "The deity is specially adorned.",
-        "hi": "",
+        "hi": "देवता का विशेष शृंगार होता है।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -131,7 +138,7 @@
       "festivalId": "kartik-purnima",
       "localNote": {
         "en": "The chariot procession of Trimbakraja goes to Kushavarta tirth, and lamps are lit in front of the temple.",
-        "hi": "",
+        "hi": "त्र्यंबकराज की रथयात्रा कुशावर्त तीर्थ तक जाती है, और मंदिर के सामने दीप जलाए जाते हैं।",
         "bn": "",
         "mr": "",
         "ta": "",

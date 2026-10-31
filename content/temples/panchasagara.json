@@ -14,7 +14,7 @@
     {
       "name": {
         "en": "Varahi Devi temple (Devidhura, Champawat, Uttarakhand)",
-        "hi": "",
+        "hi": "वाराही देवी मंदिर (देवीधुरा, चंपावत, उत्तराखंड)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -25,7 +25,7 @@
       "lng": 79.8651,
       "note": {
         "en": "One of the places popularly identified with Panchasagara.",
-        "hi": "",
+        "hi": "उन स्थानों में से एक जिन्हें लोक में पंचसागर माना जाता है।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -36,7 +36,7 @@
     {
       "name": {
         "en": "Danteshwari temple (Dantewada, Chhattisgarh)",
-        "hi": "",
+        "hi": "दंतेश्वरी मंदिर (दंतेवाड़ा, छत्तीसगढ़)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -47,7 +47,7 @@
       "lng": 81.345,
       "note": {
         "en": "Its name recalls the tooth (danth) of Sati, and some identify it with this pitha.",
-        "hi": "",
+        "hi": "इसका नाम सती के दाँत (दंत) की याद दिलाता है, और कुछ लोग इसे इसी पीठ से जोड़ते हैं।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -58,7 +58,7 @@
   ],
   "name": {
     "en": "Panchasagara (Varahi)",
-    "hi": "",
+    "hi": "पंचसागर (वाराही)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -67,7 +67,7 @@
   },
   "deity": {
     "en": "The Devi as Varahi",
-    "hi": "",
+    "hi": "देवी, वाराही के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -77,7 +77,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Lower teeth",
-      "hi": "",
+      "hi": "निचले दाँत",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -86,7 +86,7 @@
     },
     "devi": {
       "en": "Varahi",
-      "hi": "",
+      "hi": "वाराही",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -95,7 +95,7 @@
     },
     "bhairava": {
       "en": "Maharudra",
-      "hi": "",
+      "hi": "महारुद्र",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -105,7 +105,7 @@
   },
   "history": {
     "en": "Sircar and Green Message leave Panchasagara unidentified ('possibly the oceans are indicated'). Popular claims point to three places: the Varahi temple near Man Mandir Ghat in Varanasi, favoured by most devotional sources and shown here as the main pin; the Varahi Devi temple at Devidhura in Champawat, Uttarakhand; and the Danteshwari temple at Dantewada, Chhattisgarh, whose name comes from a tooth (danth) of Sati.",
-    "hi": "",
+    "hi": "सरकार और ग्रीन मैसेज पंचसागर को अचिह्नित छोड़ते हैं ('संभवतः समुद्रों का संकेत है')। लोकप्रिय दावे तीन स्थानों की ओर इशारा करते हैं: वाराणसी में मान मंदिर घाट के पास वाराही मंदिर, जिसे अधिकांश भक्ति-स्रोत मानते हैं और जो यहाँ मुख्य बिंदु के रूप में दिखाया गया है; उत्तराखंड के चंपावत में देवीधुरा का वाराही देवी मंदिर; और छत्तीसगढ़ के दंतेवाड़ा का दंतेश्वरी मंदिर, जिसका नाम सती के दाँत (दंत) से आया है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -114,7 +114,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's lower teeth fell here. In Varanasi, Varahi is worshipped as Patala Bhairavi.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — निचले दाँत — यहीं गिरा था। वाराणसी में वाराही की पूजा पाताल भैरवी के रूप में होती है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -127,7 +127,11 @@
       "Danteshwari, one of the claimants, was built in the 14th century and is the family goddess of the old Bastar state.",
       "At Dantewada, thousands of tribal pilgrims gather each Dussehra, when the goddess is carried in procession."
     ],
-    "hi": [],
+    "hi": [
+      "इस पीठ का स्थान अनिश्चित है, और तीन स्थान इसका दावा करते हैं।",
+      "दावेदारों में से एक, दंतेश्वरी, 14वीं सदी में बना और पुराने बस्तर राज्य की कुलदेवी है।",
+      "दंतेवाड़ा में हर दशहरे पर हज़ारों आदिवासी तीर्थयात्री जुटते हैं, जब देवी की शोभायात्रा निकलती है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -137,7 +141,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -146,7 +150,7 @@
     },
     "nearestAirport": {
       "en": "Varanasi (Lal Bahadur Shastri) Airport.",
-      "hi": "",
+      "hi": "वाराणसी (लाल बहादुर शास्त्री) हवाई अड्डा।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -155,7 +159,7 @@
     },
     "nearestRail": {
       "en": "Varanasi Junction.",
-      "hi": "",
+      "hi": "वाराणसी जंक्शन।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -164,7 +168,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

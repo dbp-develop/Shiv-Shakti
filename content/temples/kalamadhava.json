@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Kalamadhava",
-    "hi": "",
+    "hi": "कालमाधव",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Kali",
-    "hi": "",
+    "hi": "देवी, काली के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Left buttock",
-      "hi": "",
+      "hi": "बायाँ नितंब",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Kali",
-      "hi": "",
+      "hi": "काली",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Asitanga",
-      "hi": "",
+      "hi": "असितांग",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "The location of Kalamadhava is not identified by Sircar or Green Message. Popular lists place it in a hill cave by the Son river at Amarkantak, where the Son and the Narmada rise. No specific shrine has been identified, so the map pin marks Amarkantak town. About 2 km south of the Narmada temple, at Sonmuda, two ponds named Sona and Bhadra join to form the Sonbhadra (Son) river, which falls in a waterfall.",
-    "hi": "",
+    "hi": "कालमाधव के स्थान की पहचान न सरकार करते हैं, न ग्रीन मैसेज। लोकप्रिय सूचियाँ इसे अमरकंटक में सोन नदी के किनारे एक पहाड़ी गुफा में मानती हैं, जहाँ सोन और नर्मदा का उद्गम होता है। कोई विशेष मंदिर पहचाना नहीं गया है, इसलिए मानचित्र पर अमरकंटक नगर दिखाया गया है। नर्मदा मंदिर से लगभग 2 किमी दक्षिण में सोनमुडा में सोना और भद्रा नाम के दो कुंड मिलकर सोनभद्र (सोन) नदी बनाते हैं, जो एक जलप्रपात के रूप में गिरती है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's left buttock fell here.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — बायाँ नितंब — यहीं गिरा था।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -82,7 +82,11 @@
       "Amarkantak lies where the Vindhya and Satpura ranges meet.",
       "Sonmuda, the source of the Son, has a waterfall said to be about 300 feet high."
     ],
-    "hi": [],
+    "hi": [
+      "इस पीठ का स्थान अनिश्चित है।",
+      "अमरकंटक वहाँ है जहाँ विंध्य और सतपुड़ा पर्वतमालाएँ मिलती हैं।",
+      "सोन के उद्गम सोनमुडा में लगभग 300 फ़ुट ऊँचा बताया जाने वाला जलप्रपात है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -92,7 +96,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -101,7 +105,7 @@
     },
     "nearestAirport": {
       "en": "Jabalpur (Dumna) Airport, about 240 km away.",
-      "hi": "",
+      "hi": "जबलपुर (डुमना) हवाई अड्डा, लगभग 240 किमी दूर।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -110,7 +114,7 @@
     },
     "nearestRail": {
       "en": "Pendra Road (about 43 km) and Anuppur (about 75 km).",
-      "hi": "",
+      "hi": "पेंड्रा रोड (लगभग 43 किमी) और अनूपपुर (लगभग 75 किमी)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -119,7 +123,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit Amarkantak through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष अमरकंटक आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

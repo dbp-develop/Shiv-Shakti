@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Prabhasa (Chandrabhaga)",
-    "hi": "",
+    "hi": "प्रभास (चंद्रभागा)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Chandrabhaga",
-    "hi": "",
+    "hi": "देवी, चंद्रभागा के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Stomach",
-      "hi": "",
+      "hi": "उदर",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Chandrabhaga",
-      "hi": "",
+      "hi": "चंद्रभागा",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Vakratunda",
-      "hi": "",
+      "hi": "वक्रतुंड",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "Sircar and Green Message identify Prabhasa with Prabhas Patan, the holy town of the Somnath Jyotirlinga on the Gujarat coast. No individual Chandrabhaga shrine has been located, so the map pin marks the Triveni Sangam, where the Hiran, Kapila and Saraswati rivers meet near Somnath.",
-    "hi": "",
+    "hi": "सरकार और ग्रीन मैसेज प्रभास को गुजरात तट पर सोमनाथ ज्योतिर्लिंग के पवित्र नगर प्रभास पाटन से जोड़ते हैं। चंद्रभागा का कोई अलग मंदिर नहीं मिला है, इसलिए मानचित्र का बिंदु त्रिवेणी संगम को दर्शाता है, जहाँ सोमनाथ के पास हिरण, कपिला और सरस्वती नदियाँ मिलती हैं।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's stomach fell here.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — उदर — यहीं गिरा था।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -82,7 +82,11 @@
       "The Triveni Sangam of the Hiran, Kapila and Saraswati rivers lies nearby.",
       "Bhalka Tirth, where Krishna is said to have been struck by a hunter's arrow, is close by."
     ],
-    "hi": [],
+    "hi": [
+      "प्रभास पाटन बारह में से पहले, सोमनाथ ज्योतिर्लिंग का भी स्थान है।",
+      "हिरण, कपिला और सरस्वती नदियों का त्रिवेणी संगम पास ही है।",
+      "भालका तीर्थ, जहाँ कहा जाता है कि कृष्ण को एक शिकारी का बाण लगा था, पास ही है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -92,7 +96,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -101,7 +105,7 @@
     },
     "nearestAirport": {
       "en": "Diu Airport, about 95 km by road.",
-      "hi": "",
+      "hi": "दीव हवाई अड्डा, सड़क से लगभग 95 किमी।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -110,7 +114,7 @@
     },
     "nearestRail": {
       "en": "Veraval Junction, about 7 km away.",
-      "hi": "",
+      "hi": "वेरावल जंक्शन, लगभग 7 किमी दूर।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -119,7 +123,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

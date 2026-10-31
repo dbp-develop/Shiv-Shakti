@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Kurukshetra (Bhadrakali, Thanesar)",
-    "hi": "",
+    "hi": "कुरुक्षेत्र (भद्रकाली, थानेसर)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Bhadrakali, at the Shri Devi Koop temple",
-    "hi": "",
+    "hi": "देवी, श्री देवी कूप मंदिर में भद्रकाली के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Right ankle",
-      "hi": "",
+      "hi": "दाहिना टखना",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Savitri, worshipped as Bhadrakali",
-      "hi": "",
+      "hi": "सावित्री, भद्रकाली के रूप में पूजित",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Sthanu",
-      "hi": "",
+      "hi": "स्थाणु",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "The Maa Bhadrakali temple, also called Shri Devi Koop, stands in Thanesar, Kurukshetra. Incredible India describes it as one of the 51 Shakti Peethas, dedicated to Bhadrakali, one of the eight forms of Kali. Its name, Devi Koop ('the goddess's well'), comes from the belief that Sati's right ankle fell into a well on this spot; a large white marble lotus now marks it inside the temple.",
-    "hi": "",
+    "hi": "माँ भद्रकाली मंदिर, जिसे श्री देवी कूप भी कहते हैं, कुरुक्षेत्र के थानेसर में है। इनक्रेडिबल इंडिया इसे 51 शक्तिपीठों में से एक बताता है, जो काली के आठ रूपों में से एक, भद्रकाली को समर्पित है। इसका नाम देवी कूप ('देवी का कुआँ') इस मान्यता से पड़ा कि सती का दाहिना टखना इसी स्थान पर एक कुएँ में गिरा था; अब मंदिर के भीतर सफ़ेद संगमरमर का एक बड़ा कमल उस स्थान को चिह्नित करता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's right ankle fell here. Local tradition says the Pandavas sought the goddess's blessing here before the Kurukshetra war and offered horses after their victory.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — दाहिना टखना — यहीं गिरा था। स्थानीय परंपरा के अनुसार पांडवों ने कुरुक्षेत्र युद्ध से पहले यहाँ देवी का आशीर्वाद लिया और विजय के बाद घोड़े अर्पित किए।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -83,7 +83,12 @@
       "Local tradition holds that the mundan (first haircut) of Krishna and Balarama took place here, and the temple is popular for mundan ceremonies.",
       "Navratri, Raksha Bandhan and Durga Puja draw worshippers from across India."
     ],
-    "hi": [],
+    "hi": [
+      "जिन भक्तों की मनोकामना पूरी होती है, वे पांडवों की भेंट की याद में मिट्टी, टेराकोटा या धातु के छोटे घोड़े चढ़ाते हैं।",
+      "शनिवार की पूजा विशेष फलदायी मानी जाती है।",
+      "स्थानीय परंपरा के अनुसार कृष्ण और बलराम का मुंडन यहीं हुआ था, और मंदिर मुंडन संस्कार के लिए लोकप्रिय है।",
+      "नवरात्रि, रक्षाबंधन और दुर्गा पूजा पर पूरे भारत से भक्त आते हैं।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -93,7 +98,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -102,7 +107,7 @@
     },
     "nearestAirport": {
       "en": "Chandigarh International Airport.",
-      "hi": "",
+      "hi": "चंडीगढ़ अंतरराष्ट्रीय हवाई अड्डा।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -111,7 +116,7 @@
     },
     "nearestRail": {
       "en": "Kurukshetra Junction.",
-      "hi": "",
+      "hi": "कुरुक्षेत्र जंक्शन।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -120,7 +125,7 @@
     },
     "bestSeason": {
       "en": "Navratri and Durga Puja are the busiest times.",
-      "hi": "",
+      "hi": "नवरात्रि और दुर्गा पूजा सबसे व्यस्त समय हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

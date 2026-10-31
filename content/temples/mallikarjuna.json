@@ -11,7 +11,7 @@
   "alternateSites": [],
   "name": {
     "en": "Mallikarjuna (Srisailam)",
-    "hi": "",
+    "hi": "मल्लिकार्जुन (श्रीशैलम)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -24,7 +24,7 @@
   ],
   "deity": {
     "en": "Shiva as Mallikarjuna, with the goddess Bhramaramba",
-    "hi": "",
+    "hi": "शिव, मल्लिकार्जुन के रूप में, देवी भ्रमरांबा के साथ",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -33,7 +33,7 @@
   },
   "history": {
     "en": "The Srisailam temple of Mallikarjuna and Bhramaramba stands in the Nandyal district of Andhra Pradesh and is administered by the state government through Srisaila Devasthanam. Inscriptions from the Satavahana period are reported to place the temple in existence from about the 2nd century CE, and major additions were made under Vijayanagara rulers in the 14th and 15th centuries. The Devasthanam says the steps down to Pathalaganga on the Krishna river were built by Vittalamba, consort of Harihara II, around 1393 to 1396. It also says Adi Shankaracharya visited Srisailam and composed the Soundaryalahari there.",
-    "hi": "",
+    "hi": "श्रीशैलम का मल्लिकार्जुन और भ्रमरांबा मंदिर आंध्र प्रदेश के नंद्याल ज़िले में है और राज्य सरकार श्रीशैल देवस्थानम के माध्यम से इसका प्रबंधन करती है। बताया जाता है कि सातवाहन काल के अभिलेखों के अनुसार मंदिर लगभग दूसरी सदी ईस्वी से अस्तित्व में है, और 14वीं-15वीं सदी में विजयनगर शासकों के काल में बड़े विस्तार हुए। देवस्थानम के अनुसार कृष्णा नदी पर पातालगंगा तक उतरने वाली सीढ़ियाँ हरिहर द्वितीय की पत्नी विट्ठलांबा ने लगभग 1393 से 1396 के बीच बनवाईं। वह यह भी बताता है कि आदि शंकराचार्य श्रीशैलम आए और यहीं सौंदर्यलहरी की रचना की।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -42,7 +42,7 @@
   },
   "story": {
     "en": "According to legend, when Shiva and Parvati arranged marriages for their sons, Ganesha was married first, and Kartikeya left in anger for Mount Krauncha. Shiva and Parvati then stayed at the place that came to be called Srisailam. The name Mallikarjuna refers to the linga being worshipped with jasmine, called mallika in Telugu.",
-    "hi": "",
+    "hi": "कथा के अनुसार जब शिव और पार्वती ने अपने पुत्रों के विवाह रचाए, तो गणेश का विवाह पहले हुआ और कार्तिकेय रूठकर क्रौंच पर्वत चले गए। तब शिव और पार्वती उस स्थान पर रहे जो आगे श्रीशैलम कहलाया। मल्लिकार्जुन नाम का संबंध लिंग की चमेली से पूजा से है, जिसे तेलुगु में 'मल्लिका' कहते हैं।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -58,7 +58,14 @@
       "The Devasthanam names Maha Shivaratri and Ugadi as the special festivals of Srisailam.",
       "The Devasthanam lists the nearest airport as Hyderabad, about 230 km away."
     ],
-    "hi": [],
+    "hi": [
+      "श्रीशैल देवस्थानम मल्लिकार्जुन को बारह ज्योतिर्लिंगों में दूसरा बताता है।",
+      "देवी भ्रमरांबा 18 महाशक्तिपीठों में भी गिनी जाती हैं, इसलिए यह स्थान शैवों और शाक्तों, दोनों के लिए पवित्र है।",
+      "मंदिर पूर्वमुखी है और लगभग 183 मीटर × 152 मीटर तथा 8.5 मीटर ऊँची दीवारों से घिरा है, जिनमें चार गोपुर हैं।",
+      "यहाँ कृष्णा नदी को पातालगंगा कहते हैं। उस तक लगभग 852 सीढ़ियाँ उतरती हैं।",
+      "देवस्थानम महाशिवरात्रि और उगादि को श्रीशैलम के विशेष उत्सव बताता है।",
+      "देवस्थानम निकटतम हवाई अड्डा हैदराबाद बताता है, लगभग 230 किमी दूर।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -68,7 +75,7 @@
   "visiting": {
     "timings": {
       "en": "Darshan and seva hours vary by day and by seva; Srisaila Devasthanam publishes the seva timings on its website. Its temple office is staffed from 9:00 AM to 5:00 PM.",
-      "hi": "",
+      "hi": "दर्शन और सेवा का समय दिन और सेवा के अनुसार बदलता है; श्रीशैल देवस्थानम अपनी वेबसाइट पर सेवा-समय प्रकाशित करता है। इसका मंदिर कार्यालय सुबह 9:00 से शाम 5:00 बजे तक खुला रहता है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -77,7 +84,7 @@
     },
     "nearestAirport": {
       "en": "Hyderabad, about 230 km away (as given by Srisaila Devasthanam).",
-      "hi": "",
+      "hi": "हैदराबाद, लगभग 230 किमी दूर (श्रीशैल देवस्थानम के अनुसार)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -86,7 +93,7 @@
     },
     "nearestRail": {
       "en": "Markapur Road, about 85 km; Nandyal and Kurnool are roughly 180 km away.",
-      "hi": "",
+      "hi": "मरकापुर रोड, लगभग 85 किमी; नंद्याल और कर्नूल लगभग 180 किमी दूर।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -95,7 +102,7 @@
     },
     "bestSeason": {
       "en": "The Devasthanam names Maha Shivaratri and Ugadi as its special festivals; the Devasthanam applies special accommodation rules for the days around them, which points to heavy crowds.",
-      "hi": "",
+      "hi": "देवस्थानम महाशिवरात्रि और उगादि को अपने विशेष उत्सव बताता है; इन दिनों के आसपास ठहरने के विशेष नियम लागू होते हैं, जो भारी भीड़ का संकेत है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -111,7 +118,7 @@
       "festivalId": "chaitra-navratri",
       "localNote": {
         "en": "Ugadi, the Telugu New Year, falls on the first day of Chaitra Shukla and is one of Srisailam's two special festivals.",
-        "hi": "",
+        "hi": "तेलुगु नववर्ष उगादि चैत्र शुक्ल के पहले दिन पड़ता है और श्रीशैलम के दो विशेष उत्सवों में से एक है।",
         "bn": "",
         "mr": "",
         "ta": "",

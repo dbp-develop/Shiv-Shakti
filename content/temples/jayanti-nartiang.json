@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Jayanti (Nartiang)",
-    "hi": "",
+    "hi": "जयंती (नर्तियांग)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Jayanti, worshipped as Durga",
-    "hi": "",
+    "hi": "देवी, जयंती के रूप में, दुर्गा रूप में पूजित",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Left thigh",
-      "hi": "",
+      "hi": "बायीं जाँघ",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Jayanti",
-      "hi": "",
+      "hi": "जयंती",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Kramadishvara",
-      "hi": "",
+      "hi": "क्रमदीश्वर",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "The Nartiang Durga temple stands in the West Jaintia Hills district of Meghalaya and is about 600 years old. The Hindus of the Jaintia Hills believe it to be the permanent abode of the goddess Durga, and its priests descend from the original priests who came from Jaintiapur. The identification is disputed: Sircar places Jayanti in the Sylhet district, and Banglapedia and the Bengali almanacs place it at Baurbhag village (Falijur Kalibari) near Jaintiapur, now in Bangladesh. The old Jaintia kingdom spanned both. The Baurbhag shrine is not yet shown on the map.",
-    "hi": "",
+    "hi": "नर्तियांग दुर्गा मंदिर मेघालय के पश्चिम जयंतिया हिल्स ज़िले में है और लगभग 600 वर्ष पुराना है। जयंतिया पहाड़ियों के हिंदू इसे देवी दुर्गा का स्थायी निवास मानते हैं, और इसके पुजारी जयंतीपुर से आए मूल पुजारियों के वंशज हैं। पहचान विवादित है: सरकार जयंती को सिलहट ज़िले में रखते हैं, और बांग्लापीडिया तथा बंगाली पंचांग इसे अब बांग्लादेश में स्थित जयंतीपुर के पास बाउरभाग गाँव (फालिजुर कालीबाड़ी) में मानते हैं। प्राचीन जयंतिया राज्य दोनों क्षेत्रों में फैला था। बाउरभाग का मंदिर अभी मानचित्र पर नहीं दिखाया गया है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's left thigh fell here.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — बायीं जाँघ — यहीं गिरा था।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -82,7 +82,11 @@
       "A Shiva temple within walking distance holds the remains of old cannons.",
       "Its priests are direct descendants of the priests who came from Jaintiapur."
     ],
-    "hi": [],
+    "hi": [
+      "दुर्गा पूजा पर मंदिर में पूरे भारत से तीर्थयात्री आते हैं।",
+      "पैदल दूरी पर स्थित एक शिव मंदिर में पुरानी तोपों के अवशेष रखे हैं।",
+      "इसके पुजारी जयंतीपुर से आए पुजारियों के सीधे वंशज हैं।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -92,7 +96,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -101,7 +105,7 @@
     },
     "nearestAirport": {
       "en": "Shillong (Umroi) Airport; Guwahati is the main air hub of the region.",
-      "hi": "",
+      "hi": "शिलांग (उमरोई) हवाई अड्डा; गुवाहाटी क्षेत्र का मुख्य हवाई केंद्र है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -110,7 +114,7 @@
     },
     "nearestRail": {
       "en": "Guwahati is the nearest major railway station.",
-      "hi": "",
+      "hi": "गुवाहाटी निकटतम बड़ा रेलवे स्टेशन है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -119,7 +123,7 @@
     },
     "bestSeason": {
       "en": "Durga Puja in autumn is the main festival.",
-      "hi": "",
+      "hi": "शरद ऋतु की दुर्गा पूजा मुख्य उत्सव है।",
       "bn": "",
       "mr": "",
       "ta": "",

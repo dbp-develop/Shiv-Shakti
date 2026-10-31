@@ -11,7 +11,7 @@
   "alternateSites": [],
   "name": {
     "en": "Grishneshwar",
-    "hi": "",
+    "hi": "घृष्णेश्वर",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -20,7 +20,7 @@
   },
   "deity": {
     "en": "Shiva as Ghrishneshwar (Ghushmeshwar)",
-    "hi": "",
+    "hi": "शिव, घृष्णेश्वर (घुश्मेश्वर) के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -29,7 +29,7 @@
   },
   "history": {
     "en": "Grishneshwar stands in Verul village, about a kilometre from the Ellora caves and about 30 km from Chhatrapati Sambhajinagar. The district administration describes it as an 18th-century temple. Earlier structures were destroyed in the 13th and 14th centuries and again during the Mughal–Maratha wars. Maloji Bhosale, grandfather of Shivaji, restored the temple in the 16th century, and it was rebuilt in its present form in 1729 under the sponsorship of Gautama Bai Holkar of Indore. The temple is a nationally protected site.",
-    "hi": "",
+    "hi": "घृष्णेश्वर वेरूल गाँव में है, एलोरा की गुफाओं से लगभग एक किलोमीटर और छत्रपति संभाजीनगर से लगभग 30 किमी दूर। ज़िला प्रशासन इसे 18वीं सदी का मंदिर बताता है। पहले के ढाँचे 13वीं-14वीं सदी में और फिर मुग़ल–मराठा युद्धों के दौरान नष्ट हुए। शिवाजी के दादा मालोजी भोसले ने 16वीं सदी में मंदिर का जीर्णोद्धार किया, और 1729 में इंदौर की गौतमाबाई होल्कर के संरक्षण में इसे वर्तमान रूप में फिर से बनाया गया। यह मंदिर राष्ट्रीय संरक्षित स्मारक है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -38,7 +38,7 @@
   },
   "story": {
     "en": "According to the Puranas, a devout woman named Ghushma made 101 earthen lingas every day, worshipped them and immersed them in a pond. Her jealous sister Sudeha killed Ghushma's son and threw his body into the same pond. Ghushma kept to her worship, and when she went to immerse the lingas her son came out of the water alive. Shiva appeared and offered her a boon; she asked him to forgive her sister and to stay there for ever, and he remained as the Jyotirlinga called Ghushmeshwar.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार घुश्मा नाम की एक भक्त स्त्री प्रतिदिन मिट्टी के 101 शिवलिंग बनाकर उनकी पूजा करती और उन्हें एक सरोवर में विसर्जित करती थी। उसकी ईर्ष्यालु बहन सुदेहा ने घुश्मा के पुत्र की हत्या कर शव उसी सरोवर में फेंक दिया। घुश्मा अपनी पूजा में लगी रही, और जब वह लिंग विसर्जित करने गई तो उसका पुत्र जीवित होकर जल से बाहर आ गया। शिव प्रकट हुए और वर माँगने को कहा; उसने बहन को क्षमा करने और सदा वहीं रहने की प्रार्थना की, और शिव घुश्मेश्वर नामक ज्योतिर्लिंग के रूप में वहीं रह गए।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -52,7 +52,12 @@
       "By local tradition, men enter the sanctum bare-chested.",
       "The temple is about a kilometre from the Ellora caves, a World Heritage Site of 34 Buddhist, Hindu and Jain rock-cut temples."
     ],
-    "hi": [],
+    "hi": [
+      "घृष्णेश्वर का उल्लेख शिव पुराण और स्कंद पुराण में है।",
+      "वहाँ की परंपराओं के अनुसार गिनें तो यह महाराष्ट्र के पाँच ज्योतिर्लिंगों में से एक है।",
+      "स्थानीय परंपरा के अनुसार पुरुष बिना कुर्ते के गर्भगृह में प्रवेश करते हैं।",
+      "मंदिर एलोरा की गुफाओं से लगभग एक किलोमीटर दूर है, जो 34 बौद्ध, हिंदू और जैन शैलकृत मंदिरों वाला विश्व धरोहर स्थल है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -62,7 +67,7 @@
   "visiting": {
     "timings": {
       "en": "Darshan and aarti times are set by the temple; check them locally before visiting, especially during Shravan.",
-      "hi": "",
+      "hi": "दर्शन और आरती का समय मंदिर तय करता है; जाने से पहले, विशेषकर श्रावण में, स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -71,7 +76,7 @@
     },
     "nearestAirport": {
       "en": "Chhatrapati Sambhajinagar airport, about 36 km away.",
-      "hi": "",
+      "hi": "छत्रपति संभाजीनगर हवाई अड्डा, लगभग 36 किमी दूर।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -80,7 +85,7 @@
     },
     "nearestRail": {
       "en": "Chhatrapati Sambhajinagar railway station, in the city about 30 km away.",
-      "hi": "",
+      "hi": "छत्रपति संभाजीनगर रेलवे स्टेशन, शहर में, लगभग 30 किमी दूर।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -89,7 +94,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims come all year; many combine the visit with the Ellora caves.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं; कई लोग एलोरा की गुफाओं के साथ यहाँ आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

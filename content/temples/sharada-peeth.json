@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Saraswati / Sharada Peeth (Kashmir)",
-    "hi": "",
+    "hi": "सरस्वती / शारदा पीठ (कश्मीर)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Sharada (Saraswati)",
-    "hi": "",
+    "hi": "देवी, शारदा (सरस्वती) के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Right hand (as given in later tables; the Ashtadasha Stotram itself names no body part)",
-      "hi": "",
+      "hi": "दायाँ हाथ (बाद की तालिकाओं के अनुसार; अष्टादश स्तोत्र स्वयं किसी अंग का नाम नहीं देता)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Saraswati (Sharada)",
-      "hi": "",
+      "hi": "सरस्वती (शारदा)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Not named in the Ashtadasha tradition",
-      "hi": "",
+      "hi": "अष्टादश परंपरा में नाम नहीं दिया गया",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "Sharada Peeth is a ruined Hindu temple and ancient centre of learning in the Neelum valley of Pakistan-administered Kashmir, about 1,981 m above sea level in the village of Sharda, close to the Line of Control. It played a key role in spreading the Sharada script, which is named after it, and gave Kashmir the name 'Sharada Desh'. A new Sharada temple at Teetwal in India, consecrated in 2023, is not the pitha itself.",
-    "hi": "",
+    "hi": "शारदा पीठ पाकिस्तान-प्रशासित कश्मीर की नीलम घाटी में एक खंडहर हिंदू मंदिर और प्राचीन विद्या केंद्र है, जो नियंत्रण रेखा के पास शारदा गाँव में समुद्र तल से लगभग 1,981 मीटर पर है। इसने शारदा लिपि के प्रसार में अहम भूमिका निभाई, जिसका नाम इसी पर है, और कश्मीर को 'शारदा देश' नाम दिया। भारत के टीटवाल में 2023 में प्रतिष्ठित नया शारदा मंदिर स्वयं यह पीठ नहीं है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's right hand fell here. Adi Shankara's Ashtadasha Shakti Peetha Stotram praises the goddess here as 'Kashmire tu Saraswati'.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — दायाँ हाथ — यहीं गिरा था। आदि शंकराचार्य का अष्टादश शक्तिपीठ स्तोत्र यहाँ देवी की 'काश्मीरे तु सरस्वती' कहकर स्तुति करता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -83,7 +83,12 @@
       "Al-Biruni recorded it as a revered shrine with a wooden image of Sharada.",
       "It stands in the valley of Mount Harmukh, believed by Kashmiri Pandits to be the abode of Shiva."
     ],
-    "hi": [],
+    "hi": [
+      "यह मार्तंड सूर्य मंदिर और अमरनाथ के साथ कश्मीरी पंडितों के तीन सबसे पवित्र तीर्थों में से एक है।",
+      "उत्तर भारत की शारदा लिपि का नाम इसी धाम पर है।",
+      "अल-बीरूनी ने इसे शारदा की लकड़ी की प्रतिमा वाले एक पूज्य धाम के रूप में दर्ज किया।",
+      "यह हरमुख पर्वत की घाटी में है, जिसे कश्मीरी पंडित शिव का निवास मानते हैं।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -93,7 +98,7 @@
   "visiting": {
     "timings": {
       "en": "The site is a ruin in Pakistan-administered Kashmir; access is restricted.",
-      "hi": "",
+      "hi": "यह स्थल पाकिस्तान-प्रशासित कश्मीर में एक खंडहर है; यहाँ पहुँच प्रतिबंधित है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -102,7 +107,7 @@
     },
     "nearestAirport": {
       "en": "There is no practical airport for pilgrims; access depends on cross-border arrangements.",
-      "hi": "",
+      "hi": "तीर्थयात्रियों के लिए कोई व्यावहारिक हवाई अड्डा नहीं है; पहुँच सीमा-पार व्यवस्थाओं पर निर्भर है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -111,7 +116,7 @@
     },
     "nearestRail": {
       "en": "There is no railway near the site.",
-      "hi": "",
+      "hi": "स्थल के पास कोई रेलमार्ग नहीं है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -120,7 +125,7 @@
     },
     "bestSeason": {
       "en": "Access to the site is limited and depends on the political situation.",
-      "hi": "",
+      "hi": "स्थल तक पहुँच सीमित है और राजनीतिक स्थिति पर निर्भर करती है।",
       "bn": "",
       "mr": "",
       "ta": "",

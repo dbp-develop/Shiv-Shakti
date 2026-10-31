@@ -12,7 +12,7 @@
     {
       "name": {
         "en": "Aundha Nagnath temple (Hingoli, Maharashtra)",
-        "hi": "",
+        "hi": "औंढा नागनाथ मंदिर (हिंगोली, महाराष्ट्र)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -23,7 +23,7 @@
       "lng": 77.0415,
       "note": {
         "en": "Maharashtra tradition identifies this temple with the 'Nagesham Darukavane' of the Stotram.",
-        "hi": "",
+        "hi": "महाराष्ट्र की परंपरा इस मंदिर को स्तोत्र के 'नागेशं दारुकावने' से जोड़ती है।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -34,7 +34,7 @@
     {
       "name": {
         "en": "Jageshwar temple complex (Almora, Uttarakhand)",
-        "hi": "",
+        "hi": "जागेश्वर मंदिर समूह (अल्मोड़ा, उत्तराखंड)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -45,7 +45,7 @@
       "lng": 79.8543,
       "note": {
         "en": "Local Kumaon tradition holds this to be the Nageshwar Jyotirlinga, reading Darukavana as the deodar forest.",
-        "hi": "",
+        "hi": "कुमाऊँ की स्थानीय परंपरा इसे नागेश्वर ज्योतिर्लिंग मानती है और दारुकावन का अर्थ देवदार का वन लेती है।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -56,7 +56,7 @@
   ],
   "name": {
     "en": "Nageshwar",
-    "hi": "",
+    "hi": "नागेश्वर",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -65,7 +65,7 @@
   },
   "deity": {
     "en": "Shiva as Nageshwar, the Lord of serpents",
-    "hi": "",
+    "hi": "शिव, नागेश्वर — नागों के स्वामी — के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -74,7 +74,7 @@
   },
   "history": {
     "en": "Nageshwar stands on the Saurashtra coast of Gujarat, on the road between Dwarka and Beyt Dwarka. The Devbhumi Dwarka district administration describes its Jyotirlinga as enshrined in an underground sanctum, with a 25 m statue of a seated Shiva and a large garden with a pond. The Shiva Purana places the Nageshwar Jyotirlinga in 'Darukavana', a forest whose location is debated. Besides Dwarka, two other temples claim to be the Jyotirlinga: Aundha Nagnath in Maharashtra, from the Stotram's 'Nagesham Darukavane', and Jageshwar in Uttarakhand, where Darukavana is read as a deodar forest.",
-    "hi": "",
+    "hi": "नागेश्वर गुजरात के सौराष्ट्र तट पर द्वारका और बेट द्वारका के बीच की सड़क पर है। देवभूमि द्वारका ज़िला प्रशासन बताता है कि इसका ज्योतिर्लिंग एक भूमिगत गर्भगृह में प्रतिष्ठित है, और यहाँ बैठे हुए शिव की 25 मीटर ऊँची प्रतिमा तथा तालाब वाला एक बड़ा उद्यान है। शिव पुराण नागेश्वर ज्योतिर्लिंग को 'दारुकावन' में बताता है, जिस वन का स्थान विवादित है। द्वारका के अलावा दो और मंदिर इस ज्योतिर्लिंग होने का दावा करते हैं: महाराष्ट्र का औंढा नागनाथ, स्तोत्र के 'नागेशं दारुकावने' के आधार पर, और उत्तराखंड का जागेश्वर, जहाँ दारुकावन को देवदार का वन माना जाता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -83,7 +83,7 @@
   },
   "story": {
     "en": "According to the Shiva Purana, the demon Daruka imprisoned a Shiva devotee named Supriya with many others in his city under the sea. Supriya led the prisoners in chanting 'Om Namah Shivaya'; when the demons tried to kill him, Shiva appeared, defeated them, and stayed on as the Jyotirlinga named Nageshwar.",
-    "hi": "",
+    "hi": "शिव पुराण के अनुसार दारुक नामक असुर ने सुप्रिय नामक शिवभक्त को कई अन्य लोगों के साथ समुद्र के नीचे अपने नगर में बंदी बना लिया। सुप्रिय ने बंदियों से 'ॐ नमः शिवाय' का जाप करवाया; जब असुरों ने उसे मारना चाहा, तो शिव प्रकट हुए, उन्हें पराजित किया, और नागेश्वर नाम के ज्योतिर्लिंग के रूप में वहीं रह गए।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -98,7 +98,13 @@
       "The district administration also records a Vamana Purana legend in which Shiva, after testing the sages of Darukavana, promised to stay there as a Jyotirlinga.",
       "The temple is about 16 km from Dwarka, and is often visited together with the Dwarkadhish temple and Beyt Dwarka."
     ],
-    "hi": [],
+    "hi": [
+      "ज्योतिर्लिंग एक भूमिगत गर्भगृह में है।",
+      "मंदिर में बैठे हुए शिव की 25 मीटर ऊँची प्रतिमा है।",
+      "इनक्रेडिबल इंडिया के अनुसार लिंग द्वारका शिला पत्थर का बना है, और शिव पुराण के अनुसार यहाँ की पूजा विष और सर्पदंश से रक्षा करती है।",
+      "ज़िला प्रशासन वामन पुराण की एक कथा भी दर्ज करता है, जिसमें शिव ने दारुकावन के ऋषियों की परीक्षा लेने के बाद वहाँ ज्योतिर्लिंग के रूप में रहने का वचन दिया।",
+      "मंदिर द्वारका से लगभग 16 किमी दूर है, और अक्सर द्वारकाधीश मंदिर और बेट द्वारका के साथ ही इसके दर्शन किए जाते हैं।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -108,7 +114,7 @@
   "visiting": {
     "timings": {
       "en": "Darshan and aarti times are set by the temple; check them locally before visiting.",
-      "hi": "",
+      "hi": "दर्शन और आरती का समय मंदिर तय करता है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -117,7 +123,7 @@
     },
     "nearestAirport": {
       "en": "Jamnagar or Porbandar airport, then by road.",
-      "hi": "",
+      "hi": "जामनगर या पोरबंदर हवाई अड्डा, फिर सड़क मार्ग से।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -126,7 +132,7 @@
     },
     "nearestRail": {
       "en": "Dwarka station, about 16 km away by road.",
-      "hi": "",
+      "hi": "द्वारका स्टेशन, सड़क से लगभग 16 किमी दूर।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -135,7 +141,7 @@
     },
     "bestSeason": {
       "en": "Maha Shivaratri is the main festival here.",
-      "hi": "",
+      "hi": "महाशिवरात्रि यहाँ का मुख्य उत्सव है।",
       "bn": "",
       "mr": "",
       "ta": "",

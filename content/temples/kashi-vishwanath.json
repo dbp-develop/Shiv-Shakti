@@ -11,7 +11,7 @@
   "alternateSites": [],
   "name": {
     "en": "Kashi Vishwanath",
-    "hi": "",
+    "hi": "काशी विश्वनाथ",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -20,7 +20,7 @@
   },
   "deity": {
     "en": "Shiva as Vishwanath (Vishweshwara), the Lord of the Universe",
-    "hi": "",
+    "hi": "शिव, विश्वनाथ (विश्वेश्वर) के रूप में, जगत के स्वामी",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -29,7 +29,7 @@
   },
   "history": {
     "en": "The Kashi Vishwanath temple stands in Varanasi, near the western bank of the Ganga. Earlier temples on or near this site were destroyed and rebuilt several times: by the Ghurids in 1194, under Sikandar Lodi in 1490, and in 1669 on the order of the Mughal emperor Aurangzeb, after which the Gyanvapi mosque was built on the site. Shri Kashi Vishwanath Temple Trust says the temple in its present form was built in 1780 by Maharani Ahilyabai Holkar of Indore, that a Naubatkhana was added in front of it in 1785, and that in 1839 two of its domes were covered with gold donated by Maharaja Ranjit Singh. The Government of Uttar Pradesh took over the temple on 28 January 1983, and a trust has managed it since. The Kashi Vishwanath Dham corridor, linking the temple to the Ganga, was inaugurated on 13 December 2021.",
-    "hi": "",
+    "hi": "काशी विश्वनाथ मंदिर वाराणसी में गंगा के पश्चिमी तट के पास है। इस स्थान पर या इसके पास के पहले के मंदिर कई बार नष्ट हुए और फिर बने: 1194 में ग़ोरियों द्वारा, 1490 में सिकंदर लोदी के समय, और 1669 में मुग़ल सम्राट औरंगज़ेब के आदेश पर, जिसके बाद वहाँ ज्ञानवापी मस्जिद बनी। श्री काशी विश्वनाथ मंदिर ट्रस्ट के अनुसार वर्तमान मंदिर 1780 में इंदौर की महारानी अहिल्याबाई होल्कर ने बनवाया, 1785 में इसके सामने नौबतख़ाना जोड़ा गया, और 1839 में इसके दो गुंबदों को महाराजा रणजीत सिंह द्वारा दान किए गए सोने से मढ़ा गया। उत्तर प्रदेश सरकार ने 28 जनवरी 1983 को मंदिर का अधिग्रहण किया, और तब से एक ट्रस्ट इसका प्रबंधन करता है। मंदिर को गंगा से जोड़ने वाले काशी विश्वनाथ धाम कॉरिडोर का उद्घाटन 13 दिसंबर 2021 को हुआ।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -38,7 +38,7 @@
   },
   "story": {
     "en": "According to the Shiva Purana tradition, Brahma and Vishnu once argued over which of them was supreme. Shiva appeared between them as an endless pillar of light. Vishnu, as a boar, searched for its base and Brahma, as a swan, searched for its top. Neither found an end, but Brahma falsely claimed he had, and Shiva cursed him. Kashi is held to be a place where this column of light, the Jyotirlinga, manifested.",
-    "hi": "",
+    "hi": "शिव पुराण की परंपरा के अनुसार एक बार ब्रह्मा और विष्णु में विवाद हुआ कि दोनों में श्रेष्ठ कौन है। शिव उनके बीच प्रकाश के अनंत स्तंभ के रूप में प्रकट हुए। विष्णु वराह बनकर उसका आधार खोजने गए और ब्रह्मा हंस बनकर उसका शिखर। किसी को अंत नहीं मिला, पर ब्रह्मा ने झूठा दावा किया कि उन्हें मिल गया, और शिव ने उन्हें शाप दिया। काशी को वह स्थान माना जाता है जहाँ प्रकाश का यह स्तंभ, ज्योतिर्लिंग, प्रकट हुआ।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -54,7 +54,14 @@
       "The Jnana Vapi (well of wisdom) lies to the north of the main temple; tradition says the linga was hidden in it to protect it from invaders.",
       "Twelve days after Maha Shivaratri, on Rangbhari Ekadashi, the temple celebrates Shiva bringing Parvati to Kashi, with damaru drums and colours."
     ],
-    "hi": [],
+    "hi": [
+      "प्रधान देवता को विश्वनाथ या विश्वेश्वर कहते हैं, जिसका अर्थ है जगत के स्वामी।",
+      "ट्रस्ट के अनुसार परंपरा मानती है कि काशी विश्वनाथ के एक दर्शन से अन्य सभी ज्योतिर्लिंगों के दर्शन का पुण्य मिलता है।",
+      "ट्रस्ट के अनुसार आदि शंकराचार्य, गोस्वामी तुलसीदास, गुरु नानक, रामकृष्ण परमहंस और स्वामी विवेकानंद यहाँ आने वालों में थे।",
+      "गुंबदों और शिखर पर सोने की परत के कारण मंदिर को लोग 'स्वर्ण मंदिर' भी कहते हैं।",
+      "मुख्य मंदिर के उत्तर में ज्ञानवापी (ज्ञान का कुआँ) है; परंपरा के अनुसार आक्रमणकारियों से बचाने के लिए लिंग को उसमें छिपाया गया था।",
+      "महाशिवरात्रि के बारह दिन बाद, रंगभरी एकादशी पर, मंदिर में शिव के पार्वती को काशी लाने का उत्सव डमरू और रंगों के साथ मनाया जाता है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -64,7 +71,7 @@
   "visiting": {
     "timings": {
       "en": "The temple is open from early morning until late night. Mangala Aarti is held at about 3:30 AM, Bhog Aarti at about 12:00 noon, Saptarishi Aarti at about 7:30 PM and Shringar Aarti at about 11:00 PM. Times can change on festival days.",
-      "hi": "",
+      "hi": "मंदिर सुबह बहुत जल्दी से देर रात तक खुला रहता है। मंगला आरती लगभग सुबह 3:30, भोग आरती लगभग दोपहर 12:00, सप्तर्षि आरती लगभग शाम 7:30 और श्रृंगार आरती लगभग रात 11:00 बजे होती है। उत्सवों के दिन समय बदल सकता है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -73,7 +80,7 @@
     },
     "nearestAirport": {
       "en": "Varanasi (Lal Bahadur Shastri) Airport, with direct flights to Delhi and other major cities.",
-      "hi": "",
+      "hi": "वाराणसी (लाल बहादुर शास्त्री) हवाई अड्डा, जहाँ से दिल्ली और अन्य बड़े शहरों के लिए सीधी उड़ानें हैं।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -82,7 +89,7 @@
     },
     "nearestRail": {
       "en": "Varanasi is a major railway junction with direct trains from the metro cities.",
-      "hi": "",
+      "hi": "वाराणसी एक बड़ा रेलवे जंक्शन है, जहाँ महानगरों से सीधी ट्रेनें आती हैं।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -91,7 +98,7 @@
     },
     "bestSeason": {
       "en": "Varanasi draws pilgrims all year. Maha Shivaratri, Rangbhari Ekadashi and the Shravan month are the busiest periods.",
-      "hi": "",
+      "hi": "वाराणसी में पूरे वर्ष तीर्थयात्री आते हैं। महाशिवरात्रि, रंगभरी एकादशी और श्रावण मास सबसे व्यस्त समय हैं।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -107,7 +114,7 @@
       "festivalId": "rangbhari-ekadashi",
       "localNote": {
         "en": "Shiva and Parvati are welcomed back to Kashi with damaru drums and gulal, twelve days after Maha Shivaratri.",
-        "hi": "",
+        "hi": "महाशिवरात्रि के बारह दिन बाद शिव और पार्वती का डमरू और गुलाल के साथ काशी में स्वागत होता है।",
         "bn": "",
         "mr": "",
         "ta": "",

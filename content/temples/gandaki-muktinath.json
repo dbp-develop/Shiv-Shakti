@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Gandaki (Muktinath)",
-    "hi": "",
+    "hi": "गंडकी (मुक्तिनाथ)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Gandaki Chandi, at the Muktinath shrine",
-    "hi": "",
+    "hi": "देवी, मुक्तिनाथ धाम में गंडकी चंडी के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Cheek",
-      "hi": "",
+      "hi": "गाल",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Gandaki Chandi",
-      "hi": "",
+      "hi": "गंडकी चंडी",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Chakrapani",
-      "hi": "",
+      "hi": "चक्रपाणि",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "The Pithanirnaya names the river Gandaki; identifying the pitha with Muktinath, near the river's source, is the popular modern reading. Muktinath is an ancient religious complex in the Mustang district of Nepal, at the foot of the Thorong La pass and at about 3,800 m, one of the highest temples in the world. Its central shrine, in the Newari style, was built in 1814 or 1815 and is credited to Queen Subarna Prabha Devi of Nepal.",
-    "hi": "",
+    "hi": "पीठनिर्णय गंडकी नदी का नाम लेता है; नदी के उद्गम के पास स्थित मुक्तिनाथ से इस पीठ की पहचान आधुनिक लोकप्रिय मान्यता है। मुक्तिनाथ नेपाल के मुस्तांग ज़िले में थोरोंग ला दर्रे की तलहटी में लगभग 3,800 मीटर की ऊँचाई पर एक प्राचीन धार्मिक परिसर है, जो विश्व के सबसे ऊँचे मंदिरों में से है। इसका नेवारी शैली का मुख्य मंदिर 1814 या 1815 में बना और नेपाल की रानी सुवर्ण प्रभा देवी को इसका श्रेय दिया जाता है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's cheek fell here. Muktinath means 'lord of liberation', and the complex is called Mukti Kshetra, the place of liberation.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — गाल — यहीं गिरा था। मुक्तिनाथ का अर्थ है 'मुक्ति के स्वामी', और इस परिसर को मुक्ति क्षेत्र, यानी मोक्ष का स्थान, कहते हैं।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -84,7 +84,13 @@
       "It is one of the 108 Divya Desams of Sri Vaishnavism, praised as Thiru Salagramam.",
       "It is counted among the Char Dham of Nepal."
     ],
-    "hi": [],
+    "hi": [
+      "मुक्तिनाथ हिंदुओं के लिए पवित्र है, जो यहाँ विष्णु और देवी की पूजा करते हैं, और बौद्धों के लिए भी, जो इसे बोधिसत्व अवलोकितेश्वर का धाम मानते हैं।",
+      "तिब्बती बौद्ध इस स्थान को छुमिग ग्यात्सा, यानी 'सौ जलधाराएँ', कहते हैं।",
+      "माना जाता है कि मंदिर को घेरने वाली जलधाराएँ श्रीवैष्णव परंपरा के 108 पवित्र स्थलों में से प्रत्येक का प्रतिनिधित्व करती हैं।",
+      "यह श्रीवैष्णव संप्रदाय के 108 दिव्य देशमों में से एक है, जिसकी स्तुति 'तिरु सालग्रामम्' के रूप में हुई है।",
+      "इसकी गणना नेपाल के चार धामों में होती है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -94,7 +100,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -103,7 +109,7 @@
     },
     "nearestAirport": {
       "en": "There is no airport at the shrine; it is reached through the Mustang district.",
-      "hi": "",
+      "hi": "मंदिर के पास कोई हवाई अड्डा नहीं है; यहाँ मुस्तांग ज़िले से होकर पहुँचा जाता है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -112,7 +118,7 @@
     },
     "nearestRail": {
       "en": "There is no railway in the region.",
-      "hi": "",
+      "hi": "इस क्षेत्र में कोई रेलमार्ग नहीं है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -121,7 +127,7 @@
     },
     "bestSeason": {
       "en": "Check weather and access before travelling to this high-altitude shrine.",
-      "hi": "",
+      "hi": "इस ऊँचे पहाड़ी तीर्थ की यात्रा से पहले मौसम और रास्ते की जानकारी ले लें।",
       "bn": "",
       "mr": "",
       "ta": "",

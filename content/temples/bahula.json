@@ -13,7 +13,7 @@
   "alternateSites": [],
   "name": {
     "en": "Bahula (Ketugram)",
-    "hi": "",
+    "hi": "बहुला (केतुग्राम)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -22,7 +22,7 @@
   },
   "deity": {
     "en": "The Devi as Bahula",
-    "hi": "",
+    "hi": "देवी, बहुला के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -32,7 +32,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Left arm",
-      "hi": "",
+      "hi": "बायाँ हाथ",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -41,7 +41,7 @@
     },
     "devi": {
       "en": "Bahula",
-      "hi": "",
+      "hi": "बहुला",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -50,7 +50,7 @@
     },
     "bhairava": {
       "en": "Bhiruka",
-      "hi": "",
+      "hi": "भीरुक",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -60,7 +60,7 @@
   },
   "history": {
     "en": "The Bahula temple, or Shri Bahula Shaktipeeth, stands at Ketugram in the Katwa subdivision of the Purba Bardhaman district of West Bengal. Banglapedia's table of the pithas of Bengal, drawn from the old manuscripts and the printed Bengali almanacs, places Bahula at Ketugram.",
-    "hi": "",
+    "hi": "बहुला मंदिर, या श्री बहुला शक्तिपीठ, पश्चिम बंगाल के पूर्व बर्धमान ज़िले के कटवा उपखंड में केतुग्राम में स्थित है। पुरानी पांडुलिपियों और छपे बंगाली पंचांगों पर आधारित बांग्लापीडिया की बंगाल के पीठों की तालिका बहुला को केतुग्राम में रखती है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -69,7 +69,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's left arm fell here.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — बायाँ हाथ — यहीं गिरा था।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -82,7 +82,11 @@
       "The Bhairava of the pitha is Bhiruka.",
       "Bahula is one of the many pithas in the old Rarh region of West Bengal."
     ],
-    "hi": [],
+    "hi": [
+      "देवी बहुला की पूजा पार्वती के एक रूप में होती है।",
+      "इस पीठ के भैरव भीरुक हैं।",
+      "बहुला पश्चिम बंगाल के प्राचीन राढ़ क्षेत्र के अनेक पीठों में से एक है।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -92,7 +96,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -101,7 +105,7 @@
     },
     "nearestAirport": {
       "en": "Kolkata (Netaji Subhas Chandra Bose International Airport).",
-      "hi": "",
+      "hi": "कोलकाता (नेताजी सुभाष चंद्र बोस अंतरराष्ट्रीय हवाई अड्डा)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -110,7 +114,7 @@
     },
     "nearestRail": {
       "en": "Katwa, the subdivision town, is the main railway junction of the area.",
-      "hi": "",
+      "hi": "उपखंड नगर कटवा इस क्षेत्र का मुख्य रेलवे जंक्शन है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -119,7 +123,7 @@
     },
     "bestSeason": {
       "en": "Pilgrims visit through the year.",
-      "hi": "",
+      "hi": "श्रद्धालु पूरे वर्ष आते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",

@@ -12,7 +12,7 @@
     {
       "name": {
         "en": "Vaijnath temple, Parli Vaijnath (Beed, Maharashtra)",
-        "hi": "",
+        "hi": "वैजनाथ मंदिर, परली वैजनाथ (बीड, महाराष्ट्र)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -23,7 +23,7 @@
       "lng": 76.5352,
       "note": {
         "en": "Maharashtra tradition reads the Stotram's 'Paralyam Vaidyanatham' as Parli and holds this temple to be the Jyotirlinga.",
-        "hi": "",
+        "hi": "महाराष्ट्र की परंपरा स्तोत्र के 'परल्यां वैद्यनाथं' को परली मानती है और इसी मंदिर को ज्योतिर्लिंग मानती है।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -34,7 +34,7 @@
   ],
   "name": {
     "en": "Vaidyanath (Baidyanath)",
-    "hi": "",
+    "hi": "वैद्यनाथ (बैद्यनाथ)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -43,7 +43,7 @@
   },
   "deity": {
     "en": "Shiva as Vaidyanath, the Lord of physicians",
-    "hi": "",
+    "hi": "शिव, वैद्यनाथ — वैद्यों के स्वामी — के रूप में",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -52,7 +52,7 @@
   },
   "history": {
     "en": "Baidyanath Dham stands in Deoghar, in the Santhal Parganas of Jharkhand. The Deoghar district administration says the origin of the shrine is lost in antiquity, that Sanskrit texts call the place Haritakivan or Ketakivan, and that the builder of the temple is not known, though parts of its front are said to have been built by Puran Mal, an ancestor of the Maharaja of Gidhaur, in 1596. The temple faces east and is a plain stone structure with a pyramidal tower about 72 feet (22 m) high, the tallest of the 22 temples in the complex. Which temple is the Vaidyanath Jyotirlinga is disputed: the Dvadasha Jyotirlinga Stotram's phrase 'Paralyam Vaidyanatham' is read in Maharashtra as Parli Vaijnath in Beed district, which tradition there holds to be the Jyotirlinga.",
-    "hi": "",
+    "hi": "बैद्यनाथ धाम झारखंड के संथाल परगना में देवघर में है। देवघर ज़िला प्रशासन बताता है कि इस धाम का उद्भव प्राचीनता में खो गया है, संस्कृत ग्रंथ इस स्थान को हरीतकीवन या केतकीवन कहते हैं, और मंदिर के निर्माता ज्ञात नहीं हैं, हालाँकि कहा जाता है कि इसके अग्रभाग के कुछ हिस्से 1596 में गिद्धौर के महाराजा के पूर्वज पूरन मल ने बनवाए। मंदिर पूर्वमुखी है और पत्थर की सादी संरचना है, जिसका पिरामिडनुमा शिखर लगभग 72 फ़ुट (22 मीटर) ऊँचा है, परिसर के 22 मंदिरों में सबसे ऊँचा। वैद्यनाथ ज्योतिर्लिंग कौन-सा मंदिर है, यह विवादित है: द्वादश ज्योतिर्लिंग स्तोत्र के 'परल्यां वैद्यनाथं' को महाराष्ट्र में बीड ज़िले का परली वैजनाथ पढ़ा जाता है, जिसे वहाँ की परंपरा ज्योतिर्लिंग मानती है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -61,7 +61,7 @@
   },
   "story": {
     "en": "According to legend, Ravana did penance to Shiva and was allowed to carry a linga to Lanka on condition that it would stay wherever it was set down. On the way, near Deoghar, Ravana handed it to a cowherd while he stepped aside, and the cowherd, said to be Vishnu in disguise, put it on the ground. Ravana could not lift it again, and the linga remained here.",
-    "hi": "",
+    "hi": "कथा के अनुसार रावण ने शिव की तपस्या की और उसे एक लिंग लंका ले जाने की अनुमति इस शर्त पर मिली कि जहाँ भी उसे रखा जाएगा, वह वहीं रह जाएगा। रास्ते में देवघर के पास रावण ने थोड़ी देर के लिए उसे एक ग्वाले को थमा दिया, और ग्वाले ने, जिसे वेश बदले विष्णु कहा जाता है, उसे ज़मीन पर रख दिया। रावण उसे फिर उठा नहीं सका, और लिंग यहीं रह गया।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -77,7 +77,14 @@
       "Deoghar is counted among both the twelve Jyotirlingas and the 51 Shakti Peethas; the Devi here is Jaya Durga.",
       "Pilgrims traditionally complete the journey with a visit to the Basukinath temple, about 43 km from Deoghar."
     ],
-    "hi": [],
+    "hi": [
+      "ज़िला प्रशासन देवघर को देवताओं का निवास कहता है; इसे बैद्यनाथ धाम या बाबा धाम भी कहते हैं।",
+      "मुख्य मंदिर के शिखर पर गिद्धौर के महाराजा द्वारा दान किए तीन स्वर्ण कलश और पंचशूल, एक दुर्लभ पाँच नोकों वाला त्रिशूल, हैं।",
+      "मंदिर के भीतरी शीर्ष पर चंद्रकांत मणि नाम का आठ पंखुड़ियों वाला कमल-रत्न जड़ा है।",
+      "हर श्रावण में तीर्थयात्री सुल्तानगंज से लगभग 100 किमी पैदल गंगाजल लाकर बैद्यनाथ पर चढ़ाते हैं; ज़िला श्रावणी मेले को एशिया का सबसे लंबा मेला बताता है।",
+      "देवघर बारह ज्योतिर्लिंगों और 51 शक्तिपीठों, दोनों में गिना जाता है; यहाँ की देवी जय दुर्गा हैं।",
+      "परंपरा से तीर्थयात्री देवघर से लगभग 43 किमी दूर बासुकीनाथ मंदिर के दर्शन से यात्रा पूरी करते हैं।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -87,7 +94,7 @@
   "visiting": {
     "timings": {
       "en": "Darshan times are set by the temple administration and change during the Shravani Mela, when queues are controlled; check local notices before travelling.",
-      "hi": "",
+      "hi": "दर्शन का समय मंदिर प्रशासन तय करता है और श्रावणी मेले के दौरान बदलता है, जब कतारें नियंत्रित की जाती हैं; यात्रा से पहले स्थानीय सूचनाएँ देख लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -96,7 +103,7 @@
     },
     "nearestAirport": {
       "en": "Deoghar Airport.",
-      "hi": "",
+      "hi": "देवघर हवाई अड्डा।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -105,7 +112,7 @@
     },
     "nearestRail": {
       "en": "Baidyanath Dham station (about 2 km), Deoghar Junction (about 3 km) and Jasidih Junction (about 7 km).",
-      "hi": "",
+      "hi": "बैद्यनाथ धाम स्टेशन (लगभग 2 किमी), देवघर जंक्शन (लगभग 3 किमी) और जसीडीह जंक्शन (लगभग 7 किमी)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -114,7 +121,7 @@
     },
     "bestSeason": {
       "en": "The Shravani Mela in July and August is the high point of the year and the most crowded; outside Shravan the town is much quieter.",
-      "hi": "",
+      "hi": "जुलाई-अगस्त का श्रावणी मेला वर्ष का चरम और सबसे भीड़ वाला समय है; श्रावण के बाहर नगर काफ़ी शांत रहता है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -127,7 +134,7 @@
       "festivalId": "shravan-somvar",
       "localNote": {
         "en": "The Shravani Mela: kanwariyas bring Ganga water from Sultanganj, about 100 km away.",
-        "hi": "",
+        "hi": "श्रावणी मेला: काँवड़िये लगभग 100 किमी दूर सुल्तानगंज से गंगाजल लाते हैं।",
         "bn": "",
         "mr": "",
         "ta": "",

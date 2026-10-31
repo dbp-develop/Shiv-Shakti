@@ -14,7 +14,7 @@
     {
       "name": {
         "en": "Koneswaram temple (Trincomalee)",
-        "hi": "",
+        "hi": "कोणेश्वरम मंदिर (त्रिंकोमाली)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -25,7 +25,7 @@
       "lng": 81.2456,
       "note": {
         "en": "Some identify the Lanka pitha with Trincomalee.",
-        "hi": "",
+        "hi": "कुछ लोग लंका पीठ की पहचान त्रिंकोमाली से करते हैं।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -36,7 +36,7 @@
   ],
   "name": {
     "en": "Lanka (Indrakshi, Nainativu)",
-    "hi": "",
+    "hi": "लंका (इंद्राक्षी, नैनातिवु)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -45,7 +45,7 @@
   },
   "deity": {
     "en": "The Devi as Nagapooshani (Bhuvaneshwari), identified with Indrakshi",
-    "hi": "",
+    "hi": "देवी, नागपूषणी (भुवनेश्वरी) के रूप में, इंद्राक्षी मानी जाती हैं",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -55,7 +55,7 @@
   "peetha": {
     "bodyPart": {
       "en": "Anklets",
-      "hi": "",
+      "hi": "नूपुर",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -64,7 +64,7 @@
     },
     "devi": {
       "en": "Indrakshi, worshipped as Nagapooshani",
-      "hi": "",
+      "hi": "इंद्राक्षी, नागपूषणी के रूप में पूजित",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -73,7 +73,7 @@
     },
     "bhairava": {
       "en": "Rakshaseshvara",
-      "hi": "",
+      "hi": "राक्षसेश्वर",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -83,7 +83,7 @@
   },
   "history": {
     "en": "The Nagapooshani Amman temple stands on the island of Nainativu in the Palk Bay, off the Jaffna peninsula of Sri Lanka. It is dedicated to Parvati as Nagapooshani or Bhuvaneshwari and to Shiva as Nayinaar. The present temple was built between 1720 and 1790, after the Portuguese destroyed the earlier structure in 1620. Sircar notes that 'Lanka' can mean any island, and Green Message calls the site unidentified; some identify the Lanka pitha with Trincomalee instead, which has its own entry as the Ashtadasha Stotram's Shankari.",
-    "hi": "",
+    "hi": "नागपूषणी अम्मन मंदिर श्रीलंका के जाफ़ना प्रायद्वीप के पास पाक खाड़ी में नैनातिवु द्वीप पर है। यह पार्वती को नागपूषणी या भुवनेश्वरी के रूप में और शिव को नयिनार के रूप में समर्पित है। वर्तमान मंदिर 1720 से 1790 के बीच बना, जब पुर्तगालियों ने 1620 में पुराना ढाँचा नष्ट कर दिया था। सरकार बताते हैं कि 'लंका' का अर्थ कोई भी द्वीप हो सकता है, और ग्रीन मैसेज इस स्थान को अज्ञात बताता है; कुछ लोग लंका पीठ को त्रिंकोमाली मानते हैं, जिसकी अष्टादश स्तोत्र की शांकरी के रूप में अलग प्रविष्टि है।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -92,7 +92,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's anklets fell here.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — नूपुर — यहीं गिरा था।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -105,7 +105,11 @@
       "The 16-day Mahotsavam (Thiruvizha) in the Tamil month of Aani (June to July) attracts over 100,000 pilgrims.",
       "Naka Nadu, 'land of the Nagas', was a name for the whole Jaffna peninsula in some historical records."
     ],
-    "hi": [],
+    "hi": [
+      "मंदिर में प्रतिदिन लगभग 1,000 और उत्सवों में लगभग 5,000 लोग आते हैं।",
+      "तमिल मास आनी (जून–जुलाई) में 16 दिन के महोत्सव (तिरुविळा) में 1,00,000 से अधिक तीर्थयात्री आते हैं।",
+      "कुछ ऐतिहासिक अभिलेखों में पूरे जाफ़ना प्रायद्वीप का नाम 'नाक नाडु', यानी नागों की भूमि, था।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -115,7 +119,7 @@
   "visiting": {
     "timings": {
       "en": "No official timings are published; check locally before visiting.",
-      "hi": "",
+      "hi": "कोई आधिकारिक समय प्रकाशित नहीं है; जाने से पहले स्थानीय रूप से पता कर लें।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -124,7 +128,7 @@
     },
     "nearestAirport": {
       "en": "Jaffna International Airport.",
-      "hi": "",
+      "hi": "जाफ़ना अंतरराष्ट्रीय हवाई अड्डा।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -133,7 +137,7 @@
     },
     "nearestRail": {
       "en": "Jaffna is the nearest railway town; the island is reached by boat.",
-      "hi": "",
+      "hi": "जाफ़ना निकटतम रेलवे नगर है; द्वीप तक नाव से जाते हैं।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -142,7 +146,7 @@
     },
     "bestSeason": {
       "en": "The Aani Mahotsavam in June to July is the largest festival.",
-      "hi": "",
+      "hi": "जून–जुलाई का आनी महोत्सव सबसे बड़ा उत्सव है।",
       "bn": "",
       "mr": "",
       "ta": "",

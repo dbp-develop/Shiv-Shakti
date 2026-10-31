@@ -15,7 +15,7 @@
     {
       "name": {
         "en": "Naina Devi temple (Bilaspur, Himachal Pradesh)",
-        "hi": "",
+        "hi": "नैना देवी मंदिर (बिलासपुर, हिमाचल प्रदेश)",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -26,7 +26,7 @@
       "lng": 76.5364,
       "note": {
         "en": "Some traditions identify the Karavira pitha with Naina Devi, where the eyes are also said to have fallen.",
-        "hi": "",
+        "hi": "कुछ परंपराएँ करवीर पीठ को नैना देवी मानती हैं, जहाँ भी नेत्र गिरने की मान्यता है।",
         "bn": "",
         "mr": "",
         "ta": "",
@@ -37,7 +37,7 @@
   ],
   "name": {
     "en": "Karavira (Mahalakshmi, Kolhapur)",
-    "hi": "",
+    "hi": "करवीर (महालक्ष्मी, कोल्हापुर)",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -46,7 +46,7 @@
   },
   "deity": {
     "en": "The Devi as Mahalakshmi, locally Ambabai",
-    "hi": "",
+    "hi": "देवी, महालक्ष्मी के रूप में, स्थानीय रूप से अंबाबाई",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -56,7 +56,7 @@
   "peetha": {
     "bodyPart": {
       "en": "The three eyes",
-      "hi": "",
+      "hi": "तीनों नेत्र",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -65,7 +65,7 @@
     },
     "devi": {
       "en": "Mahishamardini; in the Ashtadasha list, Mahalakshmi (Ambabai)",
-      "hi": "",
+      "hi": "महिषमर्दिनी; अष्टादश सूची में महालक्ष्मी (अंबाबाई)",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -74,7 +74,7 @@
     },
     "bhairava": {
       "en": "Krodhisha",
-      "hi": "",
+      "hi": "क्रोधीश",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -84,7 +84,7 @@
   },
   "history": {
     "en": "Karavira is the classical name of Kolhapur, and the name 'Karveer' is still used locally for the city. The Mahalakshmi (Ambabai) temple there is traditionally dated to the Chalukya period, and a date of 634 CE is often given; a 12th-century Kannada writer claimed that it had first been a Jain shrine. Which site the Pithanirnaya means is debated: Karavira is usually read as Kolhapur, but its variant reading Sharkarara has been taken for Sukkur in Sindh, and some identify the pitha with Naina Devi in Himachal Pradesh.",
-    "hi": "",
+    "hi": "करवीर कोल्हापुर का प्राचीन नाम है, और 'करवीर' नाम आज भी स्थानीय रूप से नगर के लिए प्रयुक्त होता है। वहाँ के महालक्ष्मी (अंबाबाई) मंदिर को परंपरा से चालुक्य काल का माना जाता है और प्रायः 634 ईस्वी की तिथि दी जाती है; 12वीं सदी के एक कन्नड़ लेखक ने दावा किया था कि यह पहले जैन मंदिर था। पीठनिर्णय किस स्थान की बात करता है, इस पर विवाद है: करवीर को प्रायः कोल्हापुर पढ़ा जाता है, पर इसके पाठांतर 'शर्करार' को सिंध का सक्खर माना गया है, और कुछ लोग इस पीठ की पहचान हिमाचल प्रदेश की नैना देवी से करते हैं।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -93,7 +93,7 @@
   },
   "story": {
     "en": "According to the Puranas, Sati, the daughter of Daksha, gave up her life in the fire of her father's sacrifice after he insulted her husband Shiva. Grieving, Shiva carried her body across the world until Vishnu's discus divided it, and each place where a part fell became a Shakti Peetha. Tradition holds that Sati's three eyes fell here. A local legend says Mahalakshmi appeared here to slay the demon Kolhasura, after whom Kolhapur is named.",
-    "hi": "",
+    "hi": "पुराणों के अनुसार, दक्ष की पुत्री सती ने अपने पिता के यज्ञ की अग्नि में प्राण त्याग दिए, क्योंकि दक्ष ने उनके पति शिव का अपमान किया था। शोक में डूबे शिव उनका शरीर लेकर संसार भर में घूमते रहे, जब तक विष्णु के चक्र ने उसे खंडित नहीं कर दिया; जहाँ-जहाँ शरीर का कोई अंग गिरा, वह स्थान शक्तिपीठ बन गया। परंपरा के अनुसार सती के शरीर का अंग — तीनों नेत्र — यहीं गिरा था। स्थानीय कथा के अनुसार महालक्ष्मी यहाँ असुर कोल्हासुर का वध करने प्रकट हुईं, जिसके नाम पर कोल्हापुर का नाम पड़ा।",
     "bn": "",
     "mr": "",
     "ta": "",
@@ -109,7 +109,14 @@
       "The temple holds five worship services a day, the first, Kakad Aarti, at about 5:00 AM.",
       "The temple says that on three days a year the sun pays its respects to the goddess, its rays reaching her image."
     ],
-    "hi": [],
+    "hi": [
+      "कोल्हापुर की महालक्ष्मी अष्टादश स्तोत्र के 18 महाशक्तिपीठों में से एक हैं।",
+      "कोल्हापुर महाराष्ट्र के 'साढ़े तीन' शक्तिपीठों में गिना जाता है।",
+      "देवी की काले पत्थर की प्रतिमा लगभग तीन फ़ुट ऊँची और मुकुटधारी है; मुकुट पर पाँच फनों वाला नाग है और पीछे पत्थर का सिंह।",
+      "मंदिर की एक दीवार पर श्रीयंत्र उकेरा गया है।",
+      "मंदिर में प्रतिदिन पाँच पूजाएँ होती हैं, पहली, काकड़ आरती, लगभग सुबह 5:00 बजे।",
+      "मंदिर के अनुसार वर्ष में तीन दिन सूर्य देवी को प्रणाम करते हैं, जब उनकी किरणें प्रतिमा तक पहुँचती हैं।"
+    ],
     "bn": [],
     "mr": [],
     "ta": [],
@@ -119,7 +126,7 @@
   "visiting": {
     "timings": {
       "en": "The first of the day's five services, Kakad Aarti, is at about 5:00 AM. The routine changes during Navratri.",
-      "hi": "",
+      "hi": "दिन की पाँच पूजाओं में पहली, काकड़ आरती, लगभग सुबह 5:00 बजे होती है। नवरात्रि में दिनचर्या बदल जाती है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -128,7 +135,7 @@
     },
     "nearestAirport": {
       "en": "Kolhapur Airport.",
-      "hi": "",
+      "hi": "कोल्हापुर हवाई अड्डा।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -137,7 +144,7 @@
     },
     "nearestRail": {
       "en": "Kolhapur (Chhatrapati Shahu Maharaj Terminus).",
-      "hi": "",
+      "hi": "कोल्हापुर (छत्रपति शाहू महाराज टर्मिनस)।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -146,7 +153,7 @@
     },
     "bestSeason": {
       "en": "Navratri in Ashwin (September to October) is the main festival, celebrated for ten days.",
-      "hi": "",
+      "hi": "आश्विन (सितंबर–अक्टूबर) की नवरात्रि मुख्य उत्सव है, जो दस दिन मनाई जाती है।",
       "bn": "",
       "mr": "",
       "ta": "",
@@ -159,7 +166,7 @@
       "festivalId": "sharad-navratri",
       "localNote": {
         "en": "Celebrated over ten days, with a changed daily routine of abhishek and aarti.",
-        "hi": "",
+        "hi": "दस दिन तक मनाई जाती है, जिसमें अभिषेक और आरती की दैनिक दिनचर्या बदल जाती है।",
         "bn": "",
         "mr": "",
         "ta": "",
